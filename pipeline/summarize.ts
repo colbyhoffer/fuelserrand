@@ -97,22 +97,40 @@ function fallbackEdit(stories: Story[]): EditorialResult {
 }
 
 // ---------------------------------------------------------------------------
-// Investor deck analysis: PDF goes straight to Claude as a document block.
+// Investor document analysis. PDFs go to Claude as document blocks; HTML
+// filings (EDGAR exhibits, 10-Qs) are stripped to text and truncated.
 // ---------------------------------------------------------------------------
 
 const MAX_PDF_BYTES = 30 * 1024 * 1024;
+const MAX_HTML_CHARS = 150_000;
 
-export async function analyzeDeck(company: WatchedCompany, pdfUrl: string, label: string): Promise<string | null> {
+export async function analyzeDoc(company: WatchedCompany, docUrl: string, label: string): Promise<string | null> {
   const c = client();
   if (!c) return null;
 
-  const res = await fetch(pdfUrl, {
-    signal: AbortSignal.timeout(60_000),
-    headers: { 'user-agent': 'Mozilla/5.0 (compatible; FuelsErrandBot/1.0; personal research)' },
-  });
-  if (!res.ok) throw new Error(`PDF fetch: HTTP ${res.status}`);
-  const buf = Buffer.from(await res.arrayBuffer());
-  if (buf.byteLength > MAX_PDF_BYTES) throw new Error(`PDF too large (${(buf.byteLength / 1e6).toFixed(1)} MB)`);
+  const { SEC_USER_AGENT } = await import('./config');
+  const ua = docUrl.includes('sec.gov') ? SEC_USER_AGENT : 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36';
+  const res = await fetch(docUrl, { signal: AbortSignal.timeout(60_000), headers: { 'user-agent': ua } });
+  if (!res.ok) throw new Error(`doc fetch: HTTP ${res.status}`);
+
+  const isPdf = /\.pdf(\?|#|$)/i.test(docUrl) || (res.headers.get('content-type') ?? '').includes('pdf');
+  let docBlock: any;
+  if (isPdf) {
+    const buf = Buffer.from(await res.arrayBuffer());
+    if (buf.byteLength > MAX_PDF_BYTES) throw new Error(`PDF too large (${(buf.byteLength / 1e6).toFixed(1)} MB)`);
+    docBlock = { type: 'document', source: { type: 'base64', media_type: 'application/pdf', data: buf.toString('base64') } };
+  } else {
+    const html = await res.text();
+    const text = html
+      .replace(/<(script|style)[\s\S]*?<\/\1>/gi, ' ')
+      .replace(/<[^>]+>/g, ' ')
+      .replace(/&nbsp;|&#160;/g, ' ')
+      .replace(/\s+/g, ' ')
+      .trim()
+      .slice(0, MAX_HTML_CHARS);
+    if (text.length < 500) return null; // cover pages / stub docs — nothing to analyze
+    docBlock = { type: 'text', text: `Document text:\n${text}` };
+  }
 
   const focus = company.group === 'bigbox'
     ? 'This is a general retailer; extract ONLY fuel-segment material: fuel gallons/comps, fuel margin commentary, station count changes, membership-fuel dynamics. If the document contains no fuel-relevant content, reply with exactly NO_FUEL_CONTENT.'
@@ -125,7 +143,7 @@ export async function analyzeDeck(company: WatchedCompany, pdfUrl: string, label
     messages: [{
       role: 'user',
       content: [
-        { type: 'document', source: { type: 'base64', media_type: 'application/pdf', data: buf.toString('base64') } },
+        docBlock,
         { type: 'text', text: `New investor document from ${company.name} (${company.ticker}): "${label}". ${focus}\n\nWrite a tight analysis in markdown: 3-6 bullet points of takeaways, then one sentence on what it signals for fuels markets. No preamble.` },
       ],
     }],

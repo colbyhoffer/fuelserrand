@@ -2,7 +2,11 @@ import Parser from 'rss-parser';
 import { FEEDS, NEWS_QUERIES, BLOCKED_DOMAINS, PAYWALLED_DOMAINS, FETCH_TIMEOUT_MS, LOOKBACK_HOURS } from './config';
 import type { Category, Story } from './types';
 
-const parser = new Parser({ timeout: FETCH_TIMEOUT_MS });
+const BROWSER_UA = 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/537.36';
+
+const parser = new Parser({
+  customFields: { item: [['News:Source', 'newsSource']] },
+});
 
 function hostnameOf(url: string): string {
   try {
@@ -14,7 +18,7 @@ function hostnameOf(url: string): string {
 
 function isBlocked(url: string): boolean {
   const host = hostnameOf(url);
-  return BLOCKED_DOMAINS.some((d) => host === d || host.endsWith('.' + d));
+  return !host || BLOCKED_DOMAINS.some((d) => host === d || host.endsWith('.' + d));
 }
 
 function isPaywalled(url: string): boolean {
@@ -31,6 +35,19 @@ function stripHtml(s: string): string {
   return s.replace(/<[^>]+>/g, ' ').replace(/\s+/g, ' ').trim();
 }
 
+async function fetchFeed(url: string): Promise<Parser.Output<any>> {
+  const res = await fetch(url, {
+    signal: AbortSignal.timeout(FETCH_TIMEOUT_MS),
+    headers: { 'user-agent': BROWSER_UA, accept: 'application/rss+xml, application/xml, text/xml, */*' },
+  });
+  if (!res.ok) throw new Error(`HTTP ${res.status}`);
+  let xml = await res.text();
+  // Bing embeds the raw search query as an unescaped xmlns:News attribute,
+  // which breaks XML parsing when the query contains quotes. Strip it.
+  xml = xml.replace(/\sxmlns:News="[\s\S]*?">/, '>');
+  return parser.parseString(xml);
+}
+
 interface RawItem {
   title: string;
   url: string;
@@ -44,7 +61,7 @@ async function fetchDirectFeeds(now: Date): Promise<RawItem[]> {
   const cutoff = now.getTime() - lookbackHours(now) * 3600_000;
   const results = await Promise.allSettled(
     FEEDS.map(async (feed) => {
-      const parsed = await parser.parseURL(feed.url);
+      const parsed = await fetchFeed(feed.url);
       return (parsed.items ?? []).flatMap((item) => {
         const url = item.link ?? '';
         const published = item.isoDate ? new Date(item.isoDate) : now;
@@ -68,50 +85,41 @@ async function fetchDirectFeeds(now: Date): Promise<RawItem[]> {
   return items;
 }
 
-// Google News RSS: used as a finder only. Each entry's <source> tag names the
-// original publisher; the link redirects to the publisher's page. We keep the
-// google redirect URL if resolution fails, since it still lands the reader on
-// the original article.
-async function resolveGoogleNewsUrl(link: string): Promise<string> {
+// Bing News RSS is used as a *finder*: its apiclick links carry the original
+// publisher URL in the `url=` query param, so every story links directly to
+// its original source. Blocked domains (social/forums/aggregators) are dropped.
+function directUrlOf(bingLink: string): string {
   try {
-    const res = await fetch(link, { redirect: 'follow', signal: AbortSignal.timeout(8000) });
-    const finalUrl = res.url;
-    if (finalUrl && !finalUrl.includes('news.google.com')) return finalUrl;
-    // Google sometimes serves an interstitial page with the target in the HTML.
-    // Take the first outbound href that isn't a Google-owned asset/host.
-    const html = await res.text();
-    for (const m of html.matchAll(/href="(https?:\/\/[^"]+)"/g)) {
-      const host = hostnameOf(m[1]);
-      if (host && !/(^|\.)google(\.[a-z.]+)?$|googleusercontent\.com$|gstatic\.com$|googleapis\.com$|youtube\.com$/.test(host)) {
-        return m[1];
-      }
+    const u = new URL(bingLink);
+    if (/(^|\.)bing\.com$/.test(u.hostname)) {
+      const target = u.searchParams.get('url');
+      if (target) return target;
     }
-    return link;
+    return bingLink;
   } catch {
-    return link;
+    return bingLink;
   }
 }
 
-async function fetchGoogleNews(now: Date): Promise<RawItem[]> {
+async function fetchQueryNews(now: Date): Promise<RawItem[]> {
   const cutoff = now.getTime() - lookbackHours(now) * 3600_000;
   const results = await Promise.allSettled(
     NEWS_QUERIES.map(async ({ query, category }) => {
-      const url = `https://news.google.com/rss/search?q=${encodeURIComponent(query + ' when:2d')}&hl=en-US&gl=US&ceid=US:en`;
-      const parsed = await parser.parseURL(url);
-      const items = (parsed.items ?? []).slice(0, 10);
+      // sortbydate=1: newest first, so the lookback cutoff sees fresh items.
+      const url = `https://www.bing.com/news/search?q=${encodeURIComponent(query)}&qft=sortbydate%3d%221%22&format=RSS`;
+      const parsed = await fetchFeed(url);
       const out: RawItem[] = [];
-      for (const item of items) {
+      for (const item of (parsed.items ?? []).slice(0, 15)) {
         const published = item.isoDate ? new Date(item.isoDate) : now;
         if (!item.link || !item.title || published.getTime() < cutoff) continue;
-        // rss-parser exposes the <source> tag via item.creator or raw fields; fall back to parsing the title suffix " - Outlet".
-        const sourceName = (item as any).source?.['#'] ?? (item as any).source ?? item.title.split(' - ').pop() ?? 'News';
-        const title = item.title.replace(/ - [^-]+$/, '');
-        const resolved = await resolveGoogleNewsUrl(item.link);
+        const resolved = directUrlOf(item.link);
         if (isBlocked(resolved)) continue;
+        const sourceField = (item as any).newsSource;
+        const source = (typeof sourceField === 'string' && sourceField.trim()) ? stripHtml(sourceField) : hostnameOf(resolved);
         out.push({
-          title: stripHtml(title),
+          title: stripHtml(item.title),
           url: resolved,
-          source: typeof sourceName === 'string' ? stripHtml(sourceName) : 'News',
+          source,
           publishedAt: published,
           category,
           snippet: stripHtml(item.contentSnippet ?? '').slice(0, 600),
@@ -123,7 +131,7 @@ async function fetchGoogleNews(now: Date): Promise<RawItem[]> {
   const items: RawItem[] = [];
   results.forEach((r, i) => {
     if (r.status === 'fulfilled') items.push(...r.value);
-    else console.warn(`[news] google query failed: ${NEWS_QUERIES[i].query}: ${r.reason?.message ?? r.reason}`);
+    else console.warn(`[news] query failed: ${NEWS_QUERIES[i].query}: ${r.reason?.message ?? r.reason}`);
   });
   return items;
 }
@@ -143,9 +151,9 @@ function dedupe(items: RawItem[]): RawItem[] {
 }
 
 export async function fetchNews(now: Date): Promise<Story[]> {
-  const [direct, google] = await Promise.all([fetchDirectFeeds(now), fetchGoogleNews(now)]);
-  const items = dedupe([...direct, ...google]).filter((i) => !isBlocked(i.url));
-  console.log(`[news] ${direct.length} from direct feeds, ${google.length} from Google News, ${items.length} after dedupe/filter`);
+  const [direct, queried] = await Promise.all([fetchDirectFeeds(now), fetchQueryNews(now)]);
+  const items = dedupe([...direct, ...queried]).filter((i) => !isBlocked(i.url));
+  console.log(`[news] ${direct.length} from direct feeds, ${queried.length} from news queries, ${items.length} after dedupe/filter`);
   return items.map((i) => ({
     title: i.title,
     url: i.url,

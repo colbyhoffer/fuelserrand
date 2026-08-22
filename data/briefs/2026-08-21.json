@@ -4,15 +4,6 @@
   "overview": "AI summarization was unavailable for this edition; stories below carry their original feed descriptions.",
   "stories": [
     {
-      "title": "Walmart, Sam’s Club to Roll Out Tap to Pay… Finally",
-      "url": "https://lh3.googleusercontent.com/-DR60l-K8vnyi99NZovm9HlXyZwQ85GMDxiwJWzoasZYCUrPuUM_P_4Rb7ei03j-0nRs0c4F=w16",
-      "source": "WENY News",
-      "publishedAt": "2026-08-22T01:25:00.000Z",
-      "category": "companies",
-      "summary": "Walmart, Sam’s Club to Roll Out Tap to Pay… Finally WENY News",
-      "paywalled": false
-    },
-    {
       "title": "Oil Rises as US Targets Iran's Economy",
       "url": "https://www.rigzone.com/news/wire/oil_rises_as_us_targets_irans_economy-21-aug-2026-184437-article/?rss=true",
       "source": "Rigzone",
@@ -22,102 +13,120 @@
       "paywalled": false
     },
     {
-      "title": "Iran President Urges End to War while Refusing to Call Defeat",
-      "url": "https://www.rigzone.com/news/wire/iran_president_urges_end_to_war_while_refusing_to_call_defeat-21-aug-2026-184434-article/?rss=true",
-      "source": "Rigzone",
-      "publishedAt": "2026-08-21T15:30:21.000Z",
-      "category": "operations",
-      "summary": "'It would be better to end the war today, when we have power and dignity, and with the whole world acknowledging our victory', Masoud Pezeshkian said, according to the semi-official Iranian Students' News Agency.",
+      "title": "CISCE Launches Digital Assessment Initiative To Track Students' Learning Progress",
+      "url": "https://www.ndtv.com/education/cisce-launches-digital-assessment-initiative-to-track-students-learning-progress-11943220",
+      "source": "NDTV",
+      "publishedAt": "2026-08-21T19:21:00.000Z",
+      "category": "companies",
+      "summary": "CISCE has launched SHINE 2026, a digital assessment initiative to track learning progress, identify gaps and help schools provide timely student support.",
       "paywalled": false
     },
     {
-      "title": "Court Upholds Trump Admin Order to Restart SYU",
-      "url": "https://www.rigzone.com/news/court_upholds_trump_admin_order_to_restart_syu-21-aug-2026-184433-article/?rss=true",
-      "source": "Rigzone",
-      "publishedAt": "2026-08-21T15:22:53.000Z",
-      "category": "operations",
-      "summary": "The Justice Department claimed 'a significant victory for President Trump's efforts to unleash American energy'.",
+      "title": "Walmart, Sam’s Club to Roll Out Tap to Pay… Finally",
+      "url": "https://www.weny.com/news/walmart-sam-s-club-to-roll-out-tap-to-pay-finally/article_b0059985-2807-460b-8c21-3333128aef91.html",
+      "source": "WENY News",
+      "publishedAt": "2026-08-21T18:26:00.000Z",
+      "category": "companies",
+      "summary": "Walmart and Sam's Club will begin offering Tap to Pay as a checkout option at select store locations starting Aug. 24, with plans to expand the feature ...",
       "paywalled": false
     },
     {
-      "title": "Norway Union, Helicopter Group Start Talks to Avert Strike",
-      "url": "https://www.rigzone.com/news/norway_union_helicopter_group_start_talks_to_avert_strike-21-aug-2026-184432-article/?rss=true",
-      "source": "Rigzone",
-      "publishedAt": "2026-08-21T14:36:05.000Z",
-      "category": "operations",
-      "summary": "The Styrke union warned of an immediate strike should negotiations with the Federation of Norwegian Aviation Industries do not result in an agreement.",
+      "title": "Comfortable Saturday in NH ahead of possible showers for NASCAR race Sunday",
+      "url": "https://www.wmur.com/article/new-hampshire-weekend-forecast-82126/73499315",
+      "source": "WMUR Channel 9",
+      "publishedAt": "2026-08-21T18:09:00.000Z",
+      "category": "companies",
+      "summary": "After a pleasant week, changes are ahead this weekend with cloudier skies, cooler temperatures and scattered showers possible.",
       "paywalled": false
     },
     {
-      "title": "Buru Mulls Mini Refinery in Western Australia",
-      "url": "https://www.rigzone.com/news/buru_mulls_mini_refinery_in_western_australia-21-aug-2026-184431-article/?rss=true",
-      "source": "Rigzone",
-      "publishedAt": "2026-08-21T13:07:19.000Z",
-      "category": "operations",
-      "summary": "Buru said it plans to build a mini-refinery to supply the Kimberley region as part of a new sales model for the remaining volumes in the Ungani field in the Canning Basin.",
+      "title": "Hallowed Ground: How the crash site of Flight 93 became a national park",
+      "url": "https://www.wjtv.com/remembering-september-11/hallowed-ground-how-the-crash-site-of-flight-93-became-a-national-park/",
+      "source": "WJTV",
+      "publishedAt": "2026-08-21T18:02:00.000Z",
+      "category": "companies",
+      "summary": "National Park Service maintenance crew leader Pat Sparks and his team care for the grounds of the Flight 93 National Memorial in Shanksville, Pa., 25 years after 40 passengers and crew ...",
       "paywalled": false
     },
     {
-      "title": "Equinor Secures Deal to Supply Crude to ORLEN",
-      "url": "https://www.rigzone.com/news/equinor_secures_deal_to_supply_crude_to_orlen-21-aug-2026-184430-article/?rss=true",
-      "source": "Rigzone",
-      "publishedAt": "2026-08-21T12:31:29.000Z",
-      "category": "operations",
-      "summary": "ORLEN signed a three-year agreement to buy five to more than nine million metric tons a year of crude oil from Norway.",
+      "title": "El Camino Shopping Center eyes retail expansion, outdoor dining",
+      "url": "https://www.bizjournals.com/sanjose/news/2026/08/21/el-camino-shopping-center-santa-clara.html",
+      "source": "The Business Journals",
+      "publishedAt": "2026-08-21T17:20:00.000Z",
+      "category": "deals",
+      "summary": "A long-standing Santa Clara shopping center could add new retail and outdoor dining under a proposed makeover.",
       "paywalled": false
     },
     {
-      "title": "Vitol Bunkers, Olam Agri complete world’s 1st coprocessed VLSFO biobunkering operation",
-      "url": "https://www.biobased-diesel.com/post/vitol-bunkers-olam-agri-complete-world-s-1st-coprocessed-vlsfo-biobunkering-operation",
-      "source": "Biobased Diesel Daily",
-      "publishedAt": "2026-08-21T12:27:38.000Z",
+      "title": "Nymex Overview: Crude and Product Prices End the Day, Week Higher — OPIS",
+      "url": "https://www.morningstar.com/news/dow-jones/202608218212/nymex-overview-crude-and-product-prices-end-the-day-week-higher-opis",
+      "source": "Morningstar",
+      "publishedAt": "2026-08-21T17:00:00.000Z",
+      "category": "markets",
+      "summary": "Most activity in refined products was focused on the next-month contracts, with the lightly traded September RBOB contract climbing 8.5cts higher to $3.3479/gal, a gain of 5.1% for the week. October ...",
+      "paywalled": false
+    },
+    {
+      "title": "Front Month Nymex ULSD Rose 4.95% This Week to Settle at $4.4948 — Data Talk",
+      "url": "https://www.morningstar.com/news/dow-jones/202608216668/front-month-nymex-ulsd-rose-495-this-week-to-settle-at-44948-data-talk",
+      "source": "Morningstar",
+      "publishedAt": "2026-08-21T17:00:00.000Z",
+      "category": "markets",
+      "summary": "Front Month Nymex ULSD for Sept. delivery gained 21.19 cents per gallon, or 4.95% to $4.4948 this week --Largest two week net and percentage gain since the week ending July 24, 2026 ...",
+      "paywalled": false
+    },
+    {
+      "title": "Militello, swastika in the municipal park. Musumeci condemns: \"Cowardly act, clarify immediately\"",
+      "url": "https://jen.jiji.com/jc/eng_agt?g=adnkronos&k=20260822KRONOS-202608121176659031_eng",
+      "source": "jen.jiji",
+      "publishedAt": "2026-08-21T17:00:00.000Z",
+      "category": "deals",
+      "summary": "A swastika has appeared in the municipal park of Militello in Val di Catania. For the Minister for Civil Protection and Maritime Policies, Nello Musumeci, it is \"a cowardly act\" and he has asked, ...",
+      "paywalled": false
+    },
+    {
+      "title": "Pediatrician offers guidance on back-to-school illness",
+      "url": "https://www.kait8.com/2026/08/22/pediatrician-offers-guidance-back-to-school-illness/",
+      "source": "KAIT",
+      "publishedAt": "2026-08-21T17:00:00.000Z",
+      "category": "companies",
+      "summary": "A local pediatrician is offering guidance to parents on when to keep sick children home from school and what symptoms to watch for. Pediatrician offers guidance on back-to-school illness ...",
+      "paywalled": false
+    },
+    {
+      "title": "Why architecture matters more than prompts for real-world AI systems",
+      "url": "https://www.wftv.com/news/local/why-architecture-matters-more-than-prompts-real-world-ai-systems/CIWYFB6CDNA75JPHWCBO6CYTHM/",
+      "source": "WFTV",
+      "publishedAt": "2026-08-21T17:00:00.000Z",
+      "category": "companies",
+      "summary": "Senior software architect Virat Gohil argues that successful GenAI depends on robust system architecture, not just models.",
+      "paywalled": false
+    },
+    {
+      "title": "VDH discusses keeping kids eating healthy amid foodborne illness outbreaks",
+      "url": "https://www.whsv.com/2026/08/22/vdh-discusses-keeping-kids-eating-healthy-amid-foodborne-illness-outbreaks/",
+      "source": "WHSV",
+      "publishedAt": "2026-08-21T17:00:00.000Z",
+      "category": "companies",
+      "summary": "According to a new study, data shows children already don’t eat enough fruits and vegetables and the recent foodborne illness outbreaks aren’t making things any better.",
+      "paywalled": false
+    },
+    {
+      "title": "Ethanol Industry Gathers in Minneapolis",
+      "url": "https://www.rrfn.com/2026/08/21/ethanol-industry-gathers-in-minneapolis/",
+      "source": "Red River Farm Network",
+      "publishedAt": "2026-08-21T16:25:00.000Z",
       "category": "policy",
-      "summary": "Supplied in Singapore, the operation used VLSFO coprocessed with cashew-nut shell liquid (CNSL), showcasing a waste-to-energy approach.",
+      "summary": "Please enter your email and a password retrieval code will be sent. Please enter your code and a new password.",
       "paywalled": false
     },
     {
-      "title": "European Energy, Mitsui secure OMV as new offtaker for Kassø eMethanol facility in Denmark",
-      "url": "https://www.biobased-diesel.com/post/european-energy-mitsui-secure-omv-as-new-offtaker-for-kass%C3%B8-emethanol-facility-in-denmark",
-      "source": "Biobased Diesel Daily",
-      "publishedAt": "2026-08-21T12:04:55.000Z",
-      "category": "policy",
-      "summary": "The agreement is the fourth publicly announced long-term offtake for eMethanol produced at the Kassø facility.",
-      "paywalled": false
-    },
-    {
-      "title": "Vancouver International Airport initiative enables travelers to support SAF use",
-      "url": "https://www.biobased-diesel.com/post/vancouver-international-airport-initiative-enables-travelers-to-support-saf-use",
-      "source": "Biobased Diesel Daily",
-      "publishedAt": "2026-08-21T12:04:30.000Z",
-      "category": "policy",
-      "summary": "A new online calculator gives passengers the opportunity to estimate carbon emissions of their flight and contribute to the use of SAF.",
-      "paywalled": false
-    },
-    {
-      "title": "XCF Global ships 55,000 gallons of renewable diesel daily",
-      "url": "https://www.biobased-diesel.com/post/xcf-global-ships-55-000-gallons-of-renewable-diesel-daily",
-      "source": "Biobased Diesel Daily",
-      "publishedAt": "2026-08-21T12:03:52.000Z",
-      "category": "policy",
-      "summary": "By establishing this daily baseline output, XCF said it is providing shareholders with “clear, verifiable proof of physical output and commercial execution.”",
-      "paywalled": false
-    },
-    {
-      "title": "Dangote Offers East African States 30 Pct Stake in Planned Refinery",
-      "url": "https://www.rigzone.com/news/wire/dangote_offers_east_african_states_30_pct_stake_in_planned_refinery-21-aug-2026-184429-article/?rss=true",
-      "source": "Rigzone",
-      "publishedAt": "2026-08-21T09:37:20.000Z",
-      "category": "operations",
-      "summary": "Dangote Group has offered East African countries a 30 percent equity stake in the giant refinery planned for the region, according to Kenyan President William Ruto's top economic adviser.",
-      "paywalled": false
-    },
-    {
-      "title": "Various Tankers Shuttle Saudi Oil North to Evade Houthis",
-      "url": "https://www.rigzone.com/news/wire/various_tankers_shuttle_saudi_oil_north_to_evade_houthis-21-aug-2026-184428-article/?rss=true",
-      "source": "Rigzone",
-      "publishedAt": "2026-08-21T09:18:13.000Z",
-      "category": "operations",
-      "summary": "Shipowners including Sinokor Group are helping Saudi Arabian crude exit the Red Sea via the safer northern route, as Iran-backed militants target the kingdom's exports via the Bab el Mandeb chokepoint in the south.",
+      "title": "Daphne secures $5 million grant for new fishing pier at Bayfront Park",
+      "url": "https://www.wkrg.com/baldwin-county/daphne-waterfront-expansion-project/",
+      "source": "WKRG",
+      "publishedAt": "2026-08-21T16:13:00.000Z",
+      "category": "deals",
+      "summary": "Daphne’s bayfront is getting another big boost; the city just landed a $5 million grant to build a new fishing pier. The Jubilee City’s bayfront is already ...",
       "paywalled": false
     }
   ],
@@ -141,7 +150,7 @@
       "label": "EIA weekly retail gasoline & diesel prices (Mon PM)"
     }
   ],
-  "generatedAt": "2026-08-22T02:12:09.314Z",
+  "generatedAt": "2026-08-22T02:36:36.742Z",
   "degraded": [
     "prices",
     "AI summarization"

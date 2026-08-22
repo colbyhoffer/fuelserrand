@@ -16,10 +16,9 @@ export interface FeedSource {
 export const FEEDS: FeedSource[] = [
   { name: 'EIA Today in Energy', url: 'https://www.eia.gov/rss/todayinenergy.xml', paywalled: false, defaultCategory: 'markets' },
   { name: 'EIA Press Releases', url: 'https://www.eia.gov/rss/press_rss.xml', paywalled: false, defaultCategory: 'markets' },
-  { name: 'Oil & Gas Journal', url: 'https://www.ogj.com/rss.xml', paywalled: false, defaultCategory: 'operations' },
+  { name: 'Oil & Gas Journal', url: 'https://www.ogj.com/__rss/website-scheduled-content.xml?input=%7B%22sectionAlias%22%3A%22home%22%7D', paywalled: false, defaultCategory: 'operations' },
   { name: 'Rigzone', url: 'https://www.rigzone.com/news/rss/rigzone_latest.aspx', paywalled: false, defaultCategory: 'operations' },
   { name: 'Biobased Diesel Daily', url: 'https://www.biobased-diesel.com/blog-feed.xml', paywalled: false, defaultCategory: 'policy' },
-  { name: 'Ethanol Producer Magazine', url: 'https://ethanolproducer.com/rss/articles', paywalled: false, defaultCategory: 'policy' },
 ];
 
 // Google News RSS topic queries. Google News is used only as a *finder*: every
@@ -32,8 +31,9 @@ export const NEWS_QUERIES: { query: string; category: Category }[] = [
   { query: 'gasoline diesel prices "crack spread" OR RBOB OR ULSD', category: 'markets' },
   { query: '(refiner OR "gas station" OR "convenience store" OR "travel center") (acquisition OR merger OR expansion)', category: 'deals' },
   { query: 'Valero OR "Marathon Petroleum" OR "Phillips 66" OR "PBF Energy" OR "HF Sinclair" earnings OR guidance', category: 'companies' },
-  { query: '"Casey\'s" OR "Murphy USA" OR "Couche-Tard" OR "Circle K" OR "7-Eleven" fuel', category: 'companies' },
-  { query: '(Costco OR Walmart OR "BJ\'s Wholesale" OR Kroger) (fuel OR gasoline OR "gas station")', category: 'companies' },
+  // Note: apostrophes break Bing's RSS endpoint (empty response) — Caseys/BJs still match.
+  { query: 'Caseys OR "Murphy USA" OR "Couche-Tard" OR "Circle K" OR "7-Eleven" fuel', category: 'companies' },
+  { query: '(Costco OR Walmart OR "BJs Wholesale" OR Kroger) (fuel OR gasoline OR "gas station")', category: 'companies' },
 ];
 
 // Domains never used as source material.
@@ -51,46 +51,53 @@ export const PAYWALLED_DOMAINS = [
 ];
 
 // ---------------------------------------------------------------------------
-// Company watch list: IR pages checked daily for new decks / earnings docs.
-// pageUrl is the page scanned for links to new PDFs/presentations.
+// Company watch list. US filers are watched via SEC EDGAR (cik): new 8-K
+// exhibits — earnings releases and investor presentations — are picked up from
+// official filings, which never bot-block. Companies without a CIK (foreign
+// listings) fall back to scraping the listed IR pages, best-effort.
 // ---------------------------------------------------------------------------
 
 export interface WatchedCompany {
   name: string;
   ticker: string;
   group: 'refiner' | 'renewables' | 'retail' | 'bigbox';
-  irPages: string[];
+  cik?: number;          // SEC CIK for EDGAR watching
+  irPages?: string[];    // fallback/bonus scrape targets
 }
 
 export const COMPANIES: WatchedCompany[] = [
   // Refiners
-  { name: 'Valero Energy', ticker: 'VLO', group: 'refiner', irPages: ['https://investorvalero.com/events-and-presentations', 'https://investorvalero.com/news-releases'] },
-  { name: 'Marathon Petroleum', ticker: 'MPC', group: 'refiner', irPages: ['https://www.marathonpetroleum.com/Investors/Events-and-Presentations/'] },
-  { name: 'Phillips 66', ticker: 'PSX', group: 'refiner', irPages: ['https://investor.phillips66.com/financial-information/events-and-presentations'] },
-  { name: 'PBF Energy', ticker: 'PBF', group: 'refiner', irPages: ['https://investors.pbfenergy.com/events-and-presentations'] },
-  { name: 'HF Sinclair', ticker: 'DINO', group: 'refiner', irPages: ['https://ir.hfsinclair.com/events-and-presentations'] },
-  { name: 'Delek US', ticker: 'DK', group: 'refiner', irPages: ['https://ir.delekus.com/events-and-presentations'] },
-  { name: 'Par Pacific', ticker: 'PARR', group: 'refiner', irPages: ['https://www.parpacific.com/investors/news-events/events-presentations'] },
-  { name: 'CVR Energy', ticker: 'CVI', group: 'refiner', irPages: ['https://cvrenergy.investorroom.com/events-and-presentations'] },
+  { name: 'Valero Energy', ticker: 'VLO', group: 'refiner', cik: 1035002 },
+  { name: 'Marathon Petroleum', ticker: 'MPC', group: 'refiner', cik: 1510295 },
+  { name: 'Phillips 66', ticker: 'PSX', group: 'refiner', cik: 1534701 },
+  { name: 'PBF Energy', ticker: 'PBF', group: 'refiner', cik: 1534504 },
+  { name: 'HF Sinclair', ticker: 'DINO', group: 'refiner', cik: 1915657 },
+  { name: 'Delek US', ticker: 'DK', group: 'refiner', cik: 1694426 },
+  { name: 'Par Pacific', ticker: 'PARR', group: 'refiner', cik: 821483 },
+  { name: 'CVR Energy', ticker: 'CVI', group: 'refiner', cik: 1376139 },
   // Renewable diesel / SAF
-  { name: 'Darling Ingredients', ticker: 'DAR', group: 'renewables', irPages: ['https://ir.darlingii.com/events-and-presentations'] },
+  { name: 'Darling Ingredients', ticker: 'DAR', group: 'renewables', cik: 916540 },
   { name: 'Neste', ticker: 'NESTE.HE', group: 'renewables', irPages: ['https://www.neste.com/investors/reports-and-presentations'] },
-  { name: 'Calumet (Montana Renewables)', ticker: 'CLMT', group: 'renewables', irPages: ['https://ir.calumet.com/events-and-presentations'] },
-  { name: 'Gevo', ticker: 'GEVO', group: 'renewables', irPages: ['https://investors.gevo.com/events-and-presentations'] },
-  { name: 'Aemetis', ticker: 'AMTX', group: 'renewables', irPages: ['https://www.aemetis.com/investors/'] },
-  { name: 'Vertex Energy', ticker: 'VTNR', group: 'renewables', irPages: ['https://ir.vertexenergy.com/events-and-presentations'] },
+  { name: 'Calumet (Montana Renewables)', ticker: 'CLMT', group: 'renewables', cik: 2013745 },
+  { name: 'Gevo', ticker: 'GEVO', group: 'renewables', cik: 1392380 },
+  { name: 'Aemetis', ticker: 'AMTX', group: 'renewables', cik: 738214 },
   // Fuel retail / c-store
-  { name: "Casey's General Stores", ticker: 'CASY', group: 'retail', irPages: ['https://investor.caseys.com/events-and-presentations'] },
-  { name: 'Murphy USA', ticker: 'MUSA', group: 'retail', irPages: ['https://ir.murphyusa.com/events-and-presentations'] },
+  { name: "Casey's General Stores", ticker: 'CASY', group: 'retail', cik: 726958 },
+  { name: 'Murphy USA', ticker: 'MUSA', group: 'retail', cik: 1573516 },
   { name: 'Alimentation Couche-Tard', ticker: 'ATD.TO', group: 'retail', irPages: ['https://corpo.couche-tard.com/en/investors/'] },
-  { name: 'Sunoco LP', ticker: 'SUN', group: 'retail', irPages: ['https://investors.sunocolp.com/events-and-presentations'] },
-  { name: 'Global Partners', ticker: 'GLP', group: 'retail', irPages: ['https://ir.globalp.com/events-and-presentations'] },
+  { name: 'Sunoco LP', ticker: 'SUN', group: 'retail', cik: 1552275 },
+  { name: 'Global Partners', ticker: 'GLP', group: 'retail', cik: 1323468 },
   // Big box fuel
-  { name: 'Costco', ticker: 'COST', group: 'bigbox', irPages: ['https://investor.costco.com/events-and-presentations'] },
-  { name: 'Walmart', ticker: 'WMT', group: 'bigbox', irPages: ['https://stock.walmart.com/events-and-presentations'] },
-  { name: "BJ's Wholesale Club", ticker: 'BJ', group: 'bigbox', irPages: ['https://investors.bjs.com/events-and-presentations'] },
-  { name: 'Kroger', ticker: 'KR', group: 'bigbox', irPages: ['https://ir.kroger.com/news-events/events-and-presentations'] },
+  { name: 'Costco', ticker: 'COST', group: 'bigbox', cik: 909832 },
+  { name: 'Walmart', ticker: 'WMT', group: 'bigbox', cik: 104169 },
+  { name: "BJ's Wholesale Club", ticker: 'BJ', group: 'bigbox', cik: 1531152 },
+  { name: 'Kroger', ticker: 'KR', group: 'bigbox', cik: 56873 },
 ];
+
+// SEC requests must identify the requester (SEC fair-access policy).
+export const SEC_USER_AGENT = process.env.SEC_CONTACT
+  ? `FuelsErrand/1.0 (${process.env.SEC_CONTACT})`
+  : 'FuelsErrand/1.0 (admin@fuelserrand.com)';
 
 // ---------------------------------------------------------------------------
 // Runtime configuration from environment.
