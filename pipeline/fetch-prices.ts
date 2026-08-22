@@ -33,6 +33,7 @@ const SPECS: SeriesSpec[] = [
 async function fetchLatest(spec: SeriesSpec): Promise<{ period: string; value: number } | null> {
   const params = new URLSearchParams({
     api_key: ENV.eiaKey,
+    frequency: spec.freq,
     'data[0]': 'value',
     'facets[series][]': spec.series,
     'sort[0][column]': 'period',

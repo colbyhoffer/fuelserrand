@@ -17,24 +17,26 @@ loadDotEnvLocal();
 const API_KEY = process.env.EIA_API_KEY ?? '';
 const BASE = 'https://api.eia.gov/v2';
 
-const SERIES: { route: string; series: string; field: keyof PricePoint }[] = [
-  { route: 'petroleum/pri/spt/data', series: 'EER_EPMRU_PF4_Y35NY_DPG', field: 'rbobSpot' },
-  { route: 'petroleum/pri/spt/data', series: 'EER_EPD2DXL0_PF4_Y35NY_DPG', field: 'ulsdSpot' },
-  { route: 'petroleum/pri/spt/data', series: 'RWTC', field: 'wtiSpot' },
-  { route: 'petroleum/pri/gnd/data', series: 'EMM_EPM0_PTE_NUS_DPG', field: 'retailGas' },
-  { route: 'petroleum/pri/gnd/data', series: 'EMD_EPD2D_PTE_NUS_DPG', field: 'retailDiesel' },
-  { route: 'petroleum/stoc/wstk/data', series: 'WGTSTUS1', field: 'gasStocksMbbl' },
-  { route: 'petroleum/stoc/wstk/data', series: 'WDISTUS1', field: 'distStocksMbbl' },
-  { route: 'petroleum/cons/wpsup/data', series: 'WGFUPUS2', field: 'gasDemandKbd' },
-  { route: 'petroleum/cons/wpsup/data', series: 'WDIUPUS2', field: 'distDemandKbd' },
+// frequency must be explicit: EIA v2 defaults some routes to weekly aggregates.
+const SERIES: { route: string; series: string; field: keyof PricePoint; freq: 'daily' | 'weekly' }[] = [
+  { route: 'petroleum/pri/spt/data', series: 'EER_EPMRU_PF4_Y35NY_DPG', field: 'rbobSpot', freq: 'daily' },
+  { route: 'petroleum/pri/spt/data', series: 'EER_EPD2DXL0_PF4_Y35NY_DPG', field: 'ulsdSpot', freq: 'daily' },
+  { route: 'petroleum/pri/spt/data', series: 'RWTC', field: 'wtiSpot', freq: 'daily' },
+  { route: 'petroleum/pri/gnd/data', series: 'EMM_EPM0_PTE_NUS_DPG', field: 'retailGas', freq: 'weekly' },
+  { route: 'petroleum/pri/gnd/data', series: 'EMD_EPD2D_PTE_NUS_DPG', field: 'retailDiesel', freq: 'weekly' },
+  { route: 'petroleum/stoc/wstk/data', series: 'WGTSTUS1', field: 'gasStocksMbbl', freq: 'weekly' },
+  { route: 'petroleum/stoc/wstk/data', series: 'WDISTUS1', field: 'distStocksMbbl', freq: 'weekly' },
+  { route: 'petroleum/cons/wpsup/data', series: 'WGFUPUS2', field: 'gasDemandKbd', freq: 'weekly' },
+  { route: 'petroleum/cons/wpsup/data', series: 'WDIUPUS2', field: 'distDemandKbd', freq: 'weekly' },
 ];
 
-async function fetchSeries(route: string, series: string, start: string): Promise<{ period: string; value: number }[]> {
+async function fetchSeries(route: string, series: string, start: string, freq: string): Promise<{ period: string; value: number }[]> {
   const rows: { period: string; value: number }[] = [];
   let offset = 0;
   for (;;) {
     const params = new URLSearchParams({
       api_key: API_KEY,
+      frequency: freq,
       'data[0]': 'value',
       'facets[series][]': series,
       start,
@@ -74,7 +76,7 @@ async function main() {
   }
 
   for (const spec of SERIES) {
-    const rows = await fetchSeries(spec.route, spec.series, startStr);
+    const rows = await fetchSeries(spec.route, spec.series, startStr, spec.freq);
     console.log(`  ${spec.series} (${String(spec.field)}): ${rows.length} rows`);
     for (const r of rows) {
       const date = r.period.slice(0, 10);
