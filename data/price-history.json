@@ -1,30 +1,4455 @@
 [
-  {
-    "date": "2026-08-21",
-    "rbobSpot": 3.156,
-    "ulsdSpot": 4.304,
-    "wtiSpot": 84.05,
-    "retailGas": 4.182,
-    "retailDiesel": 5.454,
-    "gasStocksMbbl": 209378,
-    "distStocksMbbl": 105619,
-    "gasDemandKbd": 8689,
-    "distDemandKbd": 3953,
-    "gasCrack": 48.5,
-    "dieselCrack": 96.72
-  },
-  {
-    "date": "2026-08-22",
-    "rbobSpot": 3.156,
-    "ulsdSpot": 4.304,
-    "wtiSpot": 84.05,
-    "retailGas": 4.182,
-    "retailDiesel": 5.454,
-    "gasStocksMbbl": 209378,
-    "distStocksMbbl": 105619,
-    "gasDemandKbd": 8689,
-    "distDemandKbd": 3953,
-    "gasCrack": 48.5,
-    "dieselCrack": 96.72
-  }
+ {
+  "date": "2021-08-23",
+  "retailGas": 3.243,
+  "retailDiesel": 3.324
+ },
+ {
+  "date": "2021-08-27",
+  "rbobSpot": 2.225,
+  "ulsdSpot": 2.072,
+  "wtiSpot": 67.59,
+  "gasStocksMbbl": 227214,
+  "distStocksMbbl": 136727,
+  "gasDemandKbd": 9578,
+  "distDemandKbd": 4390,
+  "gasCrack": 25.86,
+  "dieselCrack": 19.43
+ },
+ {
+  "date": "2021-08-30",
+  "retailGas": 3.237,
+  "retailDiesel": 3.339
+ },
+ {
+  "date": "2021-09-03",
+  "rbobSpot": 2.319,
+  "ulsdSpot": 2.143,
+  "wtiSpot": 69.15,
+  "gasStocksMbbl": 219999,
+  "distStocksMbbl": 133586,
+  "gasDemandKbd": 9608,
+  "distDemandKbd": 3685,
+  "gasCrack": 28.25,
+  "dieselCrack": 20.86
+ },
+ {
+  "date": "2021-09-06",
+  "retailGas": 3.273,
+  "retailDiesel": 3.373
+ },
+ {
+  "date": "2021-09-10",
+  "rbobSpot": 2.287,
+  "ulsdSpot": 2.127,
+  "wtiSpot": 68.98,
+  "gasStocksMbbl": 218142,
+  "distStocksMbbl": 131897,
+  "gasDemandKbd": 8892,
+  "distDemandKbd": 3795,
+  "gasCrack": 27.07,
+  "dieselCrack": 20.35
+ },
+ {
+  "date": "2021-09-13",
+  "retailGas": 3.262,
+  "retailDiesel": 3.372
+ },
+ {
+  "date": "2021-09-17",
+  "rbobSpot": 2.303,
+  "ulsdSpot": 2.19,
+  "wtiSpot": 71.69,
+  "gasStocksMbbl": 221616,
+  "distStocksMbbl": 129343,
+  "gasDemandKbd": 8896,
+  "distDemandKbd": 4424,
+  "gasCrack": 25.04,
+  "dieselCrack": 20.29
+ },
+ {
+  "date": "2021-09-20",
+  "retailGas": 3.28,
+  "retailDiesel": 3.385
+ },
+ {
+  "date": "2021-09-24",
+  "rbobSpot": 2.238,
+  "ulsdSpot": 2.217,
+  "wtiSpot": 72.18,
+  "gasStocksMbbl": 221809,
+  "distStocksMbbl": 129727,
+  "gasDemandKbd": 9399,
+  "distDemandKbd": 3973,
+  "gasCrack": 21.82,
+  "dieselCrack": 20.93
+ },
+ {
+  "date": "2021-09-27",
+  "retailGas": 3.271,
+  "retailDiesel": 3.406
+ },
+ {
+  "date": "2021-10-01",
+  "rbobSpot": 2.294,
+  "ulsdSpot": 2.323,
+  "wtiSpot": 75.45,
+  "gasStocksMbbl": 225065,
+  "distStocksMbbl": 129331,
+  "gasDemandKbd": 9427,
+  "distDemandKbd": 4365,
+  "gasCrack": 20.9,
+  "dieselCrack": 22.12
+ },
+ {
+  "date": "2021-10-04",
+  "retailGas": 3.285,
+  "retailDiesel": 3.477
+ },
+ {
+  "date": "2021-10-08",
+  "rbobSpot": 2.414,
+  "ulsdSpot": 2.467,
+  "wtiSpot": 78.5,
+  "gasStocksMbbl": 223107,
+  "distStocksMbbl": 129307,
+  "gasDemandKbd": 9186,
+  "distDemandKbd": 3932,
+  "gasCrack": 22.89,
+  "dieselCrack": 25.11
+ },
+ {
+  "date": "2021-10-11",
+  "retailGas": 3.36,
+  "retailDiesel": 3.586
+ },
+ {
+  "date": "2021-10-15",
+  "rbobSpot": 2.502,
+  "ulsdSpot": 2.555,
+  "wtiSpot": 81.18,
+  "gasStocksMbbl": 217739,
+  "distStocksMbbl": 125394,
+  "gasDemandKbd": 9634,
+  "distDemandKbd": 4278,
+  "gasCrack": 23.9,
+  "dieselCrack": 26.13
+ },
+ {
+  "date": "2021-10-18",
+  "retailGas": 3.416,
+  "retailDiesel": 3.671
+ },
+ {
+  "date": "2021-10-22",
+  "rbobSpot": 2.567,
+  "ulsdSpot": 2.568,
+  "wtiSpot": 83.48,
+  "gasStocksMbbl": 215746,
+  "distStocksMbbl": 124962,
+  "gasDemandKbd": 9323,
+  "distDemandKbd": 3869,
+  "gasCrack": 24.33,
+  "dieselCrack": 24.38
+ },
+ {
+  "date": "2021-10-25",
+  "retailGas": 3.476,
+  "retailDiesel": 3.713
+ },
+ {
+  "date": "2021-10-29",
+  "rbobSpot": 2.549,
+  "ulsdSpot": 2.529,
+  "wtiSpot": 83.84,
+  "gasStocksMbbl": 214258,
+  "distStocksMbbl": 127122,
+  "gasDemandKbd": 9504,
+  "distDemandKbd": 3686,
+  "gasCrack": 23.22,
+  "dieselCrack": 22.38
+ },
+ {
+  "date": "2021-11-01",
+  "retailGas": 3.484,
+  "retailDiesel": 3.727
+ },
+ {
+  "date": "2021-11-05",
+  "rbobSpot": 2.495,
+  "ulsdSpot": 2.464,
+  "wtiSpot": 81.79,
+  "gasStocksMbbl": 212703,
+  "distStocksMbbl": 124509,
+  "gasDemandKbd": 9259,
+  "distDemandKbd": 4280,
+  "gasCrack": 23,
+  "dieselCrack": 21.7
+ },
+ {
+  "date": "2021-11-08",
+  "retailGas": 3.505,
+  "retailDiesel": 3.73
+ },
+ {
+  "date": "2021-11-12",
+  "rbobSpot": 2.43,
+  "ulsdSpot": 2.461,
+  "wtiSpot": 81.93,
+  "gasStocksMbbl": 211996,
+  "distStocksMbbl": 123685,
+  "gasDemandKbd": 9241,
+  "distDemandKbd": 4350,
+  "gasCrack": 20.13,
+  "dieselCrack": 21.43
+ },
+ {
+  "date": "2021-11-15",
+  "retailGas": 3.495,
+  "retailDiesel": 3.734
+ },
+ {
+  "date": "2021-11-19",
+  "rbobSpot": 2.378,
+  "ulsdSpot": 2.378,
+  "wtiSpot": 78.99,
+  "gasStocksMbbl": 211393,
+  "distStocksMbbl": 121717,
+  "gasDemandKbd": 9334,
+  "distDemandKbd": 4391,
+  "gasCrack": 20.89,
+  "dieselCrack": 20.89
+ },
+ {
+  "date": "2021-11-22",
+  "retailGas": 3.493,
+  "retailDiesel": 3.724
+ },
+ {
+  "date": "2021-11-26",
+  "rbobSpot": 2.376,
+  "ulsdSpot": 2.363,
+  "wtiSpot": 77.79,
+  "gasStocksMbbl": 215422,
+  "distStocksMbbl": 123877,
+  "gasDemandKbd": 8796,
+  "distDemandKbd": 4209,
+  "gasCrack": 22,
+  "dieselCrack": 21.46
+ },
+ {
+  "date": "2021-11-29",
+  "retailGas": 3.478,
+  "retailDiesel": 3.72
+ },
+ {
+  "date": "2021-12-03",
+  "rbobSpot": 2.051,
+  "ulsdSpot": 2.096,
+  "wtiSpot": 66.89,
+  "gasStocksMbbl": 219304,
+  "distStocksMbbl": 126610,
+  "gasDemandKbd": 8963,
+  "distDemandKbd": 3578,
+  "gasCrack": 19.25,
+  "dieselCrack": 21.14
+ },
+ {
+  "date": "2021-12-06",
+  "retailGas": 3.44,
+  "retailDiesel": 3.674
+ },
+ {
+  "date": "2021-12-10",
+  "rbobSpot": 2.196,
+  "ulsdSpot": 2.235,
+  "wtiSpot": 71.31,
+  "gasStocksMbbl": 218585,
+  "distStocksMbbl": 123758,
+  "gasDemandKbd": 9472,
+  "distDemandKbd": 4896,
+  "gasCrack": 20.92,
+  "dieselCrack": 22.56
+ },
+ {
+  "date": "2021-12-13",
+  "retailGas": 3.414,
+  "retailDiesel": 3.649
+ },
+ {
+  "date": "2021-12-17",
+  "rbobSpot": 2.211,
+  "ulsdSpot": 2.233,
+  "wtiSpot": 71.18,
+  "gasStocksMbbl": 224118,
+  "distStocksMbbl": 124154,
+  "gasDemandKbd": 8986,
+  "distDemandKbd": 3822,
+  "gasCrack": 21.68,
+  "dieselCrack": 22.61
+ },
+ {
+  "date": "2021-12-20",
+  "retailGas": 3.395,
+  "retailDiesel": 3.626
+ },
+ {
+  "date": "2021-12-24",
+  "rbobSpot": 2.209,
+  "ulsdSpot": 2.273,
+  "wtiSpot": 71.63,
+  "gasStocksMbbl": 222659,
+  "distStocksMbbl": 122428,
+  "gasDemandKbd": 9724,
+  "distDemandKbd": 4051,
+  "gasCrack": 21.15,
+  "dieselCrack": 23.84
+ },
+ {
+  "date": "2021-12-27",
+  "retailGas": 3.375,
+  "retailDiesel": 3.615
+ },
+ {
+  "date": "2021-12-31",
+  "rbobSpot": 2.298,
+  "ulsdSpot": 2.362,
+  "wtiSpot": 76.05,
+  "gasStocksMbbl": 232787,
+  "distStocksMbbl": 126846,
+  "gasDemandKbd": 8172,
+  "distDemandKbd": 3739,
+  "gasCrack": 20.47,
+  "dieselCrack": 23.15
+ },
+ {
+  "date": "2022-01-03",
+  "retailGas": 3.381,
+  "retailDiesel": 3.613
+ },
+ {
+  "date": "2022-01-07",
+  "rbobSpot": 2.324,
+  "ulsdSpot": 2.44,
+  "wtiSpot": 77.86,
+  "gasStocksMbbl": 240748,
+  "distStocksMbbl": 129383,
+  "gasDemandKbd": 7906,
+  "distDemandKbd": 3749,
+  "gasCrack": 19.75,
+  "dieselCrack": 24.62
+ },
+ {
+  "date": "2022-01-10",
+  "retailGas": 3.394,
+  "retailDiesel": 3.657
+ },
+ {
+  "date": "2022-01-14",
+  "rbobSpot": 2.411,
+  "ulsdSpot": 2.592,
+  "wtiSpot": 81.52,
+  "gasStocksMbbl": 246621,
+  "distStocksMbbl": 127952,
+  "gasDemandKbd": 8224,
+  "distDemandKbd": 4556,
+  "gasCrack": 19.74,
+  "dieselCrack": 27.34
+ },
+ {
+  "date": "2022-01-17",
+  "retailGas": 3.404,
+  "retailDiesel": 3.725
+ },
+ {
+  "date": "2022-01-21",
+  "rbobSpot": 2.49,
+  "ulsdSpot": 2.681,
+  "wtiSpot": 85.93,
+  "gasStocksMbbl": 247918,
+  "distStocksMbbl": 125154,
+  "gasDemandKbd": 8505,
+  "distDemandKbd": 4754,
+  "gasCrack": 18.65,
+  "dieselCrack": 26.67
+ },
+ {
+  "date": "2022-01-24",
+  "retailGas": 3.421,
+  "retailDiesel": 3.78
+ },
+ {
+  "date": "2022-01-28",
+  "rbobSpot": 2.549,
+  "ulsdSpot": 2.734,
+  "wtiSpot": 86.94,
+  "gasStocksMbbl": 250037,
+  "distStocksMbbl": 122744,
+  "gasDemandKbd": 8226,
+  "distDemandKbd": 4669,
+  "gasCrack": 20.12,
+  "dieselCrack": 27.89
+ },
+ {
+  "date": "2022-01-31",
+  "retailGas": 3.464,
+  "retailDiesel": 3.846
+ },
+ {
+  "date": "2022-02-04",
+  "rbobSpot": 2.665,
+  "ulsdSpot": 2.791,
+  "wtiSpot": 89.6,
+  "gasStocksMbbl": 248393,
+  "distStocksMbbl": 121814,
+  "gasDemandKbd": 9126,
+  "distDemandKbd": 4296,
+  "gasCrack": 22.33,
+  "dieselCrack": 27.62
+ },
+ {
+  "date": "2022-02-07",
+  "retailGas": 3.538,
+  "retailDiesel": 3.951
+ },
+ {
+  "date": "2022-02-11",
+  "rbobSpot": 2.742,
+  "ulsdSpot": 2.907,
+  "wtiSpot": 90.61,
+  "gasStocksMbbl": 247061,
+  "distStocksMbbl": 120262,
+  "gasDemandKbd": 8570,
+  "distDemandKbd": 4321,
+  "gasCrack": 24.55,
+  "dieselCrack": 31.48
+ },
+ {
+  "date": "2022-02-14",
+  "retailGas": 3.581,
+  "retailDiesel": 4.019
+ },
+ {
+  "date": "2022-02-18",
+  "rbobSpot": 2.733,
+  "ulsdSpot": 2.881,
+  "wtiSpot": 92.89,
+  "gasStocksMbbl": 246479,
+  "distStocksMbbl": 119678,
+  "gasDemandKbd": 8657,
+  "distDemandKbd": 4233,
+  "gasCrack": 21.9,
+  "dieselCrack": 28.11
+ },
+ {
+  "date": "2022-02-21",
+  "retailGas": 3.624,
+  "retailDiesel": 4.055
+ },
+ {
+  "date": "2022-02-25",
+  "rbobSpot": 2.781,
+  "ulsdSpot": 2.855,
+  "wtiSpot": 92.18,
+  "gasStocksMbbl": 246011,
+  "distStocksMbbl": 119104,
+  "gasDemandKbd": 8743,
+  "distDemandKbd": 4450,
+  "gasCrack": 24.62,
+  "dieselCrack": 27.73
+ },
+ {
+  "date": "2022-02-28",
+  "retailGas": 3.701,
+  "retailDiesel": 4.104
+ },
+ {
+  "date": "2022-03-04",
+  "rbobSpot": 3.168,
+  "ulsdSpot": 3.5,
+  "wtiSpot": 106.8,
+  "gasStocksMbbl": 244606,
+  "distStocksMbbl": 113874,
+  "gasDemandKbd": 8962,
+  "distDemandKbd": 4587,
+  "gasCrack": 26.26,
+  "dieselCrack": 40.2
+ },
+ {
+  "date": "2022-03-07",
+  "retailGas": 4.196,
+  "retailDiesel": 4.849
+ },
+ {
+  "date": "2022-03-11",
+  "rbobSpot": 3.307,
+  "ulsdSpot": 3.877,
+  "wtiSpot": 113.39,
+  "gasStocksMbbl": 240991,
+  "distStocksMbbl": 114206,
+  "gasDemandKbd": 8944,
+  "distDemandKbd": 3704,
+  "gasCrack": 25.5,
+  "dieselCrack": 49.44
+ },
+ {
+  "date": "2022-03-14",
+  "retailGas": 4.414,
+  "retailDiesel": 5.25
+ },
+ {
+  "date": "2022-03-18",
+  "rbobSpot": 3,
+  "ulsdSpot": 3.409,
+  "wtiSpot": 100.43,
+  "gasStocksMbbl": 238043,
+  "distStocksMbbl": 112135,
+  "gasDemandKbd": 8637,
+  "distDemandKbd": 4516,
+  "gasCrack": 25.57,
+  "dieselCrack": 42.75
+ },
+ {
+  "date": "2022-03-21",
+  "retailGas": 4.343,
+  "retailDiesel": 5.134
+ },
+ {
+  "date": "2022-03-25",
+  "rbobSpot": 3.274,
+  "ulsdSpot": 4.156,
+  "wtiSpot": 113.69,
+  "gasStocksMbbl": 238828,
+  "distStocksMbbl": 113530,
+  "gasDemandKbd": 8499,
+  "distDemandKbd": 3804,
+  "gasCrack": 23.82,
+  "dieselCrack": 60.86
+ },
+ {
+  "date": "2022-03-28",
+  "retailGas": 4.334,
+  "retailDiesel": 5.185
+ },
+ {
+  "date": "2022-04-01",
+  "rbobSpot": 3.075,
+  "ulsdSpot": 3.729,
+  "wtiSpot": 103.89,
+  "gasStocksMbbl": 236787,
+  "distStocksMbbl": 114301,
+  "gasDemandKbd": 8562,
+  "distDemandKbd": 3647,
+  "gasCrack": 25.26,
+  "dieselCrack": 52.73
+ },
+ {
+  "date": "2022-04-04",
+  "retailGas": 4.274,
+  "retailDiesel": 5.144
+ },
+ {
+  "date": "2022-04-08",
+  "rbobSpot": 3.105,
+  "ulsdSpot": 3.704,
+  "wtiSpot": 99.21,
+  "gasStocksMbbl": 233139,
+  "distStocksMbbl": 111399,
+  "gasDemandKbd": 8736,
+  "distDemandKbd": 3484,
+  "gasCrack": 31.2,
+  "dieselCrack": 56.36
+ },
+ {
+  "date": "2022-04-11",
+  "retailGas": 4.196,
+  "retailDiesel": 5.073
+ },
+ {
+  "date": "2022-04-15",
+  "rbobSpot": 3.186,
+  "ulsdSpot": 3.759,
+  "wtiSpot": 101.46,
+  "gasStocksMbbl": 232378,
+  "distStocksMbbl": 108735,
+  "gasDemandKbd": 8868,
+  "distDemandKbd": 3822,
+  "gasCrack": 32.35,
+  "dieselCrack": 56.42
+ },
+ {
+  "date": "2022-04-18",
+  "retailGas": 4.17,
+  "retailDiesel": 5.101
+ },
+ {
+  "date": "2022-04-22",
+  "rbobSpot": 3.121,
+  "ulsdSpot": 4.091,
+  "wtiSpot": 104.02,
+  "gasStocksMbbl": 230805,
+  "distStocksMbbl": 107286,
+  "gasDemandKbd": 8739,
+  "distDemandKbd": 3834,
+  "gasCrack": 27.06,
+  "dieselCrack": 67.8
+ },
+ {
+  "date": "2022-04-25",
+  "retailGas": 4.211,
+  "retailDiesel": 5.16
+ },
+ {
+  "date": "2022-04-29",
+  "rbobSpot": 3.382,
+  "ulsdSpot": 4.685,
+  "wtiSpot": 102.85,
+  "gasStocksMbbl": 228575,
+  "distStocksMbbl": 104942,
+  "gasDemandKbd": 8856,
+  "distDemandKbd": 3956,
+  "gasCrack": 39.19,
+  "dieselCrack": 93.92
+ },
+ {
+  "date": "2022-05-02",
+  "retailGas": 4.285,
+  "retailDiesel": 5.509
+ },
+ {
+  "date": "2022-05-06",
+  "rbobSpot": 3.653,
+  "ulsdSpot": 4.977,
+  "wtiSpot": 106.69,
+  "gasStocksMbbl": 224968,
+  "distStocksMbbl": 104029,
+  "gasDemandKbd": 8702,
+  "distDemandKbd": 3777,
+  "gasCrack": 46.74,
+  "dieselCrack": 102.34
+ },
+ {
+  "date": "2022-05-09",
+  "retailGas": 4.428,
+  "retailDiesel": 5.623
+ },
+ {
+  "date": "2022-05-13",
+  "rbobSpot": 3.745,
+  "ulsdSpot": 5.212,
+  "wtiSpot": 105,
+  "gasStocksMbbl": 220189,
+  "distStocksMbbl": 105264,
+  "gasDemandKbd": 9027,
+  "distDemandKbd": 3816,
+  "gasCrack": 52.29,
+  "dieselCrack": 113.9
+ },
+ {
+  "date": "2022-05-16",
+  "retailGas": 4.591,
+  "retailDiesel": 5.613
+ },
+ {
+  "date": "2022-05-20",
+  "rbobSpot": 3.931,
+  "ulsdSpot": 4.512,
+  "wtiSpot": 112.18,
+  "gasStocksMbbl": 219707,
+  "distStocksMbbl": 106921,
+  "gasDemandKbd": 8798,
+  "distDemandKbd": 3867,
+  "gasCrack": 52.92,
+  "dieselCrack": 77.32
+ },
+ {
+  "date": "2022-05-23",
+  "retailGas": 4.694,
+  "retailDiesel": 5.571
+ },
+ {
+  "date": "2022-05-27",
+  "rbobSpot": 3.927,
+  "ulsdSpot": 4.012,
+  "wtiSpot": 113.38,
+  "gasStocksMbbl": 218996,
+  "distStocksMbbl": 106392,
+  "gasDemandKbd": 8977,
+  "distDemandKbd": 3969,
+  "gasCrack": 51.55,
+  "dieselCrack": 55.12
+ },
+ {
+  "date": "2022-05-30",
+  "retailGas": 4.727,
+  "retailDiesel": 5.539
+ },
+ {
+  "date": "2022-06-03",
+  "rbobSpot": 4.336,
+  "ulsdSpot": 4.249,
+  "wtiSpot": 116.37,
+  "gasStocksMbbl": 218184,
+  "distStocksMbbl": 108984,
+  "gasDemandKbd": 9199,
+  "distDemandKbd": 3650,
+  "gasCrack": 65.74,
+  "dieselCrack": 62.09
+ },
+ {
+  "date": "2022-06-06",
+  "retailGas": 4.977,
+  "retailDiesel": 5.703
+ },
+ {
+  "date": "2022-06-10",
+  "rbobSpot": 4.328,
+  "ulsdSpot": 4.44,
+  "wtiSpot": 120.43,
+  "gasStocksMbbl": 217474,
+  "distStocksMbbl": 109709,
+  "gasDemandKbd": 9093,
+  "distDemandKbd": 3619,
+  "gasCrack": 61.35,
+  "dieselCrack": 66.05
+ },
+ {
+  "date": "2022-06-13",
+  "retailGas": 5.107,
+  "retailDiesel": 5.718
+ },
+ {
+  "date": "2022-06-17",
+  "rbobSpot": 3.984,
+  "ulsdSpot": 4.488,
+  "wtiSpot": 116.46,
+  "gasStocksMbbl": 218963,
+  "distStocksMbbl": 109842,
+  "gasDemandKbd": 8505,
+  "distDemandKbd": 3862,
+  "gasCrack": 50.87,
+  "dieselCrack": 72.04
+ },
+ {
+  "date": "2022-06-20",
+  "retailGas": 5.066,
+  "retailDiesel": 5.81
+ },
+ {
+  "date": "2022-06-24",
+  "rbobSpot": 3.886,
+  "ulsdSpot": 4.391,
+  "wtiSpot": 107.88,
+  "gasStocksMbbl": 221608,
+  "distStocksMbbl": 112401,
+  "gasDemandKbd": 8922,
+  "distDemandKbd": 3568,
+  "gasCrack": 55.33,
+  "dieselCrack": 76.54
+ },
+ {
+  "date": "2022-06-27",
+  "retailGas": 4.979,
+  "retailDiesel": 5.783
+ },
+ {
+  "date": "2022-07-01",
+  "rbobSpot": 3.838,
+  "ulsdSpot": 4.084,
+  "wtiSpot": 110.96,
+  "gasStocksMbbl": 219112,
+  "distStocksMbbl": 111135,
+  "gasDemandKbd": 9413,
+  "distDemandKbd": 4382,
+  "gasCrack": 50.24,
+  "dieselCrack": 60.57
+ },
+ {
+  "date": "2022-07-04",
+  "retailGas": 4.879,
+  "retailDiesel": 5.675
+ },
+ {
+  "date": "2022-07-08",
+  "rbobSpot": 3.532,
+  "ulsdSpot": 3.666,
+  "wtiSpot": 103.32,
+  "gasStocksMbbl": 224937,
+  "distStocksMbbl": 113803,
+  "gasDemandKbd": 8062,
+  "distDemandKbd": 3368,
+  "gasCrack": 45.02,
+  "dieselCrack": 50.65
+ },
+ {
+  "date": "2022-07-11",
+  "retailGas": 4.754,
+  "retailDiesel": 5.568
+ },
+ {
+  "date": "2022-07-15",
+  "rbobSpot": 3.473,
+  "ulsdSpot": 3.778,
+  "wtiSpot": 99.92,
+  "gasStocksMbbl": 228435,
+  "distStocksMbbl": 112508,
+  "gasDemandKbd": 8521,
+  "distDemandKbd": 3697,
+  "gasCrack": 45.95,
+  "dieselCrack": 58.76
+ },
+ {
+  "date": "2022-07-18",
+  "retailGas": 4.599,
+  "retailDiesel": 5.432
+ },
+ {
+  "date": "2022-07-22",
+  "rbobSpot": 3.406,
+  "ulsdSpot": 3.634,
+  "wtiSpot": 102.24,
+  "gasStocksMbbl": 225131,
+  "distStocksMbbl": 111724,
+  "gasDemandKbd": 9245,
+  "distDemandKbd": 3750,
+  "gasCrack": 40.81,
+  "dieselCrack": 50.39
+ },
+ {
+  "date": "2022-07-25",
+  "retailGas": 4.44,
+  "retailDiesel": 5.268
+ },
+ {
+  "date": "2022-07-29",
+  "rbobSpot": 3.469,
+  "ulsdSpot": 3.633,
+  "wtiSpot": 99.6,
+  "gasStocksMbbl": 225294,
+  "distStocksMbbl": 109324,
+  "gasDemandKbd": 8541,
+  "distDemandKbd": 3877,
+  "gasCrack": 46.1,
+  "dieselCrack": 52.99
+ },
+ {
+  "date": "2022-08-01",
+  "retailGas": 4.304,
+  "retailDiesel": 5.138
+ },
+ {
+  "date": "2022-08-05",
+  "rbobSpot": 3.2,
+  "ulsdSpot": 3.386,
+  "wtiSpot": 94.01,
+  "gasStocksMbbl": 220316,
+  "distStocksMbbl": 111490,
+  "gasDemandKbd": 9123,
+  "distDemandKbd": 3724,
+  "gasCrack": 40.39,
+  "dieselCrack": 48.2
+ },
+ {
+  "date": "2022-08-08",
+  "retailGas": 4.151,
+  "retailDiesel": 4.993
+ },
+ {
+  "date": "2022-08-12",
+  "rbobSpot": 3.165,
+  "ulsdSpot": 3.382,
+  "wtiSpot": 94.65,
+  "gasStocksMbbl": 215674,
+  "distStocksMbbl": 112256,
+  "gasDemandKbd": 9348,
+  "distDemandKbd": 3925,
+  "gasCrack": 38.28,
+  "dieselCrack": 47.39
+ },
+ {
+  "date": "2022-08-15",
+  "retailGas": 4.051,
+  "retailDiesel": 4.911
+ },
+ {
+  "date": "2022-08-19",
+  "rbobSpot": 3.025,
+  "ulsdSpot": 3.572,
+  "wtiSpot": 91.81,
+  "gasStocksMbbl": 215647,
+  "distStocksMbbl": 111594,
+  "gasDemandKbd": 8434,
+  "distDemandKbd": 3888,
+  "gasCrack": 35.24,
+  "dieselCrack": 58.21
+ },
+ {
+  "date": "2022-08-22",
+  "retailGas": 3.993,
+  "retailDiesel": 4.909
+ },
+ {
+  "date": "2022-08-26",
+  "rbobSpot": 2.888,
+  "ulsdSpot": 3.915,
+  "wtiSpot": 94.47,
+  "gasStocksMbbl": 214475,
+  "distStocksMbbl": 111706,
+  "gasDemandKbd": 8591,
+  "distDemandKbd": 3566,
+  "gasCrack": 26.83,
+  "dieselCrack": 69.96
+ },
+ {
+  "date": "2022-08-29",
+  "retailGas": 3.938,
+  "retailDiesel": 5.115
+ },
+ {
+  "date": "2022-09-02",
+  "rbobSpot": 2.681,
+  "ulsdSpot": 3.739,
+  "wtiSpot": 90.79,
+  "gasStocksMbbl": 214808,
+  "distStocksMbbl": 111801,
+  "gasDemandKbd": 8727,
+  "distDemandKbd": 3624,
+  "gasCrack": 21.81,
+  "dieselCrack": 66.25
+ },
+ {
+  "date": "2022-09-05",
+  "retailGas": 3.859,
+  "retailDiesel": 5.084
+ },
+ {
+  "date": "2022-09-09",
+  "rbobSpot": 2.604,
+  "ulsdSpot": 3.599,
+  "wtiSpot": 85.29,
+  "gasStocksMbbl": 213040,
+  "distStocksMbbl": 116020,
+  "gasDemandKbd": 8494,
+  "distDemandKbd": 3132,
+  "gasCrack": 24.08,
+  "dieselCrack": 65.87
+ },
+ {
+  "date": "2022-09-12",
+  "retailGas": 3.805,
+  "retailDiesel": 5.033
+ },
+ {
+  "date": "2022-09-16",
+  "rbobSpot": 2.703,
+  "ulsdSpot": 3.42,
+  "wtiSpot": 87.24,
+  "gasStocksMbbl": 214610,
+  "distStocksMbbl": 117250,
+  "gasDemandKbd": 8322,
+  "distDemandKbd": 3409,
+  "gasCrack": 26.29,
+  "dieselCrack": 56.4
+ },
+ {
+  "date": "2022-09-19",
+  "retailGas": 3.771,
+  "retailDiesel": 4.964
+ },
+ {
+  "date": "2022-09-23",
+  "rbobSpot": 2.609,
+  "ulsdSpot": 3.34,
+  "wtiSpot": 83.46,
+  "gasStocksMbbl": 212188,
+  "distStocksMbbl": 114359,
+  "gasDemandKbd": 8825,
+  "distDemandKbd": 4178,
+  "gasCrack": 26.12,
+  "dieselCrack": 56.82
+ },
+ {
+  "date": "2022-09-26",
+  "retailGas": 3.832,
+  "retailDiesel": 4.889
+ },
+ {
+  "date": "2022-09-30",
+  "rbobSpot": 2.667,
+  "ulsdSpot": 3.338,
+  "wtiSpot": 80.08,
+  "gasStocksMbbl": 207460,
+  "distStocksMbbl": 110916,
+  "gasDemandKbd": 9465,
+  "distDemandKbd": 4105,
+  "gasCrack": 31.93,
+  "dieselCrack": 60.12
+ },
+ {
+  "date": "2022-10-03",
+  "retailGas": 3.909,
+  "retailDiesel": 4.836
+ },
+ {
+  "date": "2022-10-07",
+  "rbobSpot": 2.978,
+  "ulsdSpot": 3.91,
+  "wtiSpot": 88.22,
+  "gasStocksMbbl": 209482,
+  "distStocksMbbl": 106063,
+  "gasDemandKbd": 8276,
+  "distDemandKbd": 4370,
+  "gasCrack": 36.86,
+  "dieselCrack": 76
+ },
+ {
+  "date": "2022-10-10",
+  "retailGas": 4.034,
+  "retailDiesel": 5.224
+ },
+ {
+  "date": "2022-10-14",
+  "rbobSpot": 2.931,
+  "ulsdSpot": 4.479,
+  "wtiSpot": 88.97,
+  "gasStocksMbbl": 209368,
+  "distStocksMbbl": 106187,
+  "gasDemandKbd": 8678,
+  "distDemandKbd": 4072,
+  "gasCrack": 34.13,
+  "dieselCrack": 99.15
+ },
+ {
+  "date": "2022-10-17",
+  "retailGas": 3.99,
+  "retailDiesel": 5.339
+ },
+ {
+  "date": "2022-10-21",
+  "rbobSpot": 2.92,
+  "ulsdSpot": 4.433,
+  "wtiSpot": 85.36,
+  "gasStocksMbbl": 207890,
+  "distStocksMbbl": 106357,
+  "gasDemandKbd": 8930,
+  "distDemandKbd": 3878,
+  "gasCrack": 37.28,
+  "dieselCrack": 100.83
+ },
+ {
+  "date": "2022-10-24",
+  "retailGas": 3.887,
+  "retailDiesel": 5.341
+ },
+ {
+  "date": "2022-10-28",
+  "rbobSpot": 3.184,
+  "ulsdSpot": 4.494,
+  "wtiSpot": 87.87,
+  "gasStocksMbbl": 206633,
+  "distStocksMbbl": 106784,
+  "gasDemandKbd": 8660,
+  "distDemandKbd": 4257,
+  "gasCrack": 45.86,
+  "dieselCrack": 100.88
+ },
+ {
+  "date": "2022-10-31",
+  "retailGas": 3.857,
+  "retailDiesel": 5.317
+ },
+ {
+  "date": "2022-11-04",
+  "rbobSpot": 3.126,
+  "ulsdSpot": 4.513,
+  "wtiSpot": 89.14,
+  "gasStocksMbbl": 205733,
+  "distStocksMbbl": 106263,
+  "gasDemandKbd": 9011,
+  "distDemandKbd": 4161,
+  "gasCrack": 42.15,
+  "dieselCrack": 100.41
+ },
+ {
+  "date": "2022-11-07",
+  "retailGas": 3.909,
+  "retailDiesel": 5.333
+ },
+ {
+  "date": "2022-11-11",
+  "rbobSpot": 3.088,
+  "ulsdSpot": 4.694,
+  "wtiSpot": 88.41,
+  "gasStocksMbbl": 207940,
+  "distStocksMbbl": 107383,
+  "gasDemandKbd": 8742,
+  "distDemandKbd": 3863,
+  "gasCrack": 41.29,
+  "dieselCrack": 108.74
+ },
+ {
+  "date": "2022-11-14",
+  "retailGas": 3.876,
+  "retailDiesel": 5.313
+ },
+ {
+  "date": "2022-11-18",
+  "rbobSpot": 2.812,
+  "ulsdSpot": 4.168,
+  "wtiSpot": 84.02,
+  "gasStocksMbbl": 210998,
+  "distStocksMbbl": 109101,
+  "gasDemandKbd": 8327,
+  "distDemandKbd": 3846,
+  "gasCrack": 34.08,
+  "dieselCrack": 91.04
+ },
+ {
+  "date": "2022-11-21",
+  "retailGas": 3.763,
+  "retailDiesel": 5.233
+ },
+ {
+  "date": "2022-11-25",
+  "rbobSpot": 2.662,
+  "ulsdSpot": 3.496,
+  "wtiSpot": 78.74,
+  "gasStocksMbbl": 213768,
+  "distStocksMbbl": 112648,
+  "gasDemandKbd": 8317,
+  "distDemandKbd": 3656,
+  "gasCrack": 33.06,
+  "dieselCrack": 68.09
+ },
+ {
+  "date": "2022-11-28",
+  "retailGas": 3.649,
+  "retailDiesel": 5.141
+ },
+ {
+  "date": "2022-12-02",
+  "rbobSpot": 2.517,
+  "ulsdSpot": 3.273,
+  "wtiSpot": 79.29,
+  "gasStocksMbbl": 219087,
+  "distStocksMbbl": 118807,
+  "gasDemandKbd": 8358,
+  "distDemandKbd": 3550,
+  "gasCrack": 26.42,
+  "dieselCrack": 58.18
+ },
+ {
+  "date": "2022-12-05",
+  "retailGas": 3.504,
+  "retailDiesel": 4.967
+ },
+ {
+  "date": "2022-12-09",
+  "rbobSpot": 2.298,
+  "ulsdSpot": 2.867,
+  "wtiSpot": 73.06,
+  "gasStocksMbbl": 223583,
+  "distStocksMbbl": 120171,
+  "gasDemandKbd": 8255,
+  "distDemandKbd": 3768,
+  "gasCrack": 23.46,
+  "dieselCrack": 47.35
+ },
+ {
+  "date": "2022-12-12",
+  "retailGas": 3.353,
+  "retailDiesel": 4.754
+ },
+ {
+  "date": "2022-12-16",
+  "rbobSpot": 2.262,
+  "ulsdSpot": 3.129,
+  "wtiSpot": 75.12,
+  "gasStocksMbbl": 226113,
+  "distStocksMbbl": 119929,
+  "gasDemandKbd": 8714,
+  "distDemandKbd": 4015,
+  "gasCrack": 19.88,
+  "dieselCrack": 56.3
+ },
+ {
+  "date": "2022-12-19",
+  "retailGas": 3.234,
+  "retailDiesel": 4.596
+ },
+ {
+  "date": "2022-12-23",
+  "rbobSpot": 2.355,
+  "ulsdSpot": 3.131,
+  "wtiSpot": 77.28,
+  "gasStocksMbbl": 223008,
+  "distStocksMbbl": 120212,
+  "gasDemandKbd": 9327,
+  "distDemandKbd": 3880,
+  "gasCrack": 21.63,
+  "dieselCrack": 54.22
+ },
+ {
+  "date": "2022-12-26",
+  "retailGas": 3.203,
+  "retailDiesel": 4.537
+ },
+ {
+  "date": "2022-12-30",
+  "rbobSpot": 2.502,
+  "ulsdSpot": 3.335,
+  "wtiSpot": 79.23,
+  "gasStocksMbbl": 222662,
+  "distStocksMbbl": 118785,
+  "gasDemandKbd": 7514,
+  "distDemandKbd": 2799,
+  "gasCrack": 25.85,
+  "dieselCrack": 60.84
+ },
+ {
+  "date": "2023-01-02",
+  "retailGas": 3.331,
+  "retailDiesel": 4.583
+ },
+ {
+  "date": "2023-01-06",
+  "rbobSpot": 2.413,
+  "ulsdSpot": 3.082,
+  "wtiSpot": 74.27,
+  "gasStocksMbbl": 226776,
+  "distStocksMbbl": 117716,
+  "gasDemandKbd": 7558,
+  "distDemandKbd": 3821,
+  "gasCrack": 27.08,
+  "dieselCrack": 55.17
+ },
+ {
+  "date": "2023-01-09",
+  "retailGas": 3.366,
+  "retailDiesel": 4.549
+ },
+ {
+  "date": "2023-01-13",
+  "rbobSpot": 2.515,
+  "ulsdSpot": 3.215,
+  "wtiSpot": 77.1,
+  "gasStocksMbbl": 230259,
+  "distStocksMbbl": 115777,
+  "gasDemandKbd": 8054,
+  "distDemandKbd": 4024,
+  "gasCrack": 28.53,
+  "dieselCrack": 57.93
+ },
+ {
+  "date": "2023-01-16",
+  "retailGas": 3.416,
+  "retailDiesel": 4.524
+ },
+ {
+  "date": "2023-01-20",
+  "rbobSpot": 2.683,
+  "ulsdSpot": 3.384,
+  "wtiSpot": 80.34,
+  "gasStocksMbbl": 232022,
+  "distStocksMbbl": 115270,
+  "gasDemandKbd": 8142,
+  "distDemandKbd": 3878,
+  "gasCrack": 32.35,
+  "dieselCrack": 61.79
+ },
+ {
+  "date": "2023-01-23",
+  "retailGas": 3.519,
+  "retailDiesel": 4.604
+ },
+ {
+  "date": "2023-01-27",
+  "rbobSpot": 2.726,
+  "ulsdSpot": 3.42,
+  "wtiSpot": 80.33,
+  "gasStocksMbbl": 234598,
+  "distStocksMbbl": 117590,
+  "gasDemandKbd": 8491,
+  "distDemandKbd": 3692,
+  "gasCrack": 34.16,
+  "dieselCrack": 63.31
+ },
+ {
+  "date": "2023-01-30",
+  "retailGas": 3.594,
+  "retailDiesel": 4.622
+ },
+ {
+  "date": "2023-02-03",
+  "rbobSpot": 2.568,
+  "ulsdSpot": 3.012,
+  "wtiSpot": 76.51,
+  "gasStocksMbbl": 239606,
+  "distStocksMbbl": 120522,
+  "gasDemandKbd": 8428,
+  "distDemandKbd": 3762,
+  "gasCrack": 31.35,
+  "dieselCrack": 49.99
+ },
+ {
+  "date": "2023-02-06",
+  "retailGas": 3.552,
+  "retailDiesel": 4.539
+ },
+ {
+  "date": "2023-02-10",
+  "rbobSpot": 2.586,
+  "ulsdSpot": 2.865,
+  "wtiSpot": 77.51,
+  "gasStocksMbbl": 241922,
+  "distStocksMbbl": 119237,
+  "gasDemandKbd": 8274,
+  "distDemandKbd": 3894,
+  "gasCrack": 31.1,
+  "dieselCrack": 42.82
+ },
+ {
+  "date": "2023-02-13",
+  "retailGas": 3.502,
+  "retailDiesel": 4.444
+ },
+ {
+  "date": "2023-02-17",
+  "rbobSpot": 2.578,
+  "ulsdSpot": 2.825,
+  "wtiSpot": 78.51,
+  "gasStocksMbbl": 240066,
+  "distStocksMbbl": 121935,
+  "gasDemandKbd": 8910,
+  "distDemandKbd": 3771,
+  "gasCrack": 29.77,
+  "dieselCrack": 40.14
+ },
+ {
+  "date": "2023-02-20",
+  "retailGas": 3.494,
+  "retailDiesel": 4.376
+ },
+ {
+  "date": "2023-02-24",
+  "rbobSpot": 2.445,
+  "ulsdSpot": 2.741,
+  "wtiSpot": 75.42,
+  "gasStocksMbbl": 239192,
+  "distStocksMbbl": 122114,
+  "gasDemandKbd": 9112,
+  "distDemandKbd": 3835,
+  "gasCrack": 27.27,
+  "dieselCrack": 39.7
+ },
+ {
+  "date": "2023-02-27",
+  "retailGas": 3.457,
+  "retailDiesel": 4.294
+ },
+ {
+  "date": "2023-03-03",
+  "rbobSpot": 2.552,
+  "ulsdSpot": 2.857,
+  "wtiSpot": 77.54,
+  "gasStocksMbbl": 238058,
+  "distStocksMbbl": 122252,
+  "gasDemandKbd": 8562,
+  "distDemandKbd": 3514,
+  "gasCrack": 29.64,
+  "dieselCrack": 42.45
+ },
+ {
+  "date": "2023-03-06",
+  "retailGas": 3.505,
+  "retailDiesel": 4.282
+ },
+ {
+  "date": "2023-03-10",
+  "rbobSpot": 2.534,
+  "ulsdSpot": 2.792,
+  "wtiSpot": 77.31,
+  "gasStocksMbbl": 235997,
+  "distStocksMbbl": 119715,
+  "gasDemandKbd": 8594,
+  "distDemandKbd": 3736,
+  "gasCrack": 29.12,
+  "dieselCrack": 39.95
+ },
+ {
+  "date": "2023-03-13",
+  "retailGas": 3.568,
+  "retailDiesel": 4.247
+ },
+ {
+  "date": "2023-03-17",
+  "rbobSpot": 2.382,
+  "ulsdSpot": 2.718,
+  "wtiSpot": 69.6,
+  "gasStocksMbbl": 229598,
+  "distStocksMbbl": 116402,
+  "gasDemandKbd": 8960,
+  "distDemandKbd": 3974,
+  "gasCrack": 30.44,
+  "dieselCrack": 44.56
+ },
+ {
+  "date": "2023-03-20",
+  "retailGas": 3.534,
+  "retailDiesel": 4.185
+ },
+ {
+  "date": "2023-03-24",
+  "rbobSpot": 2.492,
+  "ulsdSpot": 2.706,
+  "wtiSpot": 69.33,
+  "gasStocksMbbl": 226694,
+  "distStocksMbbl": 116683,
+  "gasDemandKbd": 9145,
+  "distDemandKbd": 3713,
+  "gasCrack": 35.33,
+  "dieselCrack": 44.32
+ },
+ {
+  "date": "2023-03-27",
+  "retailGas": 3.533,
+  "retailDiesel": 4.128
+ },
+ {
+  "date": "2023-03-31",
+  "rbobSpot": 2.595,
+  "ulsdSpot": 2.686,
+  "wtiSpot": 73.79,
+  "gasStocksMbbl": 222575,
+  "distStocksMbbl": 113051,
+  "gasDemandKbd": 9295,
+  "distDemandKbd": 4240,
+  "gasCrack": 35.2,
+  "dieselCrack": 39.02
+ },
+ {
+  "date": "2023-04-03",
+  "retailGas": 3.606,
+  "retailDiesel": 4.105
+ },
+ {
+  "date": "2023-04-07",
+  "rbobSpot": 2.825,
+  "ulsdSpot": 2.727,
+  "wtiSpot": 80.62,
+  "gasStocksMbbl": 222245,
+  "distStocksMbbl": 112445,
+  "gasDemandKbd": 8936,
+  "distDemandKbd": 3763,
+  "gasCrack": 38.03,
+  "dieselCrack": 33.91
+ },
+ {
+  "date": "2023-04-10",
+  "retailGas": 3.703,
+  "retailDiesel": 4.098
+ },
+ {
+  "date": "2023-04-14",
+  "rbobSpot": 2.907,
+  "ulsdSpot": 2.705,
+  "wtiSpot": 81.87,
+  "gasStocksMbbl": 223544,
+  "distStocksMbbl": 112090,
+  "gasDemandKbd": 8519,
+  "distDemandKbd": 3765,
+  "gasCrack": 40.22,
+  "dieselCrack": 31.74
+ },
+ {
+  "date": "2023-04-17",
+  "retailGas": 3.769,
+  "retailDiesel": 4.116
+ },
+ {
+  "date": "2023-04-21",
+  "rbobSpot": 2.712,
+  "ulsdSpot": 2.554,
+  "wtiSpot": 79.22,
+  "gasStocksMbbl": 221136,
+  "distStocksMbbl": 111513,
+  "gasDemandKbd": 9511,
+  "distDemandKbd": 3728,
+  "gasCrack": 34.68,
+  "dieselCrack": 28.05
+ },
+ {
+  "date": "2023-04-24",
+  "retailGas": 3.765,
+  "retailDiesel": 4.077
+ },
+ {
+  "date": "2023-04-28",
+  "rbobSpot": 2.629,
+  "ulsdSpot": 2.413,
+  "wtiSpot": 76.31,
+  "gasStocksMbbl": 222878,
+  "distStocksMbbl": 110323,
+  "gasDemandKbd": 8618,
+  "distDemandKbd": 3872,
+  "gasCrack": 34.11,
+  "dieselCrack": 25.04
+ },
+ {
+  "date": "2023-05-01",
+  "retailGas": 3.711,
+  "retailDiesel": 4.018
+ },
+ {
+  "date": "2023-05-05",
+  "rbobSpot": 2.477,
+  "ulsdSpot": 2.292,
+  "wtiSpot": 71.16,
+  "gasStocksMbbl": 219711,
+  "distStocksMbbl": 106153,
+  "gasDemandKbd": 9303,
+  "distDemandKbd": 4035,
+  "gasCrack": 32.87,
+  "dieselCrack": 25.1
+ },
+ {
+  "date": "2023-05-08",
+  "retailGas": 3.644,
+  "retailDiesel": 3.922
+ },
+ {
+  "date": "2023-05-12",
+  "rbobSpot": 2.529,
+  "ulsdSpot": 2.364,
+  "wtiSpot": 72.03,
+  "gasStocksMbbl": 218330,
+  "distStocksMbbl": 106233,
+  "gasDemandKbd": 8908,
+  "distDemandKbd": 3736,
+  "gasCrack": 34.19,
+  "dieselCrack": 27.26
+ },
+ {
+  "date": "2023-05-15",
+  "retailGas": 3.647,
+  "retailDiesel": 3.897
+ },
+ {
+  "date": "2023-05-19",
+  "rbobSpot": 2.57,
+  "ulsdSpot": 2.385,
+  "wtiSpot": 71.62,
+  "gasStocksMbbl": 216277,
+  "distStocksMbbl": 105672,
+  "gasDemandKbd": 9437,
+  "distDemandKbd": 4198,
+  "gasCrack": 36.32,
+  "dieselCrack": 28.55
+ },
+ {
+  "date": "2023-05-22",
+  "retailGas": 3.645,
+  "retailDiesel": 3.883
+ },
+ {
+  "date": "2023-05-26",
+  "rbobSpot": 2.705,
+  "ulsdSpot": 2.372,
+  "wtiSpot": 72.62,
+  "gasStocksMbbl": 216070,
+  "distStocksMbbl": 106657,
+  "gasDemandKbd": 9098,
+  "distDemandKbd": 3646,
+  "gasCrack": 40.99,
+  "dieselCrack": 27
+ },
+ {
+  "date": "2023-05-29",
+  "retailGas": 3.684,
+  "retailDiesel": 3.855
+ },
+ {
+  "date": "2023-06-02",
+  "rbobSpot": 2.634,
+  "ulsdSpot": 2.311,
+  "wtiSpot": 69.85,
+  "gasStocksMbbl": 218815,
+  "distStocksMbbl": 111731,
+  "gasDemandKbd": 9218,
+  "distDemandKbd": 3814,
+  "gasCrack": 40.78,
+  "dieselCrack": 27.21
+ },
+ {
+  "date": "2023-06-05",
+  "retailGas": 3.655,
+  "retailDiesel": 3.797
+ },
+ {
+  "date": "2023-06-09",
+  "rbobSpot": 2.774,
+  "ulsdSpot": 2.385,
+  "wtiSpot": 71.56,
+  "gasStocksMbbl": 220923,
+  "distStocksMbbl": 113854,
+  "gasDemandKbd": 9193,
+  "distDemandKbd": 3574,
+  "gasCrack": 44.95,
+  "dieselCrack": 28.61
+ },
+ {
+  "date": "2023-06-12",
+  "retailGas": 3.707,
+  "retailDiesel": 3.794
+ },
+ {
+  "date": "2023-06-16",
+  "rbobSpot": 2.701,
+  "ulsdSpot": 2.433,
+  "wtiSpot": 69.42,
+  "gasStocksMbbl": 221402,
+  "distStocksMbbl": 114288,
+  "gasDemandKbd": 9375,
+  "distDemandKbd": 3978,
+  "gasCrack": 44.02,
+  "dieselCrack": 32.77
+ },
+ {
+  "date": "2023-06-19",
+  "retailGas": 3.69,
+  "retailDiesel": 3.815
+ },
+ {
+  "date": "2023-06-23",
+  "rbobSpot": 2.568,
+  "ulsdSpot": 2.502,
+  "wtiSpot": 70.41,
+  "gasStocksMbbl": 222005,
+  "distStocksMbbl": 114411,
+  "gasDemandKbd": 9306,
+  "distDemandKbd": 3314,
+  "gasCrack": 37.45,
+  "dieselCrack": 34.67
+ },
+ {
+  "date": "2023-06-26",
+  "retailGas": 3.685,
+  "retailDiesel": 3.801
+ },
+ {
+  "date": "2023-06-30",
+  "rbobSpot": 2.56,
+  "ulsdSpot": 2.453,
+  "wtiSpot": 69.36,
+  "gasStocksMbbl": 219456,
+  "distStocksMbbl": 113366,
+  "gasDemandKbd": 9599,
+  "distDemandKbd": 3811,
+  "gasCrack": 38.16,
+  "dieselCrack": 33.67
+ },
+ {
+  "date": "2023-07-03",
+  "retailGas": 3.643,
+  "retailDiesel": 3.767
+ },
+ {
+  "date": "2023-07-07",
+  "rbobSpot": 2.551,
+  "ulsdSpot": 2.498,
+  "wtiSpot": 71.79,
+  "gasStocksMbbl": 219452,
+  "distStocksMbbl": 118181,
+  "gasDemandKbd": 8756,
+  "distDemandKbd": 2969,
+  "gasCrack": 35.35,
+  "dieselCrack": 33.13
+ },
+ {
+  "date": "2023-07-10",
+  "retailGas": 3.663,
+  "retailDiesel": 3.806
+ },
+ {
+  "date": "2023-07-14",
+  "rbobSpot": 2.649,
+  "ulsdSpot": 2.597,
+  "wtiSpot": 75.2,
+  "gasStocksMbbl": 218386,
+  "distStocksMbbl": 118194,
+  "gasDemandKbd": 8855,
+  "distDemandKbd": 3669,
+  "gasCrack": 36.06,
+  "dieselCrack": 33.87
+ },
+ {
+  "date": "2023-07-17",
+  "retailGas": 3.676,
+  "retailDiesel": 3.806
+ },
+ {
+  "date": "2023-07-21",
+  "rbobSpot": 2.677,
+  "ulsdSpot": 2.642,
+  "wtiSpot": 75.61,
+  "gasStocksMbbl": 217600,
+  "distStocksMbbl": 117949,
+  "gasDemandKbd": 8939,
+  "distDemandKbd": 3718,
+  "gasCrack": 36.82,
+  "dieselCrack": 35.35
+ },
+ {
+  "date": "2023-07-24",
+  "retailGas": 3.711,
+  "retailDiesel": 3.905
+ },
+ {
+  "date": "2023-07-28",
+  "rbobSpot": 2.856,
+  "ulsdSpot": 2.849,
+  "wtiSpot": 79.68,
+  "gasStocksMbbl": 219081,
+  "distStocksMbbl": 117153,
+  "gasDemandKbd": 8838,
+  "distDemandKbd": 3826,
+  "gasCrack": 40.27,
+  "dieselCrack": 39.98
+ },
+ {
+  "date": "2023-07-31",
+  "retailGas": 3.869,
+  "retailDiesel": 4.127
+ },
+ {
+  "date": "2023-08-04",
+  "rbobSpot": 2.838,
+  "ulsdSpot": 3.044,
+  "wtiSpot": 81.4,
+  "gasStocksMbbl": 216420,
+  "distStocksMbbl": 115447,
+  "gasDemandKbd": 9302,
+  "distDemandKbd": 3762,
+  "gasCrack": 37.8,
+  "dieselCrack": 46.45
+ },
+ {
+  "date": "2023-08-07",
+  "retailGas": 3.94,
+  "retailDiesel": 4.239
+ },
+ {
+  "date": "2023-08-11",
+  "rbobSpot": 2.931,
+  "ulsdSpot": 3.119,
+  "wtiSpot": 83.04,
+  "gasStocksMbbl": 216158,
+  "distStocksMbbl": 115743,
+  "gasDemandKbd": 8851,
+  "distDemandKbd": 3648,
+  "gasCrack": 40.06,
+  "dieselCrack": 47.96
+ },
+ {
+  "date": "2023-08-14",
+  "retailGas": 3.962,
+  "retailDiesel": 4.378
+ },
+ {
+  "date": "2023-08-18",
+  "rbobSpot": 2.901,
+  "ulsdSpot": 3.072,
+  "wtiSpot": 80.93,
+  "gasStocksMbbl": 217626,
+  "distStocksMbbl": 116688,
+  "gasDemandKbd": 8910,
+  "distDemandKbd": 3836,
+  "gasCrack": 40.91,
+  "dieselCrack": 48.09
+ },
+ {
+  "date": "2023-08-21",
+  "retailGas": 3.984,
+  "retailDiesel": 4.389
+ },
+ {
+  "date": "2023-08-25",
+  "rbobSpot": 2.852,
+  "ulsdSpot": 3.174,
+  "wtiSpot": 79.97,
+  "gasStocksMbbl": 217412,
+  "distStocksMbbl": 117923,
+  "gasDemandKbd": 9068,
+  "distDemandKbd": 3702,
+  "gasCrack": 39.81,
+  "dieselCrack": 53.34
+ },
+ {
+  "date": "2023-08-28",
+  "retailGas": 3.931,
+  "retailDiesel": 4.475
+ },
+ {
+  "date": "2023-09-01",
+  "rbobSpot": 2.806,
+  "ulsdSpot": 3.149,
+  "wtiSpot": 82.5,
+  "gasStocksMbbl": 214746,
+  "distStocksMbbl": 118602,
+  "gasDemandKbd": 9321,
+  "distDemandKbd": 3866,
+  "gasCrack": 35.35,
+  "dieselCrack": 49.76
+ },
+ {
+  "date": "2023-09-04",
+  "retailGas": 3.925,
+  "retailDiesel": 4.492
+ },
+ {
+  "date": "2023-09-08",
+  "rbobSpot": 2.884,
+  "ulsdSpot": 3.264,
+  "wtiSpot": 87.17,
+  "gasStocksMbbl": 220307,
+  "distStocksMbbl": 122533,
+  "gasDemandKbd": 8307,
+  "distDemandKbd": 3578,
+  "gasCrack": 33.96,
+  "dieselCrack": 49.92
+ },
+ {
+  "date": "2023-09-11",
+  "retailGas": 3.941,
+  "retailDiesel": 4.54
+ },
+ {
+  "date": "2023-09-15",
+  "rbobSpot": 3.013,
+  "ulsdSpot": 3.418,
+  "wtiSpot": 89.14,
+  "gasStocksMbbl": 219476,
+  "distStocksMbbl": 119666,
+  "gasDemandKbd": 8410,
+  "distDemandKbd": 4166,
+  "gasCrack": 37.41,
+  "dieselCrack": 54.42
+ },
+ {
+  "date": "2023-09-18",
+  "retailGas": 4.001,
+  "retailDiesel": 4.633
+ },
+ {
+  "date": "2023-09-22",
+  "rbobSpot": 2.898,
+  "ulsdSpot": 3.351,
+  "wtiSpot": 90.28,
+  "gasStocksMbbl": 220503,
+  "distStocksMbbl": 120064,
+  "gasDemandKbd": 8619,
+  "distDemandKbd": 3972,
+  "gasCrack": 31.44,
+  "dieselCrack": 50.46
+ },
+ {
+  "date": "2023-09-25",
+  "retailGas": 3.963,
+  "retailDiesel": 4.586
+ },
+ {
+  "date": "2023-09-29",
+  "rbobSpot": 2.826,
+  "ulsdSpot": 3.296,
+  "wtiSpot": 91.44,
+  "gasStocksMbbl": 226984,
+  "distStocksMbbl": 118795,
+  "gasDemandKbd": 8014,
+  "distDemandKbd": 3815,
+  "gasCrack": 27.25,
+  "dieselCrack": 46.99
+ },
+ {
+  "date": "2023-10-02",
+  "retailGas": 3.93,
+  "retailDiesel": 4.593
+ },
+ {
+  "date": "2023-10-06",
+  "rbobSpot": 2.536,
+  "ulsdSpot": 3.105,
+  "wtiSpot": 85.5,
+  "gasStocksMbbl": 225671,
+  "distStocksMbbl": 116958,
+  "gasDemandKbd": 8581,
+  "distDemandKbd": 3670,
+  "gasCrack": 21.01,
+  "dieselCrack": 44.91
+ },
+ {
+  "date": "2023-10-09",
+  "retailGas": 3.814,
+  "retailDiesel": 4.498
+ },
+ {
+  "date": "2023-10-13",
+  "rbobSpot": 2.527,
+  "ulsdSpot": 3.12,
+  "wtiSpot": 85.03,
+  "gasStocksMbbl": 223301,
+  "distStocksMbbl": 113773,
+  "gasDemandKbd": 8943,
+  "distDemandKbd": 4416,
+  "gasCrack": 21.1,
+  "dieselCrack": 46.01
+ },
+ {
+  "date": "2023-10-16",
+  "retailGas": 3.706,
+  "retailDiesel": 4.444
+ },
+ {
+  "date": "2023-10-20",
+  "rbobSpot": 2.58,
+  "ulsdSpot": 3.219,
+  "wtiSpot": 88.03,
+  "gasStocksMbbl": 223457,
+  "distStocksMbbl": 112087,
+  "gasDemandKbd": 8864,
+  "distDemandKbd": 4069,
+  "gasCrack": 20.33,
+  "dieselCrack": 47.17
+ },
+ {
+  "date": "2023-10-23",
+  "retailGas": 3.66,
+  "retailDiesel": 4.545
+ },
+ {
+  "date": "2023-10-27",
+  "rbobSpot": 2.467,
+  "ulsdSpot": 3.063,
+  "wtiSpot": 85.2,
+  "gasStocksMbbl": 223522,
+  "distStocksMbbl": 111295,
+  "gasDemandKbd": 8697,
+  "distDemandKbd": 3682,
+  "gasCrack": 18.41,
+  "dieselCrack": 43.45
+ },
+ {
+  "date": "2023-10-30",
+  "retailGas": 3.6,
+  "retailDiesel": 4.454
+ },
+ {
+  "date": "2023-11-03",
+  "rbobSpot": 2.296,
+  "ulsdSpot": 3.01,
+  "wtiSpot": 81.99,
+  "gasStocksMbbl": 217210,
+  "distStocksMbbl": 108001,
+  "gasDemandKbd": 9492,
+  "distDemandKbd": 4298,
+  "gasCrack": 14.44,
+  "dieselCrack": 44.43
+ },
+ {
+  "date": "2023-11-06",
+  "retailGas": 3.52,
+  "retailDiesel": 4.366
+ },
+ {
+  "date": "2023-11-10",
+  "rbobSpot": 2.303,
+  "ulsdSpot": 2.858,
+  "wtiSpot": 77.92,
+  "gasStocksMbbl": 215670,
+  "distStocksMbbl": 106579,
+  "gasDemandKbd": 8949,
+  "distDemandKbd": 4109,
+  "gasCrack": 18.81,
+  "dieselCrack": 42.12
+ },
+ {
+  "date": "2023-11-13",
+  "retailGas": 3.473,
+  "retailDiesel": 4.294
+ },
+ {
+  "date": "2023-11-17",
+  "rbobSpot": 2.307,
+  "ulsdSpot": 2.878,
+  "wtiSpot": 76.98,
+  "gasStocksMbbl": 216420,
+  "distStocksMbbl": 105561,
+  "gasDemandKbd": 8480,
+  "distDemandKbd": 4110,
+  "gasCrack": 19.91,
+  "dieselCrack": 43.9
+ },
+ {
+  "date": "2023-11-20",
+  "retailGas": 3.414,
+  "retailDiesel": 4.209
+ },
+ {
+  "date": "2023-11-24",
+  "rbobSpot": 2.381,
+  "ulsdSpot": 2.91,
+  "wtiSpot": 77.02,
+  "gasStocksMbbl": 218184,
+  "distStocksMbbl": 110778,
+  "gasDemandKbd": 8206,
+  "distDemandKbd": 3014,
+  "gasCrack": 22.98,
+  "dieselCrack": 45.2
+ },
+ {
+  "date": "2023-11-27",
+  "retailGas": 3.363,
+  "retailDiesel": 4.146
+ },
+ {
+  "date": "2023-12-01",
+  "rbobSpot": 2.313,
+  "ulsdSpot": 2.87,
+  "wtiSpot": 75.49,
+  "gasStocksMbbl": 223604,
+  "distStocksMbbl": 112045,
+  "gasDemandKbd": 8466,
+  "distDemandKbd": 3756,
+  "gasCrack": 21.66,
+  "dieselCrack": 45.05
+ },
+ {
+  "date": "2023-12-04",
+  "retailGas": 3.355,
+  "retailDiesel": 4.092
+ },
+ {
+  "date": "2023-12-08",
+  "rbobSpot": 2.242,
+  "ulsdSpot": 2.666,
+  "wtiSpot": 70.71,
+  "gasStocksMbbl": 224013,
+  "distStocksMbbl": 113539,
+  "gasDemandKbd": 8859,
+  "distDemandKbd": 3770,
+  "gasCrack": 23.45,
+  "dieselCrack": 41.26
+ },
+ {
+  "date": "2023-12-11",
+  "retailGas": 3.259,
+  "retailDiesel": 3.987
+ },
+ {
+  "date": "2023-12-15",
+  "rbobSpot": 2.218,
+  "ulsdSpot": 2.577,
+  "wtiSpot": 70.11,
+  "gasStocksMbbl": 226723,
+  "distStocksMbbl": 115024,
+  "gasDemandKbd": 8754,
+  "distDemandKbd": 3823,
+  "gasCrack": 23.05,
+  "dieselCrack": 38.12
+ },
+ {
+  "date": "2023-12-18",
+  "retailGas": 3.176,
+  "retailDiesel": 3.894
+ },
+ {
+  "date": "2023-12-22",
+  "rbobSpot": 2.245,
+  "ulsdSpot": 2.673,
+  "wtiSpot": 73.23,
+  "gasStocksMbbl": 226054,
+  "distStocksMbbl": 115765,
+  "gasDemandKbd": 9168,
+  "distDemandKbd": 3977,
+  "gasCrack": 21.06,
+  "dieselCrack": 39.04
+ },
+ {
+  "date": "2023-12-25",
+  "retailGas": 3.238,
+  "retailDiesel": 3.914
+ },
+ {
+  "date": "2023-12-29",
+  "rbobSpot": 2.193,
+  "ulsdSpot": 2.583,
+  "wtiSpot": 73.52,
+  "gasStocksMbbl": 236954,
+  "distStocksMbbl": 125855,
+  "gasDemandKbd": 7954,
+  "distDemandKbd": 2658,
+  "gasCrack": 18.59,
+  "dieselCrack": 34.97
+ },
+ {
+  "date": "2024-01-01",
+  "retailGas": 3.213,
+  "retailDiesel": 3.876
+ },
+ {
+  "date": "2024-01-05",
+  "rbobSpot": 2.216,
+  "ulsdSpot": 2.589,
+  "wtiSpot": 72.49,
+  "gasStocksMbbl": 244982,
+  "distStocksMbbl": 132383,
+  "gasDemandKbd": 8325,
+  "distDemandKbd": 3432,
+  "gasCrack": 20.58,
+  "dieselCrack": 36.25
+ },
+ {
+  "date": "2024-01-08",
+  "retailGas": 3.197,
+  "retailDiesel": 3.828
+ },
+ {
+  "date": "2024-01-12",
+  "rbobSpot": 2.169,
+  "ulsdSpot": 2.638,
+  "wtiSpot": 72.03,
+  "gasStocksMbbl": 248065,
+  "distStocksMbbl": 134753,
+  "gasDemandKbd": 8269,
+  "distDemandKbd": 3645,
+  "gasCrack": 19.07,
+  "dieselCrack": 38.77
+ },
+ {
+  "date": "2024-01-15",
+  "retailGas": 3.179,
+  "retailDiesel": 3.863
+ },
+ {
+  "date": "2024-01-19",
+  "rbobSpot": 2.219,
+  "ulsdSpot": 2.661,
+  "wtiSpot": 73.36,
+  "gasStocksMbbl": 252977,
+  "distStocksMbbl": 133336,
+  "gasDemandKbd": 7880,
+  "distDemandKbd": 3784,
+  "gasCrack": 19.84,
+  "dieselCrack": 38.4
+ },
+ {
+  "date": "2024-01-22",
+  "retailGas": 3.181,
+  "retailDiesel": 3.838
+ },
+ {
+  "date": "2024-01-26",
+  "rbobSpot": 2.321,
+  "ulsdSpot": 2.738,
+  "wtiSpot": 76.36,
+  "gasStocksMbbl": 254134,
+  "distStocksMbbl": 130795,
+  "gasDemandKbd": 8144,
+  "distDemandKbd": 3757,
+  "gasCrack": 21.12,
+  "dieselCrack": 38.64
+ },
+ {
+  "date": "2024-01-29",
+  "retailGas": 3.214,
+  "retailDiesel": 3.867
+ },
+ {
+  "date": "2024-02-02",
+  "rbobSpot": 2.264,
+  "ulsdSpot": 2.766,
+  "wtiSpot": 75.78,
+  "gasStocksMbbl": 250988,
+  "distStocksMbbl": 127574,
+  "gasDemandKbd": 8807,
+  "distDemandKbd": 3817,
+  "gasCrack": 19.31,
+  "dieselCrack": 40.39
+ },
+ {
+  "date": "2024-02-05",
+  "retailGas": 3.254,
+  "retailDiesel": 3.899
+ },
+ {
+  "date": "2024-02-09",
+  "rbobSpot": 2.303,
+  "ulsdSpot": 2.827,
+  "wtiSpot": 75.05,
+  "gasStocksMbbl": 247330,
+  "distStocksMbbl": 125659,
+  "gasDemandKbd": 8168,
+  "distDemandKbd": 3514,
+  "gasCrack": 21.68,
+  "dieselCrack": 43.68
+ },
+ {
+  "date": "2024-02-12",
+  "retailGas": 3.309,
+  "retailDiesel": 4.109
+ },
+ {
+  "date": "2024-02-16",
+  "rbobSpot": 2.36,
+  "ulsdSpot": 2.843,
+  "wtiSpot": 78.17,
+  "gasStocksMbbl": 247037,
+  "distStocksMbbl": 121651,
+  "gasDemandKbd": 8200,
+  "distDemandKbd": 3940,
+  "gasCrack": 20.95,
+  "dieselCrack": 41.24
+ },
+ {
+  "date": "2024-02-19",
+  "retailGas": 3.385,
+  "retailDiesel": 4.109
+ },
+ {
+  "date": "2024-02-23",
+  "rbobSpot": 2.339,
+  "ulsdSpot": 2.712,
+  "wtiSpot": 78.71,
+  "gasStocksMbbl": 244205,
+  "distStocksMbbl": 121141,
+  "gasDemandKbd": 8467,
+  "distDemandKbd": 3536,
+  "gasCrack": 19.53,
+  "dieselCrack": 35.19
+ },
+ {
+  "date": "2024-02-26",
+  "retailGas": 3.365,
+  "retailDiesel": 4.058
+ },
+ {
+  "date": "2024-03-01",
+  "rbobSpot": 2.375,
+  "ulsdSpot": 2.706,
+  "wtiSpot": 79.58,
+  "gasStocksMbbl": 239745,
+  "distStocksMbbl": 117010,
+  "gasDemandKbd": 9013,
+  "distDemandKbd": 4074,
+  "gasCrack": 20.17,
+  "dieselCrack": 34.07
+ },
+ {
+  "date": "2024-03-04",
+  "retailGas": 3.466,
+  "retailDiesel": 4.022
+ },
+ {
+  "date": "2024-03-08",
+  "rbobSpot": 2.364,
+  "ulsdSpot": 2.668,
+  "wtiSpot": 79.53,
+  "gasStocksMbbl": 234083,
+  "distStocksMbbl": 117898,
+  "gasDemandKbd": 9044,
+  "distDemandKbd": 3375,
+  "gasCrack": 19.76,
+  "dieselCrack": 32.53
+ },
+ {
+  "date": "2024-03-11",
+  "retailGas": 3.492,
+  "retailDiesel": 4.004
+ },
+ {
+  "date": "2024-03-15",
+  "rbobSpot": 2.478,
+  "ulsdSpot": 2.685,
+  "wtiSpot": 80.43,
+  "gasStocksMbbl": 230773,
+  "distStocksMbbl": 118522,
+  "gasDemandKbd": 8809,
+  "distDemandKbd": 3786,
+  "gasCrack": 23.65,
+  "dieselCrack": 32.34
+ },
+ {
+  "date": "2024-03-18",
+  "retailGas": 3.569,
+  "retailDiesel": 4.028
+ },
+ {
+  "date": "2024-03-22",
+  "rbobSpot": 2.572,
+  "ulsdSpot": 2.702,
+  "wtiSpot": 82.79,
+  "gasStocksMbbl": 232072,
+  "distStocksMbbl": 117337,
+  "gasDemandKbd": 8715,
+  "distDemandKbd": 4028,
+  "gasCrack": 25.23,
+  "dieselCrack": 30.69
+ },
+ {
+  "date": "2024-03-25",
+  "retailGas": 3.639,
+  "retailDiesel": 4.034
+ },
+ {
+  "date": "2024-03-29",
+  "rbobSpot": 2.53,
+  "ulsdSpot": 2.619,
+  "wtiSpot": 82.73,
+  "gasStocksMbbl": 227816,
+  "distStocksMbbl": 116069,
+  "gasDemandKbd": 9236,
+  "distDemandKbd": 3495,
+  "gasCrack": 23.53,
+  "dieselCrack": 27.27
+ },
+ {
+  "date": "2024-04-01",
+  "retailGas": 3.636,
+  "retailDiesel": 3.996
+ },
+ {
+  "date": "2024-04-05",
+  "rbobSpot": 2.747,
+  "ulsdSpot": 2.699,
+  "wtiSpot": 86.35,
+  "gasStocksMbbl": 228531,
+  "distStocksMbbl": 117728,
+  "gasDemandKbd": 8612,
+  "distDemandKbd": 2985,
+  "gasCrack": 29.02,
+  "dieselCrack": 27.01
+ },
+ {
+  "date": "2024-04-08",
+  "retailGas": 3.712,
+  "retailDiesel": 4.061
+ },
+ {
+  "date": "2024-04-12",
+  "rbobSpot": 2.753,
+  "ulsdSpot": 2.688,
+  "wtiSpot": 86.5,
+  "gasStocksMbbl": 227377,
+  "distStocksMbbl": 114968,
+  "gasDemandKbd": 8662,
+  "distDemandKbd": 3666,
+  "gasCrack": 29.13,
+  "dieselCrack": 26.4
+ },
+ {
+  "date": "2024-04-15",
+  "retailGas": 3.751,
+  "retailDiesel": 4.015
+ },
+ {
+  "date": "2024-04-19",
+  "rbobSpot": 2.726,
+  "ulsdSpot": 2.584,
+  "wtiSpot": 84.65,
+  "gasStocksMbbl": 226743,
+  "distStocksMbbl": 116582,
+  "gasDemandKbd": 8423,
+  "distDemandKbd": 3552,
+  "gasCrack": 29.84,
+  "dieselCrack": 23.88
+ },
+ {
+  "date": "2024-04-22",
+  "retailGas": 3.791,
+  "retailDiesel": 3.992
+ },
+ {
+  "date": "2024-04-26",
+  "rbobSpot": 2.766,
+  "ulsdSpot": 2.548,
+  "wtiSpot": 84.48,
+  "gasStocksMbbl": 227087,
+  "distStocksMbbl": 115850,
+  "gasDemandKbd": 8618,
+  "distDemandKbd": 3678,
+  "gasCrack": 31.69,
+  "dieselCrack": 22.54
+ },
+ {
+  "date": "2024-04-29",
+  "retailGas": 3.777,
+  "retailDiesel": 3.947
+ },
+ {
+  "date": "2024-05-03",
+  "rbobSpot": 2.672,
+  "ulsdSpot": 2.475,
+  "wtiSpot": 81.74,
+  "gasStocksMbbl": 228002,
+  "distStocksMbbl": 116410,
+  "gasDemandKbd": 8797,
+  "distDemandKbd": 3489,
+  "gasCrack": 30.48,
+  "dieselCrack": 22.21
+ },
+ {
+  "date": "2024-05-06",
+  "retailGas": 3.766,
+  "retailDiesel": 3.894
+ },
+ {
+  "date": "2024-05-10",
+  "rbobSpot": 2.55,
+  "ulsdSpot": 2.452,
+  "wtiSpot": 80.26,
+  "gasStocksMbbl": 227767,
+  "distStocksMbbl": 116365,
+  "gasDemandKbd": 8875,
+  "distDemandKbd": 3831,
+  "gasCrack": 26.84,
+  "dieselCrack": 22.72
+ },
+ {
+  "date": "2024-05-13",
+  "retailGas": 3.731,
+  "retailDiesel": 3.848
+ },
+ {
+  "date": "2024-05-17",
+  "rbobSpot": 2.535,
+  "ulsdSpot": 2.431,
+  "wtiSpot": 80.61,
+  "gasStocksMbbl": 226822,
+  "distStocksMbbl": 116744,
+  "gasDemandKbd": 9315,
+  "distDemandKbd": 3883,
+  "gasCrack": 25.86,
+  "dieselCrack": 21.49
+ },
+ {
+  "date": "2024-05-20",
+  "retailGas": 3.706,
+  "retailDiesel": 3.789
+ },
+ {
+  "date": "2024-05-24",
+  "rbobSpot": 2.514,
+  "ulsdSpot": 2.428,
+  "wtiSpot": 79.43,
+  "gasStocksMbbl": 228844,
+  "distStocksMbbl": 119288,
+  "gasDemandKbd": 9148,
+  "distDemandKbd": 3795,
+  "gasCrack": 26.16,
+  "dieselCrack": 22.55
+ },
+ {
+  "date": "2024-05-27",
+  "retailGas": 3.698,
+  "retailDiesel": 3.758
+ },
+ {
+  "date": "2024-05-31",
+  "rbobSpot": 2.46,
+  "ulsdSpot": 2.395,
+  "wtiSpot": 79.52,
+  "gasStocksMbbl": 230946,
+  "distStocksMbbl": 122485,
+  "gasDemandKbd": 8946,
+  "distDemandKbd": 3367,
+  "gasCrack": 23.8,
+  "dieselCrack": 21.07
+ },
+ {
+  "date": "2024-06-03",
+  "retailGas": 3.638,
+  "retailDiesel": 3.726
+ },
+ {
+  "date": "2024-06-07",
+  "rbobSpot": 2.365,
+  "ulsdSpot": 2.297,
+  "wtiSpot": 75.53,
+  "gasStocksMbbl": 233512,
+  "distStocksMbbl": 123366,
+  "gasDemandKbd": 9040,
+  "distDemandKbd": 3649,
+  "gasCrack": 23.8,
+  "dieselCrack": 20.94
+ },
+ {
+  "date": "2024-06-10",
+  "retailGas": 3.551,
+  "retailDiesel": 3.658
+ },
+ {
+  "date": "2024-06-14",
+  "rbobSpot": 2.406,
+  "ulsdSpot": 2.426,
+  "wtiSpot": 79.24,
+  "gasStocksMbbl": 231232,
+  "distStocksMbbl": 121640,
+  "gasDemandKbd": 9386,
+  "distDemandKbd": 3977,
+  "gasCrack": 21.81,
+  "dieselCrack": 22.65
+ },
+ {
+  "date": "2024-06-17",
+  "retailGas": 3.556,
+  "retailDiesel": 3.735
+ },
+ {
+  "date": "2024-06-21",
+  "rbobSpot": 2.484,
+  "ulsdSpot": 2.485,
+  "wtiSpot": 82.26,
+  "gasStocksMbbl": 233886,
+  "distStocksMbbl": 121263,
+  "gasDemandKbd": 8969,
+  "distDemandKbd": 3536,
+  "gasCrack": 22.07,
+  "dieselCrack": 22.11
+ },
+ {
+  "date": "2024-06-24",
+  "retailGas": 3.557,
+  "retailDiesel": 3.769
+ },
+ {
+  "date": "2024-06-28",
+  "rbobSpot": 2.527,
+  "ulsdSpot": 2.509,
+  "wtiSpot": 82.53,
+  "gasStocksMbbl": 231672,
+  "distStocksMbbl": 119728,
+  "gasDemandKbd": 9424,
+  "distDemandKbd": 3715,
+  "gasCrack": 23.6,
+  "dieselCrack": 22.85
+ },
+ {
+  "date": "2024-07-01",
+  "retailGas": 3.595,
+  "retailDiesel": 3.813
+ },
+ {
+  "date": "2024-07-05",
+  "rbobSpot": 2.58,
+  "ulsdSpot": 2.603,
+  "wtiSpot": 84.61,
+  "gasStocksMbbl": 229666,
+  "distStocksMbbl": 124612,
+  "gasDemandKbd": 9398,
+  "distDemandKbd": 3466,
+  "gasCrack": 23.75,
+  "dieselCrack": 24.72
+ },
+ {
+  "date": "2024-07-08",
+  "retailGas": 3.608,
+  "retailDiesel": 3.865
+ },
+ {
+  "date": "2024-07-12",
+  "rbobSpot": 2.521,
+  "ulsdSpot": 2.514,
+  "wtiSpot": 83.44,
+  "gasStocksMbbl": 232994,
+  "distStocksMbbl": 128066,
+  "gasDemandKbd": 8783,
+  "distDemandKbd": 3585,
+  "gasCrack": 22.44,
+  "dieselCrack": 22.15
+ },
+ {
+  "date": "2024-07-15",
+  "retailGas": 3.614,
+  "retailDiesel": 3.826
+ },
+ {
+  "date": "2024-07-19",
+  "rbobSpot": 2.477,
+  "ulsdSpot": 2.455,
+  "wtiSpot": 82.98,
+  "gasStocksMbbl": 227422,
+  "distStocksMbbl": 125313,
+  "gasDemandKbd": 9456,
+  "distDemandKbd": 3861,
+  "gasCrack": 21.05,
+  "dieselCrack": 20.13
+ },
+ {
+  "date": "2024-07-22",
+  "retailGas": 3.587,
+  "retailDiesel": 3.779
+ },
+ {
+  "date": "2024-07-26",
+  "rbobSpot": 2.442,
+  "ulsdSpot": 2.417,
+  "wtiSpot": 79.26,
+  "gasStocksMbbl": 223757,
+  "distStocksMbbl": 126847,
+  "gasDemandKbd": 9250,
+  "distDemandKbd": 3725,
+  "gasCrack": 23.3,
+  "dieselCrack": 22.25
+ },
+ {
+  "date": "2024-07-29",
+  "retailGas": 3.598,
+  "retailDiesel": 3.768
+ },
+ {
+  "date": "2024-08-02",
+  "rbobSpot": 2.399,
+  "ulsdSpot": 2.351,
+  "wtiSpot": 77.11,
+  "gasStocksMbbl": 225097,
+  "distStocksMbbl": 127796,
+  "gasDemandKbd": 8967,
+  "distDemandKbd": 3469,
+  "gasCrack": 23.65,
+  "dieselCrack": 21.63
+ },
+ {
+  "date": "2024-08-05",
+  "retailGas": 3.563,
+  "retailDiesel": 3.755
+ },
+ {
+  "date": "2024-08-09",
+  "rbobSpot": 2.391,
+  "ulsdSpot": 2.291,
+  "wtiSpot": 76.33,
+  "gasStocksMbbl": 222203,
+  "distStocksMbbl": 126123,
+  "gasDemandKbd": 9045,
+  "distDemandKbd": 3549,
+  "gasCrack": 24.09,
+  "dieselCrack": 19.89
+ },
+ {
+  "date": "2024-08-12",
+  "retailGas": 3.53,
+  "retailDiesel": 3.704
+ },
+ {
+  "date": "2024-08-16",
+  "rbobSpot": 2.387,
+  "ulsdSpot": 2.327,
+  "wtiSpot": 79.49,
+  "gasStocksMbbl": 220597,
+  "distStocksMbbl": 122811,
+  "gasDemandKbd": 9193,
+  "distDemandKbd": 3576,
+  "gasCrack": 20.76,
+  "dieselCrack": 18.24
+ },
+ {
+  "date": "2024-08-19",
+  "retailGas": 3.5,
+  "retailDiesel": 3.688
+ },
+ {
+  "date": "2024-08-23",
+  "rbobSpot": 2.268,
+  "ulsdSpot": 2.232,
+  "wtiSpot": 74.68,
+  "gasStocksMbbl": 218394,
+  "distStocksMbbl": 123086,
+  "gasDemandKbd": 9307,
+  "distDemandKbd": 3822,
+  "gasCrack": 20.58,
+  "dieselCrack": 19.06
+ },
+ {
+  "date": "2024-08-26",
+  "retailGas": 3.433,
+  "retailDiesel": 3.651
+ },
+ {
+  "date": "2024-08-30",
+  "rbobSpot": 2.255,
+  "ulsdSpot": 2.246,
+  "wtiSpot": 76.36,
+  "gasStocksMbbl": 219242,
+  "distStocksMbbl": 122715,
+  "gasDemandKbd": 8938,
+  "distDemandKbd": 3997,
+  "gasCrack": 18.35,
+  "dieselCrack": 17.97
+ },
+ {
+  "date": "2024-09-02",
+  "retailGas": 3.411,
+  "retailDiesel": 3.625
+ },
+ {
+  "date": "2024-09-06",
+  "rbobSpot": 2.022,
+  "ulsdSpot": 2.123,
+  "wtiSpot": 70.02,
+  "gasStocksMbbl": 221552,
+  "distStocksMbbl": 125023,
+  "gasDemandKbd": 8478,
+  "distDemandKbd": 3558,
+  "gasCrack": 14.9,
+  "dieselCrack": 19.15
+ },
+ {
+  "date": "2024-09-09",
+  "retailGas": 3.36,
+  "retailDiesel": 3.555
+ },
+ {
+  "date": "2024-09-13",
+  "rbobSpot": 2.028,
+  "ulsdSpot": 2.075,
+  "wtiSpot": 68.82,
+  "gasStocksMbbl": 221621,
+  "distStocksMbbl": 125148,
+  "gasDemandKbd": 8776,
+  "distDemandKbd": 3798,
+  "gasCrack": 16.36,
+  "dieselCrack": 18.33
+ },
+ {
+  "date": "2024-09-16",
+  "retailGas": 3.307,
+  "retailDiesel": 3.526
+ },
+ {
+  "date": "2024-09-20",
+  "rbobSpot": 2.106,
+  "ulsdSpot": 2.118,
+  "wtiSpot": 72.14,
+  "gasStocksMbbl": 220083,
+  "distStocksMbbl": 122921,
+  "gasDemandKbd": 9205,
+  "distDemandKbd": 4022,
+  "gasCrack": 16.31,
+  "dieselCrack": 16.82
+ },
+ {
+  "date": "2024-09-23",
+  "retailGas": 3.311,
+  "retailDiesel": 3.539
+ },
+ {
+  "date": "2024-09-27",
+  "rbobSpot": 2.065,
+  "ulsdSpot": 2.128,
+  "wtiSpot": 70.22,
+  "gasStocksMbbl": 221202,
+  "distStocksMbbl": 121637,
+  "gasDemandKbd": 8521,
+  "distDemandKbd": 3638,
+  "gasCrack": 16.51,
+  "dieselCrack": 19.16
+ },
+ {
+  "date": "2024-09-30",
+  "retailGas": 3.303,
+  "retailDiesel": 3.544
+ },
+ {
+  "date": "2024-10-04",
+  "rbobSpot": 2.127,
+  "ulsdSpot": 2.196,
+  "wtiSpot": 71.83,
+  "gasStocksMbbl": 214898,
+  "distStocksMbbl": 118513,
+  "gasDemandKbd": 9654,
+  "distDemandKbd": 4031,
+  "gasCrack": 17.5,
+  "dieselCrack": 20.4
+ },
+ {
+  "date": "2024-10-07",
+  "retailGas": 3.26,
+  "retailDiesel": 3.584
+ },
+ {
+  "date": "2024-10-11",
+  "rbobSpot": 2.223,
+  "ulsdSpot": 2.311,
+  "wtiSpot": 75.69,
+  "gasStocksMbbl": 212697,
+  "distStocksMbbl": 114979,
+  "gasDemandKbd": 8620,
+  "distDemandKbd": 4212,
+  "gasCrack": 17.68,
+  "dieselCrack": 21.37
+ },
+ {
+  "date": "2024-10-14",
+  "retailGas": 3.294,
+  "retailDiesel": 3.631
+ },
+ {
+  "date": "2024-10-18",
+  "rbobSpot": 2.139,
+  "ulsdSpot": 2.161,
+  "wtiSpot": 70.81,
+  "gasStocksMbbl": 213575,
+  "distStocksMbbl": 113839,
+  "gasDemandKbd": 8838,
+  "distDemandKbd": 4131,
+  "gasCrack": 19.03,
+  "dieselCrack": 19.95
+ },
+ {
+  "date": "2024-10-21",
+  "retailGas": 3.268,
+  "retailDiesel": 3.553
+ },
+ {
+  "date": "2024-10-25",
+  "rbobSpot": 2.153,
+  "ulsdSpot": 2.204,
+  "wtiSpot": 71.59,
+  "gasStocksMbbl": 210868,
+  "distStocksMbbl": 112862,
+  "gasDemandKbd": 9159,
+  "distDemandKbd": 3881,
+  "gasCrack": 18.84,
+  "dieselCrack": 20.98
+ },
+ {
+  "date": "2024-10-28",
+  "retailGas": 3.22,
+  "retailDiesel": 3.573
+ },
+ {
+  "date": "2024-11-01",
+  "rbobSpot": 2.076,
+  "ulsdSpot": 2.182,
+  "wtiSpot": 68.69,
+  "gasStocksMbbl": 211280,
+  "distStocksMbbl": 115809,
+  "gasDemandKbd": 8828,
+  "distDemandKbd": 3406,
+  "gasCrack": 18.5,
+  "dieselCrack": 22.95
+ },
+ {
+  "date": "2024-11-04",
+  "retailGas": 3.191,
+  "retailDiesel": 3.536
+ },
+ {
+  "date": "2024-11-08",
+  "rbobSpot": 2.147,
+  "ulsdSpot": 2.267,
+  "wtiSpot": 71.89,
+  "gasStocksMbbl": 206873,
+  "distStocksMbbl": 114415,
+  "gasDemandKbd": 9383,
+  "distDemandKbd": 4098,
+  "gasCrack": 18.28,
+  "dieselCrack": 23.32
+ },
+ {
+  "date": "2024-11-11",
+  "retailGas": 3.176,
+  "retailDiesel": 3.521
+ },
+ {
+  "date": "2024-11-15",
+  "rbobSpot": 2.073,
+  "ulsdSpot": 2.188,
+  "wtiSpot": 68.38,
+  "gasStocksMbbl": 208927,
+  "distStocksMbbl": 114301,
+  "gasDemandKbd": 8419,
+  "distDemandKbd": 3775,
+  "gasCrack": 18.69,
+  "dieselCrack": 23.52
+ },
+ {
+  "date": "2024-11-18",
+  "retailGas": 3.168,
+  "retailDiesel": 3.491
+ },
+ {
+  "date": "2024-11-22",
+  "rbobSpot": 2.145,
+  "ulsdSpot": 2.237,
+  "wtiSpot": 70.11,
+  "gasStocksMbbl": 212241,
+  "distStocksMbbl": 114717,
+  "gasDemandKbd": 8506,
+  "distDemandKbd": 3718,
+  "gasCrack": 19.98,
+  "dieselCrack": 23.84
+ },
+ {
+  "date": "2024-11-25",
+  "retailGas": 3.166,
+  "retailDiesel": 3.539
+ },
+ {
+  "date": "2024-11-29",
+  "rbobSpot": 2.078,
+  "ulsdSpot": 2.197,
+  "wtiSpot": 68.94,
+  "gasStocksMbbl": 214603,
+  "distStocksMbbl": 118100,
+  "gasDemandKbd": 8738,
+  "distDemandKbd": 3398,
+  "gasCrack": 18.34,
+  "dieselCrack": 23.33
+ },
+ {
+  "date": "2024-12-02",
+  "retailGas": 3.156,
+  "retailDiesel": 3.54
+ },
+ {
+  "date": "2024-12-06",
+  "rbobSpot": 2.065,
+  "ulsdSpot": 2.148,
+  "wtiSpot": 68.89,
+  "gasStocksMbbl": 219689,
+  "distStocksMbbl": 121335,
+  "gasDemandKbd": 8810,
+  "distDemandKbd": 3450,
+  "gasCrack": 17.84,
+  "dieselCrack": 21.33
+ },
+ {
+  "date": "2024-12-09",
+  "retailGas": 3.131,
+  "retailDiesel": 3.458
+ },
+ {
+  "date": "2024-12-13",
+  "rbobSpot": 2.05,
+  "ulsdSpot": 2.199,
+  "wtiSpot": 69.97,
+  "gasStocksMbbl": 222037,
+  "distStocksMbbl": 118155,
+  "gasDemandKbd": 8927,
+  "distDemandKbd": 4498,
+  "gasCrack": 16.13,
+  "dieselCrack": 22.39
+ },
+ {
+  "date": "2024-12-16",
+  "retailGas": 3.137,
+  "retailDiesel": 3.494
+ },
+ {
+  "date": "2024-12-20",
+  "rbobSpot": 2.014,
+  "ulsdSpot": 2.218,
+  "wtiSpot": 70.39,
+  "gasStocksMbbl": 223667,
+  "distStocksMbbl": 116461,
+  "gasDemandKbd": 9008,
+  "distDemandKbd": 4253,
+  "gasCrack": 14.2,
+  "dieselCrack": 22.77
+ },
+ {
+  "date": "2024-12-23",
+  "retailGas": 3.145,
+  "retailDiesel": 3.476
+ },
+ {
+  "date": "2024-12-27",
+  "rbobSpot": 2.024,
+  "ulsdSpot": 2.205,
+  "wtiSpot": 70.51,
+  "gasStocksMbbl": 231384,
+  "distStocksMbbl": 122867,
+  "gasDemandKbd": 8168,
+  "distDemandKbd": 3232,
+  "gasCrack": 14.5,
+  "dieselCrack": 22.1
+ },
+ {
+  "date": "2024-12-30",
+  "retailGas": 3.128,
+  "retailDiesel": 3.503
+ },
+ {
+  "date": "2025-01-03",
+  "rbobSpot": 2.091,
+  "ulsdSpot": 2.326,
+  "wtiSpot": 73.15,
+  "gasStocksMbbl": 237714,
+  "distStocksMbbl": 128938,
+  "gasDemandKbd": 8481,
+  "distDemandKbd": 3178,
+  "gasCrack": 14.67,
+  "dieselCrack": 24.54
+ },
+ {
+  "date": "2025-01-06",
+  "retailGas": 3.168,
+  "retailDiesel": 3.561
+ },
+ {
+  "date": "2025-01-10",
+  "rbobSpot": 2.109,
+  "ulsdSpot": 2.395,
+  "wtiSpot": 75.14,
+  "gasStocksMbbl": 243566,
+  "distStocksMbbl": 132015,
+  "gasDemandKbd": 8325,
+  "distDemandKbd": 3839,
+  "gasCrack": 13.44,
+  "dieselCrack": 25.45
+ },
+ {
+  "date": "2025-01-13",
+  "retailGas": 3.164,
+  "retailDiesel": 3.602
+ },
+ {
+  "date": "2025-01-17",
+  "rbobSpot": 2.212,
+  "ulsdSpot": 2.586,
+  "wtiSpot": 79.28,
+  "gasStocksMbbl": 245898,
+  "distStocksMbbl": 128945,
+  "gasDemandKbd": 8086,
+  "distDemandKbd": 4108,
+  "gasCrack": 13.62,
+  "dieselCrack": 29.33
+ },
+ {
+  "date": "2025-01-20",
+  "retailGas": 3.229,
+  "retailDiesel": 3.715
+ },
+ {
+  "date": "2025-01-24",
+  "rbobSpot": 2.157,
+  "ulsdSpot": 2.521,
+  "wtiSpot": 75.73,
+  "gasStocksMbbl": 248855,
+  "distStocksMbbl": 123951,
+  "gasDemandKbd": 8302,
+  "distDemandKbd": 4506,
+  "gasCrack": 14.86,
+  "dieselCrack": 30.15
+ },
+ {
+  "date": "2025-01-27",
+  "retailGas": 3.224,
+  "retailDiesel": 3.659
+ },
+ {
+  "date": "2025-01-31",
+  "rbobSpot": 2.134,
+  "ulsdSpot": 2.479,
+  "wtiSpot": 73.31,
+  "gasStocksMbbl": 251088,
+  "distStocksMbbl": 118480,
+  "gasDemandKbd": 8328,
+  "distDemandKbd": 4599,
+  "gasCrack": 16.32,
+  "dieselCrack": 30.81
+ },
+ {
+  "date": "2025-02-03",
+  "retailGas": 3.205,
+  "retailDiesel": 3.66
+ },
+ {
+  "date": "2025-02-07",
+  "rbobSpot": 2.165,
+  "ulsdSpot": 2.471,
+  "wtiSpot": 72.05,
+  "gasStocksMbbl": 248053,
+  "distStocksMbbl": 118615,
+  "gasDemandKbd": 8576,
+  "distDemandKbd": 3685,
+  "gasCrack": 18.88,
+  "dieselCrack": 31.73
+ },
+ {
+  "date": "2025-02-10",
+  "retailGas": 3.253,
+  "retailDiesel": 3.665
+ },
+ {
+  "date": "2025-02-14",
+  "rbobSpot": 2.181,
+  "ulsdSpot": 2.552,
+  "wtiSpot": 72.17,
+  "gasStocksMbbl": 247902,
+  "distStocksMbbl": 116564,
+  "gasDemandKbd": 8239,
+  "distDemandKbd": 4364,
+  "gasCrack": 19.43,
+  "dieselCrack": 35.01
+ },
+ {
+  "date": "2025-02-17",
+  "retailGas": 3.276,
+  "retailDiesel": 3.677
+ },
+ {
+  "date": "2025-02-21",
+  "rbobSpot": 2.148,
+  "ulsdSpot": 2.478,
+  "wtiSpot": 72.1,
+  "gasStocksMbbl": 248271,
+  "distStocksMbbl": 120472,
+  "gasDemandKbd": 8454,
+  "distDemandKbd": 4097,
+  "gasCrack": 18.12,
+  "dieselCrack": 31.98
+ },
+ {
+  "date": "2025-02-24",
+  "retailGas": 3.255,
+  "retailDiesel": 3.697
+ },
+ {
+  "date": "2025-02-28",
+  "rbobSpot": 1.961,
+  "ulsdSpot": 2.385,
+  "wtiSpot": 69.93,
+  "gasStocksMbbl": 246838,
+  "distStocksMbbl": 119154,
+  "gasDemandKbd": 8877,
+  "distDemandKbd": 3991,
+  "gasCrack": 12.43,
+  "dieselCrack": 30.24
+ },
+ {
+  "date": "2025-03-03",
+  "retailGas": 3.206,
+  "retailDiesel": 3.635
+ },
+ {
+  "date": "2025-03-07",
+  "rbobSpot": 1.945,
+  "ulsdSpot": 2.263,
+  "wtiSpot": 67.52,
+  "gasStocksMbbl": 241101,
+  "distStocksMbbl": 117595,
+  "gasDemandKbd": 9182,
+  "distDemandKbd": 3898,
+  "gasCrack": 14.17,
+  "dieselCrack": 27.53
+ },
+ {
+  "date": "2025-03-10",
+  "retailGas": 3.197,
+  "retailDiesel": 3.582
+ },
+ {
+  "date": "2025-03-14",
+  "rbobSpot": 1.944,
+  "ulsdSpot": 2.192,
+  "wtiSpot": 66.95,
+  "gasStocksMbbl": 240574,
+  "distStocksMbbl": 114783,
+  "gasDemandKbd": 8817,
+  "distDemandKbd": 4010,
+  "gasCrack": 14.7,
+  "dieselCrack": 25.11
+ },
+ {
+  "date": "2025-03-17",
+  "retailGas": 3.184,
+  "retailDiesel": 3.549
+ },
+ {
+  "date": "2025-03-21",
+  "rbobSpot": 1.995,
+  "ulsdSpot": 2.234,
+  "wtiSpot": 67.96,
+  "gasStocksMbbl": 239128,
+  "distStocksMbbl": 114362,
+  "gasDemandKbd": 8643,
+  "distDemandKbd": 3636,
+  "gasCrack": 15.83,
+  "dieselCrack": 25.87
+ },
+ {
+  "date": "2025-03-24",
+  "retailGas": 3.24,
+  "retailDiesel": 3.567
+ },
+ {
+  "date": "2025-03-28",
+  "rbobSpot": 2.04,
+  "ulsdSpot": 2.283,
+  "wtiSpot": 69.81,
+  "gasStocksMbbl": 237577,
+  "distStocksMbbl": 114626,
+  "gasDemandKbd": 8495,
+  "distDemandKbd": 3679,
+  "gasCrack": 15.87,
+  "dieselCrack": 26.08
+ },
+ {
+  "date": "2025-03-31",
+  "retailGas": 3.288,
+  "retailDiesel": 3.592
+ },
+ {
+  "date": "2025-04-04",
+  "rbobSpot": 2.042,
+  "ulsdSpot": 2.241,
+  "wtiSpot": 69.09,
+  "gasStocksMbbl": 235977,
+  "distStocksMbbl": 111082,
+  "gasDemandKbd": 8425,
+  "distDemandKbd": 4006,
+  "gasCrack": 16.67,
+  "dieselCrack": 25.03
+ },
+ {
+  "date": "2025-04-07",
+  "retailGas": 3.37,
+  "retailDiesel": 3.639
+ },
+ {
+  "date": "2025-04-11",
+  "rbobSpot": 1.817,
+  "ulsdSpot": 2.073,
+  "wtiSpot": 61.24,
+  "gasStocksMbbl": 234019,
+  "distStocksMbbl": 109231,
+  "gasDemandKbd": 8462,
+  "distDemandKbd": 3858,
+  "gasCrack": 15.07,
+  "dieselCrack": 25.83
+ },
+ {
+  "date": "2025-04-14",
+  "retailGas": 3.295,
+  "retailDiesel": 3.579
+ },
+ {
+  "date": "2025-04-18",
+  "rbobSpot": 1.865,
+  "ulsdSpot": 2.117,
+  "wtiSpot": 62.92,
+  "gasStocksMbbl": 229543,
+  "distStocksMbbl": 106878,
+  "gasDemandKbd": 9414,
+  "distDemandKbd": 3903,
+  "gasCrack": 15.41,
+  "dieselCrack": 25.99
+ },
+ {
+  "date": "2025-04-21",
+  "retailGas": 3.268,
+  "retailDiesel": 3.534
+ },
+ {
+  "date": "2025-04-25",
+  "rbobSpot": 1.937,
+  "ulsdSpot": 2.144,
+  "wtiSpot": 63.62,
+  "gasStocksMbbl": 225540,
+  "distStocksMbbl": 107815,
+  "gasDemandKbd": 9098,
+  "distDemandKbd": 3550,
+  "gasCrack": 17.73,
+  "dieselCrack": 26.43
+ },
+ {
+  "date": "2025-04-28",
+  "retailGas": 3.261,
+  "retailDiesel": 3.514
+ },
+ {
+  "date": "2025-05-02",
+  "rbobSpot": 1.889,
+  "ulsdSpot": 2.064,
+  "wtiSpot": 60.99,
+  "gasStocksMbbl": 225728,
+  "distStocksMbbl": 106708,
+  "gasDemandKbd": 8717,
+  "distDemandKbd": 3521,
+  "gasCrack": 18.35,
+  "dieselCrack": 25.7
+ },
+ {
+  "date": "2025-05-05",
+  "retailGas": 3.273,
+  "retailDiesel": 3.497
+ },
+ {
+  "date": "2025-05-09",
+  "rbobSpot": 1.933,
+  "ulsdSpot": 2.017,
+  "wtiSpot": 60.39,
+  "gasStocksMbbl": 224706,
+  "distStocksMbbl": 103553,
+  "gasDemandKbd": 8794,
+  "distDemandKbd": 3777,
+  "gasCrack": 20.8,
+  "dieselCrack": 24.32
+ },
+ {
+  "date": "2025-05-12",
+  "retailGas": 3.249,
+  "retailDiesel": 3.476
+ },
+ {
+  "date": "2025-05-16",
+  "rbobSpot": 1.992,
+  "ulsdSpot": 2.158,
+  "wtiSpot": 63.94,
+  "gasStocksMbbl": 225522,
+  "distStocksMbbl": 104132,
+  "gasDemandKbd": 8644,
+  "distDemandKbd": 3412,
+  "gasCrack": 19.72,
+  "dieselCrack": 26.7
+ },
+ {
+  "date": "2025-05-19",
+  "retailGas": 3.302,
+  "retailDiesel": 3.536
+ },
+ {
+  "date": "2025-05-23",
+  "rbobSpot": 2.027,
+  "ulsdSpot": 2.123,
+  "wtiSpot": 63.26,
+  "gasStocksMbbl": 223081,
+  "distStocksMbbl": 103408,
+  "gasDemandKbd": 9452,
+  "distDemandKbd": 3893,
+  "gasCrack": 21.87,
+  "dieselCrack": 25.91
+ },
+ {
+  "date": "2025-05-26",
+  "retailGas": 3.288,
+  "retailDiesel": 3.487
+ },
+ {
+  "date": "2025-05-30",
+  "rbobSpot": 1.944,
+  "ulsdSpot": 2.055,
+  "wtiSpot": 61.82,
+  "gasStocksMbbl": 228300,
+  "distStocksMbbl": 107638,
+  "gasDemandKbd": 8263,
+  "distDemandKbd": 3151,
+  "gasCrack": 19.83,
+  "dieselCrack": 24.49
+ },
+ {
+  "date": "2025-06-02",
+  "retailGas": 3.256,
+  "retailDiesel": 3.451
+ },
+ {
+  "date": "2025-06-06",
+  "rbobSpot": 1.93,
+  "ulsdSpot": 2.09,
+  "wtiSpot": 64.06,
+  "gasStocksMbbl": 229804,
+  "distStocksMbbl": 108884,
+  "gasDemandKbd": 9170,
+  "distDemandKbd": 3376,
+  "gasCrack": 17,
+  "dieselCrack": 23.72
+ },
+ {
+  "date": "2025-06-09",
+  "retailGas": 3.235,
+  "retailDiesel": 3.471
+ },
+ {
+  "date": "2025-06-13",
+  "rbobSpot": 2.071,
+  "ulsdSpot": 2.223,
+  "wtiSpot": 68.63,
+  "gasStocksMbbl": 230013,
+  "distStocksMbbl": 109398,
+  "gasDemandKbd": 9299,
+  "distDemandKbd": 3746,
+  "gasCrack": 18.35,
+  "dieselCrack": 24.74
+ },
+ {
+  "date": "2025-06-16",
+  "retailGas": 3.265,
+  "retailDiesel": 3.571
+ },
+ {
+  "date": "2025-06-20",
+  "rbobSpot": 2.308,
+  "ulsdSpot": 2.507,
+  "wtiSpot": 74.94,
+  "gasStocksMbbl": 227938,
+  "distStocksMbbl": 105332,
+  "gasDemandKbd": 9688,
+  "distDemandKbd": 3794,
+  "gasCrack": 22,
+  "dieselCrack": 30.35
+ },
+ {
+  "date": "2025-06-23",
+  "retailGas": 3.338,
+  "retailDiesel": 3.775
+ },
+ {
+  "date": "2025-06-27",
+  "rbobSpot": 2.127,
+  "ulsdSpot": 2.332,
+  "wtiSpot": 66.78,
+  "gasStocksMbbl": 232126,
+  "distStocksMbbl": 103622,
+  "gasDemandKbd": 8640,
+  "distDemandKbd": 4043,
+  "gasCrack": 22.55,
+  "dieselCrack": 31.16
+ },
+ {
+  "date": "2025-06-30",
+  "retailGas": 3.288,
+  "retailDiesel": 3.727
+ },
+ {
+  "date": "2025-07-04",
+  "rbobSpot": 2.125,
+  "ulsdSpot": 2.38,
+  "wtiSpot": 67.43,
+  "gasStocksMbbl": 229468,
+  "distStocksMbbl": 102797,
+  "gasDemandKbd": 9159,
+  "distDemandKbd": 3668,
+  "gasCrack": 21.82,
+  "dieselCrack": 32.53
+ },
+ {
+  "date": "2025-07-07",
+  "retailGas": 3.251,
+  "retailDiesel": 3.739
+ },
+ {
+  "date": "2025-07-11",
+  "rbobSpot": 2.194,
+  "ulsdSpot": 2.438,
+  "wtiSpot": 69.15,
+  "gasStocksMbbl": 232867,
+  "distStocksMbbl": 106970,
+  "gasDemandKbd": 8489,
+  "distDemandKbd": 3423,
+  "gasCrack": 23,
+  "dieselCrack": 33.25
+ },
+ {
+  "date": "2025-07-14",
+  "retailGas": 3.254,
+  "retailDiesel": 3.758
+ },
+ {
+  "date": "2025-07-18",
+  "rbobSpot": 2.176,
+  "ulsdSpot": 2.448,
+  "wtiSpot": 68.07,
+  "gasStocksMbbl": 231129,
+  "distStocksMbbl": 109901,
+  "gasDemandKbd": 8967,
+  "distDemandKbd": 3343,
+  "gasCrack": 23.32,
+  "dieselCrack": 34.75
+ },
+ {
+  "date": "2025-07-21",
+  "retailGas": 3.246,
+  "retailDiesel": 3.812
+ },
+ {
+  "date": "2025-07-25",
+  "rbobSpot": 2.116,
+  "ulsdSpot": 2.491,
+  "wtiSpot": 67.11,
+  "gasStocksMbbl": 228405,
+  "distStocksMbbl": 113536,
+  "gasDemandKbd": 9152,
+  "distDemandKbd": 3605,
+  "gasCrack": 21.76,
+  "dieselCrack": 37.51
+ },
+ {
+  "date": "2025-07-28",
+  "retailGas": 3.247,
+  "retailDiesel": 3.805
+ },
+ {
+  "date": "2025-08-01",
+  "rbobSpot": 2.208,
+  "ulsdSpot": 2.454,
+  "wtiSpot": 69.58,
+  "gasStocksMbbl": 227082,
+  "distStocksMbbl": 112971,
+  "gasDemandKbd": 9040,
+  "distDemandKbd": 3720,
+  "gasCrack": 23.16,
+  "dieselCrack": 33.49
+ },
+ {
+  "date": "2025-08-04",
+  "retailGas": 3.265,
+  "retailDiesel": 3.8
+ },
+ {
+  "date": "2025-08-08",
+  "rbobSpot": 2.091,
+  "ulsdSpot": 2.319,
+  "wtiSpot": 65.75,
+  "gasStocksMbbl": 226290,
+  "distStocksMbbl": 113685,
+  "gasDemandKbd": 9000,
+  "distDemandKbd": 3701,
+  "gasCrack": 22.07,
+  "dieselCrack": 31.65
+ },
+ {
+  "date": "2025-08-11",
+  "retailGas": 3.243,
+  "retailDiesel": 3.754
+ },
+ {
+  "date": "2025-08-15",
+  "rbobSpot": 2.09,
+  "ulsdSpot": 2.299,
+  "wtiSpot": 64.34,
+  "gasStocksMbbl": 223570,
+  "distStocksMbbl": 116028,
+  "gasDemandKbd": 8842,
+  "distDemandKbd": 3967,
+  "gasCrack": 23.44,
+  "dieselCrack": 32.22
+ },
+ {
+  "date": "2025-08-18",
+  "retailGas": 3.251,
+  "retailDiesel": 3.713
+ },
+ {
+  "date": "2025-08-22",
+  "rbobSpot": 2.136,
+  "ulsdSpot": 2.334,
+  "wtiSpot": 64.14,
+  "gasStocksMbbl": 222334,
+  "distStocksMbbl": 114242,
+  "gasDemandKbd": 9240,
+  "distDemandKbd": 4141,
+  "gasCrack": 25.57,
+  "dieselCrack": 33.89
+ },
+ {
+  "date": "2025-08-25",
+  "retailGas": 3.272,
+  "retailDiesel": 3.708
+ },
+ {
+  "date": "2025-08-29",
+  "rbobSpot": 2.188,
+  "ulsdSpot": 2.346,
+  "wtiSpot": 64.52,
+  "gasStocksMbbl": 218539,
+  "distStocksMbbl": 115923,
+  "gasDemandKbd": 9117,
+  "distDemandKbd": 3768,
+  "gasCrack": 27.38,
+  "dieselCrack": 34.01
+ },
+ {
+  "date": "2025-09-01",
+  "retailGas": 3.303,
+  "retailDiesel": 3.734
+ },
+ {
+  "date": "2025-09-05",
+  "rbobSpot": 2.013,
+  "ulsdSpot": 2.386,
+  "wtiSpot": 64.09,
+  "gasStocksMbbl": 219997,
+  "distStocksMbbl": 120638,
+  "gasDemandKbd": 8508,
+  "distDemandKbd": 3377,
+  "gasCrack": 20.46,
+  "dieselCrack": 36.12
+ },
+ {
+  "date": "2025-09-08",
+  "retailGas": 3.319,
+  "retailDiesel": 3.766
+ },
+ {
+  "date": "2025-09-12",
+  "rbobSpot": 1.992,
+  "ulsdSpot": 2.359,
+  "wtiSpot": 63.06,
+  "gasStocksMbbl": 217650,
+  "distStocksMbbl": 124684,
+  "gasDemandKbd": 8810,
+  "distDemandKbd": 3621,
+  "gasCrack": 20.6,
+  "dieselCrack": 36.02
+ },
+ {
+  "date": "2025-09-15",
+  "retailGas": 3.296,
+  "retailDiesel": 3.739
+ },
+ {
+  "date": "2025-09-19",
+  "rbobSpot": 2.021,
+  "ulsdSpot": 2.395,
+  "wtiSpot": 63.98,
+  "gasStocksMbbl": 216569,
+  "distStocksMbbl": 122999,
+  "gasDemandKbd": 8959,
+  "distDemandKbd": 3738,
+  "gasCrack": 20.9,
+  "dieselCrack": 36.61
+ },
+ {
+  "date": "2025-09-22",
+  "retailGas": 3.301,
+  "retailDiesel": 3.749
+ },
+ {
+  "date": "2025-09-26",
+  "rbobSpot": 2.015,
+  "ulsdSpot": 2.422,
+  "wtiSpot": 64.83,
+  "gasStocksMbbl": 220694,
+  "distStocksMbbl": 123577,
+  "gasDemandKbd": 8518,
+  "distDemandKbd": 3617,
+  "gasCrack": 19.8,
+  "dieselCrack": 36.89
+ },
+ {
+  "date": "2025-09-29",
+  "retailGas": 3.248,
+  "retailDiesel": 3.754
+ },
+ {
+  "date": "2025-10-03",
+  "rbobSpot": 1.921,
+  "ulsdSpot": 2.342,
+  "wtiSpot": 62.59,
+  "gasStocksMbbl": 219093,
+  "distStocksMbbl": 121559,
+  "gasDemandKbd": 8919,
+  "distDemandKbd": 4346,
+  "gasCrack": 18.09,
+  "dieselCrack": 35.77
+ },
+ {
+  "date": "2025-10-06",
+  "retailGas": 3.253,
+  "retailDiesel": 3.711
+ },
+ {
+  "date": "2025-10-10",
+  "rbobSpot": 1.889,
+  "ulsdSpot": 2.309,
+  "wtiSpot": 62.1,
+  "gasStocksMbbl": 218826,
+  "distStocksMbbl": 117030,
+  "gasDemandKbd": 8455,
+  "distDemandKbd": 4233,
+  "gasCrack": 17.24,
+  "dieselCrack": 34.88
+ },
+ {
+  "date": "2025-10-13",
+  "retailGas": 3.193,
+  "retailDiesel": 3.665
+ },
+ {
+  "date": "2025-10-17",
+  "rbobSpot": 1.839,
+  "ulsdSpot": 2.231,
+  "wtiSpot": 58.8,
+  "gasStocksMbbl": 216679,
+  "distStocksMbbl": 115551,
+  "gasDemandKbd": 8454,
+  "distDemandKbd": 3847,
+  "gasCrack": 18.44,
+  "dieselCrack": 34.9
+ },
+ {
+  "date": "2025-10-20",
+  "retailGas": 3.151,
+  "retailDiesel": 3.62
+ },
+ {
+  "date": "2025-10-24",
+  "rbobSpot": 1.884,
+  "ulsdSpot": 2.343,
+  "wtiSpot": 60.2,
+  "gasStocksMbbl": 210738,
+  "distStocksMbbl": 112189,
+  "gasDemandKbd": 8924,
+  "distDemandKbd": 3580,
+  "gasCrack": 18.93,
+  "dieselCrack": 38.21
+ },
+ {
+  "date": "2025-10-27",
+  "retailGas": 3.164,
+  "retailDiesel": 3.718
+ },
+ {
+  "date": "2025-10-31",
+  "rbobSpot": 1.949,
+  "ulsdSpot": 2.461,
+  "wtiSpot": 61.49,
+  "gasStocksMbbl": 206009,
+  "distStocksMbbl": 111546,
+  "gasDemandKbd": 8874,
+  "distDemandKbd": 3710,
+  "gasCrack": 20.37,
+  "dieselCrack": 41.87
+ },
+ {
+  "date": "2025-11-03",
+  "retailGas": 3.151,
+  "retailDiesel": 3.753
+ },
+ {
+  "date": "2025-11-07",
+  "rbobSpot": 1.937,
+  "ulsdSpot": 2.502,
+  "wtiSpot": 60.87,
+  "gasStocksMbbl": 205064,
+  "distStocksMbbl": 110909,
+  "gasDemandKbd": 9028,
+  "distDemandKbd": 4018,
+  "gasCrack": 20.48,
+  "dieselCrack": 44.21
+ },
+ {
+  "date": "2025-11-10",
+  "retailGas": 3.186,
+  "retailDiesel": 3.837
+ },
+ {
+  "date": "2025-11-14",
+  "rbobSpot": 1.98,
+  "ulsdSpot": 2.547,
+  "wtiSpot": 60.16,
+  "gasStocksMbbl": 207391,
+  "distStocksMbbl": 111080,
+  "gasDemandKbd": 8528,
+  "distDemandKbd": 3882,
+  "gasCrack": 23,
+  "dieselCrack": 46.81
+ },
+ {
+  "date": "2025-11-17",
+  "retailGas": 3.19,
+  "retailDiesel": 3.868
+ },
+ {
+  "date": "2025-11-21",
+  "rbobSpot": 1.949,
+  "ulsdSpot": 2.62,
+  "wtiSpot": 60.27,
+  "gasStocksMbbl": 209904,
+  "distStocksMbbl": 112227,
+  "gasDemandKbd": 8726,
+  "distDemandKbd": 3362,
+  "gasCrack": 21.59,
+  "dieselCrack": 49.77
+ },
+ {
+  "date": "2025-11-24",
+  "retailGas": 3.19,
+  "retailDiesel": 3.831
+ },
+ {
+  "date": "2025-11-28",
+  "rbobSpot": 1.888,
+  "ulsdSpot": 2.406,
+  "wtiSpot": 58.69,
+  "gasStocksMbbl": 214422,
+  "distStocksMbbl": 114286,
+  "gasDemandKbd": 8326,
+  "distDemandKbd": 3430,
+  "gasCrack": 20.61,
+  "dieselCrack": 42.36
+ },
+ {
+  "date": "2025-12-01",
+  "retailGas": 3.115,
+  "retailDiesel": 3.758
+ },
+ {
+  "date": "2025-12-05",
+  "rbobSpot": 1.847,
+  "ulsdSpot": 2.378,
+  "wtiSpot": 59.48,
+  "gasStocksMbbl": 220819,
+  "distStocksMbbl": 116788,
+  "gasDemandKbd": 8456,
+  "distDemandKbd": 4158,
+  "gasCrack": 18.09,
+  "dieselCrack": 40.4
+ },
+ {
+  "date": "2025-12-08",
+  "retailGas": 3.07,
+  "retailDiesel": 3.665
+ },
+ {
+  "date": "2025-12-12",
+  "rbobSpot": 1.788,
+  "ulsdSpot": 2.308,
+  "wtiSpot": 58.3,
+  "gasStocksMbbl": 225627,
+  "distStocksMbbl": 118500,
+  "gasDemandKbd": 9078,
+  "distDemandKbd": 3786,
+  "gasCrack": 16.8,
+  "dieselCrack": 38.64
+ },
+ {
+  "date": "2025-12-15",
+  "retailGas": 3.024,
+  "retailDiesel": 3.607
+ },
+ {
+  "date": "2025-12-19",
+  "rbobSpot": 1.714,
+  "ulsdSpot": 2.198,
+  "wtiSpot": 56.3,
+  "gasStocksMbbl": 228489,
+  "distStocksMbbl": 118702,
+  "gasDemandKbd": 8942,
+  "distDemandKbd": 4156,
+  "gasCrack": 15.69,
+  "dieselCrack": 36.02
+ },
+ {
+  "date": "2025-12-22",
+  "retailGas": 2.97,
+  "retailDiesel": 3.544
+ },
+ {
+  "date": "2025-12-26",
+  "rbobSpot": 1.752,
+  "ulsdSpot": 2.201,
+  "wtiSpot": 58.01,
+  "gasStocksMbbl": 234334,
+  "distStocksMbbl": 123679,
+  "gasDemandKbd": 8563,
+  "distDemandKbd": 3379,
+  "gasCrack": 15.57,
+  "dieselCrack": 34.43
+ },
+ {
+  "date": "2025-12-29",
+  "retailGas": 2.94,
+  "retailDiesel": 3.5
+ },
+ {
+  "date": "2026-01-02",
+  "rbobSpot": 1.807,
+  "ulsdSpot": 2.154,
+  "wtiSpot": 57.54,
+  "gasStocksMbbl": 242036,
+  "distStocksMbbl": 129273,
+  "gasDemandKbd": 8170,
+  "distDemandKbd": 3195,
+  "gasCrack": 18.35,
+  "dieselCrack": 32.93
+ },
+ {
+  "date": "2026-01-05",
+  "retailGas": 2.925,
+  "retailDiesel": 3.477
+ },
+ {
+  "date": "2026-01-09",
+  "rbobSpot": 1.995,
+  "ulsdSpot": 2.133,
+  "wtiSpot": 57.56,
+  "gasStocksMbbl": 251013,
+  "distStocksMbbl": 129244,
+  "gasDemandKbd": 8304,
+  "distDemandKbd": 4096,
+  "gasCrack": 26.23,
+  "dieselCrack": 32.03
+ },
+ {
+  "date": "2026-01-12",
+  "retailGas": 2.907,
+  "retailDiesel": 3.459
+ },
+ {
+  "date": "2026-01-16",
+  "rbobSpot": 2.061,
+  "ulsdSpot": 2.224,
+  "wtiSpot": 60.12,
+  "gasStocksMbbl": 256990,
+  "distStocksMbbl": 132592,
+  "gasDemandKbd": 7834,
+  "distDemandKbd": 3524,
+  "gasCrack": 26.44,
+  "dieselCrack": 33.29
+ },
+ {
+  "date": "2026-01-19",
+  "retailGas": 2.933,
+  "retailDiesel": 3.53
+ },
+ {
+  "date": "2026-01-23",
+  "rbobSpot": 2.085,
+  "ulsdSpot": 2.31,
+  "wtiSpot": 60.16,
+  "gasStocksMbbl": 257213,
+  "distStocksMbbl": 132921,
+  "gasDemandKbd": 8757,
+  "distDemandKbd": 4069,
+  "gasCrack": 27.41,
+  "dieselCrack": 36.86
+ },
+ {
+  "date": "2026-01-26",
+  "retailGas": 2.98,
+  "retailDiesel": 3.624
+ },
+ {
+  "date": "2026-01-30",
+  "rbobSpot": 2.137,
+  "ulsdSpot": 2.403,
+  "wtiSpot": 62.9,
+  "gasStocksMbbl": 257898,
+  "distStocksMbbl": 127368,
+  "gasDemandKbd": 8153,
+  "distDemandKbd": 4310,
+  "gasCrack": 26.85,
+  "dieselCrack": 38.03
+ },
+ {
+  "date": "2026-02-02",
+  "retailGas": 2.995,
+  "retailDiesel": 3.681
+ },
+ {
+  "date": "2026-02-06",
+  "rbobSpot": 2.156,
+  "ulsdSpot": 2.341,
+  "wtiSpot": 63.09,
+  "gasStocksMbbl": 259058,
+  "distStocksMbbl": 124665,
+  "gasDemandKbd": 8300,
+  "distDemandKbd": 4449,
+  "gasCrack": 27.46,
+  "dieselCrack": 35.23
+ },
+ {
+  "date": "2026-02-09",
+  "retailGas": 3.033,
+  "retailDiesel": 3.688
+ },
+ {
+  "date": "2026-02-13",
+  "rbobSpot": 2.142,
+  "ulsdSpot": 2.377,
+  "wtiSpot": 63.93,
+  "gasStocksMbbl": 255845,
+  "distStocksMbbl": 120099,
+  "gasDemandKbd": 8749,
+  "distDemandKbd": 4753,
+  "gasCrack": 26.03,
+  "dieselCrack": 35.9
+ },
+ {
+  "date": "2026-02-16",
+  "retailGas": 3.057,
+  "retailDiesel": 3.711
+ },
+ {
+  "date": "2026-02-20",
+  "rbobSpot": 1.979,
+  "ulsdSpot": 2.575,
+  "wtiSpot": 65.3,
+  "gasStocksMbbl": 254834,
+  "distStocksMbbl": 120351,
+  "gasDemandKbd": 8733,
+  "distDemandKbd": 3895,
+  "gasCrack": 17.82,
+  "dieselCrack": 42.85
+ },
+ {
+  "date": "2026-02-23",
+  "retailGas": 3.072,
+  "retailDiesel": 3.809
+ },
+ {
+  "date": "2026-02-27",
+  "rbobSpot": 2.027,
+  "ulsdSpot": 2.727,
+  "wtiSpot": 65.87,
+  "gasStocksMbbl": 253130,
+  "distStocksMbbl": 120780,
+  "gasDemandKbd": 8292,
+  "distDemandKbd": 3698,
+  "gasCrack": 19.26,
+  "dieselCrack": 48.66
+ },
+ {
+  "date": "2026-03-02",
+  "retailGas": 3.148,
+  "retailDiesel": 3.897
+ },
+ {
+  "date": "2026-03-06",
+  "rbobSpot": 2.557,
+  "ulsdSpot": 3.361,
+  "wtiSpot": 78.37,
+  "gasStocksMbbl": 249476,
+  "distStocksMbbl": 119431,
+  "gasDemandKbd": 9241,
+  "distDemandKbd": 4065,
+  "gasCrack": 29.02,
+  "dieselCrack": 62.79
+ },
+ {
+  "date": "2026-03-09",
+  "retailGas": 3.633,
+  "retailDiesel": 4.859
+ },
+ {
+  "date": "2026-03-13",
+  "rbobSpot": 2.844,
+  "ulsdSpot": 3.735,
+  "wtiSpot": 91.85,
+  "gasStocksMbbl": 244040,
+  "distStocksMbbl": 116904,
+  "gasDemandKbd": 8728,
+  "distDemandKbd": 4399,
+  "gasCrack": 27.6,
+  "dieselCrack": 65.02
+ },
+ {
+  "date": "2026-03-16",
+  "retailGas": 3.854,
+  "retailDiesel": 5.071
+ },
+ {
+  "date": "2026-03-20",
+  "rbobSpot": 3.152,
+  "ulsdSpot": 4.295,
+  "wtiSpot": 96.07,
+  "gasStocksMbbl": 241447,
+  "distStocksMbbl": 119936,
+  "gasDemandKbd": 8924,
+  "distDemandKbd": 3568,
+  "gasCrack": 36.31,
+  "dieselCrack": 84.32
+ },
+ {
+  "date": "2026-03-23",
+  "retailGas": 4.096,
+  "retailDiesel": 5.375
+ },
+ {
+  "date": "2026-03-27",
+  "rbobSpot": 3.092,
+  "ulsdSpot": 4.267,
+  "wtiSpot": 94.29,
+  "gasStocksMbbl": 240861,
+  "distStocksMbbl": 117825,
+  "gasDemandKbd": 8686,
+  "distDemandKbd": 4039,
+  "gasCrack": 35.57,
+  "dieselCrack": 84.92
+ },
+ {
+  "date": "2026-03-30",
+  "retailGas": 4.126,
+  "retailDiesel": 5.401
+ },
+ {
+  "date": "2026-04-03",
+  "rbobSpot": 3.272,
+  "ulsdSpot": 4.331,
+  "wtiSpot": 105.67,
+  "gasStocksMbbl": 239272,
+  "distStocksMbbl": 114681,
+  "gasDemandKbd": 8564,
+  "distDemandKbd": 4060,
+  "gasCrack": 31.75,
+  "dieselCrack": 76.23
+ },
+ {
+  "date": "2026-04-06",
+  "retailGas": 4.254,
+  "retailDiesel": 5.643
+ },
+ {
+  "date": "2026-04-10",
+  "rbobSpot": 3.118,
+  "ulsdSpot": 4.087,
+  "wtiSpot": 104.54,
+  "gasStocksMbbl": 232944,
+  "distStocksMbbl": 111559,
+  "gasDemandKbd": 9088,
+  "distDemandKbd": 3840,
+  "gasCrack": 26.42,
+  "dieselCrack": 67.11
+ },
+ {
+  "date": "2026-04-13",
+  "retailGas": 4.254,
+  "retailDiesel": 5.608
+ },
+ {
+  "date": "2026-04-17",
+  "rbobSpot": 3.085,
+  "ulsdSpot": 3.732,
+  "wtiSpot": 93.84,
+  "gasStocksMbbl": 228374,
+  "distStocksMbbl": 108132,
+  "gasDemandKbd": 9055,
+  "distDemandKbd": 4032,
+  "gasCrack": 35.73,
+  "dieselCrack": 62.9
+ },
+ {
+  "date": "2026-04-20",
+  "retailGas": 4.178,
+  "retailDiesel": 5.403
+ },
+ {
+  "date": "2026-04-24",
+  "rbobSpot": 3.363,
+  "ulsdSpot": 3.905,
+  "wtiSpot": 95.43,
+  "gasStocksMbbl": 222299,
+  "distStocksMbbl": 103638,
+  "gasDemandKbd": 9104,
+  "distDemandKbd": 4113,
+  "gasCrack": 45.82,
+  "dieselCrack": 68.58
+ },
+ {
+  "date": "2026-04-27",
+  "retailGas": 4.257,
+  "retailDiesel": 5.351
+ },
+ {
+  "date": "2026-05-01",
+  "rbobSpot": 3.674,
+  "ulsdSpot": 4.109,
+  "wtiSpot": 105.57,
+  "gasStocksMbbl": 219795,
+  "distStocksMbbl": 102344,
+  "gasDemandKbd": 8813,
+  "distDemandKbd": 3362,
+  "gasCrack": 48.74,
+  "dieselCrack": 67.01
+ },
+ {
+  "date": "2026-05-04",
+  "retailGas": 4.581,
+  "retailDiesel": 5.64
+ },
+ {
+  "date": "2026-05-08",
+  "rbobSpot": 3.603,
+  "ulsdSpot": 3.98,
+  "wtiSpot": 102.28,
+  "gasStocksMbbl": 215711,
+  "distStocksMbbl": 102534,
+  "gasDemandKbd": 8754,
+  "distDemandKbd": 3428,
+  "gasCrack": 49.05,
+  "dieselCrack": 64.88
+ },
+ {
+  "date": "2026-05-11",
+  "retailGas": 4.628,
+  "retailDiesel": 5.639
+ },
+ {
+  "date": "2026-05-15",
+  "rbobSpot": 3.709,
+  "ulsdSpot": 4.093,
+  "wtiSpot": 105.1,
+  "gasStocksMbbl": 214163,
+  "distStocksMbbl": 102906,
+  "gasDemandKbd": 8767,
+  "distDemandKbd": 3552,
+  "gasCrack": 50.68,
+  "dieselCrack": 66.81
+ },
+ {
+  "date": "2026-05-18",
+  "retailGas": 4.621,
+  "retailDiesel": 5.596
+ },
+ {
+  "date": "2026-05-22",
+  "rbobSpot": 3.623,
+  "ulsdSpot": 4.081,
+  "wtiSpot": 105.32,
+  "gasStocksMbbl": 211591,
+  "distStocksMbbl": 100799,
+  "gasDemandKbd": 9256,
+  "distDemandKbd": 3948,
+  "gasCrack": 46.85,
+  "dieselCrack": 66.08
+ },
+ {
+  "date": "2026-05-25",
+  "retailGas": 4.605,
+  "retailDiesel": 5.523
+ },
+ {
+  "date": "2026-05-29",
+  "rbobSpot": 3.242,
+  "ulsdSpot": 3.648,
+  "wtiSpot": 93.45,
+  "gasStocksMbbl": 214955,
+  "distStocksMbbl": 102301,
+  "gasDemandKbd": 8594,
+  "distDemandKbd": 3468,
+  "gasCrack": 42.71,
+  "dieselCrack": 59.77
+ },
+ {
+  "date": "2026-06-01",
+  "retailGas": 4.439,
+  "retailDiesel": 5.35
+ },
+ {
+  "date": "2026-06-05",
+  "rbobSpot": 3.185,
+  "ulsdSpot": 3.692,
+  "wtiSpot": 96.87,
+  "gasStocksMbbl": 215141,
+  "distStocksMbbl": 102101,
+  "gasDemandKbd": 8731,
+  "distDemandKbd": 3864,
+  "gasCrack": 36.9,
+  "dieselCrack": 58.19
+ },
+ {
+  "date": "2026-06-08",
+  "retailGas": 4.281,
+  "retailDiesel": 5.21
+ },
+ {
+  "date": "2026-06-12",
+  "rbobSpot": 3.084,
+  "ulsdSpot": 3.527,
+  "wtiSpot": 92.16,
+  "gasStocksMbbl": 214235,
+  "distStocksMbbl": 103052,
+  "gasDemandKbd": 9212,
+  "distDemandKbd": 3659,
+  "gasCrack": 37.37,
+  "dieselCrack": 55.97
+ },
+ {
+  "date": "2026-06-15",
+  "retailGas": 4.187,
+  "retailDiesel": 5.059
+ },
+ {
+  "date": "2026-06-19",
+  "rbobSpot": 2.918,
+  "ulsdSpot": 3.196,
+  "wtiSpot": 81.36,
+  "gasStocksMbbl": 216299,
+  "distStocksMbbl": 106116,
+  "gasDemandKbd": 8775,
+  "distDemandKbd": 3533,
+  "gasCrack": 41.2,
+  "dieselCrack": 52.87
+ },
+ {
+  "date": "2026-06-22",
+  "retailGas": 4.048,
+  "retailDiesel": 4.832
+ },
+ {
+  "date": "2026-06-26",
+  "rbobSpot": 2.945,
+  "ulsdSpot": 3.189,
+  "wtiSpot": 73.59,
+  "gasStocksMbbl": 213966,
+  "distStocksMbbl": 108599,
+  "gasDemandKbd": 9131,
+  "distDemandKbd": 3614,
+  "gasCrack": 50.1,
+  "dieselCrack": 60.35
+ },
+ {
+  "date": "2026-06-29",
+  "retailGas": 3.964,
+  "retailDiesel": 4.668
+ },
+ {
+  "date": "2026-07-03",
+  "rbobSpot": 2.973,
+  "ulsdSpot": 3.253,
+  "wtiSpot": 70.48,
+  "gasStocksMbbl": 212062,
+  "distStocksMbbl": 103619,
+  "gasDemandKbd": 8845,
+  "distDemandKbd": 4307,
+  "gasCrack": 54.39,
+  "dieselCrack": 66.15
+ },
+ {
+  "date": "2026-07-06",
+  "retailGas": 3.911,
+  "retailDiesel": 4.578
+ },
+ {
+  "date": "2026-07-10",
+  "rbobSpot": 3.013,
+  "ulsdSpot": 3.51,
+  "wtiSpot": 72.26,
+  "gasStocksMbbl": 210529,
+  "distStocksMbbl": 108175,
+  "gasDemandKbd": 8844,
+  "distDemandKbd": 3156,
+  "gasCrack": 54.29,
+  "dieselCrack": 75.16
+ },
+ {
+  "date": "2026-07-13",
+  "retailGas": 3.987,
+  "retailDiesel": 4.796
+ },
+ {
+  "date": "2026-07-17",
+  "rbobSpot": 3.331,
+  "ulsdSpot": 4.012,
+  "wtiSpot": 80.77,
+  "gasStocksMbbl": 211294,
+  "distStocksMbbl": 109570,
+  "gasDemandKbd": 8947,
+  "distDemandKbd": 3718,
+  "gasCrack": 59.13,
+  "dieselCrack": 87.73
+ },
+ {
+  "date": "2026-07-20",
+  "retailGas": 4.131,
+  "retailDiesel": 5.134
+ },
+ {
+  "date": "2026-07-24",
+  "rbobSpot": 3.383,
+  "ulsdSpot": 4.197,
+  "wtiSpot": 88.58,
+  "gasStocksMbbl": 211301,
+  "distStocksMbbl": 110632,
+  "gasDemandKbd": 9041,
+  "distDemandKbd": 3524,
+  "gasCrack": 53.51,
+  "dieselCrack": 87.69
+ },
+ {
+  "date": "2026-07-27",
+  "retailGas": 4.228,
+  "retailDiesel": 5.313
+ },
+ {
+  "date": "2026-07-31",
+  "rbobSpot": 3.275,
+  "ulsdSpot": 4.217,
+  "wtiSpot": 84.51,
+  "gasStocksMbbl": 209658,
+  "distStocksMbbl": 107159,
+  "gasDemandKbd": 9031,
+  "distDemandKbd": 3941,
+  "gasCrack": 53.04,
+  "dieselCrack": 92.6
+ },
+ {
+  "date": "2026-08-03",
+  "retailGas": 4.211,
+  "retailDiesel": 5.348
+ },
+ {
+  "date": "2026-08-07",
+  "rbobSpot": 2.923,
+  "ulsdSpot": 3.87,
+  "wtiSpot": 78.94,
+  "gasStocksMbbl": 208690,
+  "distStocksMbbl": 107149,
+  "gasDemandKbd": 8964,
+  "distDemandKbd": 3458,
+  "gasCrack": 43.83,
+  "dieselCrack": 83.6
+ },
+ {
+  "date": "2026-08-10",
+  "retailGas": 4.141,
+  "retailDiesel": 5.257
+ },
+ {
+  "date": "2026-08-14",
+  "rbobSpot": 3.156,
+  "ulsdSpot": 4.304,
+  "wtiSpot": 84.05,
+  "gasStocksMbbl": 209378,
+  "distStocksMbbl": 105619,
+  "gasDemandKbd": 8689,
+  "distDemandKbd": 3953,
+  "gasCrack": 48.5,
+  "dieselCrack": 96.72
+ },
+ {
+  "date": "2026-08-17",
+  "retailGas": 4.182,
+  "retailDiesel": 5.454
+ },
+ {
+  "date": "2026-08-21",
+  "rbobSpot": 3.156,
+  "ulsdSpot": 4.304,
+  "wtiSpot": 84.05,
+  "retailGas": 4.182,
+  "retailDiesel": 5.454,
+  "gasStocksMbbl": 209378,
+  "distStocksMbbl": 105619,
+  "gasDemandKbd": 8689,
+  "distDemandKbd": 3953,
+  "gasCrack": 48.5,
+  "dieselCrack": 96.72
+ },
+ {
+  "date": "2026-08-22",
+  "rbobSpot": 3.156,
+  "ulsdSpot": 4.304,
+  "wtiSpot": 84.05,
+  "retailGas": 4.182,
+  "retailDiesel": 5.454,
+  "gasStocksMbbl": 209378,
+  "distStocksMbbl": 105619,
+  "gasDemandKbd": 8689,
+  "distDemandKbd": 3953,
+  "gasCrack": 48.5,
+  "dieselCrack": 96.72
+ }
 ]
