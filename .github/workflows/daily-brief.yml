@@ -1,0 +1,71 @@
+# Fuels Errand daily pipeline: fetch news + prices + investor docs, summarize,
+# email the brief, commit the data, and redeploy the static site.
+#
+# 11:30 UTC = 6:30am Central during daylight time (CDT). During standard time
+# (Nov-Mar) it lands at 5:30am CT; adjust to 12:30 UTC in November if you care.
+
+name: Daily brief
+
+on:
+  schedule:
+    - cron: '30 11 * * 1-5'
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: 'Skip sending the email'
+        type: boolean
+        default: false
+      baseline:
+        description: 'First run: catalogue existing IR docs without analyzing'
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: daily-brief
+  cancel-in-progress: false
+
+jobs:
+  brief:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+
+      - name: Run pipeline
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          RESEND_API_KEY: ${{ secrets.RESEND_API_KEY }}
+          EIA_API_KEY: ${{ secrets.EIA_API_KEY }}
+          BRIEF_TO: ${{ vars.BRIEF_TO || 'hoffercolby@gmail.com' }}
+          BRIEF_FROM: ${{ vars.BRIEF_FROM || 'Fuels Errand <onboarding@resend.dev>' }}
+        run: |
+          FLAGS=""
+          [ "${{ inputs.dry_run }}" = "true" ] && FLAGS="$FLAGS --dry-run"
+          [ "${{ inputs.baseline }}" = "true" ] && FLAGS="$FLAGS --baseline"
+          npx tsx pipeline/run.ts $FLAGS
+
+      - name: Commit data
+        run: |
+          git config user.name "fuels-errand-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add data/
+          git diff --cached --quiet || git commit -m "Daily brief $(date -u +%F) [skip ci]"
+          git push
+
+      - name: Build site
+        run: npm run build
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: out
+
+      - uses: actions/deploy-pages@v4

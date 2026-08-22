@@ -1,0 +1,25 @@
+{
+  "name": "fuelserrand",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "pipeline": "tsx pipeline/run.ts",
+    "pipeline:dry": "tsx pipeline/run.ts --dry-run"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.60.0",
+    "next": "^15.4.0",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "resend": "^4.0.0",
+    "rss-parser": "^3.13.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "@types/react": "^19.0.0",
+    "tsx": "^4.19.0",
+    "typescript": "^5.6.0"
+  }
+}
