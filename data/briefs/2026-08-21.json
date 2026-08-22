@@ -1,7 +1,7 @@
 {
   "date": "2026-08-21",
-  "headline": "Refining margins spike as Iran conflict disrupts crude and fuel supply",
-  "overview": "Diesel and gasoline cracks remain elevated (ULSD crack near $97/bbl, RBOB crack near $48.5/bbl) as Iran-related tensions and Ukrainian strikes on Russian refineries tighten global product supply. Nymex ULSD and RBOB both posted sharp weekly gains, while EPA's move to extend the RFS compliance deadline and ongoing SAF/renewable diesel developments add a policy dimension to an already supply-constrained market.",
+  "headline": "Diesel cracks hit multi-month highs as refining crisis deepens, Iran tensions escalate",
+  "overview": "Refined product markets rallied hard this week, with ULSD futures hitting a four-month high and RBOB gasoline touching a one-month high as record crack spreads reflect a shift from a crude-supply story to an outright fuel-supply crunch. Geopolitical risk compounded the tightness: Ukrainian drones struck Russia's Perm refinery over 1,600 km from the border, Saudi tankers rerouted around Houthi threats, and US rhetoric against Iran escalated. On policy, EPA plans to extend the September 1 RFS compliance deadline for refiners, while renewable diesel/SAF activity continued with XCF Global's daily output baseline and IndyCar's move to fully renewable fuel for 2027.",
   "stories": [
     {
       "title": "Global refining disruptions turn the oil shock into a fuel supply crisis",
@@ -9,16 +9,25 @@
       "source": "Financial World",
       "publishedAt": "2026-08-21T12:00:00.000Z",
       "category": "markets",
-      "summary": "Pressure in global energy markets is shifting from crude toward refining capacity, with record margins, disrupted capacity and tighter exports creating what's being called a fuel supply crisis.",
+      "summary": "Pressure in global energy markets is shifting from crude oil toward refining capacity, with record refining margins, disrupted capacity and tighter exports creating a fuel supply crisis distinct from the crude shock.",
       "paywalled": false
     },
     {
-      "title": "Front Month Nymex ULSD Rose 4.95% This Week to Settle at $4.4948 — Data Talk",
-      "url": "https://www.morningstar.com/news/dow-jones/202608216668/front-month-nymex-ulsd-rose-495-this-week-to-settle-at-44948-data-talk",
-      "source": "Morningstar",
-      "publishedAt": "2026-08-21T17:00:00.000Z",
+      "title": "Energy Markets Rally On Growing Fuel Shortages And Global Supply Threats",
+      "url": "https://www.tacenergy.com/news-and-views/market-talk/energy-markets-rally-on-growing-fuel-shortages-and-global-supply-threats",
+      "source": "TACenergy Market Talk",
+      "publishedAt": "2026-08-21T12:00:00.000Z",
       "category": "markets",
-      "summary": "Front-month Nymex ULSD for September delivery rose 4.95% this week to settle at $4.4948/gal, its largest two-week gain since July 2026.",
+      "summary": "RBOB gasoline futures led a rally to a one-month high near $3.34, while ULSD futures reached a four-month high of $4.532 as global refinery production losses go unreplaced.",
+      "paywalled": false
+    },
+    {
+      "title": "Crude Surges As Iran Tensions Escalate And Diesel Markets Tighten",
+      "url": "https://www.tacenergy.com/news-and-views/market-talk/crude-surges-as-iran-tensions-escalate-and-diesel-markets-tighten",
+      "source": "TACenergy Market Talk",
+      "publishedAt": "2026-08-20T12:00:00.000Z",
+      "category": "markets",
+      "summary": "Crude surged as Iran tensions escalated further, with record-high crack spreads drawing market attention amid tightening diesel markets.",
       "paywalled": false
     },
     {
@@ -27,16 +36,25 @@
       "source": "Morningstar",
       "publishedAt": "2026-08-21T17:00:00.000Z",
       "category": "markets",
-      "summary": "Crude and refined products ended the day and week higher on Nymex; September RBOB climbed 8.5cts to $3.3479/gal, up 5.1% for the week.",
+      "summary": "September RBOB climbed 8.5 cents to $3.3479/gal, up 5.1% on the week, as crude and product prices ended higher for the day and week.",
       "paywalled": false
     },
     {
-      "title": "“Get Long And Buckle Up.” Jeff Currie Explains How To Play The “The Most Asymmetric Trade In Modern Financial History.”",
-      "url": "https://247wallst.com/investing/2026/08/21/get-long-and-buckle-up-jeff-currie-explains-how-to-play-the-the-most-asymmetric-trade-in-modern-financial-history/",
-      "source": "24/7 Wall St.",
-      "publishedAt": "2026-08-21T03:03:00.000Z",
+      "title": "Front Month Nymex ULSD Rose 4.95% This Week to Settle at $4.4948 — Data Talk",
+      "url": "https://www.morningstar.com/news/dow-jones/202608216668/front-month-nymex-ulsd-rose-495-this-week-to-settle-at-44948-data-talk",
+      "source": "Morningstar",
+      "publishedAt": "2026-08-21T17:00:00.000Z",
       "category": "markets",
-      "summary": "Former Goldman commodities chief Jeff Currie, now at Carlyle, told clients to 'get long and buckle up' for what he calls the most asymmetric trade in modern financial history amid rising volatility.",
+      "summary": "Front-month Nymex ULSD for September rose 4.95% this week to settle at $4.4948/gal, its largest two-week gain since July 2026.",
+      "paywalled": false
+    },
+    {
+      "title": "Week 33 - US DOE Inventory Recap",
+      "url": "https://www.tacenergy.com/news-and-views/market-talk/week-33-2026-us-doe-inventory-recap",
+      "source": "TACenergy Market Talk",
+      "publishedAt": "2026-08-19T12:00:00.000Z",
+      "category": "markets",
+      "summary": "Weekly recap of US DOE petroleum inventory data for Week 33.",
       "paywalled": false
     },
     {
@@ -45,7 +63,7 @@
       "source": "RFD-TV",
       "publishedAt": "2026-08-21T05:07:00.000Z",
       "category": "markets",
-      "summary": "Diesel supplies are tightening ahead of a September 1 EPA rule allowing higher Reid vapor pressure gasoline, raising fuel costs for farmers.",
+      "summary": "Farmers face higher fuel costs as diesel supplies tighten; EPA's September 1 higher-Reid-vapor-pressure gasoline allowance is also noted.",
       "paywalled": false
     },
     {
@@ -54,25 +72,7 @@
       "source": "Successful Farming",
       "publishedAt": "2026-08-21T13:38:00.000Z",
       "category": "policy",
-      "summary": "EPA plans to extend a September 1 deadline requiring refiners to demonstrate compliance with the nation's biofuel blending (RFS) laws.",
-      "paywalled": false
-    },
-    {
-      "title": "EPA extends deadline for refiners to comply with renewable fuel standard",
-      "url": "https://www.worldenergynews.com/news/epa-extends-deadline-for-refiners-comply-with-777792",
-      "source": "World Energy News",
-      "publishedAt": "2026-08-21T06:22:00.000Z",
-      "category": "policy",
-      "summary": "EPA published a notice extending the deadline for oil refiners to comply with the Renewable Fuel Standard.",
-      "paywalled": false
-    },
-    {
-      "title": "Court Upholds Trump Admin Order to Restart SYU",
-      "url": "https://www.rigzone.com/news/court_upholds_trump_admin_order_to_restart_syu-21-aug-2026-184433-article/?rss=true",
-      "source": "Rigzone",
-      "publishedAt": "2026-08-21T15:22:53.000Z",
-      "category": "policy",
-      "summary": "A court upheld the Trump administration's order to restart the Santa Ynez Unit (SYU), which the DOJ called a win for domestic energy production.",
+      "summary": "EPA plans to extend the September 1 deadline for refiners to demonstrate compliance with the Renewable Fuel Standard biofuel blending law.",
       "paywalled": false
     },
     {
@@ -80,44 +80,8 @@
       "url": "https://www.biobased-diesel.com/post/xcf-global-ships-55-000-gallons-of-renewable-diesel-daily",
       "source": "Biobased Diesel Daily",
       "publishedAt": "2026-08-21T12:03:52.000Z",
-      "category": "companies",
-      "summary": "XCF Global reports shipping 55,000 gallons of renewable diesel daily, establishing a baseline output as proof of physical production.",
-      "paywalled": false
-    },
-    {
-      "title": "Vitol Bunkers, Olam Agri complete world’s 1st coprocessed VLSFO biobunkering operation",
-      "url": "https://www.biobased-diesel.com/post/vitol-bunkers-olam-agri-complete-world-s-1st-coprocessed-vlsfo-biobunkering-operation",
-      "source": "Biobased Diesel Daily",
-      "publishedAt": "2026-08-21T12:27:38.000Z",
       "category": "policy",
-      "summary": "Vitol Bunkers and Olam Agri completed the world's first coprocessed VLSFO biobunkering operation in Singapore, using cashew-nut shell liquid in a waste-to-energy approach.",
-      "paywalled": false
-    },
-    {
-      "title": "Ukrainian Drone Attack Hits Lukoil Refinery Deep in Russia",
-      "url": "https://oilprice.com/Latest-Energy-News/World-News/Ukrainian-Drone-Attack-Hits-Lukoil-Refinery-Deep-in-Russia.html",
-      "source": "OilPrice.com",
-      "publishedAt": "2026-08-21T08:01:00.000Z",
-      "category": "operations",
-      "summary": "Ukrainian drones struck Lukoil's Perm refinery over 1,600 km from the Russia-Ukraine border, per Zelenskyy.",
-      "paywalled": false
-    },
-    {
-      "title": "Lukoil’s Perm refinery struck 1,530 km from Ukraine’s northern border, Kyiv confirms",
-      "url": "https://euromaidanpress.com/2026/08/21/lukoils-perm-refinery-struck-1530-km-from-ukraines-northern-border-kyiv-confirms/",
-      "source": "Euromaidan Press",
-      "publishedAt": "2026-08-21T08:14:00.000Z",
-      "category": "operations",
-      "summary": "Kyiv confirmed a strike on Lukoil's Perm refinery 1,530 km from Ukraine's northern border, part of an overnight wave that also hit a military airfield.",
-      "paywalled": false
-    },
-    {
-      "title": "Various Tankers Shuttle Saudi Oil North to Evade Houthis",
-      "url": "https://www.rigzone.com/news/wire/various_tankers_shuttle_saudi_oil_north_to_evade_houthis-21-aug-2026-184428-article/?rss=true",
-      "source": "Rigzone",
-      "publishedAt": "2026-08-21T09:18:13.000Z",
-      "category": "operations",
-      "summary": "Shipowners are rerouting Saudi crude tankers via the northern Red Sea route to avoid Houthi attacks near the Bab el-Mandeb chokepoint.",
+      "summary": "XCF Global says it now ships 55,000 gallons of renewable diesel daily, establishing a baseline output as verifiable proof of commercial execution.",
       "paywalled": false
     },
     {
@@ -126,7 +90,43 @@
       "source": "RACER",
       "publishedAt": "2026-08-21T09:04:00.000Z",
       "category": "policy",
-      "summary": "IndyCar and Shell will introduce an updated 100% renewable race fuel for 2027, shifting feedstock sourcing domestically to the US from mostly international sources.",
+      "summary": "Shell is shifting sourcing of waste feedstocks for IndyCar's 100% renewable fuel toward domestic supply ahead of the series' 2027 switch to fully renewable fuel.",
+      "paywalled": false
+    },
+    {
+      "title": "Ukrainian Drone Attack Hits Lukoil Refinery Deep in Russia",
+      "url": "https://oilprice.com/Latest-Energy-News/World-News/Ukrainian-Drone-Attack-Hits-Lukoil-Refinery-Deep-in-Russia.html",
+      "source": "OilPrice.com",
+      "publishedAt": "2026-08-21T08:01:00.000Z",
+      "category": "operations",
+      "summary": "Ukrainian drones struck Lukoil's Perm refinery, more than 1,600 km (1,000 miles) from the Ukraine-Russia border, per Zelenskyy.",
+      "paywalled": false
+    },
+    {
+      "title": "Court Upholds Trump Admin Order to Restart SYU",
+      "url": "https://www.rigzone.com/news/court_upholds_trump_admin_order_to_restart_syu-21-aug-2026-184433-article/?rss=true",
+      "source": "Rigzone",
+      "publishedAt": "2026-08-21T15:22:53.000Z",
+      "category": "operations",
+      "summary": "A US court upheld the Trump administration's order to restart the Santa Ynez Unit (SYU), which DOJ called a win for domestic energy production.",
+      "paywalled": false
+    },
+    {
+      "title": "Various Tankers Shuttle Saudi Oil North to Evade Houthis",
+      "url": "https://www.rigzone.com/news/wire/various_tankers_shuttle_saudi_oil_north_to_evade_houthis-21-aug-2026-184428-article/?rss=true",
+      "source": "Rigzone",
+      "publishedAt": "2026-08-21T09:18:13.000Z",
+      "category": "operations",
+      "summary": "Shipowners are rerouting Saudi crude tankers north via a safer path to avoid Houthi attacks on exports through the Bab el-Mandeb chokepoint.",
+      "paywalled": false
+    },
+    {
+      "title": "Oil Rises as US Targets Iran's Economy",
+      "url": "https://www.rigzone.com/news/wire/oil_rises_as_us_targets_irans_economy-21-aug-2026-184437-article/?rss=true",
+      "source": "Rigzone",
+      "publishedAt": "2026-08-21T19:44:25.000Z",
+      "category": "operations",
+      "summary": "Crude extended its rally as Asian demand strengthened and the Iran conflict continued to constrain global supplies.",
       "paywalled": false
     }
   ],
@@ -163,5 +163,5 @@
       "label": "EIA weekly retail gasoline & diesel prices (Mon PM)"
     }
   ],
-  "generatedAt": "2026-08-22T03:07:24.448Z"
+  "generatedAt": "2026-08-22T03:15:09.462Z"
 }
