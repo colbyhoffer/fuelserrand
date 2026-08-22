@@ -13,21 +13,21 @@
       "paywalled": false
     },
     {
-      "title": "CISCE Launches Digital Assessment Initiative To Track Students' Learning Progress",
-      "url": "https://www.ndtv.com/education/cisce-launches-digital-assessment-initiative-to-track-students-learning-progress-11943220",
-      "source": "NDTV",
-      "publishedAt": "2026-08-21T19:21:00.000Z",
-      "category": "companies",
-      "summary": "CISCE has launched SHINE 2026, a digital assessment initiative to track learning progress, identify gaps and help schools provide timely student support.",
-      "paywalled": false
-    },
-    {
       "title": "Walmart, Sam’s Club to Roll Out Tap to Pay… Finally",
       "url": "https://www.weny.com/news/walmart-sam-s-club-to-roll-out-tap-to-pay-finally/article_b0059985-2807-460b-8c21-3333128aef91.html",
       "source": "WENY News",
       "publishedAt": "2026-08-21T18:26:00.000Z",
       "category": "companies",
       "summary": "Walmart and Sam's Club will begin offering Tap to Pay as a checkout option at select store locations starting Aug. 24, with plans to expand the feature ...",
+      "paywalled": false
+    },
+    {
+      "title": "Little Rock police arrest suspect in deadly gas station shooting",
+      "url": "https://www.fox16.com/crime/little-rock-police-arrest-suspect-in-deadly-gas-station-shooting/",
+      "source": "KLRT - FOX16.com",
+      "publishedAt": "2026-08-21T18:22:00.000Z",
+      "category": "companies",
+      "summary": "The Little Rock Police Department announced an arrest tied to a deadly shooting at a Circle K gas station on Friday.",
       "paywalled": false
     },
     {
@@ -40,30 +40,12 @@
       "paywalled": false
     },
     {
-      "title": "Hallowed Ground: How the crash site of Flight 93 became a national park",
-      "url": "https://www.wjtv.com/remembering-september-11/hallowed-ground-how-the-crash-site-of-flight-93-became-a-national-park/",
-      "source": "WJTV",
-      "publishedAt": "2026-08-21T18:02:00.000Z",
-      "category": "companies",
-      "summary": "National Park Service maintenance crew leader Pat Sparks and his team care for the grounds of the Flight 93 National Memorial in Shanksville, Pa., 25 years after 40 passengers and crew ...",
-      "paywalled": false
-    },
-    {
       "title": "El Camino Shopping Center eyes retail expansion, outdoor dining",
       "url": "https://www.bizjournals.com/sanjose/news/2026/08/21/el-camino-shopping-center-santa-clara.html",
       "source": "The Business Journals",
       "publishedAt": "2026-08-21T17:20:00.000Z",
       "category": "deals",
       "summary": "A long-standing Santa Clara shopping center could add new retail and outdoor dining under a proposed makeover.",
-      "paywalled": false
-    },
-    {
-      "title": "Nymex Overview: Crude and Product Prices End the Day, Week Higher — OPIS",
-      "url": "https://www.morningstar.com/news/dow-jones/202608218212/nymex-overview-crude-and-product-prices-end-the-day-week-higher-opis",
-      "source": "Morningstar",
-      "publishedAt": "2026-08-21T17:00:00.000Z",
-      "category": "markets",
-      "summary": "Most activity in refined products was focused on the next-month contracts, with the lightly traded September RBOB contract climbing 8.5cts higher to $3.3479/gal, a gain of 5.1% for the week. October ...",
       "paywalled": false
     },
     {
@@ -76,12 +58,12 @@
       "paywalled": false
     },
     {
-      "title": "Militello, swastika in the municipal park. Musumeci condemns: \"Cowardly act, clarify immediately\"",
-      "url": "https://jen.jiji.com/jc/eng_agt?g=adnkronos&k=20260822KRONOS-202608121176659031_eng",
-      "source": "jen.jiji",
+      "title": "Nymex Overview: Crude and Product Prices End the Day, Week Higher — OPIS",
+      "url": "https://www.morningstar.com/news/dow-jones/202608218212/nymex-overview-crude-and-product-prices-end-the-day-week-higher-opis",
+      "source": "Morningstar",
       "publishedAt": "2026-08-21T17:00:00.000Z",
-      "category": "deals",
-      "summary": "A swastika has appeared in the municipal park of Militello in Val di Catania. For the Minister for Civil Protection and Maritime Policies, Nello Musumeci, it is \"a cowardly act\" and he has asked, ...",
+      "category": "markets",
+      "summary": "Most activity in refined products was focused on the next-month contracts, with the lightly traded September RBOB contract climbing 8.5cts higher to $3.3479/gal, a gain of 5.1% for the week. October ...",
       "paywalled": false
     },
     {
@@ -128,10 +110,39 @@
       "category": "deals",
       "summary": "Daphne’s bayfront is getting another big boost; the city just landed a $5 million grant to build a new fishing pier. The Jubilee City’s bayfront is already ...",
       "paywalled": false
+    },
+    {
+      "title": "U.S. Approves Air-to-Air APKWS Sale to Italy",
+      "url": "https://theaviationist.com/2026/08/21/u-s-approves-air-to-air-apkws-sale-to-italy/",
+      "source": "The Aviationist",
+      "publishedAt": "2026-08-21T16:02:00.000Z",
+      "category": "companies",
+      "summary": "The U.S. State Department approved a possible Foreign Military Sale to Italy of the air-to-air variant of the APKWS-II, which would include over 5,000 ...",
+      "paywalled": false
+    },
+    {
+      "title": "On Your Side: Scammers pose as Liberty Utilities, target customers with disconnect threats",
+      "url": "https://www.ky3.com/2026/08/21/your-side-scammers-pose-liberty-utilities-target-customers-with-disconnect-threats/",
+      "source": "KYTV",
+      "publishedAt": "2026-08-21T15:58:00.000Z",
+      "category": "companies",
+      "summary": "Debbie Ikerd of Ozark received a phone call from someone claiming to be with Liberty Utilities. The caller told her she was behind on her bill and demanded she pay more than $200 immediately.",
+      "paywalled": false
     }
   ],
   "decks": [],
-  "prices": null,
+  "prices": {
+    "date": "2026-08-22",
+    "ulsdSpot": 4.304,
+    "wtiSpot": 84.05,
+    "retailGas": 4.182,
+    "retailDiesel": 5.454,
+    "gasStocksMbbl": 209378,
+    "distStocksMbbl": 105619,
+    "gasDemandKbd": 8689,
+    "distDemandKbd": 3953,
+    "dieselCrack": 96.72
+  },
   "weekAhead": [
     {
       "date": "Wed, Aug 26",
@@ -150,9 +161,8 @@
       "label": "EIA weekly retail gasoline & diesel prices (Mon PM)"
     }
   ],
-  "generatedAt": "2026-08-22T02:36:36.742Z",
+  "generatedAt": "2026-08-22T03:03:56.652Z",
   "degraded": [
-    "prices",
     "AI summarization"
   ]
 }
