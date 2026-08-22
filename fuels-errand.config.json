@@ -1,28 +1,178 @@
 {
-  "_readme": "Fuels Errand personal settings. Edit this file (GitHub web editor works fine) and the next daily run picks it up. Set enabled:false to stop watching a company's investor docs. Outlet preferences NUDGE story ranking only — no outlet is ever excluded by these lists.",
+  "_readme": "Fuels Errand personal settings. Edit this file (GitHub web editor works fine) and the next daily run picks it up. Set enabled:false to stop watching a company's investor docs. Outlet preferences NUDGE story ranking only \u2014 no outlet is ever excluded by these lists.",
   "companies": [
-    { "name": "Valero Energy", "ticker": "VLO", "group": "refiner", "cik": 1035002, "enabled": true },
-    { "name": "Marathon Petroleum", "ticker": "MPC", "group": "refiner", "cik": 1510295, "enabled": true },
-    { "name": "Phillips 66", "ticker": "PSX", "group": "refiner", "cik": 1534701, "enabled": true },
-    { "name": "PBF Energy", "ticker": "PBF", "group": "refiner", "cik": 1534504, "enabled": true },
-    { "name": "HF Sinclair", "ticker": "DINO", "group": "refiner", "cik": 1915657, "enabled": true },
-    { "name": "Delek US", "ticker": "DK", "group": "refiner", "cik": 1694426, "enabled": true },
-    { "name": "Par Pacific", "ticker": "PARR", "group": "refiner", "cik": 821483, "enabled": true },
-    { "name": "CVR Energy", "ticker": "CVI", "group": "refiner", "cik": 1376139, "enabled": true },
-    { "name": "Darling Ingredients", "ticker": "DAR", "group": "renewables", "cik": 916540, "enabled": true },
-    { "name": "Neste", "ticker": "NESTE.HE", "group": "renewables", "irPages": ["https://www.neste.com/investors/reports-and-presentations"], "enabled": true },
-    { "name": "Calumet (Montana Renewables)", "ticker": "CLMT", "group": "renewables", "cik": 2013745, "enabled": true },
-    { "name": "Gevo", "ticker": "GEVO", "group": "renewables", "cik": 1392380, "enabled": true },
-    { "name": "Aemetis", "ticker": "AMTX", "group": "renewables", "cik": 738214, "enabled": true },
-    { "name": "Casey's General Stores", "ticker": "CASY", "group": "retail", "cik": 726958, "enabled": true },
-    { "name": "Murphy USA", "ticker": "MUSA", "group": "retail", "cik": 1573516, "enabled": true },
-    { "name": "Alimentation Couche-Tard", "ticker": "ATD.TO", "group": "retail", "irPages": ["https://corpo.couche-tard.com/en/investors/"], "enabled": true },
-    { "name": "Sunoco LP", "ticker": "SUN", "group": "retail", "cik": 1552275, "enabled": true },
-    { "name": "Global Partners", "ticker": "GLP", "group": "retail", "cik": 1323468, "enabled": true },
-    { "name": "Costco", "ticker": "COST", "group": "bigbox", "cik": 909832, "enabled": true },
-    { "name": "Walmart", "ticker": "WMT", "group": "bigbox", "cik": 104169, "enabled": true },
-    { "name": "BJ's Wholesale Club", "ticker": "BJ", "group": "bigbox", "cik": 1531152, "enabled": true },
-    { "name": "Kroger", "ticker": "KR", "group": "bigbox", "cik": 56873, "enabled": true }
+    {
+      "name": "ExxonMobil",
+      "ticker": "XOM",
+      "group": "refiner",
+      "cik": 2115436,
+      "enabled": true
+    },
+    {
+      "name": "Chevron",
+      "ticker": "CVX",
+      "group": "refiner",
+      "cik": 93410,
+      "enabled": true
+    },
+    {
+      "name": "Valero Energy",
+      "ticker": "VLO",
+      "group": "refiner",
+      "cik": 1035002,
+      "enabled": true
+    },
+    {
+      "name": "Marathon Petroleum",
+      "ticker": "MPC",
+      "group": "refiner",
+      "cik": 1510295,
+      "enabled": true
+    },
+    {
+      "name": "Phillips 66",
+      "ticker": "PSX",
+      "group": "refiner",
+      "cik": 1534701,
+      "enabled": true
+    },
+    {
+      "name": "PBF Energy",
+      "ticker": "PBF",
+      "group": "refiner",
+      "cik": 1534504,
+      "enabled": true
+    },
+    {
+      "name": "HF Sinclair",
+      "ticker": "DINO",
+      "group": "refiner",
+      "cik": 1915657,
+      "enabled": true
+    },
+    {
+      "name": "Delek US",
+      "ticker": "DK",
+      "group": "refiner",
+      "cik": 1694426,
+      "enabled": true
+    },
+    {
+      "name": "Par Pacific",
+      "ticker": "PARR",
+      "group": "refiner",
+      "cik": 821483,
+      "enabled": true
+    },
+    {
+      "name": "CVR Energy",
+      "ticker": "CVI",
+      "group": "refiner",
+      "cik": 1376139,
+      "enabled": true
+    },
+    {
+      "name": "Darling Ingredients",
+      "ticker": "DAR",
+      "group": "renewables",
+      "cik": 916540,
+      "enabled": true
+    },
+    {
+      "name": "Neste",
+      "ticker": "NESTE.HE",
+      "group": "renewables",
+      "irPages": [
+        "https://www.neste.com/investors/reports-and-presentations"
+      ],
+      "enabled": true
+    },
+    {
+      "name": "Calumet (Montana Renewables)",
+      "ticker": "CLMT",
+      "group": "renewables",
+      "cik": 2013745,
+      "enabled": true
+    },
+    {
+      "name": "Gevo",
+      "ticker": "GEVO",
+      "group": "renewables",
+      "cik": 1392380,
+      "enabled": true
+    },
+    {
+      "name": "Aemetis",
+      "ticker": "AMTX",
+      "group": "renewables",
+      "cik": 738214,
+      "enabled": true
+    },
+    {
+      "name": "Casey's General Stores",
+      "ticker": "CASY",
+      "group": "retail",
+      "cik": 726958,
+      "enabled": true
+    },
+    {
+      "name": "Murphy USA",
+      "ticker": "MUSA",
+      "group": "retail",
+      "cik": 1573516,
+      "enabled": true
+    },
+    {
+      "name": "Alimentation Couche-Tard",
+      "ticker": "ATD.TO",
+      "group": "retail",
+      "irPages": [
+        "https://corpo.couche-tard.com/en/investors/"
+      ],
+      "enabled": true
+    },
+    {
+      "name": "Sunoco LP",
+      "ticker": "SUN",
+      "group": "retail",
+      "cik": 1552275,
+      "enabled": true
+    },
+    {
+      "name": "Global Partners",
+      "ticker": "GLP",
+      "group": "retail",
+      "cik": 1323468,
+      "enabled": true
+    },
+    {
+      "name": "Costco",
+      "ticker": "COST",
+      "group": "bigbox",
+      "cik": 909832,
+      "enabled": true
+    },
+    {
+      "name": "Walmart",
+      "ticker": "WMT",
+      "group": "bigbox",
+      "cik": 104169,
+      "enabled": true
+    },
+    {
+      "name": "BJ's Wholesale Club",
+      "ticker": "BJ",
+      "group": "bigbox",
+      "cik": 1531152,
+      "enabled": true
+    },
+    {
+      "name": "Kroger",
+      "ticker": "KR",
+      "group": "bigbox",
+      "cik": 56873,
+      "enabled": true
+    }
   ],
   "preferredOutlets": [
     "TACenergy Market Talk",

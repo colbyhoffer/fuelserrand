@@ -1,5 +1,41 @@
 [
   {
+    "company": "Chevron",
+    "ticker": "CVX",
+    "title": "Q2 2026 Earnings Release (8-K, filed 2026-07-31)",
+    "url": "https://www.sec.gov/Archives/edgar/data/93410/000009341026000162/a06302026ex9918-k.htm",
+    "foundAt": "2026-08-22T19:30:00.000Z",
+    "docType": "earnings",
+    "analysis": "- **Downstream earnings exploded to $4.9B** ($2.4B US + $2.5B international) vs $737M a year ago \u2014 the margin capture behind this summer's record crack spreads, on total earnings of $12.1B (21% ROCE, Brent averaging $104).\n- **US refineries ran flat-out**: record crude unit throughput of 1.07 MMbpd at >97% utilization \u2014 yet US refined product sales fell 4% on weaker gasoline demand. This is a margin story, not a volume story.\n- **The Middle East conflict is visibly cutting international product supply**: international refinery inputs down 10%, product sales down 13% on supply disruptions.\n- **Retreating from Asian downstream**: sold Hong Kong fuels business; agreed to sell its 50% of Singapore Refining Company plus downstream assets across Vietnam, Australia, Indonesia, the Philippines, and Malaysia (closing 2027).\n- Record $8.4B debt paydown in the quarter; $3B structural cost target hit six months early; Hess synergies at $1.5B run-rate.\n\n**Signal for fuels markets**: a major running US refining at physical limits into record margins while shedding international downstream \u2014 more evidence that usable product supply, not crude, is the binding constraint."
+  },
+  {
+    "company": "ExxonMobil",
+    "ticker": "XOM",
+    "title": "Q2 2026 Earnings Release (8-K, filed 2026-07-31)",
+    "url": "https://www.sec.gov/Archives/edgar/data/2115436/000211543626000006/livef8k2q26991.htm",
+    "foundAt": "2026-08-22T19:30:00.000Z",
+    "docType": "earnings",
+    "analysis": "- **Energy Products (refining) adjusted earnings hit $4.1B for the quarter** \u2014 first-half 2026 at $6.9B vs $2.2B in all of 1H 2025, a tripling driven by product margins.\n- **Record second-quarter diesel production** (best in their data back to 2014) on strong US Gulf Coast utilization \u2014 the industry's max-distillate shift, quantified.\n- Product placement flexed around the Middle East disruptions ($900M of YTD earnings impacts, plus an $884M non-US Energy Products impairment); energy products sales rose to 5.7 MMbpd.\n- Total: $14.5B GAAP / $14.7B adjusted earnings, $17.2B free cash flow, $9.4B returned to shareholders in the quarter.\n- **Corporate note**: completed its redomiciliation July 1 \u2014 ExxonMobil Holdings Corporation (Texas) replaced the New Jersey parent; same ticker, new SEC registrant.\n\n**Signal for fuels markets**: the largest US refiner by complexity is running record diesel output into a supply-constrained market and still can't soften cracks \u2014 confirmation of how tight distillate supply actually is."
+  },
+  {
+    "company": "Global Partners",
+    "ticker": "GLP",
+    "title": "Q2 2026 Earnings Release (8-K, filed 2026-08-07)",
+    "url": "https://www.sec.gov/Archives/edgar/data/1323468/000110465926092378/tm2622227d1_ex99-1.htm",
+    "foundAt": "2026-08-22T19:30:00.000Z",
+    "docType": "earnings",
+    "analysis": "- **Fuel margin expansion all the way downstream**: gasoline distribution product margin jumped to $175.0M from $137.9M on higher cents-per-gallon margins \u2014 distributors are capturing spread, not just passing through higher prices.\n- Adjusted EBITDA +51% to $148.2M; net income nearly tripled to $71.0M; distributable cash flow up 78% to $92.6M.\n- Wholesale gasoline/blendstocks margin rose to $78.4M (from $58.8M) on favorable gasoline conditions; distillates/residual margin slipped to $28.1M; bunkering strengthened.\n- Total sales of $6.8B vs $4.6B \u2014 almost entirely price-driven, mirroring the commodity move.\n- Station operations margin flat (~$70M) \u2014 the c-store side is steady while the fuel side swings.\n\n**Signal for fuels markets**: price volatility is profit for the distribution layer \u2014 Northeast rack-to-retail spreads are wide, and the margin expansion GLP shows suggests pump prices have room to keep rising even if wholesale stabilizes."
+  },
+  {
+    "company": "Costco",
+    "ticker": "COST",
+    "title": "Q3 FY2026 Earnings Release (8-K, filed 2026-05-28)",
+    "url": "https://www.sec.gov/Archives/edgar/data/909832/000090983226000046/costex9918-k52826.htm",
+    "foundAt": "2026-08-22T19:30:00.000Z",
+    "docType": "earnings",
+    "analysis": "- **Gasoline was a major comp driver**: US comparable sales rose 9.4% reported but only 6.8% excluding gas prices and FX \u2014 fuel-price inflation contributed roughly 2.6 points, one of the largest gas contributions to comps in years (quarter ended May 10, before the summer spike accelerated).\n- Fiscal Q3 (12 weeks): net sales $69.2B (+11.6%), net income $2.19B ($4.93/share); 931 warehouses, 639 in the US.\n- The release gives no gallon or fuel-margin detail (Costco reserves that for the earnings call) \u2014 but the reported-vs-adjusted comp gap is the cleanest public marker of member fuel spending.\n- Membership fees +10.7% to $1.37B \u2014 the model that lets Costco run fuel at thin margins as a traffic driver is compounding.\n\n**Signal for fuels markets**: high-volume discount retail is passing higher fuel prices straight into reported sales while using cheap gas as a membership draw \u2014 expect Costco to stay the price floor in its markets. Fiscal Q4 (report due late September) will capture the full summer price surge."
+  },
+  {
     "company": "Valero Energy",
     "ticker": "VLO",
     "title": "Investor Presentation \u2014 April 2026",
