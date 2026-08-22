@@ -1,0 +1,35 @@
+# One-off/occasional: backfill historical EIA data into data/price-history.json.
+name: Backfill price history
+
+on:
+  workflow_dispatch:
+    inputs:
+      years:
+        description: 'Years of history to fetch'
+        default: '5'
+
+permissions:
+  contents: write
+
+jobs:
+  backfill:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+      - name: Run backfill
+        env:
+          EIA_API_KEY: ${{ secrets.EIA_API_KEY }}
+        run: npx tsx pipeline/backfill.ts --years ${{ inputs.years }}
+      - name: Commit data
+        run: |
+          git config user.name "fuels-errand-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add data/price-history.json
+          git diff --cached --quiet || git commit -m "Backfill ${{ inputs.years }} years of EIA price history"
+          git push
+      # The push triggers deploy.yml, which rebuilds the site with the new data.

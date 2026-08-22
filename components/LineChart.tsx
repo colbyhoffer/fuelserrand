@@ -30,12 +30,14 @@ export default function LineChart({ title, unit, series, sourceUrl, sourceLabel 
   const span = max - min || 1;
   const yLo = min - span * 0.08, yHi = max + span * 0.08;
 
-  const x = (date: string) => PAD_L + (dates.indexOf(date) / Math.max(dates.length - 1, 1)) * (W - PAD_L - PAD_R);
+  const idx = new Map(dates.map((d, i) => [d, i]));
+  const x = (date: string) => PAD_L + ((idx.get(date) ?? 0) / Math.max(dates.length - 1, 1)) * (W - PAD_L - PAD_R);
   const y = (v: number) => PAD_T + (1 - (v - yLo) / (yHi - yLo)) * (H - PAD_T - PAD_B);
 
   const yTicks = [0, 0.25, 0.5, 0.75, 1].map((t) => yLo + t * (yHi - yLo));
   const xTickIdx = dates.length <= 6 ? dates.map((_, i) => i)
-    : [0, Math.floor(dates.length / 3), Math.floor((2 * dates.length) / 3), dates.length - 1];
+    : [0, 1, 2, 3, 4].map((k) => Math.floor((k * (dates.length - 1)) / 4));
+  const xLabel = (d: string) => (dates.length > 120 ? d.slice(0, 7) : d.slice(5));
 
   return (
     <div className="chart-panel">
@@ -48,10 +50,10 @@ export default function LineChart({ title, unit, series, sourceUrl, sourceLabel 
           </g>
         ))}
         {xTickIdx.map((i) => (
-          <text key={i} x={x(dates[i])} y={H - 10} textAnchor="middle" fontSize="11" fill="var(--muted)">{dates[i].slice(5)}</text>
+          <text key={i} x={x(dates[i])} y={H - 10} textAnchor="middle" fontSize="11" fill="var(--muted)">{xLabel(dates[i])}</text>
         ))}
         {series.map((s) => {
-          const pts = s.points.filter((p) => dates.includes(p.date)).sort((a, b) => a.date.localeCompare(b.date));
+          const pts = s.points.filter((p) => idx.has(p.date)).sort((a, b) => a.date.localeCompare(b.date));
           const d = pts.map((p, i) => `${i === 0 ? 'M' : 'L'}${x(p.date).toFixed(1)},${y(p.value).toFixed(1)}`).join(' ');
           return <path key={s.label} d={d} fill="none" stroke={s.color} strokeWidth="2" />;
         })}
