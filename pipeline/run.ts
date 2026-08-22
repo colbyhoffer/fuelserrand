@@ -32,7 +32,9 @@ async function main() {
   const baseline = process.argv.includes('--baseline');
   const now = new Date();
   const centralDate = now.toLocaleDateString('en-CA', { timeZone: 'America/Chicago' }); // YYYY-MM-DD
-  const isFriday = new Date(now.toLocaleString('en-US', { timeZone: 'America/Chicago' })).getDay() === 5;
+  // Note: don't derive weekday by re-parsing toLocaleString output — Node emits
+  // a narrow no-break space before AM/PM that breaks Date parsing.
+  const isFriday = new Intl.DateTimeFormat('en-US', { timeZone: 'America/Chicago', weekday: 'short' }).format(now) === 'Fri';
   const degraded: string[] = [];
 
   console.log(`[run] Fuels Errand pipeline for ${centralDate}${dryRun ? ' (dry run)' : ''}${baseline ? ' (baseline)' : ''}`);

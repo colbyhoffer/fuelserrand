@@ -9,6 +9,9 @@ name: Daily brief
 on:
   schedule:
     - cron: '30 11 * * 1-5'
+    # Backup firing ~90 min later: GitHub sometimes skips scheduled runs.
+    # A guard step below makes this a no-op when the morning run succeeded.
+    - cron: '0 13 * * 1-5'
   workflow_dispatch:
     inputs:
       dry_run:
@@ -34,13 +37,28 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+
+      # Backup-cron guard: if today's brief already exists (morning run fired),
+      # the 13:00 UTC firing does nothing.
+      - name: Check whether today's brief already exists
+        id: guard
+        run: |
+          TODAY=$(TZ=America/Chicago date +%F)
+          if [ "${{ github.event_name }}" = "schedule" ] && [ "$(date -u +%H)" -ge 13 ] && [ -f "data/briefs/$TODAY.json" ]; then
+            echo "skip=true" >> "$GITHUB_OUTPUT"
+            echo "Brief for $TODAY already exists — backup firing is a no-op."
+          fi
+
       - uses: actions/setup-node@v4
+        if: steps.guard.outputs.skip != 'true'
         with:
           node-version: 22
           cache: npm
       - run: npm ci
+        if: steps.guard.outputs.skip != 'true'
 
       - name: Run pipeline
+        if: steps.guard.outputs.skip != 'true'
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           RESEND_API_KEY: ${{ secrets.RESEND_API_KEY }}
@@ -54,6 +72,7 @@ jobs:
           npx tsx pipeline/run.ts $FLAGS
 
       - name: Commit data
+        if: steps.guard.outputs.skip != 'true'
         run: |
           git config user.name "fuels-errand-bot"
           git config user.email "actions@users.noreply.github.com"
@@ -62,10 +81,13 @@ jobs:
           git push
 
       - name: Build site
+        if: steps.guard.outputs.skip != 'true'
         run: npm run build
 
       - uses: actions/upload-pages-artifact@v3
+        if: steps.guard.outputs.skip != 'true'
         with:
           path: out
 
       - uses: actions/deploy-pages@v4
+        if: steps.guard.outputs.skip != 'true'
