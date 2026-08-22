@@ -2,8 +2,8 @@ import { Resend } from 'resend';
 import { ENV } from './config';
 import type { Brief, Category, PricePoint, Story } from './types';
 
-// Morning Brew-inspired layout: white card on light gray, conversational
-// intro, markets box with day-over-day change arrows, emoji section headers.
+// Morning Brew-inspired layout in the Fuels Errand dark palette: dark card,
+// conversational intro, markets box with day-over-day arrows, emoji sections.
 
 const CATEGORY_META: Record<Category, { label: string; emoji: string }> = {
   markets: { label: 'Markets & Prices', emoji: '📈' },
@@ -15,11 +15,19 @@ const CATEGORY_META: Record<Category, { label: string; emoji: string }> = {
 
 const CATEGORY_ORDER: Category[] = ['markets', 'operations', 'policy', 'companies', 'deals'];
 
-const ORANGE = '#c2410c';
-const INK = '#1a1a1a';
-const GRAY = '#6b7280';
-const GREEN = '#0a8a4a';
-const RED = '#d64545';
+// Palette mirrors the site's dark theme (app/globals.css) exactly.
+const BG = '#070b14';
+const CARD = '#0e1424';
+const PANEL = '#151c30';
+const PANEL_BORDER = '#2a3352';
+const BORDER = '#1d2740';
+const ORANGE = '#f59e0b';
+const INK = '#e8ecf5';        // primary text
+const BODY = '#b9c2d4';       // body text
+const GRAY = '#8c96ad';       // muted
+const BLUE = '#4d9fff';
+const GREEN = '#34d399';
+const RED = '#f87171';
 
 function esc(s: string): string {
   return s.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
@@ -63,11 +71,11 @@ function marketsBox(brief: Brief): string {
   const rows = marketRows(p, brief.prevPrices)
     .filter((r) => r.value != null)
     .map((r) => `<tr>
-      <td style="padding:7px 0;font-size:14px;color:${INK};border-bottom:1px solid #eee;">${r.label}</td>
-      <td style="padding:7px 0;font-size:14px;font-weight:700;color:${INK};text-align:right;border-bottom:1px solid #eee;">$${r.value!.toFixed(r.unit === '$/gal' ? 3 : 2)}<span style="color:${GRAY};font-weight:400;font-size:11px;"> ${r.unit}</span></td>
-      <td style="padding:7px 0 7px 14px;font-size:13px;text-align:right;border-bottom:1px solid #eee;white-space:nowrap;">${changeHtml(r)}</td>
+      <td style="padding:7px 0;font-size:14px;color:${INK};border-bottom:1px solid ${BORDER};">${r.label}</td>
+      <td style="padding:7px 0;font-size:14px;font-weight:700;color:${INK};text-align:right;border-bottom:1px solid ${BORDER};">$${r.value!.toFixed(r.unit === '$/gal' ? 3 : 2)}<span style="color:${GRAY};font-weight:400;font-size:11px;"> ${r.unit}</span></td>
+      <td style="padding:7px 0 7px 14px;font-size:13px;text-align:right;border-bottom:1px solid ${BORDER};white-space:nowrap;">${changeHtml(r)}</td>
     </tr>`).join('');
-  return `<div style="background:#faf7f2;border:1px solid #eee1cf;border-radius:10px;padding:16px 20px;margin:22px 0;">
+  return `<div style="background:${PANEL};border:1px solid ${PANEL_BORDER};border-radius:10px;padding:16px 20px;margin:22px 0;">
     <div style="font-size:12px;font-weight:800;letter-spacing:.1em;color:${ORANGE};margin-bottom:4px;">MARKETS</div>
     <table role="presentation" width="100%" style="border-collapse:collapse;">${rows}</table>
     <div style="font-size:11px;color:${GRAY};margin-top:8px;">Change vs. prior data point. Spot prices & single-product cracks vs WTI from <a href="https://www.eia.gov/petroleum/data.php" style="color:${GRAY};">EIA ↗</a></div>
@@ -75,10 +83,10 @@ function marketsBox(brief: Brief): string {
 }
 
 function storyHtml(s: Story): string {
-  const tag = s.paywalled ? ` <span style="font-size:10px;color:#b45309;border:1px solid #e5c48a;border-radius:3px;padding:0 4px;vertical-align:1px;">paywalled</span>` : '';
+  const tag = s.paywalled ? ` <span style="font-size:10px;color:${ORANGE};border:1px solid ${PANEL_BORDER};border-radius:3px;padding:0 4px;vertical-align:1px;">paywalled</span>` : '';
   return `<div style="margin:0 0 16px;">
     <a href="${esc(s.url)}" style="color:${INK};font-weight:700;font-size:16px;text-decoration:none;line-height:1.35;">${esc(s.title)}</a>${tag}
-    ${s.summary ? `<div style="color:#374151;font-size:14px;line-height:1.55;margin-top:3px;">${esc(s.summary)}</div>` : ''}
+    ${s.summary ? `<div style="color:${BODY};font-size:14px;line-height:1.55;margin-top:3px;">${esc(s.summary)}</div>` : ''}
     <div style="font-size:12px;color:${GRAY};margin-top:3px;">${esc(s.source)} · <a href="${esc(s.url)}" style="color:${GRAY};">original source ↗</a></div>
   </div>`;
 }
@@ -101,33 +109,33 @@ export function renderEmailHtml(brief: Brief): string {
   }).join('');
 
   const decks = brief.decks.length
-    ? sectionHeader('📊', 'New Investor Materials') + brief.decks.map((d) => `<div style="margin:0 0 16px;padding:14px 16px;background:#faf7f2;border:1px solid #eee1cf;border-radius:10px;">
+    ? sectionHeader('📊', 'New Investor Materials') + brief.decks.map((d) => `<div style="margin:0 0 16px;padding:14px 16px;background:${PANEL};border:1px solid ${PANEL_BORDER};border-radius:10px;">
         <div style="font-weight:800;font-size:15px;color:${INK};">${esc(d.company)} <span style="color:${GRAY};font-weight:400;">(${esc(d.ticker)})</span></div>
-        <a href="${esc(d.url)}" style="font-size:13px;color:#1d4ed8;">${esc(d.title)} ↗</a>
-        <div style="font-size:14px;color:#374151;line-height:1.55;margin-top:6px;white-space:pre-wrap;">${esc(d.analysis)}</div>
+        <a href="${esc(d.url)}" style="font-size:13px;color:${BLUE};">${esc(d.title)} ↗</a>
+        <div style="font-size:14px;color:${BODY};line-height:1.55;margin-top:6px;white-space:pre-wrap;">${esc(d.analysis)}</div>
       </div>`).join('')
     : '';
 
   const earnings = brief.upcomingEarnings?.length
-    ? sectionHeader('🗓️', 'Earnings Radar') + `<div style="font-size:14px;color:#374151;line-height:1.7;">
+    ? sectionHeader('🗓️', 'Earnings Radar') + `<div style="font-size:14px;color:${BODY};line-height:1.7;">
         ${brief.upcomingEarnings.map((e) => `<div><strong>${esc(e.name)}</strong> (${esc(e.ticker)}) — est. ${esc(e.nextEstimate)}</div>`).join('')}
         <div style="font-size:12px;color:${GRAY};margin-top:4px;">Dates estimated from each company's SEC filing cadence · <a href="${ENV.siteUrl}/earnings/" style="color:${GRAY};">full calendar ↗</a></div>
       </div>`
     : '';
 
   const weekAhead = brief.weekAhead?.length
-    ? sectionHeader('🔭', 'Week Ahead') + `<div style="font-size:14px;color:#374151;line-height:1.8;">
+    ? sectionHeader('🔭', 'Week Ahead') + `<div style="font-size:14px;color:${BODY};line-height:1.8;">
         ${brief.weekAhead.map((w) => `<div><strong style="color:${ORANGE};">${esc(w.date)}</strong> — ${esc(w.label)}</div>`).join('')}
       </div>`
     : '';
 
   const degraded = brief.degraded?.length
-    ? `<div style="font-size:12px;color:#92400e;background:#fef7e7;border:1px solid #f2dfb6;border-radius:8px;padding:8px 12px;margin:14px 0;">Heads up: fallback mode today for ${brief.degraded.join(', ')}.</div>`
+    ? `<div style="font-size:12px;color:${ORANGE};background:rgba(245,158,11,.08);border:1px solid rgba(245,158,11,.3);border-radius:8px;padding:8px 12px;margin:14px 0;">Heads up: fallback mode today for ${brief.degraded.join(', ')}.</div>`
     : '';
 
-  return `<!doctype html><html><body style="margin:0;padding:0;background:#f4f4f4;">
+  return `<!doctype html><html><body style="margin:0;padding:0;background:${BG};">
   <div style="max-width:600px;margin:0 auto;padding:18px 12px;font-family:-apple-system,'Segoe UI',Helvetica,Arial,sans-serif;">
-    <div style="background:#ffffff;border-radius:12px;padding:28px 30px;border:1px solid #e8e8e8;">
+    <div style="background:${CARD};border-radius:12px;padding:28px 30px;border:1px solid ${BORDER};">
 
       <table role="presentation" width="100%" style="border-collapse:collapse;margin-bottom:6px;"><tr>
         <td style="font-size:20px;font-weight:900;letter-spacing:.06em;color:${INK};">FUELS <span style="color:${ORANGE};">ERRAND</span></td>
@@ -135,10 +143,10 @@ export function renderEmailHtml(brief: Brief): string {
       </tr></table>
       <div style="border-top:3px solid ${INK};margin-bottom:18px;"></div>
 
-      ${brief.intro ? `<p style="font-size:15px;color:#374151;line-height:1.6;margin:0 0 14px;">${esc(brief.intro)}</p>` : ''}
+      ${brief.intro ? `<p style="font-size:15px;color:${BODY};line-height:1.6;margin:0 0 14px;">${esc(brief.intro)}</p>` : ''}
 
       <h1 style="font-size:22px;color:${INK};margin:0 0 8px;line-height:1.3;">${esc(brief.headline)}</h1>
-      <p style="font-size:14.5px;color:#4b5563;line-height:1.6;margin:0;">${esc(brief.overview)}</p>
+      <p style="font-size:14.5px;color:${BODY};line-height:1.6;margin:0;">${esc(brief.overview)}</p>
       ${degraded}
       ${marketsBox(brief)}
       ${sections}
@@ -146,7 +154,7 @@ export function renderEmailHtml(brief: Brief): string {
       ${earnings}
       ${weekAhead}
 
-      <div style="border-top:1px solid #e8e8e8;margin-top:30px;padding-top:14px;font-size:12px;color:${GRAY};line-height:1.7;">
+      <div style="border-top:1px solid ${BORDER};margin-top:30px;padding-top:14px;font-size:12px;color:${GRAY};line-height:1.7;">
         <a href="${ENV.siteUrl}" style="color:${ORANGE};font-weight:700;">Today</a> ·
         <a href="${ENV.siteUrl}/archive/" style="color:${GRAY};">Archive</a> ·
         <a href="${ENV.siteUrl}/dashboard/" style="color:${GRAY};">Dashboard</a> ·

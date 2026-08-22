@@ -1,15 +1,16 @@
 :root {
-  --bg: #f4f4f4;
-  --card: #ffffff;
-  --panel: #faf7f2;         /* cream boxes, as in the email */
-  --border: #e8e8e8;
-  --panel-border: #eee1cf;
-  --text: #1a1a1a;
-  --muted: #6b7280;
-  --accent: #c2410c;        /* Fuels Errand orange */
-  --accent-2: #1d4ed8;      /* link blue */
-  --good: #0a8a4a;
-  --bad: #d64545;
+  --bg: #070b14;
+  --card: #0e1424;
+  --panel: #151c30;         /* the email's cream boxes, gone dark */
+  --border: #1d2740;
+  --panel-border: #2a3352;
+  --text: #e8ecf5;
+  --body-text: #b9c2d4;
+  --muted: #8c96ad;
+  --accent: #f59e0b;        /* Fuels Errand orange, brightened for dark */
+  --accent-2: #4d9fff;      /* link blue */
+  --good: #34d399;
+  --bad: #f87171;
 }
 
 * { box-sizing: border-box; }
@@ -52,8 +53,8 @@ a:hover { text-decoration: underline; }
 
 .brief-date { color: var(--muted); font-size: 13px; }
 h1.headline { font-size: 24px; line-height: 1.3; margin: 8px 0 10px; }
-.intro { color: #374151; font-size: 15.5px; margin: 0 0 10px; }
-.overview { color: #4b5563; font-size: 15px; }
+.intro { color: var(--body-text); font-size: 15.5px; margin: 0 0 10px; }
+.overview { color: var(--body-text); font-size: 15px; }
 
 .cat-nav, .pill-row { display: flex; flex-wrap: wrap; gap: 8px; margin: 16px 0 4px; }
 .cat-pill {
@@ -88,11 +89,11 @@ h2.section {
 .story { margin-bottom: 18px; }
 .story-title { font-weight: 700; font-size: 16px; color: var(--text); line-height: 1.35; }
 .story-title:hover { color: var(--accent); text-decoration: none; }
-.story-summary { color: #374151; font-size: 14px; line-height: 1.55; margin-top: 3px; }
+.story-summary { color: var(--body-text); font-size: 14px; line-height: 1.55; margin-top: 3px; }
 .story-meta { font-size: 12px; color: var(--muted); margin-top: 3px; }
 .story-meta a { color: var(--muted); }
 .paywall-tag {
-  font-size: 10px; color: #b45309; border: 1px solid #e5c48a;
+  font-size: 10px; color: var(--accent); border: 1px solid var(--panel-border);
   border-radius: 3px; padding: 0 5px; margin-left: 6px; vertical-align: 2px;
 }
 
@@ -102,7 +103,7 @@ h2.section {
 }
 .deck-company { font-weight: 800; font-size: 15px; }
 .deck-ticker { color: var(--muted); font-weight: 400; }
-.deck-analysis { font-size: 14px; color: #374151; white-space: pre-wrap; margin-top: 8px; line-height: 1.55; }
+.deck-analysis { font-size: 14px; color: var(--body-text); white-space: pre-wrap; margin-top: 8px; line-height: 1.55; }
 
 .archive-list { list-style: none; padding: 0; }
 .archive-list li {
@@ -131,13 +132,13 @@ h2.section {
 .earnings-past { color: var(--muted); font-variant-numeric: tabular-nums; }
 
 .degraded-note {
-  font-size: 12.5px; color: #92400e; background: #fef7e7;
-  border: 1px solid #f2dfb6; border-radius: 8px;
+  font-size: 12.5px; color: var(--accent); background: rgba(245, 158, 11, .08);
+  border: 1px solid rgba(245, 158, 11, .3); border-radius: 8px;
   padding: 8px 14px; margin: 14px 0;
 }
 
 .week-ahead { padding-left: 18px; }
-.week-ahead li { color: #374151; font-size: 14px; margin-bottom: 6px; }
+.week-ahead li { color: var(--body-text); font-size: 14px; margin-bottom: 6px; }
 .week-ahead strong { color: var(--accent); }
 
 .footer-note {
