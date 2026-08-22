@@ -4,7 +4,7 @@ Daily briefing on refined fuels markets — gasoline, diesel, renewable diesel, 
 
 Every weekday ~6:30am CT, a GitHub Actions cron job:
 
-1. **Fetches news** from direct RSS feeds (EIA, trade press) and Google News topic queries (used as a *finder only* — every item is attributed and linked to the original publisher; social media, forums, and stock-picking sites are blocked).
+1. **Fetches news** from direct RSS feeds (EIA, trade press), TACenergy Market Talk (scraped — no feed), and Bing News topic queries (used as a *finder only* — every item is attributed and linked to the original publisher; social media, forums, and stock-picking sites are blocked).
 2. **Fetches market data** from the EIA Open Data API: RBOB/ULSD/WTI spots, computed crack spreads, weekly retail prices, inventories, and implied demand.
 3. **Watches IR pages** of ~24 refiners, renewable-fuel producers, c-store chains, and big-box fuel retailers; new PDFs are analyzed by Claude for fuels-market takeaways.
 4. **Edits the brief with Claude** — ranks, dedupes, summarizes, writes the headline and overview. Paywalled trade wires (OPIS, Platts, Argus, Bloomberg…) appear as marked headline + link only.

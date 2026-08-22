@@ -151,9 +151,25 @@ function dedupe(items: RawItem[]): RawItem[] {
 }
 
 export async function fetchNews(now: Date): Promise<Story[]> {
-  const [direct, queried] = await Promise.all([fetchDirectFeeds(now), fetchQueryNews(now)]);
-  const items = dedupe([...direct, ...queried]).filter((i) => !isBlocked(i.url));
-  console.log(`[news] ${direct.length} from direct feeds, ${queried.length} from news queries, ${items.length} after dedupe/filter`);
+  const { fetchMarketTalk } = await import('./fetch-tacenergy');
+  const [direct, queried, marketTalkResult] = await Promise.all([
+    fetchDirectFeeds(now),
+    fetchQueryNews(now),
+    fetchMarketTalk(now).catch((err) => {
+      console.warn(`[news] TACenergy Market Talk failed: ${err?.message ?? err}`);
+      return [] as Story[];
+    }),
+  ]);
+  const marketTalk: RawItem[] = marketTalkResult.map((s) => ({
+    title: s.title,
+    url: s.url,
+    source: s.source,
+    publishedAt: new Date(s.publishedAt),
+    category: s.category,
+    snippet: s.raw ?? '',
+  }));
+  const items = dedupe([...direct, ...marketTalk, ...queried]).filter((i) => !isBlocked(i.url));
+  console.log(`[news] ${direct.length} from direct feeds, ${marketTalk.length} from Market Talk, ${queried.length} from news queries, ${items.length} after dedupe/filter`);
   return items.map((i) => ({
     title: i.title,
     url: i.url,
