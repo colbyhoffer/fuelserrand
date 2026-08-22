@@ -44,7 +44,7 @@ export default function LineChart({ title, unit, series, sourceUrl, sourceLabel 
         {yTicks.map((v) => (
           <g key={v}>
             <line x1={PAD_L} x2={W - PAD_R} y1={y(v)} y2={y(v)} stroke="var(--border)" strokeWidth="1" />
-            <text x={PAD_L - 8} y={y(v) + 4} textAnchor="end" fontSize="11" fill="var(--muted)">{v.toFixed(2)}</text>
+            <text x={PAD_L - 8} y={y(v) + 4} textAnchor="end" fontSize="11" fill="var(--muted)">{Math.abs(v) >= 1000 ? Math.round(v).toLocaleString('en-US') : v.toFixed(2)}</text>
           </g>
         ))}
         {xTickIdx.map((i) => (

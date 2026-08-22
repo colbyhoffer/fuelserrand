@@ -11,20 +11,25 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   return (
     <html lang="en">
       <body>
-        <header className="site-header">
-          <div className="site-header-inner">
-            <span className="logo"><Link href="/">Fuels Errand</Link></span>
-            <nav className="nav">
-              <Link href="/">Today</Link>
-              <Link href="/archive/">Archive</Link>
-              <Link href="/dashboard/">Dashboard</Link>
-              <Link href="/decks/">Investor Decks</Link>
-              <Link href="/earnings/">Earnings</Link>
-              <Link href="/sources/">Sources</Link>
-            </nav>
+        <div className="page">
+          <div className="card">
+            <header>
+              <div className="masthead">
+                <span className="logo"><Link href="/">FUELS <span className="logo-accent">ERRAND</span></Link></span>
+                <nav className="nav">
+                  <Link href="/">Today</Link>
+                  <Link href="/archive/">Archive</Link>
+                  <Link href="/dashboard/">Dashboard</Link>
+                  <Link href="/decks/">Decks</Link>
+                  <Link href="/earnings/">Earnings</Link>
+                  <Link href="/sources/">Sources</Link>
+                </nav>
+              </div>
+              <div className="masthead-rule" />
+            </header>
+            <main>{children}</main>
           </div>
-        </header>
-        <main className="container">{children}</main>
+        </div>
       </body>
     </html>
   );
