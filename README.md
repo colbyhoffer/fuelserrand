@@ -6,7 +6,7 @@ Every weekday ~6:30am CT, a GitHub Actions cron job:
 
 1. **Fetches news** from direct RSS feeds (EIA, trade press), TACenergy Market Talk (scraped — no feed), and Bing News topic queries (used as a *finder only* — every item is attributed and linked to the original publisher; social media, forums, and stock-picking sites are blocked).
 2. **Fetches market data** from the EIA Open Data API: RBOB/ULSD/WTI spots, computed crack spreads, weekly retail prices, inventories, and implied demand.
-3. **Watches IR pages** of ~24 refiners, renewable-fuel producers, c-store chains, and big-box fuel retailers; new PDFs are analyzed by Claude for fuels-market takeaways.
+3. **Watches SEC EDGAR** for the companies in [fuels-errand.config.json](fuels-errand.config.json) (editable watch list); new 8-K exhibits are analyzed by Claude, and an earnings calendar is projected from each company's filing cadence.
 4. **Edits the brief with Claude** — ranks, dedupes, summarizes, writes the headline and overview. Paywalled trade wires (OPIS, Platts, Argus, Bloomberg…) appear as marked headline + link only.
 5. **Emails the brief** via Resend and **commits the day's data** to `data/`, then redeploys the static site to GitHub Pages.
 

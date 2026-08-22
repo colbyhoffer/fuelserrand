@@ -1,95 +1,158 @@
 import { Resend } from 'resend';
 import { ENV } from './config';
-import type { Brief, Category, Story } from './types';
+import type { Brief, Category, PricePoint, Story } from './types';
 
-const CATEGORY_LABELS: Record<Category, string> = {
-  markets: 'Markets & Prices',
-  policy: 'Policy & Credits',
-  operations: 'Refining & Supply Ops',
-  deals: 'Deals & Retail Expansion',
-  companies: 'Companies & Earnings',
+// Morning Brew-inspired layout: white card on light gray, conversational
+// intro, markets box with day-over-day change arrows, emoji section headers.
+
+const CATEGORY_META: Record<Category, { label: string; emoji: string }> = {
+  markets: { label: 'Markets & Prices', emoji: '📈' },
+  operations: { label: 'Refining & Supply Ops', emoji: '🏭' },
+  policy: { label: 'Policy & Credits', emoji: '🏛️' },
+  companies: { label: 'Companies & Earnings', emoji: '🏢' },
+  deals: { label: 'Deals & Retail', emoji: '🤝' },
 };
 
 const CATEGORY_ORDER: Category[] = ['markets', 'operations', 'policy', 'companies', 'deals'];
+
+const ORANGE = '#c2410c';
+const INK = '#1a1a1a';
+const GRAY = '#6b7280';
+const GREEN = '#0a8a4a';
+const RED = '#d64545';
 
 function esc(s: string): string {
   return s.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
 }
 
-function fmt(n: number | undefined, digits = 2, prefix = '$'): string {
-  return n == null ? '—' : `${prefix}${n.toFixed(digits)}`;
+interface MarketRow {
+  label: string;
+  unit: string;
+  value?: number;
+  prev?: number;
+  pct: boolean; // show change as percent (spots) vs absolute
+}
+
+function marketRows(p: PricePoint, prev: PricePoint | null | undefined): MarketRow[] {
+  const g = (k: keyof PricePoint) => (prev?.[k] as number | undefined);
+  return [
+    { label: 'Gasoline (NYH spot)', unit: '$/gal', value: p.rbobSpot, prev: g('rbobSpot'), pct: true },
+    { label: 'ULSD (NYH spot)', unit: '$/gal', value: p.ulsdSpot, prev: g('ulsdSpot'), pct: true },
+    { label: 'WTI', unit: '$/bbl', value: p.wtiSpot, prev: g('wtiSpot'), pct: true },
+    { label: 'Gasoline crack', unit: '$/bbl', value: p.gasCrack, prev: g('gasCrack'), pct: false },
+    { label: 'Diesel crack', unit: '$/bbl', value: p.dieselCrack, prev: g('dieselCrack'), pct: false },
+    { label: 'Retail gas (US avg)', unit: '$/gal', value: p.retailGas, prev: g('retailGas'), pct: false },
+    { label: 'Retail diesel (US avg)', unit: '$/gal', value: p.retailDiesel, prev: g('retailDiesel'), pct: false },
+  ];
+}
+
+function changeHtml(row: MarketRow): string {
+  if (row.value == null || row.prev == null) return `<span style="color:${GRAY};">—</span>`;
+  const d = row.value - row.prev;
+  if (Math.abs(d) < 0.0005) return `<span style="color:${GRAY};">unch</span>`;
+  const up = d > 0;
+  const color = up ? GREEN : RED;
+  const arrow = up ? '▲' : '▼';
+  const body = row.pct ? `${Math.abs((d / row.prev) * 100).toFixed(2)}%` : `${Math.abs(d).toFixed(2)}`;
+  return `<span style="color:${color};font-weight:600;">${arrow} ${body}</span>`;
+}
+
+function marketsBox(brief: Brief): string {
+  const p = brief.prices;
+  if (!p) return '';
+  const rows = marketRows(p, brief.prevPrices)
+    .filter((r) => r.value != null)
+    .map((r) => `<tr>
+      <td style="padding:7px 0;font-size:14px;color:${INK};border-bottom:1px solid #eee;">${r.label}</td>
+      <td style="padding:7px 0;font-size:14px;font-weight:700;color:${INK};text-align:right;border-bottom:1px solid #eee;">$${r.value!.toFixed(r.unit === '$/gal' ? 3 : 2)}<span style="color:${GRAY};font-weight:400;font-size:11px;"> ${r.unit}</span></td>
+      <td style="padding:7px 0 7px 14px;font-size:13px;text-align:right;border-bottom:1px solid #eee;white-space:nowrap;">${changeHtml(r)}</td>
+    </tr>`).join('');
+  return `<div style="background:#faf7f2;border:1px solid #eee1cf;border-radius:10px;padding:16px 20px;margin:22px 0;">
+    <div style="font-size:12px;font-weight:800;letter-spacing:.1em;color:${ORANGE};margin-bottom:4px;">MARKETS</div>
+    <table role="presentation" width="100%" style="border-collapse:collapse;">${rows}</table>
+    <div style="font-size:11px;color:${GRAY};margin-top:8px;">Change vs. prior data point. Spot prices & single-product cracks vs WTI from <a href="https://www.eia.gov/petroleum/data.php" style="color:${GRAY};">EIA ↗</a></div>
+  </div>`;
 }
 
 function storyHtml(s: Story): string {
-  const tag = s.paywalled ? ' <span style="font-size:11px;color:#b45309;border:1px solid #b45309;border-radius:3px;padding:0 4px;vertical-align:1px;">paywalled</span>' : '';
-  const summary = s.summary ? `<div style="color:#374151;font-size:14px;line-height:1.5;margin-top:2px;">${esc(s.summary)}</div>` : '';
-  return `<div style="margin:0 0 14px;">
-    <a href="${esc(s.url)}" style="color:#111827;font-weight:600;font-size:15px;text-decoration:none;">${esc(s.title)}</a>${tag}
-    ${summary}
-    <div style="font-size:12px;color:#6b7280;margin-top:2px;">${esc(s.source)} · <a href="${esc(s.url)}" style="color:#6b7280;">original source ↗</a></div>
+  const tag = s.paywalled ? ` <span style="font-size:10px;color:#b45309;border:1px solid #e5c48a;border-radius:3px;padding:0 4px;vertical-align:1px;">paywalled</span>` : '';
+  return `<div style="margin:0 0 16px;">
+    <a href="${esc(s.url)}" style="color:${INK};font-weight:700;font-size:16px;text-decoration:none;line-height:1.35;">${esc(s.title)}</a>${tag}
+    ${s.summary ? `<div style="color:#374151;font-size:14px;line-height:1.55;margin-top:3px;">${esc(s.summary)}</div>` : ''}
+    <div style="font-size:12px;color:${GRAY};margin-top:3px;">${esc(s.source)} · <a href="${esc(s.url)}" style="color:${GRAY};">original source ↗</a></div>
+  </div>`;
+}
+
+function sectionHeader(emoji: string, label: string): string {
+  return `<div style="margin:28px 0 14px;border-bottom:2px solid ${ORANGE};padding-bottom:5px;">
+    <span style="font-size:16px;">${emoji}</span>
+    <span style="font-size:13px;font-weight:800;letter-spacing:.09em;color:${ORANGE};text-transform:uppercase;margin-left:6px;">${label}</span>
   </div>`;
 }
 
 export function renderEmailHtml(brief: Brief): string {
-  const p = brief.prices;
-  const priceBar = p
-    ? `<table role="presentation" width="100%" style="border-collapse:collapse;background:#0f172a;border-radius:8px;margin:16px 0;"><tr>
-        ${[
-          ['Gasoline', fmt(p.rbobSpot), '/gal'],
-          ['ULSD', fmt(p.ulsdSpot), '/gal'],
-          ['WTI', fmt(p.wtiSpot), '/bbl'],
-          ['Gas crack', fmt(p.gasCrack), '/bbl'],
-          ['Diesel crack', fmt(p.dieselCrack), '/bbl'],
-          ['Retail gas', fmt(p.retailGas), '/gal'],
-        ].map(([label, val, unit]) => `<td style="padding:12px 8px;text-align:center;">
-            <div style="font-size:11px;color:#94a3b8;text-transform:uppercase;letter-spacing:.05em;">${label}</div>
-            <div style="font-size:16px;color:#f8fafc;font-weight:700;">${val}<span style="font-size:11px;color:#94a3b8;font-weight:400;">${unit}</span></div>
-          </td>`).join('')}
-      </tr></table>
-      <div style="font-size:11px;color:#9ca3af;margin:-8px 0 16px;">Spot prices & cracks from <a href="https://www.eia.gov/petroleum/data.php" style="color:#9ca3af;">EIA data ↗</a>. Cracks are single-product spreads vs WTI.</div>`
-    : '';
+  const dateLong = new Date(brief.date + 'T12:00:00Z').toLocaleDateString('en-US', { weekday: 'long', month: 'long', day: 'numeric', year: 'numeric', timeZone: 'UTC' });
 
   const sections = CATEGORY_ORDER.map((cat) => {
     const stories = brief.stories.filter((s) => s.category === cat);
-    if (stories.length === 0) return '';
-    return `<h2 style="font-size:13px;text-transform:uppercase;letter-spacing:.08em;color:#b45309;border-bottom:1px solid #e5e7eb;padding-bottom:4px;margin:24px 0 12px;">${CATEGORY_LABELS[cat]}</h2>
-      ${stories.map(storyHtml).join('')}`;
+    if (!stories.length) return '';
+    const meta = CATEGORY_META[cat];
+    return sectionHeader(meta.emoji, meta.label) + stories.map(storyHtml).join('');
   }).join('');
 
   const decks = brief.decks.length
-    ? `<h2 style="font-size:13px;text-transform:uppercase;letter-spacing:.08em;color:#b45309;border-bottom:1px solid #e5e7eb;padding-bottom:4px;margin:24px 0 12px;">New Investor Materials</h2>
-      ${brief.decks.map((d) => `<div style="margin:0 0 16px;padding:12px;background:#f9fafb;border-radius:6px;">
-        <div style="font-weight:700;font-size:15px;color:#111827;">${esc(d.company)} <span style="color:#6b7280;font-weight:400;">(${esc(d.ticker)})</span></div>
+    ? sectionHeader('📊', 'New Investor Materials') + brief.decks.map((d) => `<div style="margin:0 0 16px;padding:14px 16px;background:#faf7f2;border:1px solid #eee1cf;border-radius:10px;">
+        <div style="font-weight:800;font-size:15px;color:${INK};">${esc(d.company)} <span style="color:${GRAY};font-weight:400;">(${esc(d.ticker)})</span></div>
         <a href="${esc(d.url)}" style="font-size:13px;color:#1d4ed8;">${esc(d.title)} ↗</a>
-        <div style="font-size:14px;color:#374151;line-height:1.5;margin-top:6px;white-space:pre-wrap;">${esc(d.analysis)}</div>
-      </div>`).join('')}`
+        <div style="font-size:14px;color:#374151;line-height:1.55;margin-top:6px;white-space:pre-wrap;">${esc(d.analysis)}</div>
+      </div>`).join('')
+    : '';
+
+  const earnings = brief.upcomingEarnings?.length
+    ? sectionHeader('🗓️', 'Earnings Radar') + `<div style="font-size:14px;color:#374151;line-height:1.7;">
+        ${brief.upcomingEarnings.map((e) => `<div><strong>${esc(e.name)}</strong> (${esc(e.ticker)}) — est. ${esc(e.nextEstimate)}</div>`).join('')}
+        <div style="font-size:12px;color:${GRAY};margin-top:4px;">Dates estimated from each company's SEC filing cadence · <a href="${ENV.siteUrl}/earnings/" style="color:${GRAY};">full calendar ↗</a></div>
+      </div>`
     : '';
 
   const weekAhead = brief.weekAhead?.length
-    ? `<h2 style="font-size:13px;text-transform:uppercase;letter-spacing:.08em;color:#b45309;border-bottom:1px solid #e5e7eb;padding-bottom:4px;margin:24px 0 12px;">Week Ahead</h2>
-      <ul style="padding-left:18px;color:#374151;font-size:14px;line-height:1.7;">${brief.weekAhead.map((w) => `<li><strong>${esc(w.date)}</strong> — ${esc(w.label)}</li>`).join('')}</ul>`
+    ? sectionHeader('🔭', 'Week Ahead') + `<div style="font-size:14px;color:#374151;line-height:1.8;">
+        ${brief.weekAhead.map((w) => `<div><strong style="color:${ORANGE};">${esc(w.date)}</strong> — ${esc(w.label)}</div>`).join('')}
+      </div>`
     : '';
 
   const degraded = brief.degraded?.length
-    ? `<div style="font-size:12px;color:#b45309;background:#fffbeb;border-radius:6px;padding:8px 12px;margin:16px 0;">Heads up: these stages ran in fallback mode today: ${brief.degraded.join(', ')}.</div>`
+    ? `<div style="font-size:12px;color:#92400e;background:#fef7e7;border:1px solid #f2dfb6;border-radius:8px;padding:8px 12px;margin:14px 0;">Heads up: fallback mode today for ${brief.degraded.join(', ')}.</div>`
     : '';
 
-  const dateLong = new Date(brief.date + 'T12:00:00Z').toLocaleDateString('en-US', { weekday: 'long', month: 'long', day: 'numeric', year: 'numeric', timeZone: 'UTC' });
+  return `<!doctype html><html><body style="margin:0;padding:0;background:#f4f4f4;">
+  <div style="max-width:600px;margin:0 auto;padding:18px 12px;font-family:-apple-system,'Segoe UI',Helvetica,Arial,sans-serif;">
+    <div style="background:#ffffff;border-radius:12px;padding:28px 30px;border:1px solid #e8e8e8;">
 
-  return `<!doctype html><html><body style="margin:0;padding:0;background:#f3f4f6;">
-  <div style="max-width:640px;margin:0 auto;padding:24px 16px;font-family:-apple-system,'Segoe UI',Helvetica,Arial,sans-serif;">
-    <div style="background:#ffffff;border-radius:10px;padding:28px;">
-      <div style="font-size:12px;letter-spacing:.12em;text-transform:uppercase;color:#b45309;font-weight:700;">Fuels Errand</div>
-      <div style="font-size:13px;color:#6b7280;margin-top:2px;">${dateLong}</div>
-      <h1 style="font-size:22px;color:#111827;margin:12px 0 6px;line-height:1.3;">${esc(brief.headline)}</h1>
-      <p style="font-size:15px;color:#374151;line-height:1.6;margin:0 0 8px;">${esc(brief.overview)}</p>
+      <table role="presentation" width="100%" style="border-collapse:collapse;margin-bottom:6px;"><tr>
+        <td style="font-size:20px;font-weight:900;letter-spacing:.06em;color:${INK};">FUELS <span style="color:${ORANGE};">ERRAND</span></td>
+        <td style="text-align:right;font-size:12px;color:${GRAY};">${dateLong}</td>
+      </tr></table>
+      <div style="border-top:3px solid ${INK};margin-bottom:18px;"></div>
+
+      ${brief.intro ? `<p style="font-size:15px;color:#374151;line-height:1.6;margin:0 0 14px;">${esc(brief.intro)}</p>` : ''}
+
+      <h1 style="font-size:22px;color:${INK};margin:0 0 8px;line-height:1.3;">${esc(brief.headline)}</h1>
+      <p style="font-size:14.5px;color:#4b5563;line-height:1.6;margin:0;">${esc(brief.overview)}</p>
       ${degraded}
-      ${priceBar}
+      ${marketsBox(brief)}
       ${sections}
       ${decks}
+      ${earnings}
       ${weekAhead}
-      <div style="border-top:1px solid #e5e7eb;margin-top:28px;padding-top:12px;font-size:12px;color:#9ca3af;">
-        Every item links to its original source. Archive & dashboard: <a href="${ENV.siteUrl}" style="color:#9ca3af;">${ENV.siteUrl.replace('https://', '')}</a>
+
+      <div style="border-top:1px solid #e8e8e8;margin-top:30px;padding-top:14px;font-size:12px;color:${GRAY};line-height:1.7;">
+        <a href="${ENV.siteUrl}" style="color:${ORANGE};font-weight:700;">Today</a> ·
+        <a href="${ENV.siteUrl}/archive/" style="color:${GRAY};">Archive</a> ·
+        <a href="${ENV.siteUrl}/dashboard/" style="color:${GRAY};">Dashboard</a> ·
+        <a href="${ENV.siteUrl}/decks/" style="color:${GRAY};">Investor Decks</a> ·
+        <a href="${ENV.siteUrl}/earnings/" style="color:${GRAY};">Earnings</a><br>
+        Every item links to its original source. No social media, no forums.
       </div>
     </div>
   </div></body></html>`;
@@ -104,7 +167,7 @@ export async function sendBriefEmail(brief: Brief): Promise<boolean> {
   const { error } = await resend.emails.send({
     from: ENV.briefFrom,
     to: ENV.briefTo,
-    subject: `Fuels Errand · ${brief.date} · ${brief.headline}`,
+    subject: `⛽ Fuels Errand · ${brief.headline}`,
     html: renderEmailHtml(brief),
   });
   if (error) {

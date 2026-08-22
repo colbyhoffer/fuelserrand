@@ -45,7 +45,33 @@ a:hover { text-decoration: underline; }
 
 .brief-date { color: var(--muted); font-size: 14px; }
 h1.headline { font-size: 26px; line-height: 1.3; margin: 8px 0 10px; }
+.intro { color: var(--text); font-size: 16px; font-style: italic; }
 .overview { color: var(--muted); font-size: 16px; }
+
+.cat-nav, .pill-row { display: flex; flex-wrap: wrap; gap: 8px; margin: 16px 0 4px; }
+.cat-pill {
+  font-size: 13px; color: var(--text); background: var(--panel);
+  border: 1px solid var(--border); border-radius: 999px; padding: 4px 12px;
+  text-decoration: none; white-space: nowrap;
+}
+a.cat-pill:hover { border-color: var(--accent); color: var(--accent); text-decoration: none; }
+.pill-off { color: var(--muted); opacity: .6; }
+
+.price-change { display: block; font-size: 12px; margin-top: 2px; font-weight: 600; }
+.price-change.up { color: var(--good); }
+.price-change.down { color: var(--bad); }
+.price-change.flat { color: var(--muted); font-weight: 400; }
+
+.earnings-table { width: 100%; border-collapse: collapse; margin-top: 20px; }
+.earnings-table th {
+  text-align: left; font-size: 12px; text-transform: uppercase; letter-spacing: .07em;
+  color: var(--muted); border-bottom: 1px solid var(--border); padding: 8px 12px 8px 0;
+}
+.earnings-table td { border-bottom: 1px solid var(--border); padding: 10px 12px 10px 0; font-size: 14.5px; }
+.earnings-date { color: var(--accent); font-weight: 700; font-variant-numeric: tabular-nums; }
+.earnings-past { color: var(--muted); font-variant-numeric: tabular-nums; }
+
+section { scroll-margin-top: 20px; }
 
 .price-bar {
   display: grid; grid-template-columns: repeat(auto-fit, minmax(110px, 1fr));

@@ -34,6 +34,36 @@ export function getDecks(): DeckAnalysis[] {
   return existsSync(p) ? JSON.parse(readFileSync(p, 'utf8')) : [];
 }
 
+export interface EarningsEntry {
+  ticker: string;
+  name: string;
+  group: string;
+  lastReport: string;
+  nextEstimate: string;
+}
+
+export function getEarningsCalendar(): EarningsEntry[] {
+  const p = path.join(DATA, 'earnings-calendar.json');
+  return existsSync(p) ? JSON.parse(readFileSync(p, 'utf8')) : [];
+}
+
+export interface SiteUserConfig {
+  companies: { name: string; ticker: string; group: string; enabled?: boolean }[];
+  preferredOutlets: string[];
+  deprioritizedOutlets: string[];
+}
+
+export function getUserConfig(): SiteUserConfig {
+  const p = path.join(process.cwd(), 'fuels-errand.config.json');
+  if (!existsSync(p)) return { companies: [], preferredOutlets: [], deprioritizedOutlets: [] };
+  const raw = JSON.parse(readFileSync(p, 'utf8'));
+  return {
+    companies: raw.companies ?? [],
+    preferredOutlets: raw.preferredOutlets ?? [],
+    deprioritizedOutlets: raw.deprioritizedOutlets ?? [],
+  };
+}
+
 export function formatDateLong(date: string): string {
   return new Date(date + 'T12:00:00Z').toLocaleDateString('en-US', {
     weekday: 'long', month: 'long', day: 'numeric', year: 'numeric', timeZone: 'UTC',

@@ -49,11 +49,14 @@ export interface WeekAheadItem {
 export interface Brief {
   date: string;          // YYYY-MM-DD (Central time date of the brief)
   headline: string;      // one-line "what matters today" written by the summarizer
+  intro?: string;        // short conversational opener (Morning Brew-style)
   overview: string;      // 2-4 sentence synthesis across all sections
   stories: Story[];
   decks: DeckAnalysis[];
   prices: PricePoint | null;
+  prevPrices?: PricePoint | null;  // prior data point, for day-over-day change arrows
   weekAhead?: WeekAheadItem[];  // Fridays only
+  upcomingEarnings?: { ticker: string; name: string; nextEstimate: string }[];  // est. reports in the next 7 days
   generatedAt: string;   // ISO
   degraded?: string[];   // names of stages that failed or ran in fallback mode
 }

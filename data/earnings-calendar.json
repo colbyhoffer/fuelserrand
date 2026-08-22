@@ -1,0 +1,142 @@
+[
+  {
+    "ticker": "COST",
+    "name": "Costco",
+    "group": "bigbox",
+    "lastReport": "2026-05-28",
+    "nextEstimate": "2026-08-20"
+  },
+  {
+    "ticker": "CASY",
+    "name": "Casey's General Stores",
+    "group": "retail",
+    "lastReport": "2026-06-09",
+    "nextEstimate": "2026-09-09"
+  },
+  {
+    "ticker": "KR",
+    "name": "Kroger",
+    "group": "bigbox",
+    "lastReport": "2026-06-18",
+    "nextEstimate": "2026-09-17"
+  },
+  {
+    "ticker": "DINO",
+    "name": "HF Sinclair",
+    "group": "refiner",
+    "lastReport": "2026-07-28",
+    "nextEstimate": "2026-10-27"
+  },
+  {
+    "ticker": "CVI",
+    "name": "CVR Energy",
+    "group": "refiner",
+    "lastReport": "2026-07-29",
+    "nextEstimate": "2026-10-28"
+  },
+  {
+    "ticker": "VLO",
+    "name": "Valero Energy",
+    "group": "refiner",
+    "lastReport": "2026-07-30",
+    "nextEstimate": "2026-10-29"
+  },
+  {
+    "ticker": "PBF",
+    "name": "PBF Energy",
+    "group": "refiner",
+    "lastReport": "2026-07-30",
+    "nextEstimate": "2026-10-29"
+  },
+  {
+    "ticker": "DAR",
+    "name": "Darling Ingredients",
+    "group": "renewables",
+    "lastReport": "2026-07-30",
+    "nextEstimate": "2026-10-29"
+  },
+  {
+    "ticker": "DK",
+    "name": "Delek US",
+    "group": "refiner",
+    "lastReport": "2026-04-29",
+    "nextEstimate": "2026-10-30"
+  },
+  {
+    "ticker": "MPC",
+    "name": "Marathon Petroleum",
+    "group": "refiner",
+    "lastReport": "2026-08-04",
+    "nextEstimate": "2026-11-03"
+  },
+  {
+    "ticker": "SUN",
+    "name": "Sunoco LP",
+    "group": "retail",
+    "lastReport": "2026-08-04",
+    "nextEstimate": "2026-11-03"
+  },
+  {
+    "ticker": "PARR",
+    "name": "Par Pacific",
+    "group": "refiner",
+    "lastReport": "2026-08-05",
+    "nextEstimate": "2026-11-04"
+  },
+  {
+    "ticker": "MUSA",
+    "name": "Murphy USA",
+    "group": "retail",
+    "lastReport": "2026-08-05",
+    "nextEstimate": "2026-11-04"
+  },
+  {
+    "ticker": "GEVO",
+    "name": "Gevo",
+    "group": "renewables",
+    "lastReport": "2026-08-06",
+    "nextEstimate": "2026-11-05"
+  },
+  {
+    "ticker": "AMTX",
+    "name": "Aemetis",
+    "group": "renewables",
+    "lastReport": "2026-08-06",
+    "nextEstimate": "2026-11-05"
+  },
+  {
+    "ticker": "CLMT",
+    "name": "Calumet (Montana Renewables)",
+    "group": "renewables",
+    "lastReport": "2026-08-07",
+    "nextEstimate": "2026-11-06"
+  },
+  {
+    "ticker": "GLP",
+    "name": "Global Partners",
+    "group": "retail",
+    "lastReport": "2026-08-07",
+    "nextEstimate": "2026-11-06"
+  },
+  {
+    "ticker": "PSX",
+    "name": "Phillips 66",
+    "group": "refiner",
+    "lastReport": "2026-08-05",
+    "nextEstimate": "2026-11-09"
+  },
+  {
+    "ticker": "WMT",
+    "name": "Walmart",
+    "group": "bigbox",
+    "lastReport": "2026-08-20",
+    "nextEstimate": "2026-11-19"
+  },
+  {
+    "ticker": "BJ",
+    "name": "BJ's Wholesale Club",
+    "group": "bigbox",
+    "lastReport": "2026-08-21",
+    "nextEstimate": "2026-11-20"
+  }
+]

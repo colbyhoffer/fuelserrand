@@ -35,17 +35,25 @@ function stripHtml(s: string): string {
   return s.replace(/<[^>]+>/g, ' ').replace(/\s+/g, ' ').trim();
 }
 
-async function fetchFeed(url: string): Promise<Parser.Output<any>> {
-  const res = await fetch(url, {
-    signal: AbortSignal.timeout(FETCH_TIMEOUT_MS),
-    headers: { 'user-agent': BROWSER_UA, accept: 'application/rss+xml, application/xml, text/xml, */*' },
-  });
-  if (!res.ok) throw new Error(`HTTP ${res.status}`);
-  let xml = await res.text();
-  // Bing embeds the raw search query as an unescaped xmlns:News attribute,
-  // which breaks XML parsing when the query contains quotes. Strip it.
-  xml = xml.replace(/\sxmlns:News="[\s\S]*?">/, '>');
-  return parser.parseString(xml);
+async function fetchFeed(url: string, attempt = 1): Promise<Parser.Output<any>> {
+  try {
+    const res = await fetch(url, {
+      signal: AbortSignal.timeout(FETCH_TIMEOUT_MS),
+      headers: { 'user-agent': BROWSER_UA, accept: 'application/rss+xml, application/xml, text/xml, */*' },
+    });
+    if (!res.ok) throw new Error(`HTTP ${res.status}`);
+    let xml = await res.text();
+    // Bing embeds the raw search query as an unescaped xmlns:News attribute,
+    // which breaks XML parsing when the query contains quotes. Strip it.
+    xml = xml.replace(/\sxmlns:News="[\s\S]*?">/, '>');
+    return await parser.parseString(xml);
+  } catch (err) {
+    // Bing intermittently serves an HTML page instead of RSS; one retry
+    // after a short pause usually clears it.
+    if (attempt >= 2) throw err;
+    await new Promise((r) => setTimeout(r, 2500));
+    return fetchFeed(url, attempt + 1);
+  }
 }
 
 interface RawItem {

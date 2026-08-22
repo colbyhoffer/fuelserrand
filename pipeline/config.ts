@@ -51,11 +51,14 @@ export const PAYWALLED_DOMAINS = [
 ];
 
 // ---------------------------------------------------------------------------
-// Company watch list. US filers are watched via SEC EDGAR (cik): new 8-K
-// exhibits — earnings releases and investor presentations — are picked up from
-// official filings, which never bot-block. Companies without a CIK (foreign
-// listings) fall back to scraping the listed IR pages, best-effort.
+// User settings: company watch list and outlet preferences live in
+// fuels-errand.config.json (repo root) so they can be edited without touching
+// code. US filers are watched via SEC EDGAR (cik): new 8-K exhibits — earnings
+// releases and investor presentations — come from official filings, which
+// never bot-block. Companies without a CIK fall back to scraping irPages.
 // ---------------------------------------------------------------------------
+
+import { readFileSync } from 'node:fs';
 
 export interface WatchedCompany {
   name: string;
@@ -63,36 +66,30 @@ export interface WatchedCompany {
   group: 'refiner' | 'renewables' | 'retail' | 'bigbox';
   cik?: number;          // SEC CIK for EDGAR watching
   irPages?: string[];    // fallback/bonus scrape targets
+  enabled?: boolean;
 }
 
-export const COMPANIES: WatchedCompany[] = [
-  // Refiners
-  { name: 'Valero Energy', ticker: 'VLO', group: 'refiner', cik: 1035002 },
-  { name: 'Marathon Petroleum', ticker: 'MPC', group: 'refiner', cik: 1510295 },
-  { name: 'Phillips 66', ticker: 'PSX', group: 'refiner', cik: 1534701 },
-  { name: 'PBF Energy', ticker: 'PBF', group: 'refiner', cik: 1534504 },
-  { name: 'HF Sinclair', ticker: 'DINO', group: 'refiner', cik: 1915657 },
-  { name: 'Delek US', ticker: 'DK', group: 'refiner', cik: 1694426 },
-  { name: 'Par Pacific', ticker: 'PARR', group: 'refiner', cik: 821483 },
-  { name: 'CVR Energy', ticker: 'CVI', group: 'refiner', cik: 1376139 },
-  // Renewable diesel / SAF
-  { name: 'Darling Ingredients', ticker: 'DAR', group: 'renewables', cik: 916540 },
-  { name: 'Neste', ticker: 'NESTE.HE', group: 'renewables', irPages: ['https://www.neste.com/investors/reports-and-presentations'] },
-  { name: 'Calumet (Montana Renewables)', ticker: 'CLMT', group: 'renewables', cik: 2013745 },
-  { name: 'Gevo', ticker: 'GEVO', group: 'renewables', cik: 1392380 },
-  { name: 'Aemetis', ticker: 'AMTX', group: 'renewables', cik: 738214 },
-  // Fuel retail / c-store
-  { name: "Casey's General Stores", ticker: 'CASY', group: 'retail', cik: 726958 },
-  { name: 'Murphy USA', ticker: 'MUSA', group: 'retail', cik: 1573516 },
-  { name: 'Alimentation Couche-Tard', ticker: 'ATD.TO', group: 'retail', irPages: ['https://corpo.couche-tard.com/en/investors/'] },
-  { name: 'Sunoco LP', ticker: 'SUN', group: 'retail', cik: 1552275 },
-  { name: 'Global Partners', ticker: 'GLP', group: 'retail', cik: 1323468 },
-  // Big box fuel
-  { name: 'Costco', ticker: 'COST', group: 'bigbox', cik: 909832 },
-  { name: 'Walmart', ticker: 'WMT', group: 'bigbox', cik: 104169 },
-  { name: "BJ's Wholesale Club", ticker: 'BJ', group: 'bigbox', cik: 1531152 },
-  { name: 'Kroger', ticker: 'KR', group: 'bigbox', cik: 56873 },
-];
+export interface UserConfig {
+  companies: WatchedCompany[];
+  preferredOutlets: string[];
+  deprioritizedOutlets: string[];
+}
+
+export const USER_CONFIG: UserConfig = (() => {
+  try {
+    const raw = JSON.parse(readFileSync('fuels-errand.config.json', 'utf8'));
+    return {
+      companies: raw.companies ?? [],
+      preferredOutlets: raw.preferredOutlets ?? [],
+      deprioritizedOutlets: raw.deprioritizedOutlets ?? [],
+    };
+  } catch (err: any) {
+    console.warn(`[config] could not read fuels-errand.config.json: ${err?.message ?? err}`);
+    return { companies: [], preferredOutlets: [], deprioritizedOutlets: [] };
+  }
+})();
+
+export const COMPANIES: WatchedCompany[] = USER_CONFIG.companies.filter((c) => c.enabled !== false);
 
 // SEC requests must identify the requester (SEC fair-access policy).
 export const SEC_USER_AGENT = process.env.SEC_CONTACT

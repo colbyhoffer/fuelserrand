@@ -37,10 +37,12 @@ async function main() {
 
   console.log(`[run] Fuels Errand pipeline for ${centralDate}${dryRun ? ' (dry run)' : ''}${baseline ? ' (baseline)' : ''}`);
 
-  const [newsResult, pricesResult, decksResult] = await Promise.allSettled([
+  const { buildEarningsCalendar } = await import('./earnings');
+  const [newsResult, pricesResult, decksResult, earningsResult] = await Promise.allSettled([
     fetchNews(now),
     fetchPrices(now),
     watchIrPages(now, { analyze: !!ENV.anthropicKey, firstRunBaseline: baseline }),
+    buildEarningsCalendar(now),
   ]);
 
   const rawStories = newsResult.status === 'fulfilled' ? newsResult.value : [];
@@ -49,18 +51,36 @@ async function main() {
   if (pricesResult.status === 'rejected' || prices === null) degraded.push('prices');
   const decks = decksResult.status === 'fulfilled' ? decksResult.value : [];
   if (decksResult.status === 'rejected') { console.error(`[run] IR stage failed: ${decksResult.reason}`); degraded.push('investor materials'); }
+  const earningsCal = earningsResult.status === 'fulfilled' ? earningsResult.value : [];
+  if (earningsResult.status === 'rejected') console.warn(`[run] earnings calendar failed: ${earningsResult.reason}`);
 
   const editorial = await editStories(rawStories, prices);
   if (editorial.degraded) degraded.push('AI summarization');
 
+  // Prior price point (before today's is appended), for day-over-day arrows.
+  const { existsSync, readFileSync } = await import('node:fs');
+  let prevPrices = null;
+  if (existsSync('data/price-history.json')) {
+    const history = JSON.parse(readFileSync('data/price-history.json', 'utf8'));
+    prevPrices = [...history].reverse().find((p: any) => p.date < centralDate) ?? null;
+  }
+
+  const in7Days = new Date(now.getTime() + 7 * 86400_000).toISOString().slice(0, 10);
+  const upcomingEarnings = earningsCal
+    .filter((e) => e.nextEstimate <= in7Days)
+    .map((e) => ({ ticker: e.ticker, name: e.name, nextEstimate: e.nextEstimate }));
+
   const brief: Brief = {
     date: centralDate,
     headline: editorial.headline,
+    intro: editorial.intro || undefined,
     overview: editorial.overview,
     stories: editorial.stories,
     decks,
     prices,
+    prevPrices,
     weekAhead: isFriday ? buildWeekAhead(now) : undefined,
+    upcomingEarnings: upcomingEarnings.length ? upcomingEarnings : undefined,
     generatedAt: now.toISOString(),
     degraded: degraded.length ? degraded : undefined,
   };

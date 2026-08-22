@@ -1,5 +1,8 @@
 import Anthropic from '@anthropic-ai/sdk';
-import { CLAUDE_MODEL, ENV, MAX_STORIES_PER_BRIEF, type WatchedCompany } from './config';
+import { CLAUDE_MODEL, ENV, MAX_STORIES_PER_BRIEF, USER_CONFIG, type WatchedCompany } from './config';
+
+const ENV_PREFERRED = () => USER_CONFIG.preferredOutlets;
+const ENV_DEPRIORITIZED = () => USER_CONFIG.deprioritizedOutlets;
 import type { Brief, PricePoint, Story } from './types';
 
 function client(): Anthropic | null {
@@ -16,6 +19,7 @@ function textOf(msg: Anthropic.Message): string {
 
 export interface EditorialResult {
   headline: string;
+  intro: string;
   overview: string;
   stories: Story[];
   degraded: boolean;
@@ -52,6 +56,7 @@ export async function editStories(stories: Story[], prices: PricePoint | null): 
         type: 'object',
         properties: {
           headline: { type: 'string', description: "The day's most important development, under 12 words" },
+          intro: { type: 'string', description: "1-2 sentence conversational opener in a Morning Brew register — a light, sharp hook into the day's fuels story. Informed and wry, never cutesy; no greeting like 'Good morning'." },
           overview: { type: 'string', description: '2-3 sentence synthesis of the day across markets, policy, operations, and companies' },
           selected: {
             type: 'array',
@@ -66,7 +71,7 @@ export async function editStories(stories: Story[], prices: PricePoint | null): 
             },
           },
         },
-        required: ['headline', 'overview', 'selected'],
+        required: ['headline', 'intro', 'overview', 'selected'],
       },
     }],
     tool_choice: { type: 'tool', name: 'submit_brief' },
@@ -75,6 +80,10 @@ export async function editStories(stories: Story[], prices: PricePoint | null): 
       content: `${priceContext}
 
 Below are candidate stories collected in the last day (JSON). Select up to ${MAX_STORIES_PER_BRIEF} that genuinely matter for refined fuels markets. Drop duplicates covering the same event (keep the most authoritative source), drop irrelevant items (crude E&P with no refining angle, generic stock-picking takes, local-interest fluff).
+
+Outlet preferences (ranking guidance only — NEVER exclude a story solely because of its outlet; unfamiliar outlets with genuinely important stories should still be selected):
+- Preferred outlets (nudge upward in ranking; prefer as the kept source when deduping): ${JSON.stringify(ENV_PREFERRED())}
+- Deprioritized outlets (nudge downward): ${JSON.stringify(ENV_DEPRIORITIZED())}
 
 Candidates:
 ${JSON.stringify(candidates)}`,
@@ -94,6 +103,7 @@ ${JSON.stringify(candidates)}`,
     if (chosen.length === 0) return fallbackEdit(stories);
     return {
       headline: String(parsed.headline ?? '').trim() || 'Daily refined fuels briefing',
+      intro: String(parsed.intro ?? '').trim(),
       overview: String(parsed.overview ?? '').trim(),
       stories: chosen,
       degraded: false,
@@ -112,6 +122,7 @@ function fallbackEdit(stories: Story[]): EditorialResult {
   }));
   return {
     headline: 'Daily refined fuels briefing',
+    intro: '',
     overview: 'AI summarization was unavailable for this edition; stories below carry their original feed descriptions.',
     stories: chosen,
     degraded: true,
