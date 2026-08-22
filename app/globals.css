@@ -11,6 +11,7 @@
   --muted: #a39d94;
   --accent: #e98b60;        /* soft coral-orange */
   --accent-2: #e98b60;      /* links share the accent — no blue in this palette */
+  --chart-2: #d9c27e;       /* sandy gold: second chart series, distinguishable from coral */
   --good: #6fcf97;
   --bad: #eb8787;
 }

@@ -24,7 +24,7 @@ export default function DashboardPage() {
         sourceLabel="EIA spot prices"
         series={[
           { label: 'Gasoline (conventional)', color: 'var(--accent)', points: pick('rbobSpot') },
-          { label: 'ULSD Diesel', color: 'var(--accent-2)', points: pick('ulsdSpot') },
+          { label: 'ULSD Diesel', color: 'var(--chart-2)', points: pick('ulsdSpot') },
         ]}
       />
       <LineChart
@@ -34,7 +34,7 @@ export default function DashboardPage() {
         sourceLabel="EIA spot prices"
         series={[
           { label: 'Gasoline crack', color: 'var(--accent)', points: pick('gasCrack') },
-          { label: 'Diesel crack', color: 'var(--accent-2)', points: pick('dieselCrack') },
+          { label: 'Diesel crack', color: 'var(--chart-2)', points: pick('dieselCrack') },
         ]}
       />
       <LineChart
@@ -44,7 +44,7 @@ export default function DashboardPage() {
         sourceLabel="EIA retail prices"
         series={[
           { label: 'Gasoline (all grades)', color: 'var(--accent)', points: pick('retailGas') },
-          { label: 'On-highway diesel', color: 'var(--accent-2)', points: pick('retailDiesel') },
+          { label: 'On-highway diesel', color: 'var(--chart-2)', points: pick('retailDiesel') },
         ]}
       />
       <LineChart
@@ -54,7 +54,7 @@ export default function DashboardPage() {
         sourceLabel="EIA Weekly Petroleum Status Report"
         series={[
           { label: 'Total motor gasoline', color: 'var(--accent)', points: pick('gasStocksMbbl') },
-          { label: 'Distillate', color: 'var(--accent-2)', points: pick('distStocksMbbl') },
+          { label: 'Distillate', color: 'var(--chart-2)', points: pick('distStocksMbbl') },
         ]}
       />
     </div>
