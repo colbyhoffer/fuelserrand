@@ -1,16 +1,18 @@
+/* Warm charcoal palette — matched to the mail-client dark-mode render of the
+   brief that Colby preferred. Keep in sync with pipeline/email.ts constants. */
 :root {
-  --bg: #070b14;
-  --card: #0e1424;
-  --panel: #151c30;         /* the email's cream boxes, gone dark */
-  --border: #1d2740;
-  --panel-border: #2a3352;
-  --text: #e8ecf5;
-  --body-text: #b9c2d4;
-  --muted: #8c96ad;
-  --accent: #f59e0b;        /* Fuels Errand orange, brightened for dark */
-  --accent-2: #4d9fff;      /* link blue */
-  --good: #34d399;
-  --bad: #f87171;
+  --bg: #201e1c;
+  --card: #2e2c29;
+  --panel: #38352f;
+  --border: #413d38;
+  --panel-border: #4a443a;
+  --text: #f0efed;
+  --body-text: #d8d5d1;
+  --muted: #a39d94;
+  --accent: #e98b60;        /* soft coral-orange */
+  --accent-2: #e98b60;      /* links share the accent — no blue in this palette */
+  --good: #6fcf97;
+  --bad: #eb8787;
 }
 
 * { box-sizing: border-box; }

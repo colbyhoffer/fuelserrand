@@ -15,19 +15,20 @@ const CATEGORY_META: Record<Category, { label: string; emoji: string }> = {
 
 const CATEGORY_ORDER: Category[] = ['markets', 'operations', 'policy', 'companies', 'deals'];
 
-// Palette mirrors the site's dark theme (app/globals.css) exactly.
-const BG = '#070b14';
-const CARD = '#0e1424';
-const PANEL = '#151c30';
-const PANEL_BORDER = '#2a3352';
-const BORDER = '#1d2740';
-const ORANGE = '#f59e0b';
-const INK = '#e8ecf5';        // primary text
-const BODY = '#b9c2d4';       // body text
-const GRAY = '#8c96ad';       // muted
-const BLUE = '#4d9fff';
-const GREEN = '#34d399';
-const RED = '#f87171';
+// Warm charcoal palette (settled 2026-08-22: matched to the mail-client
+// dark-mode render Colby preferred). Mirrors the site's app/globals.css :root.
+const BG = '#201e1c';
+const CARD = '#2e2c29';
+const PANEL = '#38352f';
+const PANEL_BORDER = '#4a443a';
+const BORDER = '#413d38';
+const ORANGE = '#e98b60';     // soft coral-orange accent
+const INK = '#f0efed';        // primary text
+const BODY = '#d8d5d1';       // body text
+const GRAY = '#a39d94';       // muted
+const BLUE = '#e98b60';       // document links share the accent (no blue in this palette)
+const GREEN = '#6fcf97';
+const RED = '#eb8787';
 
 function esc(s: string): string {
   return s.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
