@@ -14,8 +14,9 @@ interface SeriesSpec {
 }
 
 const SPECS: SeriesSpec[] = [
-  // Spot prices (daily, $/gal or $/bbl)
-  { route: 'petroleum/pri/spt/data', series: 'EER_EPMRR_PF4_Y35NY_DPG', freq: 'daily', assign: (p, v) => (p.rbobSpot = v) },
+  // Spot prices (daily, $/gal or $/bbl). NY Harbor conventional regular is the
+  // NYH gasoline benchmark — EIA has no NYH RBOB daily series (LA only).
+  { route: 'petroleum/pri/spt/data', series: 'EER_EPMRU_PF4_Y35NY_DPG', freq: 'daily', assign: (p, v) => (p.rbobSpot = v) },
   { route: 'petroleum/pri/spt/data', series: 'EER_EPD2DXL0_PF4_Y35NY_DPG', freq: 'daily', assign: (p, v) => (p.ulsdSpot = v) },
   { route: 'petroleum/pri/spt/data', series: 'RWTC', freq: 'daily', assign: (p, v) => (p.wtiSpot = v) },
   // Retail prices (weekly, $/gal, US average)
@@ -51,7 +52,7 @@ export async function fetchPrices(now: Date): Promise<PricePoint | null> {
     console.warn('[prices] EIA_API_KEY not set — skipping price data');
     return null;
   }
-  const point: PricePoint = { date: now.toISOString().slice(0, 10) };
+  const point: PricePoint = { date: now.toLocaleDateString('en-CA', { timeZone: 'America/Chicago' }) };
   const results = await Promise.allSettled(SPECS.map(fetchLatest));
   let got = 0;
   results.forEach((r, i) => {

@@ -35,7 +35,7 @@ export function renderEmailHtml(brief: Brief): string {
   const priceBar = p
     ? `<table role="presentation" width="100%" style="border-collapse:collapse;background:#0f172a;border-radius:8px;margin:16px 0;"><tr>
         ${[
-          ['RBOB', fmt(p.rbobSpot), '/gal'],
+          ['Gasoline', fmt(p.rbobSpot), '/gal'],
           ['ULSD', fmt(p.ulsdSpot), '/gal'],
           ['WTI', fmt(p.wtiSpot), '/bbl'],
           ['Gas crack', fmt(p.gasCrack), '/bbl'],

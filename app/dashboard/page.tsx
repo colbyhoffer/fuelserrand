@@ -23,7 +23,7 @@ export default function DashboardPage() {
         sourceUrl={EIA_SPOT}
         sourceLabel="EIA spot prices"
         series={[
-          { label: 'RBOB Gasoline', color: 'var(--accent)', points: pick('rbobSpot') },
+          { label: 'Gasoline (conventional)', color: 'var(--accent)', points: pick('rbobSpot') },
           { label: 'ULSD Diesel', color: 'var(--accent-2)', points: pick('ulsdSpot') },
         ]}
       />

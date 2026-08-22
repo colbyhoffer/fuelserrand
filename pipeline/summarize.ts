@@ -45,16 +45,36 @@ export async function editStories(stories: Story[], prices: PricePoint | null): 
     model: CLAUDE_MODEL,
     max_tokens: 4000,
     system: `You are the editor of Fuels Errand, a daily briefing on US refined fuels markets: gasoline, diesel, renewable diesel, and sustainable aviation fuel (SAF). Your reader follows refining economics, fuel retail, and clean-fuels policy closely. Be precise, neutral, and information-dense. Never invent facts not present in the provided material.`,
+    tools: [{
+      name: 'submit_brief',
+      description: 'Submit the edited daily brief.',
+      input_schema: {
+        type: 'object',
+        properties: {
+          headline: { type: 'string', description: "The day's most important development, under 12 words" },
+          overview: { type: 'string', description: '2-3 sentence synthesis of the day across markets, policy, operations, and companies' },
+          selected: {
+            type: 'array',
+            items: {
+              type: 'object',
+              properties: {
+                id: { type: 'integer' },
+                summary: { type: 'string', description: '1-2 sentences from the title and snippet only; for paywalled items at most one sentence on what the headline indicates' },
+                category: { type: 'string', enum: ['markets', 'policy', 'operations', 'deals', 'companies'] },
+              },
+              required: ['id', 'summary', 'category'],
+            },
+          },
+        },
+        required: ['headline', 'overview', 'selected'],
+      },
+    }],
+    tool_choice: { type: 'tool', name: 'submit_brief' },
     messages: [{
       role: 'user',
       content: `${priceContext}
 
 Below are candidate stories collected in the last day (JSON). Select up to ${MAX_STORIES_PER_BRIEF} that genuinely matter for refined fuels markets. Drop duplicates covering the same event (keep the most authoritative source), drop irrelevant items (crude E&P with no refining angle, generic stock-picking takes, local-interest fluff).
-
-For each selected story write a 1-2 sentence summary from its title and snippet only. For paywalled items write at most one sentence noting what the headline indicates. Then write a single headline (under 12 words) naming the day's most important development, and a 2-3 sentence overview synthesizing the day across markets, policy, operations, and companies.
-
-Respond with only valid JSON, no code fences:
-{"headline": "...", "overview": "...", "selected": [{"id": 3, "summary": "...", "category": "markets|policy|operations|deals|companies"}]}
 
 Candidates:
 ${JSON.stringify(candidates)}`,
@@ -62,7 +82,9 @@ ${JSON.stringify(candidates)}`,
   });
 
   try {
-    const parsed = JSON.parse(textOf(res).replace(/^```json?\s*|\s*```$/g, ''));
+    const toolUse = res.content.find((b): b is Anthropic.ToolUseBlock => b.type === 'tool_use');
+    if (!toolUse) throw new Error('no tool_use block in response');
+    const parsed = toolUse.input as any;
     const chosen: Story[] = [];
     for (const sel of parsed.selected ?? []) {
       const orig = stories[sel.id];

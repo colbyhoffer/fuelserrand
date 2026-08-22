@@ -44,7 +44,7 @@ export default function BriefView({ brief }: { brief: Brief }) {
         <>
           <div className="price-bar">
             {([
-              ['RBOB', fmt(p.rbobSpot), '/gal'],
+              ['Gasoline', fmt(p.rbobSpot), '/gal'],
               ['ULSD', fmt(p.ulsdSpot), '/gal'],
               ['WTI', fmt(p.wtiSpot), '/bbl'],
               ['Gas crack', fmt(p.gasCrack), '/bbl'],

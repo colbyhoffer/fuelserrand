@@ -28,7 +28,7 @@ export interface DeckAnalysis {
 
 export interface PricePoint {
   date: string;          // YYYY-MM-DD
-  rbobSpot?: number;     // $/gal, NY Harbor
+  rbobSpot?: number;     // $/gal, NY Harbor conventional regular gasoline spot
   ulsdSpot?: number;     // $/gal, NY Harbor
   wtiSpot?: number;      // $/bbl, Cushing
   gasCrack?: number;     // computed 3-2-1-ish single-product crack $/bbl
