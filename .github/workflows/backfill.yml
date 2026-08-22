@@ -10,6 +10,8 @@ on:
 
 permissions:
   contents: write
+  pages: write
+  id-token: write
 
 jobs:
   backfill:
@@ -32,4 +34,11 @@ jobs:
           git add data/price-history.json
           git diff --cached --quiet || git commit -m "Backfill ${{ inputs.years }} years of EIA price history"
           git push
-      # The push triggers deploy.yml, which rebuilds the site with the new data.
+      # Deploy directly: pushes from a workflow's own token don't trigger
+      # other workflows, so deploy.yml would never fire for the data commit.
+      - name: Build site
+        run: npm run build
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: out
+      - uses: actions/deploy-pages@v4
