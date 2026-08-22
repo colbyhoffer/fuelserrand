@@ -1,51 +1,15 @@
 {
   "date": "2026-08-21",
-  "headline": "Daily refined fuels briefing",
-  "overview": "AI summarization was unavailable for this edition; stories below carry their original feed descriptions.",
+  "headline": "Refining margins spike as Iran conflict disrupts crude and fuel supply",
+  "overview": "Diesel and gasoline cracks remain elevated (ULSD crack near $97/bbl, RBOB crack near $48.5/bbl) as Iran-related tensions and Ukrainian strikes on Russian refineries tighten global product supply. Nymex ULSD and RBOB both posted sharp weekly gains, while EPA's move to extend the RFS compliance deadline and ongoing SAF/renewable diesel developments add a policy dimension to an already supply-constrained market.",
   "stories": [
     {
-      "title": "Oil Rises as US Targets Iran's Economy",
-      "url": "https://www.rigzone.com/news/wire/oil_rises_as_us_targets_irans_economy-21-aug-2026-184437-article/?rss=true",
-      "source": "Rigzone",
-      "publishedAt": "2026-08-21T19:44:25.000Z",
-      "category": "operations",
-      "summary": "Crude extended its rally as Asian demand strengthened while the Iran conflict continued to constrain global supplies.",
-      "paywalled": false
-    },
-    {
-      "title": "Walmart, Sam’s Club to Roll Out Tap to Pay… Finally",
-      "url": "https://www.weny.com/news/walmart-sam-s-club-to-roll-out-tap-to-pay-finally/article_b0059985-2807-460b-8c21-3333128aef91.html",
-      "source": "WENY News",
-      "publishedAt": "2026-08-21T18:26:00.000Z",
-      "category": "companies",
-      "summary": "Walmart and Sam's Club will begin offering Tap to Pay as a checkout option at select store locations starting Aug. 24, with plans to expand the feature ...",
-      "paywalled": false
-    },
-    {
-      "title": "Little Rock police arrest suspect in deadly gas station shooting",
-      "url": "https://www.fox16.com/crime/little-rock-police-arrest-suspect-in-deadly-gas-station-shooting/",
-      "source": "KLRT - FOX16.com",
-      "publishedAt": "2026-08-21T18:22:00.000Z",
-      "category": "companies",
-      "summary": "The Little Rock Police Department announced an arrest tied to a deadly shooting at a Circle K gas station on Friday.",
-      "paywalled": false
-    },
-    {
-      "title": "Comfortable Saturday in NH ahead of possible showers for NASCAR race Sunday",
-      "url": "https://www.wmur.com/article/new-hampshire-weekend-forecast-82126/73499315",
-      "source": "WMUR Channel 9",
-      "publishedAt": "2026-08-21T18:09:00.000Z",
-      "category": "companies",
-      "summary": "After a pleasant week, changes are ahead this weekend with cloudier skies, cooler temperatures and scattered showers possible.",
-      "paywalled": false
-    },
-    {
-      "title": "El Camino Shopping Center eyes retail expansion, outdoor dining",
-      "url": "https://www.bizjournals.com/sanjose/news/2026/08/21/el-camino-shopping-center-santa-clara.html",
-      "source": "The Business Journals",
-      "publishedAt": "2026-08-21T17:20:00.000Z",
-      "category": "deals",
-      "summary": "A long-standing Santa Clara shopping center could add new retail and outdoor dining under a proposed makeover.",
+      "title": "Global refining disruptions turn the oil shock into a fuel supply crisis",
+      "url": "https://www.financial-world.org/news/news/financial/30929/global-refining-disruptions-turn-the-oil-shock-into-a-fuel-supply-crisis/",
+      "source": "Financial World",
+      "publishedAt": "2026-08-21T12:00:00.000Z",
+      "category": "markets",
+      "summary": "Pressure in global energy markets is shifting from crude toward refining capacity, with record margins, disrupted capacity and tighter exports creating what's being called a fuel supply crisis.",
       "paywalled": false
     },
     {
@@ -54,7 +18,7 @@
       "source": "Morningstar",
       "publishedAt": "2026-08-21T17:00:00.000Z",
       "category": "markets",
-      "summary": "Front Month Nymex ULSD for Sept. delivery gained 21.19 cents per gallon, or 4.95% to $4.4948 this week --Largest two week net and percentage gain since the week ending July 24, 2026 ...",
+      "summary": "Front-month Nymex ULSD for September delivery rose 4.95% this week to settle at $4.4948/gal, its largest two-week gain since July 2026.",
       "paywalled": false
     },
     {
@@ -63,76 +27,113 @@
       "source": "Morningstar",
       "publishedAt": "2026-08-21T17:00:00.000Z",
       "category": "markets",
-      "summary": "Most activity in refined products was focused on the next-month contracts, with the lightly traded September RBOB contract climbing 8.5cts higher to $3.3479/gal, a gain of 5.1% for the week. October ...",
+      "summary": "Crude and refined products ended the day and week higher on Nymex; September RBOB climbed 8.5cts to $3.3479/gal, up 5.1% for the week.",
       "paywalled": false
     },
     {
-      "title": "Pediatrician offers guidance on back-to-school illness",
-      "url": "https://www.kait8.com/2026/08/22/pediatrician-offers-guidance-back-to-school-illness/",
-      "source": "KAIT",
-      "publishedAt": "2026-08-21T17:00:00.000Z",
-      "category": "companies",
-      "summary": "A local pediatrician is offering guidance to parents on when to keep sick children home from school and what symptoms to watch for. Pediatrician offers guidance on back-to-school illness ...",
+      "title": "“Get Long And Buckle Up.” Jeff Currie Explains How To Play The “The Most Asymmetric Trade In Modern Financial History.”",
+      "url": "https://247wallst.com/investing/2026/08/21/get-long-and-buckle-up-jeff-currie-explains-how-to-play-the-the-most-asymmetric-trade-in-modern-financial-history/",
+      "source": "24/7 Wall St.",
+      "publishedAt": "2026-08-21T03:03:00.000Z",
+      "category": "markets",
+      "summary": "Former Goldman commodities chief Jeff Currie, now at Carlyle, told clients to 'get long and buckle up' for what he calls the most asymmetric trade in modern financial history amid rising volatility.",
       "paywalled": false
     },
     {
-      "title": "Why architecture matters more than prompts for real-world AI systems",
-      "url": "https://www.wftv.com/news/local/why-architecture-matters-more-than-prompts-real-world-ai-systems/CIWYFB6CDNA75JPHWCBO6CYTHM/",
-      "source": "WFTV",
-      "publishedAt": "2026-08-21T17:00:00.000Z",
-      "category": "companies",
-      "summary": "Senior software architect Virat Gohil argues that successful GenAI depends on robust system architecture, not just models.",
+      "title": "Farmers Face Higher Fuel Costs as Diesel Supplies Tighten",
+      "url": "https://www.rfdtv.com/farmers-face-higher-fuel-costs-as-diesel-supplies-tighten",
+      "source": "RFD-TV",
+      "publishedAt": "2026-08-21T05:07:00.000Z",
+      "category": "markets",
+      "summary": "Diesel supplies are tightening ahead of a September 1 EPA rule allowing higher Reid vapor pressure gasoline, raising fuel costs for farmers.",
       "paywalled": false
     },
     {
-      "title": "VDH discusses keeping kids eating healthy amid foodborne illness outbreaks",
-      "url": "https://www.whsv.com/2026/08/22/vdh-discusses-keeping-kids-eating-healthy-amid-foodborne-illness-outbreaks/",
-      "source": "WHSV",
-      "publishedAt": "2026-08-21T17:00:00.000Z",
-      "category": "companies",
-      "summary": "According to a new study, data shows children already don’t eat enough fruits and vegetables and the recent foodborne illness outbreaks aren’t making things any better.",
-      "paywalled": false
-    },
-    {
-      "title": "Ethanol Industry Gathers in Minneapolis",
-      "url": "https://www.rrfn.com/2026/08/21/ethanol-industry-gathers-in-minneapolis/",
-      "source": "Red River Farm Network",
-      "publishedAt": "2026-08-21T16:25:00.000Z",
+      "title": "U.S. EPA to Extend Renewable Fuel Standard Compliance Deadline for Refiners",
+      "url": "https://www.agriculture.com/partners-u-s-epa-to-extend-renewable-fuel-standard-compliance-deadline-for-refiners-12065674",
+      "source": "Successful Farming",
+      "publishedAt": "2026-08-21T13:38:00.000Z",
       "category": "policy",
-      "summary": "Please enter your email and a password retrieval code will be sent. Please enter your code and a new password.",
+      "summary": "EPA plans to extend a September 1 deadline requiring refiners to demonstrate compliance with the nation's biofuel blending (RFS) laws.",
       "paywalled": false
     },
     {
-      "title": "Daphne secures $5 million grant for new fishing pier at Bayfront Park",
-      "url": "https://www.wkrg.com/baldwin-county/daphne-waterfront-expansion-project/",
-      "source": "WKRG",
-      "publishedAt": "2026-08-21T16:13:00.000Z",
-      "category": "deals",
-      "summary": "Daphne’s bayfront is getting another big boost; the city just landed a $5 million grant to build a new fishing pier. The Jubilee City’s bayfront is already ...",
+      "title": "EPA extends deadline for refiners to comply with renewable fuel standard",
+      "url": "https://www.worldenergynews.com/news/epa-extends-deadline-for-refiners-comply-with-777792",
+      "source": "World Energy News",
+      "publishedAt": "2026-08-21T06:22:00.000Z",
+      "category": "policy",
+      "summary": "EPA published a notice extending the deadline for oil refiners to comply with the Renewable Fuel Standard.",
       "paywalled": false
     },
     {
-      "title": "U.S. Approves Air-to-Air APKWS Sale to Italy",
-      "url": "https://theaviationist.com/2026/08/21/u-s-approves-air-to-air-apkws-sale-to-italy/",
-      "source": "The Aviationist",
-      "publishedAt": "2026-08-21T16:02:00.000Z",
+      "title": "Court Upholds Trump Admin Order to Restart SYU",
+      "url": "https://www.rigzone.com/news/court_upholds_trump_admin_order_to_restart_syu-21-aug-2026-184433-article/?rss=true",
+      "source": "Rigzone",
+      "publishedAt": "2026-08-21T15:22:53.000Z",
+      "category": "policy",
+      "summary": "A court upheld the Trump administration's order to restart the Santa Ynez Unit (SYU), which the DOJ called a win for domestic energy production.",
+      "paywalled": false
+    },
+    {
+      "title": "XCF Global ships 55,000 gallons of renewable diesel daily",
+      "url": "https://www.biobased-diesel.com/post/xcf-global-ships-55-000-gallons-of-renewable-diesel-daily",
+      "source": "Biobased Diesel Daily",
+      "publishedAt": "2026-08-21T12:03:52.000Z",
       "category": "companies",
-      "summary": "The U.S. State Department approved a possible Foreign Military Sale to Italy of the air-to-air variant of the APKWS-II, which would include over 5,000 ...",
+      "summary": "XCF Global reports shipping 55,000 gallons of renewable diesel daily, establishing a baseline output as proof of physical production.",
       "paywalled": false
     },
     {
-      "title": "On Your Side: Scammers pose as Liberty Utilities, target customers with disconnect threats",
-      "url": "https://www.ky3.com/2026/08/21/your-side-scammers-pose-liberty-utilities-target-customers-with-disconnect-threats/",
-      "source": "KYTV",
-      "publishedAt": "2026-08-21T15:58:00.000Z",
-      "category": "companies",
-      "summary": "Debbie Ikerd of Ozark received a phone call from someone claiming to be with Liberty Utilities. The caller told her she was behind on her bill and demanded she pay more than $200 immediately.",
+      "title": "Vitol Bunkers, Olam Agri complete world’s 1st coprocessed VLSFO biobunkering operation",
+      "url": "https://www.biobased-diesel.com/post/vitol-bunkers-olam-agri-complete-world-s-1st-coprocessed-vlsfo-biobunkering-operation",
+      "source": "Biobased Diesel Daily",
+      "publishedAt": "2026-08-21T12:27:38.000Z",
+      "category": "policy",
+      "summary": "Vitol Bunkers and Olam Agri completed the world's first coprocessed VLSFO biobunkering operation in Singapore, using cashew-nut shell liquid in a waste-to-energy approach.",
+      "paywalled": false
+    },
+    {
+      "title": "Ukrainian Drone Attack Hits Lukoil Refinery Deep in Russia",
+      "url": "https://oilprice.com/Latest-Energy-News/World-News/Ukrainian-Drone-Attack-Hits-Lukoil-Refinery-Deep-in-Russia.html",
+      "source": "OilPrice.com",
+      "publishedAt": "2026-08-21T08:01:00.000Z",
+      "category": "operations",
+      "summary": "Ukrainian drones struck Lukoil's Perm refinery over 1,600 km from the Russia-Ukraine border, per Zelenskyy.",
+      "paywalled": false
+    },
+    {
+      "title": "Lukoil’s Perm refinery struck 1,530 km from Ukraine’s northern border, Kyiv confirms",
+      "url": "https://euromaidanpress.com/2026/08/21/lukoils-perm-refinery-struck-1530-km-from-ukraines-northern-border-kyiv-confirms/",
+      "source": "Euromaidan Press",
+      "publishedAt": "2026-08-21T08:14:00.000Z",
+      "category": "operations",
+      "summary": "Kyiv confirmed a strike on Lukoil's Perm refinery 1,530 km from Ukraine's northern border, part of an overnight wave that also hit a military airfield.",
+      "paywalled": false
+    },
+    {
+      "title": "Various Tankers Shuttle Saudi Oil North to Evade Houthis",
+      "url": "https://www.rigzone.com/news/wire/various_tankers_shuttle_saudi_oil_north_to_evade_houthis-21-aug-2026-184428-article/?rss=true",
+      "source": "Rigzone",
+      "publishedAt": "2026-08-21T09:18:13.000Z",
+      "category": "operations",
+      "summary": "Shipowners are rerouting Saudi crude tankers via the northern Red Sea route to avoid Houthi attacks near the Bab el-Mandeb chokepoint.",
+      "paywalled": false
+    },
+    {
+      "title": "IndyCar switching to fully renewable fuel for 2027",
+      "url": "https://racer.com/2026/08/21/indycar-switching-to-fully-renewable-fuel-for-2027",
+      "source": "RACER",
+      "publishedAt": "2026-08-21T09:04:00.000Z",
+      "category": "policy",
+      "summary": "IndyCar and Shell will introduce an updated 100% renewable race fuel for 2027, shifting feedstock sourcing domestically to the US from mostly international sources.",
       "paywalled": false
     }
   ],
   "decks": [],
   "prices": {
-    "date": "2026-08-22",
+    "date": "2026-08-21",
+    "rbobSpot": 3.156,
     "ulsdSpot": 4.304,
     "wtiSpot": 84.05,
     "retailGas": 4.182,
@@ -141,6 +142,7 @@
     "distStocksMbbl": 105619,
     "gasDemandKbd": 8689,
     "distDemandKbd": 3953,
+    "gasCrack": 48.5,
     "dieselCrack": 96.72
   },
   "weekAhead": [
@@ -161,8 +163,5 @@
       "label": "EIA weekly retail gasoline & diesel prices (Mon PM)"
     }
   ],
-  "generatedAt": "2026-08-22T03:03:56.652Z",
-  "degraded": [
-    "AI summarization"
-  ]
+  "generatedAt": "2026-08-22T03:07:24.448Z"
 }
