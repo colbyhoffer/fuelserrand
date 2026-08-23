@@ -1,0 +1,13 @@
+{
+  "artboards": [
+    { "file": "Main.dc.html", "x": 0, "y": 0, "w": 1180, "h": 1560, "title": "A — Broadsheet" },
+    { "file": "Terminal.dc.html", "x": 1280, "y": 0, "w": 1180, "h": 1440, "title": "B — Terminal" },
+    { "file": "Newsletter.dc.html", "x": 2560, "y": 0, "w": 1180, "h": 1660, "title": "C — Newsletter" }
+  ],
+  "annotations": [
+    { "id": "note-a", "x": 0, "y": -170, "w": 340, "text": "A — Broadsheet\nEditorial front-page hierarchy: the day reads like a newspaper, with a lead story, standfirst, and a ticker strip.\nTradeoff: the most layout to maintain, and the 3-column grid needs real thought on mobile." },
+    { "id": "note-b", "x": 1280, "y": -170, "w": 340, "text": "B — Terminal\nData-first: price tiles with sparklines and the 5-year crack chart are the hero; stories become a dense scannable feed.\nTradeoff: heavier feel; the editorial voice (intro, overview) gets less room." },
+    { "id": "note-c", "x": 2560, "y": -170, "w": 340, "text": "C — Newsletter\nThe email as the website: one warm reading column, zero learning curve from the daily brief, sign-off included.\nTradeoff: lowest information density; dashboard data lives on other pages." }
+  ],
+  "launch": { "view": "canvas" }
+}

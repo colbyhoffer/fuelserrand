@@ -1,5 +1,5 @@
 import type { Brief, Category, PricePoint, Story } from '@/pipeline/types';
-import { formatDateLong } from '@/lib/data';
+import { formatDateLong } from '@/lib/format';
 
 const CATEGORY_META: Record<Category, { label: string; emoji: string }> = {
   markets: { label: 'Markets & Prices', emoji: '📈' },

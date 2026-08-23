@@ -1,0 +1,13 @@
+{
+  "projectId": "238ae766-ad4a-4aba-b631-9c90b594c34c",
+  "pkg": "fuelserrand",
+  "globalName": "FuelsErrand",
+  "shape": "package",
+  "tsconfig": "tsconfig.json",
+  "componentSrcMap": {
+    "BriefView": "components/BriefView.tsx",
+    "LineChart": "components/LineChart.tsx"
+  },
+  "cssEntry": "app/globals.css",
+  "readmeHeader": ".design-sync/conventions.md"
+}
