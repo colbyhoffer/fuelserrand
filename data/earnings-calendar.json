@@ -1,12 +1,5 @@
 [
   {
-    "ticker": "COST",
-    "name": "Costco",
-    "group": "bigbox",
-    "lastReport": "2026-05-28",
-    "nextEstimate": "2026-08-20"
-  },
-  {
     "ticker": "CASY",
     "name": "Casey's General Stores",
     "group": "retail",
@@ -54,6 +47,13 @@
     "group": "renewables",
     "lastReport": "2026-07-30",
     "nextEstimate": "2026-10-29"
+  },
+  {
+    "ticker": "CVX",
+    "name": "Chevron",
+    "group": "refiner",
+    "lastReport": "2026-07-31",
+    "nextEstimate": "2026-10-30"
   },
   {
     "ticker": "DK",
@@ -124,6 +124,13 @@
     "group": "refiner",
     "lastReport": "2026-08-05",
     "nextEstimate": "2026-11-09"
+  },
+  {
+    "ticker": "COST",
+    "name": "Costco",
+    "group": "bigbox",
+    "lastReport": "2026-05-28",
+    "nextEstimate": "2026-11-12"
   },
   {
     "ticker": "WMT",

@@ -1,0 +1,164 @@
+{
+  "date": "2026-08-24",
+  "headline": "EPA extends RFS compliance deadline as refiners run flat-out amid supply crunch",
+  "intro": "Crack spreads are blowing out and refiners are sprinting at max capacity — and just as the squeeze peaks, EPA hands them a breather on biofuel blending paperwork.",
+  "overview": "Diesel and gasoline cracks remain elevated ($104.62/bbl and $54.68/bbl respectively) as US refiners run near record utilization amid Iran-related supply disruptions and Russian refinery strikes tightening global product markets. EPA's move to extend the September 1 RFS compliance deadline offers refiners some relief on biofuel blending obligations, while Reuters flags historic stress on the US refining system as a global fuel supply crisis takes shape. Meanwhile NYMEX RBOB and ULSD both posted sharp weekly gains, and a California bill would codify refinery worker safety protections following past fires and explosions.",
+  "stories": [
+    {
+      "title": "US EPA to extend renewable fuel standard compliance deadline for refiners",
+      "url": "https://www.reuters.com/business/energy/epa-extends-renewable-fuel-standard-compliance-deadline-refiners-2026-08-21/",
+      "source": "Reuters",
+      "publishedAt": "2026-08-21T07:55:00.000Z",
+      "category": "policy",
+      "summary": "EPA plans to extend the September 1 deadline for refiners to demonstrate compliance with the nation's biofuel blending laws, the agency said Friday.",
+      "paywalled": true
+    },
+    {
+      "title": "EPA extends deadline for refiners to comply with renewable fuel standard",
+      "url": "https://www.worldenergynews.com/news/epa-extends-deadline-for-refiners-comply-with-777792",
+      "source": "World Energy News",
+      "publishedAt": "2026-08-21T06:22:00.000Z",
+      "category": "policy",
+      "summary": "EPA announced in a Friday notice that it would extend the deadline for oil refiners to comply with the renewable fuel standard.",
+      "paywalled": false
+    },
+    {
+      "title": "US refiners face historic stress test as global crisis looms",
+      "url": "https://www.reuters.com/commentary/reuters-open-interest/us-refiners-face-historic-stress-test-global-crisis-looms-2026-08-24/",
+      "source": "Reuters",
+      "publishedAt": "2026-08-23T23:00:00.000Z",
+      "category": "operations",
+      "summary": "US refineries have operated near maximum capacity for the longest sustained period in over a quarter century as they scramble to capture windfall profits from the Iran war, though history suggests risks ahead.",
+      "paywalled": true
+    },
+    {
+      "title": "Global refining disruptions turn the oil shock into a fuel supply crisis",
+      "url": "https://www.financial-world.org/news/news/financial/30929/global-refining-disruptions-turn-the-oil-shock-into-a-fuel-supply-crisis/",
+      "source": "Financial World",
+      "publishedAt": "2026-08-21T12:00:00.000Z",
+      "category": "markets",
+      "summary": "Pressure in global energy markets is shifting from crude oil toward refining capacity, with record margins, disrupted capacity, and tighter exports creating a fuel supply crisis.",
+      "paywalled": false
+    },
+    {
+      "title": "Nymex Overview: Crude and Product Prices End the Day, Week Higher -- OPIS",
+      "url": "https://www.marketwatch.com/story/nymex-overview-crude-and-product-prices-end-the-day-week-higher-opis-6384e3ca",
+      "source": "MarketWatch",
+      "publishedAt": "2026-08-21T13:59:00.000Z",
+      "category": "markets",
+      "summary": "Crude oil and refined product futures ended the day and week higher Friday as markets price in possible disruptions to global petroleum supplies.",
+      "paywalled": false
+    },
+    {
+      "title": "Front Month Nymex RBOB Gasoline Rose 5.14% This Week to Settle at $3.3479 — Data Talk",
+      "url": "https://www.morningstar.com/news/dow-jones/202608216669/front-month-nymex-rbob-gasoline-rose-514-this-week-to-settle-at-33479-data-talk",
+      "source": "Morningstar",
+      "publishedAt": "2026-08-21T09:38:00.000Z",
+      "category": "markets",
+      "summary": "Front-month NYMEX RBOB gasoline for September delivery gained 16.38 cents/gal, or 5.14%, to settle at $3.3479 for the week.",
+      "paywalled": false
+    },
+    {
+      "title": "Front Month Nymex ULSD Rose 4.95% This Week to Settle at $4.4948 — Data Talk",
+      "url": "https://www.morningstar.com/news/dow-jones/202608216668/front-month-nymex-ulsd-rose-495-this-week-to-settle-at-44948-data-talk",
+      "source": "Morningstar",
+      "publishedAt": "2026-08-21T17:00:00.000Z",
+      "category": "markets",
+      "summary": "Front-month NYMEX ULSD for September delivery gained 21.19 cents/gal, or 4.95%, to settle at $4.4948 for the week — the largest two-week gain since late July.",
+      "paywalled": false
+    },
+    {
+      "title": "US Refiners Face Import Crunch from Top Crude Seller",
+      "url": "https://www.rigzone.com/news/wire/us_refiners_face_import_crunch_from_top_crude_seller-22-aug-2026-184435-article/?rss=true",
+      "source": "Rigzone",
+      "publishedAt": "2026-08-22T11:00:01.000Z",
+      "category": "operations",
+      "summary": "US refiners face a looming supply drop from their biggest foreign crude supplier just as they need the oil most.",
+      "paywalled": false
+    },
+    {
+      "title": "California bill would secure safeguards for refinery workers after long history of fires, explosions",
+      "url": "https://www.thecooldown.com/green-business/california-refinery-worker-safety-bill/",
+      "source": "The Cool Down",
+      "publishedAt": "2026-08-22T09:40:00.000Z",
+      "category": "operations",
+      "summary": "California lawmakers are considering a bill to place current refinery-worker safety protections into state law while regulators rework rules under an industry settlement.",
+      "paywalled": false
+    },
+    {
+      "title": "Court Upholds Trump Admin Order to Restart SYU",
+      "url": "https://www.rigzone.com/news/court_upholds_trump_admin_order_to_restart_syu-21-aug-2026-184433-article/?rss=true",
+      "source": "Rigzone",
+      "publishedAt": "2026-08-21T15:22:53.000Z",
+      "category": "operations",
+      "summary": "A court upheld the Trump administration's order to restart the Santa Ynez Unit (SYU), which the Justice Department called a win for domestic energy production.",
+      "paywalled": false
+    },
+    {
+      "title": "Oil Rises as US Targets Iran's Economy",
+      "url": "https://www.rigzone.com/news/wire/oil_rises_as_us_targets_irans_economy-21-aug-2026-184437-article/?rss=true",
+      "source": "Rigzone",
+      "publishedAt": "2026-08-21T19:44:25.000Z",
+      "category": "markets",
+      "summary": "Crude extended its rally as Asian demand strengthened while the Iran conflict continued to constrain global supplies.",
+      "paywalled": false
+    },
+    {
+      "title": "Ukraine's Fire Point confirms strikes on oil refinery and Ozon warehouse in Russia's Samara region",
+      "url": "https://newsukraine.rbc.ua/news/ukraine-s-fire-point-confirms-strikes-on-1787387455.html",
+      "source": "newsukraine.rbc",
+      "publishedAt": "2026-08-22T04:30:00.000Z",
+      "category": "operations",
+      "summary": "Ukraine's Fire Point confirmed drone strikes on the Novokuybyshevsk oil refinery in Russia's Samara region overnight.",
+      "paywalled": false
+    },
+    {
+      "title": "Lukoil’s Perm refinery struck 1,530 km from Ukraine’s northern border, Kyiv confirms",
+      "url": "https://euromaidanpress.com/2026/08/21/lukoils-perm-refinery-struck-1530-km-from-ukraines-northern-border-kyiv-confirms/",
+      "source": "Euromaidan Press",
+      "publishedAt": "2026-08-21T08:14:00.000Z",
+      "category": "operations",
+      "summary": "Lukoil's Perm refinery was struck 1,530 km from Ukraine's northern border, part of an overnight wave that also hit a military airfield in Volgograd Oblast.",
+      "paywalled": false
+    },
+    {
+      "title": "Can Phillips 66, Marathon, or Valero Afford Delek US Holdings Now?",
+      "url": "https://247wallst.com/investing/2026/08/24/can-phillips-66-marathon-or-valero-afford-delek-us-holdings-now/",
+      "source": "24/7 Wall St.",
+      "publishedAt": "2026-08-24T04:25:00.000Z",
+      "category": "deals",
+      "summary": "Delek US has surged past its own analyst targets, with its CEO saying all options are on the table for a potential sale to a major refiner.",
+      "paywalled": false
+    }
+  ],
+  "decks": [],
+  "prices": {
+    "date": "2026-08-24",
+    "rbobSpot": 3.361,
+    "ulsdSpot": 4.55,
+    "wtiSpot": 86.48,
+    "retailGas": 4.182,
+    "retailDiesel": 5.454,
+    "gasStocksMbbl": 209378,
+    "distStocksMbbl": 105619,
+    "gasDemandKbd": 8689,
+    "distDemandKbd": 3953,
+    "gasCrack": 54.68,
+    "dieselCrack": 104.62
+  },
+  "prevPrices": {
+    "date": "2026-08-22",
+    "rbobSpot": 3.156,
+    "ulsdSpot": 4.304,
+    "wtiSpot": 84.05,
+    "retailGas": 4.182,
+    "retailDiesel": 5.454,
+    "gasStocksMbbl": 209378,
+    "distStocksMbbl": 105619,
+    "gasDemandKbd": 8689,
+    "distDemandKbd": 3953,
+    "gasCrack": 48.5,
+    "dieselCrack": 96.72
+  },
+  "generatedAt": "2026-08-24T11:56:00.878Z"
+}
