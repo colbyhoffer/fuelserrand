@@ -1,0 +1,174 @@
+{
+  "date": "2026-08-26",
+  "headline": "Diesel prices near record highs as Ukraine strikes hit more Russian refineries",
+  "intro": "Diesel just keeps grinding higher — retail's flirting with $5.65 and crack spreads north of $100/bbl — while Washington's biofuel exemption plans threaten to pour gasoline on the fire.",
+  "overview": "Diesel cracks are blowing out (over $104/bbl) as Ukrainian drone strikes continue to knock Russian refining capacity offline, pushing US retail diesel toward all-time highs near $5.65/gal even as crude softens on Iran de-escalation hopes. Meanwhile, reports that EPA could grant sweeping small-refinery RFS exemptions are drawing fierce pushback from biodiesel and soybean groups warning of lost demand and higher diesel prices, and refiners face an added crude-supply squeeze as Canadian oil sands output falls and Asian buyers scoop up US barrels.",
+  "stories": [
+    {
+      "title": "Supply Risks Persist As Markets Navigate Policy Changes And Global Disruptions",
+      "url": "https://www.tacenergy.com/news-and-views/market-talk/supply-risks-persist-as-markets-navigate-policy-changes-and-global-disruptions",
+      "source": "TACenergy Market Talk",
+      "publishedAt": "2026-08-25T12:00:00.000Z",
+      "category": "markets",
+      "summary": "ULSD and RBOB chopped back and forth overnight amid ongoing supply-risk headlines and shifting policy signals, per TACenergy's market wrap.",
+      "paywalled": false
+    },
+    {
+      "title": "Front Month Nymex RBOB Gasoline Fell 0.55% to Settle at $3.2529 — Data Talk",
+      "url": "https://www.morningstar.com/news/dow-jones/202608256537/front-month-nymex-rbob-gasoline-fell-055-to-settle-at-32529-data-talk",
+      "source": "Morningstar",
+      "publishedAt": "2026-08-25T16:59:00.000Z",
+      "category": "markets",
+      "summary": "Front-month RBOB fell 0.55% to $3.2529, its lowest level and largest two-day decline since early August.",
+      "paywalled": false
+    },
+    {
+      "title": "NYMEX Overview: Oil Futures Slide on Hopes for De-Escalation — OPIS",
+      "url": "https://www.morningstar.com/news/dow-jones/202608255895/nymex-overview-oil-futures-slide-on-hopes-for-de-escalation-opis",
+      "source": "Morningstar",
+      "publishedAt": "2026-08-25T07:24:00.000Z",
+      "category": "markets",
+      "summary": "Oil futures slid on hopes for de-escalation, though analysts warned disruption risk to crude and refined-product flows persists.",
+      "paywalled": false
+    },
+    {
+      "title": "Soaring Diesel Prices Are Helping Oil Companies and Hurting Consumers",
+      "url": "https://www.nytimes.com/2026/08/26/business/energy-environment/soaring-diesel-prices-are-helping-oil-companies-and-hurting-consumers.html",
+      "source": "The New York Times",
+      "publishedAt": "2026-08-26T03:02:00.000Z",
+      "category": "markets",
+      "summary": "Diesel prices have surged due to the Iran conflict and Ukrainian strikes on Russian refineries, boosting oil company profits while squeezing consumers.",
+      "paywalled": false
+    },
+    {
+      "title": "Diesel Prices Are About to Break Records. Here’s Why They Keep Rising",
+      "url": "https://www.thedrive.com/news/diesel-prices-are-about-to-break-records-heres-why-they-keep-rising",
+      "source": "The Drive",
+      "publishedAt": "2026-08-25T12:26:00.000Z",
+      "category": "markets",
+      "summary": "National average diesel price sits near $5.62/gal, about 20 cents off the all-time high, with further increases expected.",
+      "paywalled": false
+    },
+    {
+      "title": "U.S. Refiners Face New Crude Squeeze as Canada Cuts Oil Sands Output",
+      "url": "https://oilprice.com/Energy/Crude-Oil/US-Refiners-Face-New-Crude-Squeeze-as-Canada-Cuts-Oil-Sands-Output.html",
+      "source": "OilPrice.com",
+      "publishedAt": "2026-08-25T14:00:00.000Z",
+      "category": "markets",
+      "summary": "US refiners face a growing heavy-crude squeeze as Canadian oil sands output falls and Venezuelan supply recovery lags.",
+      "paywalled": false
+    },
+    {
+      "title": "Asian Refiners Scoop Up US Crude",
+      "url": "https://www.rigzone.com/news/wire/asian_refiners_scoop_up_us_crude-25-aug-2026-184449-article/?rss=true",
+      "source": "Rigzone",
+      "publishedAt": "2026-08-25T08:25:33.000Z",
+      "category": "operations",
+      "summary": "Asian refiners are set to nearly double September purchases of US crude, tightening supply for domestic fuel makers amid record US pump prices.",
+      "paywalled": false
+    },
+    {
+      "title": "Russia's Afipsky oil refinery on fire after drone attack, two dead, governor says",
+      "url": "https://www.reuters.com/world/russias-afipsky-oil-refinery-fire-after-drone-attack-two-dead-governor-says-2026-08-25/",
+      "source": "Reuters",
+      "publishedAt": "2026-08-25T20:57:00.000Z",
+      "category": "operations",
+      "summary": "Russia's Afipsky refinery caught fire after a drone attack that killed two, regional governor said.",
+      "paywalled": true
+    },
+    {
+      "title": "Ukraine Says It Hit Major Oil Refinery in Russia’s Volga Region",
+      "url": "https://www.bloomberg.com/news/articles/2026-08-26/ukraine-says-it-hit-major-oil-refinery-in-russia-s-volga-region",
+      "source": "Bloomberg",
+      "publishedAt": "2026-08-26T03:55:00.000Z",
+      "category": "operations",
+      "summary": "Ukraine said it struck a major oil refinery in Russia's Volga region, part of a broader campaign against Russian refining capacity.",
+      "paywalled": true
+    },
+    {
+      "title": "Ukraine Attacks Oil Refinery, Gas Plant in Russia",
+      "url": "https://www.rigzone.com/news/wire/ukraine_attacks_oil_refinery_gas_plant_in_russia-25-aug-2026-184453-article/?rss=true",
+      "source": "Rigzone",
+      "publishedAt": "2026-08-25T14:00:00.000Z",
+      "category": "operations",
+      "summary": "Ukraine reported hitting an oil refinery and a gas-processing plant in Russia overnight.",
+      "paywalled": false
+    },
+    {
+      "title": "Russia decree widens state control",
+      "url": "https://www.arkansasonline.com/news/2026/aug/26/russia-decree-widens-state-control/",
+      "source": "Arkansas Democrat-Gazette",
+      "publishedAt": "2026-08-26T02:00:00.000Z",
+      "category": "operations",
+      "summary": "Putin decreed the state can temporarily seize critical infrastructure if private owners fail to protect it from drone attacks, widening state control amid the refinery strikes.",
+      "paywalled": false
+    },
+    {
+      "title": "Massive refinery exemptions would undo progress under Trump’s 2026-’27 RFS blending levels",
+      "url": "https://www.biobased-diesel.com/post/massive-refinery-exemptions-would-undo-progress-under-trump-s-2026-27-rfs-blending-levels",
+      "source": "Biobased Diesel Daily",
+      "publishedAt": "2026-08-25T21:31:24.000Z",
+      "category": "policy",
+      "summary": "Biofuel group IRFA is urging the administration to hold firm on 2026-27 RFS blending levels, warning that large refinery exemptions would undercut the rule's progress.",
+      "paywalled": false
+    },
+    {
+      "title": "Reported RFS exemptions for oil companies could devastate recovering biodiesel industry",
+      "url": "https://www.biobased-diesel.com/post/reported-rfs-exemptions-for-oil-companies-could-devastate-recovering-biodiesel-industry",
+      "source": "Biobased Diesel Daily",
+      "publishedAt": "2026-08-25T21:30:16.000Z",
+      "category": "policy",
+      "summary": "IBB warns that reported RFS small-refinery exemptions could erase committed biofuel volumes and severely hurt the recovering biodiesel industry.",
+      "paywalled": false
+    },
+    {
+      "title": "Soybean group sounds alarm over reports that 2025 SREs could far exceed previous government projections",
+      "url": "https://www.biobased-diesel.com/post/soybean-group-sounds-alarm-over-reports-that-2025-sres-could-far-exceed-previous-government-projecti",
+      "source": "Biobased Diesel Daily",
+      "publishedAt": "2026-08-25T13:37:17.000Z",
+      "category": "policy",
+      "summary": "Soybean growers (ASA) say reported 2025 SREs could far exceed prior projections, potentially costing farmers $1 billion and cutting biofuel demand by hundreds of millions of gallons.",
+      "paywalled": false
+    }
+  ],
+  "decks": [
+    {
+      "company": "BJ's Wholesale Club",
+      "ticker": "BJ",
+      "title": "10-Q (filed 2026-08-25)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1531152/000153115226000057/bj-20260801.htm",
+      "foundAt": "2026-08-26T11:57:35.855Z",
+      "docType": "earnings",
+      "analysis": "## Fuel-Segment Extract: BJ's Wholesale Club 10-Q (Q2 FY2026, period ended Aug 1, 2026)\n\n- **Station count:** 206 gas stations across 22 states as of August 1, 2026 (down from BJ's operating alongside 267 clubs; company had 255 clubs a year ago, implying net club growth but gas station count not broken out historically in this filing).\n- **Gasoline sales mix rising sharply:** \"Gasoline and Other\" grew to **25% of net sales in Q2 FY26** (vs. 18% in Q2 FY25) and **23% for the 26-week period** (vs. 18% prior year) — the largest categorical mix shift in the disclosure.\n- **Gasoline comparable sales:** **+8.8%** for the thirteen weeks and **+6.9%** for the twenty-six weeks ended Aug 1, 2026, driven by both **higher average retail price-per-gallon** and **increased comparable gallons sold** — no absolute gallon figures disclosed.\n- **Margin strategy:** Company states it \"generally attempt[s] to maintain a fairly stable gross profit per gallon on an absolute dollar basis,\" so rising retail pump prices lift net sales dollars but are framed as largely margin-neutral per-gallon; volatile crude/wholesale swings cause temporary \"margin contraction or expansion\" versus competitors depending on procurement timing.\n- **Membership-fuel linkage/rewards economics:** Club+ members get a **5¢/gallon** discount at BJ's Gas; BJ's One/One+ co-branded Mastercard holders get up to a **15¢/gallon** discount when paying at BJ's gas locations — reinforcing fuel as a membership-retention lever tied to card royalty/rewards revenue (recognized via royalty revenue and co-brand deferred revenue balances in Note 3).\n- **Cost structure:** \"Other segment expenses\" (which include gasoline cost of revenue) rose from $911.5M to $1.43B YoY in the quarter and from $1.79B to $2.61B YoY for the half, consistent with higher wholesale fuel costs flowing through cost of sales alongside higher retail pump prices.\n\n**Signal for fuels markets:** BJ's data point to firmer retail pump prices and higher fuel volumes through mid-2026 versus the prior-year period, with the retailer maintaining stable per-gallon dollar margins — indicating resilient consumer fuel demand at warehouse-club price points rather than a margin-driven earnings story."
+    }
+  ],
+  "prices": {
+    "date": "2026-08-26",
+    "rbobSpot": 3.361,
+    "ulsdSpot": 4.55,
+    "wtiSpot": 86.48,
+    "retailGas": 4.218,
+    "retailDiesel": 5.652,
+    "gasStocksMbbl": 209378,
+    "distStocksMbbl": 105619,
+    "gasDemandKbd": 8689,
+    "distDemandKbd": 3953,
+    "gasCrack": 54.68,
+    "dieselCrack": 104.62
+  },
+  "prevPrices": {
+    "date": "2026-08-25",
+    "rbobSpot": 3.361,
+    "ulsdSpot": 4.55,
+    "wtiSpot": 86.48,
+    "retailGas": 4.182,
+    "retailDiesel": 5.454,
+    "gasStocksMbbl": 209378,
+    "distStocksMbbl": 105619,
+    "gasDemandKbd": 8689,
+    "distDemandKbd": 3953,
+    "gasCrack": 54.68,
+    "dieselCrack": 104.62
+  },
+  "generatedAt": "2026-08-26T11:57:35.855Z"
+}
