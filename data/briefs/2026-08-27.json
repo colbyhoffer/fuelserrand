@@ -1,0 +1,164 @@
+{
+  "date": "2026-08-27",
+  "headline": "RFS exemption fight heats up as diesel prices squeeze schools",
+  "intro": "Diesel at $5.65 a gallon retail is doing more to shape the back-to-school budget conversation than any curriculum debate, and refiners are watching Washington as fast as they're watching Hormuz. Crack spreads remain the real story under the crude headlines.",
+  "overview": "Refined product markets stayed choppy as RBOB and diesel futures whipsawed on easing Strait of Hormuz supply fears, with crude falling even as Russian refinery outages and geopolitical risk linger. Diesel cracks near $92/bbl and retail diesel above $5.60 are squeezing fleets and school districts, while a brewing policy fight over EPA's potential expansion of small refinery exemptions under the RFS is drawing pushback from biofuel and soybean groups. Elsewhere, SAF development continues incrementally with a new demo plant in Switzerland and instrumentation news for producers.",
+  "stories": [
+    {
+      "title": "Energy Markets Whipsaw As Inventories Tighten And Supply Risks Persist",
+      "url": "https://www.tacenergy.com/news-and-views/market-talk/energy-markets-whipsaw-as-inventories-tighten-and-supply-risks-persist",
+      "source": "TACenergy Market Talk",
+      "publishedAt": "2026-08-27T12:00:00.000Z",
+      "category": "markets",
+      "summary": "RBOB and WTI futures bounced across the break-even line Thursday while diesel futures sold off again after bouncing 24 cents off lows Wednesday, reflecting choppy, whipsaw trading.",
+      "paywalled": false
+    },
+    {
+      "title": "The Strait Isn&#x27;t Open, Russian Refineries Keep Burning, And Crude Falls Anyway",
+      "url": "https://www.tacenergy.com/news-and-views/market-talk/the-strait-isn-t-open-russian-refineries-keep-burning-and-crude-falls-anyway",
+      "source": "TACenergy Market Talk",
+      "publishedAt": "2026-08-26T12:00:00.000Z",
+      "category": "markets",
+      "summary": "Energy markets fell for a third straight day as Iran-Oman talks sent prices sharply lower, even though the Strait of Hormuz remains unresolved and Russian refineries keep burning.",
+      "paywalled": false
+    },
+    {
+      "title": "Nymex Overview: Oil Futures Rebound on Strait of Hormuz Reopening Hopes — OPIS",
+      "url": "https://www.morningstar.com/news/dow-jones/202608278254/nymex-overview-oil-futures-rebound-on-strait-of-hormuz-reopening-hopes-opis",
+      "source": "Morningstar",
+      "publishedAt": "2026-08-27T08:01:00.000Z",
+      "category": "markets",
+      "summary": "September RBOB rose 1.11 cents to $3.3312/gal while September ULSD fell 4.86 cents to $4.2114/gal amid oil futures rebounding on hopes for Strait of Hormuz reopening.",
+      "paywalled": false
+    },
+    {
+      "title": "Front Month Nymex RBOB Gasoline Rose 1.93% to Settle at $3.3842 — Data Talk",
+      "url": "https://www.morningstar.com/news/dow-jones/202608278763/front-month-nymex-rbob-gasoline-rose-193-to-settle-at-33842-data-talk",
+      "source": "Morningstar",
+      "publishedAt": "2026-08-27T03:00:00.000Z",
+      "category": "markets",
+      "summary": "Front-month Nymex RBOB gasoline jumped 1.93% to settle at $3.3842, its largest two-day gain since mid-August.",
+      "paywalled": false
+    },
+    {
+      "title": "School districts face a back-to-school math problem: The high price of diesel",
+      "url": "https://www.npr.org/2026/08/27/nx-s1-5944429/school-buses-fuel-diesel-prices",
+      "source": "NPR",
+      "publishedAt": "2026-08-27T03:00:00.000Z",
+      "category": "markets",
+      "summary": "Diesel prices near $5.60/gal amid the Iran conflict are straining school district transportation budgets at the start of the school year.",
+      "paywalled": false
+    },
+    {
+      "title": "Week 34 - US DOE Inventory Recap",
+      "url": "https://www.tacenergy.com/news-and-views/market-talk/week-34-2026-us-doe-inventory-recap",
+      "source": "TACenergy Market Talk",
+      "publishedAt": "2026-08-26T12:00:00.000Z",
+      "category": "markets",
+      "summary": "TACenergy's Week 34 recap of the US DOE inventory data.",
+      "paywalled": false
+    },
+    {
+      "title": "EIA: US crude inventories up 100,000 bbl",
+      "url": "https://www.ogj.com/general-interest/economics-markets/news/55401022/eia-us-crude-inventories-up-100000-bbl",
+      "source": "Oil & Gas Journal",
+      "publishedAt": "2026-08-26T18:35:08.000Z",
+      "category": "operations",
+      "summary": "EIA reported US crude oil inventories rose 100,000 bbl to 428.9 million bbl, 1% above the five-year average.",
+      "paywalled": false
+    },
+    {
+      "title": "Oil Futures Fall",
+      "url": "https://www.rigzone.com/news/wire/oil_futures_fall-26-aug-2026-184467-article/?rss=true",
+      "source": "Rigzone",
+      "publishedAt": "2026-08-26T20:36:45.000Z",
+      "category": "operations",
+      "summary": "Oil eased in choppy trading as markets weighed diplomatic progress on reopening the Strait of Hormuz against renewed global supply-squeeze risks.",
+      "paywalled": false
+    },
+    {
+      "title": "Kuwait, Qatar Cargoes Boost Hormuz Oil Flows",
+      "url": "https://www.rigzone.com/news/wire/kuwait_qatar_cargoes_boost_hormuz_oil_flows-27-aug-2026-184468-article/?rss=true",
+      "source": "Rigzone",
+      "publishedAt": "2026-08-27T07:58:09.000Z",
+      "category": "operations",
+      "summary": "Kuwait and Qatar have restored oil shipments through Hormuz to roughly 70% of pre-conflict levels after the two countries combined previously exported about 2 million b/d.",
+      "paywalled": false
+    },
+    {
+      "title": "What is a Small Refinery Exemption?",
+      "url": "https://www.fb.org/intel/markets/what-is-a-small-refinery-exemption",
+      "source": "American Farm Bureau Federation",
+      "publishedAt": "2026-08-27T12:57:00.000Z",
+      "category": "policy",
+      "summary": "A primer explains that small refinery exemptions let certain small refiners temporarily avoid part or all of federal renewable fuel (RFS) blending requirements.",
+      "paywalled": false
+    },
+    {
+      "title": "Wisconsin Soybean Producers Call for Stronger RFS Support",
+      "url": "https://wisconsinagconnection.com/news/wisconsin-soybean-producers-call-for-stronger-rfs-support",
+      "source": "Wisconsin Ag Connection",
+      "publishedAt": "2026-08-26T17:00:00.000Z",
+      "category": "policy",
+      "summary": "Wisconsin Soybean Association is urging the administration to oppose a reported expansion of small refinery exemptions under the RFS.",
+      "paywalled": false
+    },
+    {
+      "title": "IRFA Urges Trump Administration To Stay The Course On Biofuels Support",
+      "url": "https://www.1380kcim.com/2026/08/26/irfa-urges-trump-administration-to-stay-the-course-on-biofuels-support/",
+      "source": "1380 KCIM",
+      "publishedAt": "2026-08-26T16:28:00.000Z",
+      "category": "policy",
+      "summary": "Iowa Renewable Fuels Association is pressing the Trump administration to reject reports that EPA may greatly expand RFS refinery exemptions.",
+      "paywalled": false
+    },
+    {
+      "title": "Metafuels, PSI open SAF demo plant in Switzerland to showcase aerobrew technology",
+      "url": "https://www.hydrocarbonprocessing.com/news/2026/08/metafuels-psi-open-saf-demo-plant-in-switzerland-to-showcase-aerobrew-technology/",
+      "source": "Hydrocarbon Processing",
+      "publishedAt": "2026-08-27T06:30:00.000Z",
+      "category": "policy",
+      "summary": "Metafuels and the Paul Scherrer Institute opened a SAF demonstration plant in Switzerland producing jet fuel from green hydrogen and CO2.",
+      "paywalled": false
+    },
+    {
+      "title": "One Great Chart: Mind the Crack Spread",
+      "url": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-08-27-2026/card/one-great-chart-mind-the-crack-spread-7ruVsuJcQgpc23NXPOll",
+      "source": "The Wall Street Journal",
+      "publishedAt": "2026-08-27T02:31:00.000Z",
+      "category": "markets",
+      "summary": "A WSJ chart feature highlights that the real squeeze in energy markets right now is in refined-product crack spreads.",
+      "paywalled": true
+    }
+  ],
+  "decks": [],
+  "prices": {
+    "date": "2026-08-27",
+    "rbobSpot": 3.254,
+    "ulsdSpot": 4.186,
+    "wtiSpot": 83.9,
+    "retailGas": 4.218,
+    "retailDiesel": 5.652,
+    "gasStocksMbbl": 206842,
+    "distStocksMbbl": 103391,
+    "gasDemandKbd": 9043,
+    "distDemandKbd": 3839,
+    "gasCrack": 52.77,
+    "dieselCrack": 91.91
+  },
+  "prevPrices": {
+    "date": "2026-08-26",
+    "rbobSpot": 3.361,
+    "ulsdSpot": 4.55,
+    "wtiSpot": 86.48,
+    "retailGas": 4.218,
+    "retailDiesel": 5.652,
+    "gasStocksMbbl": 209378,
+    "distStocksMbbl": 105619,
+    "gasDemandKbd": 8689,
+    "distDemandKbd": 3953,
+    "gasCrack": 54.68,
+    "dieselCrack": 104.62
+  },
+  "generatedAt": "2026-08-27T21:05:35.410Z"
+}
