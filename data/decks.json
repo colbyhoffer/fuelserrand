@@ -1,5 +1,14 @@
 [
   {
+    "company": "Walmart",
+    "ticker": "WMT",
+    "title": "10-Q (filed 2026-08-28)",
+    "url": "https://www.sec.gov/Archives/edgar/data/104169/000010416926000154/wmt-20260731.htm",
+    "foundAt": "2026-08-28T21:28:51.336Z",
+    "docType": "earnings",
+    "analysis": "## Fuel-Segment Extract — Walmart Inc. (WMT) 10-Q, Q2 FY2027 (period ended July 31, 2026)\n\n- **Sam's Club U.S. fuel sales surged**: \"Fuel and other\" category net sales rose to $4,192M (Q2) from $3,064M YoY (+37%), and $7,635M (6mo) from $5,915M YoY (+29%), reflecting **higher fuel prices and volumes**.\n- **Fuel-driven comp-sales boost**: Higher fuel sales added **+4.2 pts** to Sam's Club U.S. comparable sales in Q2 (vs. a *drag* of -2.6 pts in the prior-year quarter) and **+3.2 pts** for the six-month period (vs. -2.6 pts prior year) — a swing of roughly 680–580 bps YoY in fuel's comp contribution.\n- **Fuel-related cost scale**: Total fuel-related cost of sales and opex for Sam's Club U.S. was **$3.4B** (Q2) and **$6.1B** (6mo), up from $2.3B and $4.5B YoY, respectively — confirming fuel volume/price growth flowed through both revenue and cost lines.\n- **Ex-fuel vs. including-fuel divergence**: Sam's Club U.S. net sales growth excluding fuel was only **+4.5%** (Q2) vs. **+8.8%** including fuel, and **+4.2%** vs **+7.5%** for six months — fuel accounted for roughly half of headline growth.\n- **Opex leverage from fuel**: Management attributed part of the **26 bps (Q2) / 13 bps (6mo)** decrease in Sam's Club U.S. operating expenses as a % of net sales to \"higher fuel sales\" (fuel's low opex-intensity dilutes the ratio), partially offset by tech investment and insurance claims costs.\n- **Walmart U.S. fuel impact modest but positive**: Fuel added **+0.4 pt** (Q2) and **+0.3 pt** (6mo) to Walmart U.S. comparable sales in FY2027, reversing a small **-0.1 pt** drag in both prior-year periods.\n- No station-count, network-expansion, or fuel-margin-rate commentary was disclosed; forward-looking risk factors flag continued exposure to \"commodity prices... of oil and natural gas\" and \"the price of gasoline and diesel fuel\" as an ongoing volatility factor for Sam's Club U.S. results.\n\n**Signal for f"
+  },
+  {
     "company": "BJ's Wholesale Club",
     "ticker": "BJ",
     "title": "10-Q (filed 2026-08-25)",
