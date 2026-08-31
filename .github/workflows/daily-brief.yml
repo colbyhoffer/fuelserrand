@@ -38,15 +38,16 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      # Backup-cron guard: if today's brief already exists (morning run fired),
-      # the 13:00 UTC firing does nothing.
+      # Schedule guard: any scheduled firing is a no-op once today's brief
+      # exists. The primary trigger is an external pinger (workflow_dispatch,
+      # never guarded); GitHub's own crons are delay-prone backups.
       - name: Check whether today's brief already exists
         id: guard
         run: |
           TODAY=$(TZ=America/Chicago date +%F)
-          if [ "${{ github.event_name }}" = "schedule" ] && [ "$(date -u +%H)" -ge 13 ] && [ -f "data/briefs/$TODAY.json" ]; then
+          if [ "${{ github.event_name }}" = "schedule" ] && [ -f "data/briefs/$TODAY.json" ]; then
             echo "skip=true" >> "$GITHUB_OUTPUT"
-            echo "Brief for $TODAY already exists — backup firing is a no-op."
+            echo "Brief for $TODAY already exists — scheduled firing is a no-op."
           fi
 
       - uses: actions/setup-node@v4
