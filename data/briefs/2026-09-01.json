@@ -1,0 +1,164 @@
+{
+  "date": "2026-09-01",
+  "headline": "EPA's 1.76B-credit refinery exemption reshapes RFS as Trump summons refiners on prices",
+  "intro": "Diesel just posted its biggest monthly pop in years and the White House is dragging refinery CEOs into a room about it — meanwhile EPA finally dropped its long-awaited small refinery exemption decision, and everyone from soybean farmers to biodiesel producers has feelings.",
+  "overview": "Geopolitical risk from renewed US-Iran fighting is driving crude and product cracks higher, with diesel cracks near $92/bbl and ULSD spot at $4.19 pushing retail diesel above $5.60 — a dynamic Goldman Sachs says reflects genuine global refining tightness rather than a blip. On policy, EPA's Monday decision to grant 1.76 billion RIN credits worth of small refinery exemptions while proposing full reallocation drew a wave of reaction from farm and biofuel groups, adding fresh uncertainty to RIN markets just as Trump convenes Valero, Marathon, and Chevron executives to discuss retail gas prices ahead of midterms. Separately, Montana Renewables slashed the cost of its SAF capacity expansion by nearly 90%, a rare bright spot in clean-fuels capex news.",
+  "stories": [
+    {
+      "title": "Trump to meet with U.S. oil refiners as White House pushes to lower gas prices",
+      "url": "https://www.cnbc.com/2026/08/31/trump-refiners-gas-prices-refining-capacity.html",
+      "source": "CNBC",
+      "publishedAt": "2026-08-31T10:03:00.000Z",
+      "category": "operations",
+      "summary": "The White House is seeking near-term steps to boost refining capacity as affordability and gas prices loom over the midterm election, prompting a meeting with Valero, Marathon and Chevron executives.",
+      "paywalled": false
+    },
+    {
+      "title": "Goldman Sachs Steps Up Warnings on Diesel",
+      "url": "https://www.rigzone.com/news/wire/goldman_sachs_steps_up_warnings_on_diesel-31-aug-2026-184494-article/?rss=true",
+      "source": "Rigzone",
+      "publishedAt": "2026-08-31T20:00:00.000Z",
+      "category": "operations",
+      "summary": "Goldman Sachs stepped up warnings of tightness in global refining driven by wars in the Middle East and between Moscow and Kyiv.",
+      "paywalled": false
+    },
+    {
+      "title": "Canadian diesel refiners churn out record profit margins, adding pressure on farmers, cost of goods",
+      "url": "https://edmontonjournal.com/business/canada-diesel-refinery-cost-freight-russia",
+      "source": "Edmonton Journal",
+      "publishedAt": "2026-09-01T04:00:00.000Z",
+      "category": "markets",
+      "summary": "Canadian diesel refiners are churning out record profit margins as Goldman Sachs doubled its forecast for U.S. diesel refining margins in 2027 to $63/bbl from $27.",
+      "paywalled": false
+    },
+    {
+      "title": "Front Month Nymex ULSD Rose 9.03% This Month to Settle at $4.4937 — Data Talk",
+      "url": "https://www.morningstar.com/news/dow-jones/202608316263/front-month-nymex-ulsd-rose-903-this-month-to-settle-at-44937-data-talk",
+      "source": "Morningstar",
+      "publishedAt": "2026-08-31T17:00:00.000Z",
+      "category": "markets",
+      "summary": "Front-month Nymex ULSD rose 9.03% in August to settle at $4.4937/gal, its largest one-day dollar and percentage gain in recent sessions.",
+      "paywalled": false
+    },
+    {
+      "title": "A \"sleeper issue\" in red states this fall: Diesel prices",
+      "url": "https://www.politico.com/news/2026/09/01/diesel-prices-could-fuel-problems-for-republicans-in-red-states-01052407",
+      "source": "Politico",
+      "publishedAt": "2026-09-01T05:00:00.000Z",
+      "category": "markets",
+      "summary": "Diesel's price surge is becoming a political flashpoint in red states ahead of the midterms, per Politico's reporting on rural voter sentiment.",
+      "paywalled": false
+    },
+    {
+      "title": "EPA grants 18 full refinery biofuel exemptions",
+      "url": "https://www.argusmedia.com/en/news-and-insights/latest-market-news/2871795-epa-grants-18-full-refinery-biofuel-exemptions",
+      "source": "Argus Media",
+      "publishedAt": "2026-08-31T15:26:00.000Z",
+      "category": "policy",
+      "summary": "EPA granted full biofuel blending exemptions to 18 refiners and partial exemptions to 11 others for the 2025 compliance year, many pending for months.",
+      "paywalled": true
+    },
+    {
+      "title": "EPA grants 1.76 billion biofuel exemptions, weighs shifting obligations to larger refiners",
+      "url": "https://www.aol.com/articles/us-expected-approve-expanded-biofuel-113929000.html",
+      "source": "AOL",
+      "publishedAt": "2026-08-31T14:28:00.000Z",
+      "category": "policy",
+      "summary": "EPA granted 1.76 billion in biofuel exemption credits while weighing a plan to shift the resulting obligations onto larger refiners.",
+      "paywalled": false
+    },
+    {
+      "title": "US fats, oils markets gain RFS clarity after weeks of refinery waiver uncertainty",
+      "url": "https://www.fastmarkets.com/insights/us-fats-oils-markets-gain-rfs-clarity-after-weeks-of-refinery-waiver-uncertainty/",
+      "source": "Fastmarkets",
+      "publishedAt": "2026-09-01T04:29:00.000Z",
+      "category": "policy",
+      "summary": "US fats and oils markets gained clarity after weeks of uncertainty around small refinery exemptions had driven sharp RIN price moves.",
+      "paywalled": false
+    },
+    {
+      "title": "EPA Exempts 1.76 Billion Biofuel Credits, Drawing Mixed Industry Reactions",
+      "url": "https://www.agriculture.com/epa-exempts-1-76-billion-biofuel-credits-drawing-mixed-industry-reactions-12074668",
+      "source": "Successful Farming",
+      "publishedAt": "2026-08-31T14:05:00.000Z",
+      "category": "policy",
+      "summary": "Farm and biofuel groups expressed concern over EPA's 1.76 billion RIN exemptions while welcoming the agency's plan to fully reallocate the additional credits.",
+      "paywalled": false
+    },
+    {
+      "title": "Clean Fuels disappointed with US EPA’s new small-refinery exemptions",
+      "url": "https://www.biobased-diesel.com/post/clean-fuels-disappointed-with-us-epa-s-new-small-refinery-exemptions",
+      "source": "Biobased Diesel Daily",
+      "publishedAt": "2026-08-31T21:53:23.000Z",
+      "category": "policy",
+      "summary": "Clean Fuels Alliance America said it was disappointed with EPA's new small-refinery exemptions despite thanking congressional allies fighting for RFS volumes.",
+      "paywalled": false
+    },
+    {
+      "title": "Montana Renewables slashes cost of SAF expansion in newly revised plan",
+      "url": "https://www.biobased-diesel.com/post/montana-renewables-slashes-cost-of-saf-expansion-in-newly-revised-plan",
+      "source": "Biobased Diesel Daily",
+      "publishedAt": "2026-09-01T11:33:02.000Z",
+      "category": "policy",
+      "summary": "Montana Renewables cut the cost of its SAF capacity expansion to 200 million gallons annually, targeting completion by end of 2028 at a fraction of the original price.",
+      "paywalled": false
+    },
+    {
+      "title": "Planned maintenance at Cenovus Lima Refinery starts in September",
+      "url": "https://www.hometownstations.com/news/allen_county/planned-maintenance-at-cenovus-lima-refinery-starts-in-september/article_9e84b039-0611-4e52-a1aa-853b4a77a9da.html",
+      "source": "hometownstations.com",
+      "publishedAt": "2026-08-31T11:06:00.000Z",
+      "category": "operations",
+      "summary": "Cenovus's Lima Refinery is preparing for a planned turnaround starting in September, taking units offline for maintenance.",
+      "paywalled": false
+    },
+    {
+      "title": "Oil Rallies on Fresh US-Iran Fighting",
+      "url": "https://www.rigzone.com/news/wire/oil_rallies_on_fresh_usiran_fighting-31-aug-2026-184500-article/?rss=true",
+      "source": "Rigzone",
+      "publishedAt": "2026-08-31T20:08:56.000Z",
+      "category": "operations",
+      "summary": "Oil rose sharply as renewed US-Iran fighting heightened concerns about shipping disruptions through the Strait of Hormuz.",
+      "paywalled": false
+    },
+    {
+      "title": "Crude Strength Continues As Refiners Navigate Storm Threats And Regulatory Shifts",
+      "url": "https://www.tacenergy.com/news-and-views/market-talk/crude-strength-continues-as-refiners-navigate-storm-threats-and-regulatory-shifts",
+      "source": "TACenergy Market Talk",
+      "publishedAt": "2026-09-01T12:00:00.000Z",
+      "category": "markets",
+      "summary": "Energy markets extended August's strength into September as fresh attacks in the Strait of Hormuz raised prospects of further Middle East escalation.",
+      "paywalled": false
+    }
+  ],
+  "decks": [],
+  "prices": {
+    "date": "2026-09-01",
+    "rbobSpot": 3.254,
+    "ulsdSpot": 4.186,
+    "wtiSpot": 83.9,
+    "retailGas": 4.207,
+    "retailDiesel": 5.599,
+    "gasStocksMbbl": 206842,
+    "distStocksMbbl": 103391,
+    "gasDemandKbd": 9043,
+    "distDemandKbd": 3839,
+    "gasCrack": 52.77,
+    "dieselCrack": 91.91
+  },
+  "prevPrices": {
+    "date": "2026-08-31",
+    "rbobSpot": 3.254,
+    "ulsdSpot": 4.186,
+    "wtiSpot": 83.9,
+    "retailGas": 4.218,
+    "retailDiesel": 5.652,
+    "gasStocksMbbl": 206842,
+    "distStocksMbbl": 103391,
+    "gasDemandKbd": 9043,
+    "distDemandKbd": 3839,
+    "gasCrack": 52.77,
+    "dieselCrack": 91.91
+  },
+  "generatedAt": "2026-09-01T15:31:22.340Z"
+}
