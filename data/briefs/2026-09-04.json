@@ -1,0 +1,189 @@
+{
+  "date": "2026-09-04",
+  "headline": "Diesel hits all-time high as Iran conflict and refinery attacks squeeze global supply",
+  "intro": "Diesel just broke the record it set after Russia invaded Ukraine — and this time it's Iran strikes and drone attacks on refineries doing the damage. Pump prices are climbing into Labor Day weekend, which is exactly the optics nobody in Washington wants heading into midterms.",
+  "overview": "US diesel prices have hit a fresh record above $5.85/gal as the Iran conflict and Ukrainian strikes on Russian refineries strip barrels from an already tight global market — EIA data show gasoline crack spreads running roughly $1/gal above 2025 levels on tight global supply. Futures pulled back into the holiday weekend on hopes fighting is easing, but Brent bulls see $100 within reach if tensions reignite. On policy, EPA issued its 2025 small refinery exemption decisions and Goldman upgraded Neste on stronger refining margins, while AFPM Summit panelists debated where the energy-transition bet stands five years in.",
+  "stories": [
+    {
+      "title": "US diesel prices hit record high as conflicts intensify supply crunch",
+      "url": "https://www.reuters.com/business/energy/us-diesel-hits-record-5820-gallon-gasbuddy-says-2026-09-03/",
+      "source": "Reuters",
+      "publishedAt": "2026-09-03T12:47:00.000Z",
+      "category": "markets",
+      "summary": "Average US diesel prices jumped to record highs Thursday as a global supply crunch intensified after renewed US-Iran hostilities and Ukrainian attacks on Russian refineries.",
+      "paywalled": true
+    },
+    {
+      "title": "US diesel prices hit a record high, pushing up transportation costs for a long list of goods",
+      "url": "https://apnews.com/article/gas-diesel-prices-us-iran-war-ebd01b9773365ee40550dcfd7d3ebf87",
+      "source": "Associated Press News",
+      "publishedAt": "2026-09-04T01:37:00.000Z",
+      "category": "markets",
+      "summary": "US diesel hit a record $5.85/gal average for the first time ever, pushing up transportation costs across the supply chain.",
+      "paywalled": false
+    },
+    {
+      "title": "U.S. Diesel Prices Set New High",
+      "url": "https://www.nytimes.com/2026/09/04/business/diesel-price-record-oil-iran.html",
+      "source": "The New York Times",
+      "publishedAt": "2026-09-04T00:41:00.000Z",
+      "category": "markets",
+      "summary": "Diesel costs have climbed past the record set in 2022 after Russia's invasion of Ukraine, this time driven by the Iran conflict.",
+      "paywalled": false
+    },
+    {
+      "title": "Diesel hits record high as Ukraine and Iran wars knock out refineries, fueling inflation worries",
+      "url": "https://www.cnbc.com/2026/09/04/diesel-price-record-high-ukraine-iran-inflation.html",
+      "source": "CNBC",
+      "publishedAt": "2026-09-04T05:40:00.000Z",
+      "category": "markets",
+      "summary": "Russia's diesel export ban affects about 800,000 bpd of supply while Strait of Hormuz disruptions have hit about 1.2 million bpd, per an analyst cited in the report.",
+      "paywalled": false
+    },
+    {
+      "title": "Elevated crack spreads and crude oil prices contribute to higher prices at the pump",
+      "url": "https://www.eia.gov/todayinenergy/detail.php?id=68104",
+      "source": "EIA Today in Energy",
+      "publishedAt": "2026-09-04T14:00:00.000Z",
+      "category": "markets",
+      "summary": "EIA explains gasoline crack spreads have averaged about $1/gal higher than 2025 since May, driven primarily by tight global gasoline supplies, pushing pump prices higher.",
+      "paywalled": false
+    },
+    {
+      "title": "Don&#x27;t Get Too Comfortable Before This Holiday Weekend; Diesel Futures Look Temporary",
+      "url": "https://www.tacenergy.com/news-and-views/market-talk/don-t-get-too-comfortable-before-this-holiday-weekend-diesel-futures-look-temporary",
+      "source": "TACenergy Market Talk",
+      "publishedAt": "2026-09-04T12:00:00.000Z",
+      "category": "markets",
+      "summary": "ULSD futures led a holiday-weekend selloff, down nearly 13 cents, on signs the Iran conflict may be easing after diesel's overbought rally.",
+      "paywalled": false
+    },
+    {
+      "title": "Iran Strikes Keep Oil Near $91",
+      "url": "https://www.rigzone.com/news/wire/iran_strikes_keep_oil_near_91-03-sep-2026-184535-article/?rss=true",
+      "source": "Rigzone",
+      "publishedAt": "2026-09-03T19:59:38.000Z",
+      "category": "operations",
+      "summary": "WTI settled above $91 as fresh Iran strikes offset signals of easing market tightness.",
+      "paywalled": false
+    },
+    {
+      "title": "USA Diesel Hits 4 Year High",
+      "url": "https://www.rigzone.com/news/wire/usa_diesel_hits_4_year_high-03-sep-2026-184531-article/?rss=true",
+      "source": "Rigzone",
+      "publishedAt": "2026-09-03T20:00:00.000Z",
+      "category": "operations",
+      "summary": "US retail diesel prices hit their highest level since mid-2022.",
+      "paywalled": false
+    },
+    {
+      "title": "Why Oil Majors Don’t Want to Build New U.S. Refineries",
+      "url": "https://oilprice.com/Energy/Crude-Oil/Why-Oil-Majors-Dont-Want-to-Build-New-US-Refineries.html",
+      "source": "OilPrice.com",
+      "publishedAt": "2026-09-03T16:00:00.000Z",
+      "category": "operations",
+      "summary": "Global refining capacity is severely constrained, with more than 8 million bpd reportedly offline across Asia, the Middle East and Russia, driving record margins and tight fuel supplies, and oil majors remain reluctant to build new US refineries.",
+      "paywalled": false
+    },
+    {
+      "title": "Fire breaks out at oil refinery near Sochi after drone attack",
+      "url": "https://tass.com/emergencies/2182425",
+      "source": "TASS Russian News Agency",
+      "publishedAt": "2026-09-03T19:36:00.000Z",
+      "category": "operations",
+      "summary": "A drone attack sparked a fire at an oil refinery near Sochi, Russia, adding to disruptions of Russian refining capacity.",
+      "paywalled": false
+    },
+    {
+      "title": "With the midterms looming, Trump has no real way out of his gas price problem",
+      "url": "https://grist.org/energy/trump-iran-venezuela-biofuels-gasoline/",
+      "source": "Grist",
+      "publishedAt": "2026-09-04T01:45:00.000Z",
+      "category": "markets",
+      "summary": "With midterms looming, the Trump administration faces a gas-price problem it has limited tools to fix, despite moves on Venezuelan crude and other exemptions.",
+      "paywalled": false
+    },
+    {
+      "title": "EPA issues decisions on SRE petitions",
+      "url": "https://www.ofimagazine.com/news/epa-issues-decisions-on-sre-petitions",
+      "source": "Oils & Fats International",
+      "publishedAt": "2026-09-04T00:30:00.000Z",
+      "category": "policy",
+      "summary": "EPA announced decisions on 34 compliance-year 2025 small refinery exemption petitions.",
+      "paywalled": false
+    },
+    {
+      "title": "Goldman upgrades Neste to buy on improved refining margins",
+      "url": "https://www.marketscreener.com/news/goldman-upgrades-neste-to-buy-on-improved-refining-margins-ce785bdadf8dfe22",
+      "source": "MarketScreener",
+      "publishedAt": "2026-09-04T00:51:00.000Z",
+      "category": "policy",
+      "summary": "Goldman Sachs upgraded Neste to buy, citing stronger refining margins and raising its price target to €40.",
+      "paywalled": false
+    },
+    {
+      "title": "The next disruptor is already here: AFPM Summit panel grades five years of energy transition bets",
+      "url": "https://www.hydrocarbonprocessing.com/news/2026/09/the-next-disruptor-is-already-here-afpm-summit-panel-grades-five-years-of-energy-transition-bets/",
+      "source": "Hydrocarbon Processing",
+      "publishedAt": "2026-09-04T05:34:00.000Z",
+      "category": "policy",
+      "summary": "An AFPM Summit panel in Grapevine, Texas graded five years of energy-transition bets in front of the event's largest turnout in years.",
+      "paywalled": false
+    }
+  ],
+  "decks": [],
+  "prices": {
+    "date": "2026-09-04",
+    "rbobSpot": 3.203,
+    "ulsdSpot": 4.724,
+    "wtiSpot": 91.48,
+    "retailGas": 4.207,
+    "retailDiesel": 5.599,
+    "gasStocksMbbl": 205669,
+    "distStocksMbbl": 104187,
+    "gasDemandKbd": 8922,
+    "distDemandKbd": 3390,
+    "gasCrack": 43.05,
+    "dieselCrack": 106.93
+  },
+  "prevPrices": {
+    "date": "2026-09-03",
+    "rbobSpot": 3.203,
+    "ulsdSpot": 4.724,
+    "wtiSpot": 91.48,
+    "retailGas": 4.207,
+    "retailDiesel": 5.599,
+    "gasStocksMbbl": 205669,
+    "distStocksMbbl": 104187,
+    "gasDemandKbd": 8922,
+    "distDemandKbd": 3390,
+    "gasCrack": 43.05,
+    "dieselCrack": 106.93
+  },
+  "weekAhead": [
+    {
+      "date": "Wed, Sep 9",
+      "label": "EIA Weekly Petroleum Status Report (10:30am ET) — inventories, demand, refinery runs"
+    },
+    {
+      "date": "Wed, Sep 9",
+      "label": "EIA This Week in Petroleum analysis"
+    },
+    {
+      "date": "Tue, Sep 8",
+      "label": "EPA weekly RIN transaction data update"
+    },
+    {
+      "date": "Mon, Sep 7",
+      "label": "EIA weekly retail gasoline & diesel prices (Mon PM)"
+    }
+  ],
+  "upcomingEarnings": [
+    {
+      "ticker": "CASY",
+      "name": "Casey's General Stores",
+      "nextEstimate": "2026-09-09"
+    }
+  ],
+  "generatedAt": "2026-09-04T15:03:32.495Z"
+}
