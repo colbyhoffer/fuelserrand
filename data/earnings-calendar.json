@@ -1,12 +1,5 @@
 [
   {
-    "ticker": "CASY",
-    "name": "Casey's General Stores",
-    "group": "retail",
-    "lastReport": "2026-06-09",
-    "nextEstimate": "2026-09-09"
-  },
-  {
     "ticker": "KR",
     "name": "Kroger",
     "group": "bigbox",
@@ -145,5 +138,12 @@
     "group": "bigbox",
     "lastReport": "2026-08-21",
     "nextEstimate": "2026-11-20"
+  },
+  {
+    "ticker": "CASY",
+    "name": "Casey's General Stores",
+    "group": "retail",
+    "lastReport": "2026-09-08",
+    "nextEstimate": "2026-12-08"
   }
 ]
