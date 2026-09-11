@@ -38,7 +38,9 @@
     "https://corpo.couche-tard.com/download/ACT+Investor+Presentation+Q426+-20260625+vf.pdf",
     "https://corpo.couche-tard.com/en/investors/image/2026_Q3_Quarterly_Report_EN.pdf"
   ],
-  "SUN": [],
+  "SUN": [
+    "0001552275-26-000075"
+  ],
   "GLP": [],
   "COST": [],
   "WMT": [
@@ -51,7 +53,8 @@
     "0001104659-26-105906"
   ],
   "KR": [
-    "0001104659-26-104763"
+    "0001104659-26-104763",
+    "0001104659-26-106890"
   ],
   "XOM": [
     "0001193125-26-373026"

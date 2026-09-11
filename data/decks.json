@@ -1,5 +1,23 @@
 [
   {
+    "company": "Sunoco LP",
+    "ticker": "SUN",
+    "title": "8-K exhibit ex991sunandsuncdelistnysel.htm (filed 2026-09-10)",
+    "url": "https://www.sec.gov/Archives/edgar/data/1552275/000155227526000075/ex991sunandsuncdelistnysel.htm",
+    "foundAt": "2026-09-11T15:09:05.364Z",
+    "docType": "earnings",
+    "analysis": "## Key Takeaways\n\n- **No operational or financial disclosures**: This 8-K exhibit is exclusively an administrative announcement regarding a stock exchange listing transfer (NYSE → Texas Stock Exchange), effective October 5, 2026. It contains no data on throughput, utilization, capture rates, margins, or guidance.\n\n- **No renewable fuels or RIN/LCFS content**: The filing does not address renewable diesel, SAF economics, capacity, or RIN/LCFS exposure in any capacity.\n\n- **No capital allocation signals**: There is no mention of capex, distributions, buybacks, or balance sheet actions tied to this transfer.\n\n- **Business description reiterated (unchanged)**: The filing repeats standard descriptive figures — ~14,000 miles of pipeline, 170+ terminals, >15 billion gallons distributed annually, ~11,000 retail locations across 33 countries/territories — but these are boilerplate \"About Sunoco\" figures, not new operational metrics or guidance updates.\n\n- **Corporate/ticker mechanics only**: SUN and SUNC will retain identical ticker symbols on TXSE; no unitholder action is required, and the transfer is framed as aligning with SUN/SUNC's Texas-based operational footprint.\n\n## Market Signal\n\nThis filing is not fuels-market-relevant news: it signals only an exchange-listing/venue change for SUN and SUNC's common units, and refined-products traders should not draw any inference about throughput, margins, or renewable fuels economics from it."
+  },
+  {
+    "company": "Kroger",
+    "ticker": "KR",
+    "title": "8-K exhibit tm2625060d1_ex99-1.htm (filed 2026-09-11)",
+    "url": "https://www.sec.gov/Archives/edgar/data/56873/000110465926106890/tm2625060d1_ex99-1.htm",
+    "foundAt": "2026-09-11T15:09:05.364Z",
+    "docType": "earnings",
+    "analysis": "## Fuel-Segment Extract: Kroger 2Q26 (period ended Aug 15, 2026)\n\n- **No fuel gallon volumes, fuel comps, or station count data disclosed** in this release — all identical sales metrics (0.2% Q2, 3.4% prior year) are reported *excluding* fuel.\n- **Fuel cited as a margin mix headwind**: overall gross margin declined to 22.4% (from 22.5%) partly due to \"the mix effect of higher fuel sales\" alongside higher shrink and transportation costs.\n- **Fuel called out as an EPS tailwind**: CFO David Kennerley attributed adjusted EPS growth (+5%) in part to \"strong pharmacy and fuel performance,\" alongside cost savings and eCommerce profitability gains — but no margin rate or dollar figure was quantified.\n- **Total sales including fuel rose to $34.6B from $33.9B**, while sales excluding fuel (and adjusting for Vitacost sale/fulfillment center exits) grew just 0.1%, implying fuel sales dollars were a meaningful contributor to the topline increase, though volume/price split is not broken out.\n- No commentary on membership-fuel programs, fuel center openings/closures, or fuel-specific capital allocation.\n\n**Signal for fuels markets:** Kroger's fuel business appears to have benefited from higher fuel sales dollars (likely price-driven given no volume disclosure) and contributed positively to profitability, but the company provides no granular fuel margin, gallon, or station data — limiting this release's utility as a fuels-market indicator beyond confirming fuel remained a net-positive, low-margin-mix drag on retail gross margin."
+  },
+  {
     "company": "CVR Energy",
     "ticker": "CVI",
     "title": "8-K exhibit exhibit991-investorprese.htm (filed 2026-09-08)",

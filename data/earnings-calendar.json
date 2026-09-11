@@ -1,12 +1,5 @@
 [
   {
-    "ticker": "KR",
-    "name": "Kroger",
-    "group": "bigbox",
-    "lastReport": "2026-06-18",
-    "nextEstimate": "2026-09-17"
-  },
-  {
     "ticker": "DINO",
     "name": "HF Sinclair",
     "group": "refiner",
@@ -145,5 +138,12 @@
     "group": "retail",
     "lastReport": "2026-09-08",
     "nextEstimate": "2026-12-08"
+  },
+  {
+    "ticker": "KR",
+    "name": "Kroger",
+    "group": "bigbox",
+    "lastReport": "2026-09-11",
+    "nextEstimate": "2026-12-11"
   }
 ]

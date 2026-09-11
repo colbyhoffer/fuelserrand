@@ -1,0 +1,201 @@
+{
+  "date": "2026-09-11",
+  "headline": "US diesel breaks $6/gallon for the first time as war risk premium builds",
+  "intro": "Diesel just smashed through a psychological ceiling nobody wanted to see, and it's not stopping to catch its breath. With crack spreads north of $100 and Hormuz talk swirling, the pain is about to show up in everyone's freight bill.",
+  "overview": "National average diesel prices topped $6/gallon for the first time ever, per AAA and GasBuddy, as Middle East tensions—including a Houthi seizure of Perim island and reports of Saudi crude disruptions—drove Brent above $100 and diesel cracks to $106.44/bbl. Gasoline cracks also firmed to $40.88/bbl even as broader crude markets showed signs of pausing after a historic rally, with IEA cutting demand forecasts amid war-driven demand destruction. On the policy and clean-fuels side, IRS guidance on the 45Z credit, feedstock deals (Bayer-Neste canola), and refinery clean-fuels investments (OMV Petrom, Twelve's AirPlant One financing) continued to move forward against this volatile backdrop.",
+  "stories": [
+    {
+      "title": "US diesel prices soar past $6 a gallon, deepening strain for hauling everyday goods",
+      "url": "https://apnews.com/article/diesel-prices-record-iran-war-636252b3b82326b41661ee5c4073dacb",
+      "source": "Associated Press News",
+      "publishedAt": "2026-09-11T01:37:00.000Z",
+      "category": "markets",
+      "summary": "US diesel prices soared past $6/gallon on average for the first time as the US-Iran conflict disrupts global fuel flows, per AP.",
+      "paywalled": false
+    },
+    {
+      "title": "Oil Prices Spike After Houthis Blitz",
+      "url": "https://heatmap.news/am/houthis-oil-prices",
+      "source": "Heatmap News",
+      "publishedAt": "2026-09-11T05:38:00.000Z",
+      "category": "policy",
+      "summary": "WTI crude surpassed $100/bbl after Houthi rebels seized a key Red Sea port, intensifying supply-risk premiums across fuel markets.",
+      "paywalled": false
+    },
+    {
+      "title": "Houthis take strategic Red Sea island, witnesses say",
+      "url": "https://www.bbc.com/news/articles/c23x72yx2rvo",
+      "source": "BBC",
+      "publishedAt": "2026-09-11T04:35:00.000Z",
+      "category": "policy",
+      "summary": "Houthi forces reportedly captured Perim island, a strategic chokepoint on a vital Red Sea shipping route.",
+      "paywalled": false
+    },
+    {
+      "title": "Rumors Say Saudi Crude Is Offline—Here’s What’s Confirmed So Far",
+      "url": "https://thedeepdive.ca/rumors-say-saudi-crude-is-offline-heres-whats-confirmed-so-far/",
+      "source": "the deep dive",
+      "publishedAt": "2026-09-10T18:02:00.000Z",
+      "category": "operations",
+      "summary": "Unconfirmed reports suggest Saudi crude infrastructure may be offline after a possible Houthi pipeline strike, echoing a 2019 attack on the same line.",
+      "paywalled": false
+    },
+    {
+      "title": "Oil Soars as Hormuz Risks Rattle Markets",
+      "url": "https://www.rigzone.com/news/wire/oil_soars_as_hormuz_risks_rattle_markets-10-sep-2026-184590-article/?rss=true",
+      "source": "Rigzone",
+      "publishedAt": "2026-09-10T19:56:15.000Z",
+      "category": "operations",
+      "summary": "Brent surged more than 6% to $107.63 as escalating Hormuz-related risks rattled global oil markets.",
+      "paywalled": false
+    },
+    {
+      "title": "Oil Closes at Highest Level in 4 Months",
+      "url": "https://www.rigzone.com/news/oil_closes_at_highest_level_in_4_months-10-sep-2026-184581-article/?rss=true",
+      "source": "Rigzone",
+      "publishedAt": "2026-09-10T10:03:20.000Z",
+      "category": "operations",
+      "summary": "Brent closed at $101.21/bbl, its highest level in four months, amid ongoing Middle East supply concerns.",
+      "paywalled": false
+    },
+    {
+      "title": "Energy Markets Pause After Historic Rally As Supply Risks Persist",
+      "url": "https://www.tacenergy.com/news-and-views/market-talk/energy-markets-pause-after-historic-rally-as-supply-risks-persist",
+      "source": "TACenergy Market Talk",
+      "publishedAt": "2026-09-11T12:00:00.000Z",
+      "category": "markets",
+      "summary": "Energy markets paused after a historic rally as position-squaring and IEA/OPEC demand-destruction warnings tempered further gains.",
+      "paywalled": false
+    },
+    {
+      "title": "IEA Slashes Oil Demand View",
+      "url": "https://www.rigzone.com/news/wire/iea_slashes_oil_demand_view-11-sep-2026-184595-article/?rss=true",
+      "source": "Rigzone",
+      "publishedAt": "2026-09-11T13:00:00.000Z",
+      "category": "operations",
+      "summary": "IEA cut its 2026 oil demand forecasts and warned consumption could decline further amid war-related disruptions.",
+      "paywalled": false
+    },
+    {
+      "title": "Two Historic USA Fuel Records Fall",
+      "url": "https://www.rigzone.com/news/two_historic_usa_fuel_records_fall-10-sep-2026-184587-article/?rss=true",
+      "source": "Rigzone",
+      "publishedAt": "2026-09-10T14:34:54.000Z",
+      "category": "operations",
+      "summary": "GasBuddy flagged two historic US fuel price records falling in quick succession, per Rigzone.",
+      "paywalled": false
+    },
+    {
+      "title": "Week 36 - US DOE Inventory Recap",
+      "url": "https://www.tacenergy.com/news-and-views/market-talk/week-36-2026-us-doe-inventory-recap",
+      "source": "TACenergy Market Talk",
+      "publishedAt": "2026-09-10T12:00:00.000Z",
+      "category": "markets",
+      "summary": "TACenergy's Week 36 DOE inventory recap covers the latest US petroleum stock data relevant to refined fuel balances.",
+      "paywalled": false
+    },
+    {
+      "title": "EIA: US crude inventories down 400,000 bbl",
+      "url": "https://www.ogj.com/general-interest/economics-markets/news/55404190/eia-us-crude-inventories-down-400000-bbl",
+      "source": "Oil & Gas Journal",
+      "publishedAt": "2026-09-10T18:22:14.000Z",
+      "category": "operations",
+      "summary": "EIA reported US crude inventories fell 400,000 bbl to 424.1 million bbl, in line with the five-year average.",
+      "paywalled": false
+    },
+    {
+      "title": "IRS Issues Notice on 45Z Clean Fuel Tax Credit",
+      "url": "https://www.rrfn.com/2026/09/11/irs-issues-notice-on-45z-clean-fuel-tax-credit/",
+      "source": "Red River Farm Network",
+      "publishedAt": "2026-09-11T04:30:00.000Z",
+      "category": "policy",
+      "summary": "The IRS issued new guidance on the 45Z clean fuel production tax credit, a key policy driver for renewable diesel and SAF economics.",
+      "paywalled": false
+    },
+    {
+      "title": "Bayer, Neste close commercial agreement to jointly scale newgold® winter canola for biofuels production",
+      "url": "https://www.biobased-diesel.com/post/bayer-neste-close-commercial-agreement-to-jointly-scale-newgold-winter-canola-for-biofuels-product",
+      "source": "Biobased Diesel Daily",
+      "publishedAt": "2026-09-10T14:07:15.000Z",
+      "category": "policy",
+      "summary": "Bayer and Neste closed a commercial agreement to scale winter canola production in the Southern Great Plains as a renewable diesel and SAF feedstock.",
+      "paywalled": false
+    },
+    {
+      "title": "OMV Petrom invests 115-million euros in modernizing Petrobrazi refinery’s electrical infrastructure",
+      "url": "https://www.biobased-diesel.com/post/omv-petrom-invests-115-million-euros-in-modernizing-petrobrazi-refinery-s-electrical-infrastructure",
+      "source": "Biobased Diesel Daily",
+      "publishedAt": "2026-09-10T14:07:34.000Z",
+      "category": "policy",
+      "summary": "OMV Petrom is investing €115 million to modernize electrical infrastructure at its Petrobrazi refinery, supporting future HVO, SAF and green-hydrogen units.",
+      "paywalled": false
+    }
+  ],
+  "decks": [
+    {
+      "company": "Sunoco LP",
+      "ticker": "SUN",
+      "title": "8-K exhibit ex991sunandsuncdelistnysel.htm (filed 2026-09-10)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1552275/000155227526000075/ex991sunandsuncdelistnysel.htm",
+      "foundAt": "2026-09-11T15:09:05.364Z",
+      "docType": "earnings",
+      "analysis": "## Key Takeaways\n\n- **No operational or financial disclosures**: This 8-K exhibit is exclusively an administrative announcement regarding a stock exchange listing transfer (NYSE → Texas Stock Exchange), effective October 5, 2026. It contains no data on throughput, utilization, capture rates, margins, or guidance.\n\n- **No renewable fuels or RIN/LCFS content**: The filing does not address renewable diesel, SAF economics, capacity, or RIN/LCFS exposure in any capacity.\n\n- **No capital allocation signals**: There is no mention of capex, distributions, buybacks, or balance sheet actions tied to this transfer.\n\n- **Business description reiterated (unchanged)**: The filing repeats standard descriptive figures — ~14,000 miles of pipeline, 170+ terminals, >15 billion gallons distributed annually, ~11,000 retail locations across 33 countries/territories — but these are boilerplate \"About Sunoco\" figures, not new operational metrics or guidance updates.\n\n- **Corporate/ticker mechanics only**: SUN and SUNC will retain identical ticker symbols on TXSE; no unitholder action is required, and the transfer is framed as aligning with SUN/SUNC's Texas-based operational footprint.\n\n## Market Signal\n\nThis filing is not fuels-market-relevant news: it signals only an exchange-listing/venue change for SUN and SUNC's common units, and refined-products traders should not draw any inference about throughput, margins, or renewable fuels economics from it."
+    },
+    {
+      "company": "Kroger",
+      "ticker": "KR",
+      "title": "8-K exhibit tm2625060d1_ex99-1.htm (filed 2026-09-11)",
+      "url": "https://www.sec.gov/Archives/edgar/data/56873/000110465926106890/tm2625060d1_ex99-1.htm",
+      "foundAt": "2026-09-11T15:09:05.364Z",
+      "docType": "earnings",
+      "analysis": "## Fuel-Segment Extract: Kroger 2Q26 (period ended Aug 15, 2026)\n\n- **No fuel gallon volumes, fuel comps, or station count data disclosed** in this release — all identical sales metrics (0.2% Q2, 3.4% prior year) are reported *excluding* fuel.\n- **Fuel cited as a margin mix headwind**: overall gross margin declined to 22.4% (from 22.5%) partly due to \"the mix effect of higher fuel sales\" alongside higher shrink and transportation costs.\n- **Fuel called out as an EPS tailwind**: CFO David Kennerley attributed adjusted EPS growth (+5%) in part to \"strong pharmacy and fuel performance,\" alongside cost savings and eCommerce profitability gains — but no margin rate or dollar figure was quantified.\n- **Total sales including fuel rose to $34.6B from $33.9B**, while sales excluding fuel (and adjusting for Vitacost sale/fulfillment center exits) grew just 0.1%, implying fuel sales dollars were a meaningful contributor to the topline increase, though volume/price split is not broken out.\n- No commentary on membership-fuel programs, fuel center openings/closures, or fuel-specific capital allocation.\n\n**Signal for fuels markets:** Kroger's fuel business appears to have benefited from higher fuel sales dollars (likely price-driven given no volume disclosure) and contributed positively to profitability, but the company provides no granular fuel margin, gallon, or station data — limiting this release's utility as a fuels-market indicator beyond confirming fuel remained a net-positive, low-margin-mix drag on retail gross margin."
+    }
+  ],
+  "prices": {
+    "date": "2026-09-11",
+    "rbobSpot": 3.289,
+    "ulsdSpot": 4.85,
+    "wtiSpot": 97.26,
+    "retailGas": 4.295,
+    "retailDiesel": 5.967,
+    "gasStocksMbbl": 206938,
+    "distStocksMbbl": 106274,
+    "gasDemandKbd": 8551,
+    "distDemandKbd": 3678,
+    "gasCrack": 40.88,
+    "dieselCrack": 106.44
+  },
+  "prevPrices": {
+    "date": "2026-09-10",
+    "rbobSpot": 3.203,
+    "ulsdSpot": 4.724,
+    "wtiSpot": 91.48,
+    "retailGas": 4.295,
+    "retailDiesel": 5.967,
+    "gasStocksMbbl": 205669,
+    "distStocksMbbl": 104187,
+    "gasDemandKbd": 8922,
+    "distDemandKbd": 3390,
+    "gasCrack": 43.05,
+    "dieselCrack": 106.93
+  },
+  "weekAhead": [
+    {
+      "date": "Wed, Sep 16",
+      "label": "EIA Weekly Petroleum Status Report (10:30am ET) — inventories, demand, refinery runs"
+    },
+    {
+      "date": "Wed, Sep 16",
+      "label": "EIA This Week in Petroleum analysis"
+    },
+    {
+      "date": "Tue, Sep 15",
+      "label": "EPA weekly RIN transaction data update"
+    },
+    {
+      "date": "Mon, Sep 14",
+      "label": "EIA weekly retail gasoline & diesel prices (Mon PM)"
+    }
+  ],
+  "generatedAt": "2026-09-11T15:09:05.364Z"
+}
