@@ -1,5 +1,23 @@
 [
   {
+    "company": "PBF Energy",
+    "ticker": "PBF",
+    "title": "8-K exhibit d179978dex991.htm (filed 2026-09-14)",
+    "url": "https://www.sec.gov/Archives/edgar/data/1534504/000119312526389847/d179978dex991.htm",
+    "foundAt": "2026-09-14T17:01:02.978Z",
+    "docType": "earnings",
+    "analysis": "## Key Takeaways\n\n- **Hydrogen supply chain conversion at Torrance**: PBF LLC closed (Sept 9, 2026) on the purchase of two hydrogen production plants previously under operating lease, paying $44.8M cash plus a ~$342.2M promissory note (guaranteed by PBF Energy Inc.), converting a leased/tolled hydrogen supply into owned refinery infrastructure — hydrogen being a critical input cost for hydrotreating/hydrocracking units that determine sulfur compliance and clean-fuel yields.\n- **Balance sheet shift, not operational guidance**: The transaction derecognizes the prior operating lease liability and right-of-use asset, replacing a lease obligation with ~$342M of funded debt — a capital structure change rather than a signal on run rates, utilization, or capture.\n- **No throughput, margin, or crack spread commentary**: The filing contains no update on refinery utilization, crack capture, or Torrance-specific operating performance.\n- **No RIN/LCFS/SAF/renewable diesel disclosure**: This exhibit is silent on RIN obligations, LCFS credit exposure, or renewable diesel/SAF economics — none of PBF's typical green fuels metrics are addressed here.\n- **Liquidity expansion signal**: PBF Holding is negotiating to extend its Revolving Credit Facility maturity to 2031 and raise capacity to $3.5–$4.0 billion (from current levels), expected to close by end of Q3 2026 — indicating management is building balance sheet flexibility, likely to fund ongoing capex (including hydrogen infrastructure), turnarounds, or working capital swings.\n\n## Market Signal\n\nThis filing signals a defensive, balance-sheet-focused move — internalizing hydrogen supply at Torrance to reduce counterparty/lease risk while simultaneously expanding liquidity capacity — rather than any change in refined product margin outlook, throughput guidance, or renewable fuels economics."
+  },
+  {
+    "company": "PBF Energy",
+    "ticker": "PBF",
+    "title": "8-K exhibit d179978dex992.htm (filed 2026-09-14)",
+    "url": "https://www.sec.gov/Archives/edgar/data/1534504/000119312526389847/d179978dex992.htm",
+    "foundAt": "2026-09-14T17:01:02.978Z",
+    "docType": "earnings",
+    "analysis": "## Key Takeaways\n\n- **Financing action, not operational disclosure**: PBF Holding Company LLC (indirect subsidiary of PBF Energy) intends to offer $500 million in senior unsecured exchangeable notes due January 15, 2032, with a 13-day option for initial purchasers to buy an additional $50 million (potential total: $550 million).\n\n- **Debt refinancing signal**: Net proceeds are earmarked to fund the cost of capped call transactions, with the remainder plus available cash used to repay or redeem all outstanding **7.875% Senior Unsecured Notes due 2030**. This indicates PBF is proactively refinancing higher-coupon debt via a lower-cost exchangeable structure, a balance-sheet optimization move rather than a growth/capex signal.\n\n- **No operational metrics disclosed**: The document contains no data on refinery throughput, utilization rates, capture rates, crack spread margins, renewable diesel/SAF volumes or economics, or RIN/LCFS credit exposure — this is purely a capital markets/financing press release under Rule 135c.\n\n- **Structural terms**: Notes are non-callable until January 20, 2030 (absent a cleanup redemption if <10% of notes remain outstanding), with redemption thereafter permitted only if PBF's stock trades at ≥130% of the exchange price. Exchange settlement can be cash, stock, or a combination at the Issuers' discretion, capped via the capped call transactions to limit dilution.\n\n- **No parent guarantee**: Notably, PBF Energy Inc. (the NYSE-listed parent) does not guarantee the notes — only certain PBF Holding subsidiaries that already guarantee existing senior notes are guarantors, keeping the structural liability at the operating subsidiary level.\n\n## Market Signal\n\nThis filing signals a routine liability-management/refinancing transaction to extend maturities and lower interest costs on PBF's balance sheet, with no new information on refining throughput, margins, or renewables economics that would move refined fuels market fundamentals."
+  },
+  {
     "company": "Sunoco LP",
     "ticker": "SUN",
     "title": "8-K exhibit ex991sunandsuncdelistnysel.htm (filed 2026-09-10)",
