@@ -2,6 +2,15 @@
   {
     "company": "PBF Energy",
     "ticker": "PBF",
+    "title": "8-K exhibit d175358dex991.htm (filed 2026-09-15)",
+    "url": "https://www.sec.gov/Archives/edgar/data/1534504/000119312526391405/d175358dex991.htm",
+    "foundAt": "2026-09-15T15:39:08.471Z",
+    "docType": "earnings",
+    "analysis": "## Key Takeaways\n\n- **Capital allocation, not operations**: This filing is purely financial engineering (debt refinancing) — it contains no throughput, utilization, capture rate, margin, or RIN/LCFS data. All figures relate to note pricing and refinancing mechanics.\n\n- **Refinancing the 2030 notes**: PBF Holding is issuing $500M of 0% exchangeable notes due 2032 (upsizable to $550M via a 13-day $50M greenshoe) with proceeds earmarked to repay/redeem its outstanding **7.875% Senior Unsecured Notes due 2030** — a meaningful reduction in cash interest expense (from 7.875% coupon to 0% coupon) that improves free cash flow available for capex/refining reinvestment or shareholder returns.\n\n- **Balance sheet cost structure shift**: Net proceeds (~$485.0M, or ~$533.6M with full over-allotment) will fund $25.2M for capped call transactions plus the bulk of the 2030 Notes payoff, effectively swapping high-coupon secured refining-sector debt for a zero-coupon convertible-like instrument — reduces near-term interest burden but introduces future equity dilution risk (exchange rate 10.3306 shares/$1,000, exchange price ~$96.80, a 37.5% premium to the $70.40 September 14, 2026 share price).\n\n- **Dilution mitigation via capped calls**: Capped call structure (cap price $123.20, 75% premium to spot) signals management's intent to limit equity dilution/cash outflow upon conversion — an indicator PBF is trying to preserve balance-sheet flexibility for future capex or buybacks rather than telegraph major expansion plans.\n\n- **No guidance revision or operational disclosure**: No updates to refining segment guidance, renewable diesel/SAF capacity (including the 50%-owned St. Bernard Renewables JV), or crack spread/capture assumptions are included; the filing is a standalone financing press release under Rule 135c.\n\n## Market Signal\n\nThis is a balance-sheet optimization move (extending maturities to 2032, cutting cash coupon to zero) rather than a signal about refining fundamentals, margins, or renewable fuels economics — investors should look to PBF's next quarterly filing for operational/RIN-LCFS/capture-rate updates."
+  },
+  {
+    "company": "PBF Energy",
+    "ticker": "PBF",
     "title": "8-K exhibit d179978dex991.htm (filed 2026-09-14)",
     "url": "https://www.sec.gov/Archives/edgar/data/1534504/000119312526389847/d179978dex991.htm",
     "foundAt": "2026-09-14T17:01:02.978Z",

@@ -1,0 +1,174 @@
+{
+  "date": "2026-09-15",
+  "headline": "Saudi pipeline halt, Joliet outage, and drone strikes send diesel to records",
+  "intro": "Diesel's on a tear again — a Saudi pipeline attack, an Exxon refinery outage in Illinois, and dueling ceasefire narratives out of Ukraine have crack spreads and pump prices moving in one direction: up.",
+  "overview": "Diesel cracks are near $106/bbl and retail diesel sits above $6.28/gal as supply risk compounds: Saudi Arabia's East-West pipeline shutdown after drone attacks threatens up to 4% of global oil supply, while Exxon's 264,000-bpd Joliet refinery went offline after a weekend power outage, tightening the Midwest fuel market further. Meanwhile the US-brokered Ukraine-Russia energy infrastructure truce is looking shaky — Kyiv disputes any deal was reached, Ukrainian drones reportedly hit Russia's Syzran refinery, and IEA says the drone campaign is steadily degrading Russian refining capacity, all keeping a bid under ULSD futures. On the demand side, analysts are flagging real risk of $5 gasoline before the midterms as crude spikes ripple through to the pump.",
+  "stories": [
+    {
+      "title": "What Does the Yanbu Outage Mean?",
+      "url": "https://www.rigzone.com/news/what_does_the_yanbu_outage_mean-15-sep-2026-184616-article/?rss=true",
+      "source": "Rigzone",
+      "publishedAt": "2026-09-15T10:50:39.000Z",
+      "category": "operations",
+      "summary": "Saudi Arabia's East-West Pipeline was shut down after multiple drone attacks, per the Kingdom's Ministry of Energy.",
+      "paywalled": false
+    },
+    {
+      "title": "Saudi pipeline shutdown threatens further global oil supply losses",
+      "url": "https://www.ogj.com/pipelines-transportation/pipelines/news/55404969/saudi-pipeline-shutdown-threatens-further-global-oil-supply-losses",
+      "source": "Oil & Gas Journal",
+      "publishedAt": "2026-09-15T13:59:35.000Z",
+      "category": "operations",
+      "summary": "The Saudi pipeline shutdown threatens to remove up to 4% of global oil supply, with repair timelines uncertain, adding to global supply-loss fears.",
+      "paywalled": false
+    },
+    {
+      "title": "Oil Climbs Amid Saudi Pipeline Halt",
+      "url": "https://www.rigzone.com/news/wire/oil_climbs_amid_saudi_pipeline_halt-14-sep-2026-184613-article/?rss=true",
+      "source": "Rigzone",
+      "publishedAt": "2026-09-14T19:33:10.000Z",
+      "category": "markets",
+      "summary": "Crude gained as the Saudi East-West pipeline closure heightened fears of tighter global supplies.",
+      "paywalled": false
+    },
+    {
+      "title": "Reuters: ExxonMobil investigating Joliet refinery power outage issue",
+      "url": "https://www.shawlocal.com/the-herald-news/2026/09/14/reuters-exxonmobil-investigating-joliet-refinery-power-outage-issue/",
+      "source": "Shaw Local",
+      "publishedAt": "2026-09-14T13:00:00.000Z",
+      "category": "operations",
+      "summary": "ExxonMobil's Joliet, Illinois refinery was taken offline after a power outage on Sunday, per Reuters.",
+      "paywalled": false
+    },
+    {
+      "title": "Exxon Mobil Joliet refinery reports power outage as Midwest fuel market stays tight",
+      "url": "https://tradersunion.com/news/financial-news/show/3337387-exxon-mobil-joliet-refinery-outage/",
+      "source": "tradersunion",
+      "publishedAt": "2026-09-14T12:41:00.000Z",
+      "category": "operations",
+      "summary": "The Joliet outage is pressuring an already tight Midwest fuel market, threatening higher diesel and gasoline prices.",
+      "paywalled": false
+    },
+    {
+      "title": "Refinery Disruptions And Strait Closures Fuel Diesel Rally",
+      "url": "https://www.tacenergy.com/news-and-views/market-talk/refinery-disruptions-and-strait-closures-fuel-diesel-rally",
+      "source": "TACenergy Market Talk",
+      "publishedAt": "2026-09-15T12:00:00.000Z",
+      "category": "markets",
+      "summary": "ULSD futures led gains with 3.2% rise as markets weighed whether a Russia-Ukraine energy-infrastructure truce would actually hold, after a 30-cent trading range Monday.",
+      "paywalled": false
+    },
+    {
+      "title": "Kyiv Says No Deal Yet to Halt Strikes on Refineries",
+      "url": "https://www.rigzone.com/news/wire/kyiv_says_no_deal_yet_to_halt_strikes_on_refineries-15-sep-2026-184614-article/?rss=true",
+      "source": "Rigzone",
+      "publishedAt": "2026-09-15T07:28:12.000Z",
+      "category": "operations",
+      "summary": "Kyiv disputes that any deal was reached to halt strikes on refineries, even as Trump and Zelensky offer differing accounts; strikes on Russian refineries continue to drive diesel prices to record levels.",
+      "paywalled": false
+    },
+    {
+      "title": "Trump humiliated as Zelensky ignores demand to stop Russian bombardment",
+      "url": "https://www.aol.com/articles/trump-humiliated-zelensky-ignores-demand-060200000.html",
+      "source": "AOL",
+      "publishedAt": "2026-09-14T23:02:00.000Z",
+      "category": "operations",
+      "summary": "Ukrainian drones reportedly hit Russia's Syzran oil refinery, a day after Trump demanded Kyiv halt bombing.",
+      "paywalled": false
+    },
+    {
+      "title": "IEA: Ukrainian drone campaign degrades Russian refining resilience",
+      "url": "https://www.ogj.com/general-interest/economics-markets/news/55404783/iea-ukrainian-drone-campaign-degrades-russian-refining-resilience",
+      "source": "Oil & Gas Journal",
+      "publishedAt": "2026-09-14T16:38:00.000Z",
+      "category": "operations",
+      "summary": "IEA says Ukraine's drone campaign is degrading Russian refining resilience, lengthening repair times and prompting Russia to impose export bans and relax fuel standards.",
+      "paywalled": false
+    },
+    {
+      "title": "Trump's Ukraine energy truce won't fix global diesel crunch",
+      "url": "https://www.reuters.com/commentary/reuters-open-interest/trumps-ukraine-energy-truce-wont-fix-global-diesel-crunch-2026-09-15/",
+      "source": "Reuters",
+      "publishedAt": "2026-09-15T06:00:00.000Z",
+      "category": "markets",
+      "summary": "A Trump-brokered Ukraine energy truce could ease one near-term threat to diesel markets, but Reuters reports it won't fix the underlying global diesel crunch.",
+      "paywalled": true
+    },
+    {
+      "title": "DOE/EIA price at record as diesel surge shows no sign of retreat",
+      "url": "https://www.freightwaves.com/news/doe-eia-price-at-record-as-diesel-surge-shows-no-sign-of-retreat",
+      "source": "FreightWaves",
+      "publishedAt": "2026-09-15T06:41:00.000Z",
+      "category": "markets",
+      "summary": "The DOE/EIA diesel price hit a record with no sign of retreating, though it lags faster-moving retail price indicators like AAA and SONAR.",
+      "paywalled": false
+    },
+    {
+      "title": "What Is Driving Diesel Prices Up? Energy Chaos Caused by Two Wars.",
+      "url": "https://www.nytimes.com/2026/09/14/business/energy-environment/trump-diesel-russia-ukraine-iran.html",
+      "source": "The New York Times",
+      "publishedAt": "2026-09-14T12:09:00.000Z",
+      "category": "markets",
+      "summary": "The NYT notes Trump has blamed Ukrainian refinery strikes for the diesel spike, but analysts say the Iran war may be a bigger driver.",
+      "paywalled": false
+    },
+    {
+      "title": "Currie Sees 'Extremely High' Risk of $5 Gas by Midterms",
+      "url": "https://www.rigzone.com/news/wire/currie_sees_extremely_high_risk_of_5_gas_by_midterms-14-sep-2026-184608-article/?rss=true",
+      "source": "Rigzone",
+      "publishedAt": "2026-09-14T20:00:01.000Z",
+      "category": "operations",
+      "summary": "Veteran strategist Jeff Currie sees an 'extremely high' risk of US gasoline averaging $5/gallon before the midterm elections.",
+      "paywalled": false
+    },
+    {
+      "title": "Calumet, Inc. Enters into Eleventh Amendment to Third Amended and Restated Credit Agreement and Fourth Amendment to Monetization Master Agreement",
+      "url": "https://www.marketscreener.com/news/calumet-inc-enters-into-eleventh-amendment-to-third-amended-and-restated-credit-agreement-and-four-ce785bdddc8ff526",
+      "source": "MarketScreener",
+      "publishedAt": "2026-09-15T07:25:00.000Z",
+      "category": "policy",
+      "summary": "Calumet entered an eleventh amendment to its credit agreement and fourth amendment to its monetization master agreement, per an SEC filing summary.",
+      "paywalled": false
+    }
+  ],
+  "decks": [
+    {
+      "company": "PBF Energy",
+      "ticker": "PBF",
+      "title": "8-K exhibit d175358dex991.htm (filed 2026-09-15)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1534504/000119312526391405/d175358dex991.htm",
+      "foundAt": "2026-09-15T15:39:08.471Z",
+      "docType": "earnings",
+      "analysis": "## Key Takeaways\n\n- **Capital allocation, not operations**: This filing is purely financial engineering (debt refinancing) — it contains no throughput, utilization, capture rate, margin, or RIN/LCFS data. All figures relate to note pricing and refinancing mechanics.\n\n- **Refinancing the 2030 notes**: PBF Holding is issuing $500M of 0% exchangeable notes due 2032 (upsizable to $550M via a 13-day $50M greenshoe) with proceeds earmarked to repay/redeem its outstanding **7.875% Senior Unsecured Notes due 2030** — a meaningful reduction in cash interest expense (from 7.875% coupon to 0% coupon) that improves free cash flow available for capex/refining reinvestment or shareholder returns.\n\n- **Balance sheet cost structure shift**: Net proceeds (~$485.0M, or ~$533.6M with full over-allotment) will fund $25.2M for capped call transactions plus the bulk of the 2030 Notes payoff, effectively swapping high-coupon secured refining-sector debt for a zero-coupon convertible-like instrument — reduces near-term interest burden but introduces future equity dilution risk (exchange rate 10.3306 shares/$1,000, exchange price ~$96.80, a 37.5% premium to the $70.40 September 14, 2026 share price).\n\n- **Dilution mitigation via capped calls**: Capped call structure (cap price $123.20, 75% premium to spot) signals management's intent to limit equity dilution/cash outflow upon conversion — an indicator PBF is trying to preserve balance-sheet flexibility for future capex or buybacks rather than telegraph major expansion plans.\n\n- **No guidance revision or operational disclosure**: No updates to refining segment guidance, renewable diesel/SAF capacity (including the 50%-owned St. Bernard Renewables JV), or crack spread/capture assumptions are included; the filing is a standalone financing press release under Rule 135c.\n\n## Market Signal\n\nThis is a balance-sheet optimization move (extending maturities to 2032, cutting cash coupon to zero) rather than a signal about refining fundamentals, margins, or renewable fuels economics — investors should look to PBF's next quarterly filing for operational/RIN-LCFS/capture-rate updates."
+    }
+  ],
+  "prices": {
+    "date": "2026-09-15",
+    "rbobSpot": 3.289,
+    "ulsdSpot": 4.85,
+    "wtiSpot": 97.26,
+    "retailGas": 4.455,
+    "retailDiesel": 6.285,
+    "gasStocksMbbl": 206938,
+    "distStocksMbbl": 106274,
+    "gasDemandKbd": 8551,
+    "distDemandKbd": 3678,
+    "gasCrack": 40.88,
+    "dieselCrack": 106.44
+  },
+  "prevPrices": {
+    "date": "2026-09-14",
+    "rbobSpot": 3.289,
+    "ulsdSpot": 4.85,
+    "wtiSpot": 97.26,
+    "retailGas": 4.295,
+    "retailDiesel": 5.967,
+    "gasStocksMbbl": 206938,
+    "distStocksMbbl": 106274,
+    "gasDemandKbd": 8551,
+    "distDemandKbd": 3678,
+    "gasCrack": 40.88,
+    "dieselCrack": 106.44
+  },
+  "generatedAt": "2026-09-15T15:39:08.471Z"
+}
