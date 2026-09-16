@@ -1,0 +1,164 @@
+{
+  "date": "2026-09-16",
+  "headline": "Saudi pipeline outage and Joliet refinery outage send diesel to record highs",
+  "intro": "Two supply shocks just collided: a Saudi pipeline attack is squeezing global crude and diesel, while an Exxon Joliet refinery outage is choking Chicago-area gasoline and diesel supply. Retail pumps are already feeling it, and the futures curve is screaming.",
+  "overview": "Diesel cracks are blowing out as the Saudi East-West pipeline outage and Red Sea threats hit physical crude and distillate markets, with NY Harbor ULSD hitting record highs and NYMEX ULSD futures up over 27 cents. Domestically, an Exxon Joliet refinery power outage has cut roughly 10% of Chicago-area fuel supply, pushing Midwest gas and diesel prices sharply higher with warnings of $7 diesel. Meanwhile S&P Global flags global gasoline stocks at decade lows and diesel approaching historic lows, reinforcing a structurally tight refined products market even as SAF/biofuel policy and offtake deals continue apace.",
+  "stories": [
+    {
+      "title": "NYMEX Overview: Oil Futures Rally on Saudi Pipeline Outage, Red Sea Threats -- OPIS",
+      "url": "https://www.marketwatch.com/story/nymex-overview-oil-futures-rally-on-saudi-pipeline-outage-red-sea-threats-opis-d7893f58",
+      "source": "MarketWatch",
+      "publishedAt": "2026-09-15T09:40:00.000Z",
+      "category": "markets",
+      "summary": "NYMEX ULSD rallied over 27 cents to $5.2336/gal and RBOB rose ~11 cents on Saudi pipeline outage and Red Sea threat fears, per OPIS.",
+      "paywalled": false
+    },
+    {
+      "title": "New York ULSD hits record high on Saudi outage: Update",
+      "url": "https://www.argusmedia.com/en/news-and-insights/latest-market-news/2878380-new-york-ulsd-hits-record-high-on-saudi-outage-update",
+      "source": "Argus Media",
+      "publishedAt": "2026-09-15T14:36:00.000Z",
+      "category": "markets",
+      "summary": "New York ULSD hit a record high as the widening Mideast conflict and Saudi supply outage propelled diesel prices to new peaks.",
+      "paywalled": true
+    },
+    {
+      "title": "Saudi pipeline outage sends physical crude and diesel into scarcity pricing",
+      "url": "https://www.home.saxo/content/articles/commodities/saudi-pipeline-outage-sends-physical-crude-and-diesel-into-scarcity-pricing-16092026",
+      "source": "Saxo",
+      "publishedAt": "2026-09-15T18:30:00.000Z",
+      "category": "markets",
+      "summary": "Saudi pipeline disruption has tightened physical oil markets, with reports of Dated Brent above $130 and diesel above $220 as global fuel scarcity deepens.",
+      "paywalled": false
+    },
+    {
+      "title": "Saudi pipeline shutdown threatens further global oil supply losses",
+      "url": "https://www.ogj.com/pipelines-transportation/pipelines/news/55404969/saudi-pipeline-shutdown-threatens-further-global-oil-supply-losses",
+      "source": "Oil & Gas Journal",
+      "publishedAt": "2026-09-15T13:59:35.000Z",
+      "category": "operations",
+      "summary": "Drone attacks on a Saudi pipeline caused a shutdown that could remove up to 4% of global oil supply, with repair timelines uncertain.",
+      "paywalled": false
+    },
+    {
+      "title": "What Does the Yanbu Outage Mean?",
+      "url": "https://www.rigzone.com/news/what_does_the_yanbu_outage_mean-15-sep-2026-184616-article/?rss=true",
+      "source": "Rigzone",
+      "publishedAt": "2026-09-15T10:50:39.000Z",
+      "category": "operations",
+      "summary": "Saudi Arabia's East-West Pipeline was shut down after multiple attacks, per the Saudi energy ministry.",
+      "paywalled": false
+    },
+    {
+      "title": "Diesel in Midwest could soon reach $7 after refinery issues",
+      "url": "https://www.thecentersquare.com/illinois/article_ebbf5cac-245b-4a8e-aefa-20f992fac634.html",
+      "source": "The Center Square",
+      "publishedAt": "2026-09-15T12:31:00.000Z",
+      "category": "operations",
+      "summary": "An Exxon Mobil refinery southwest of Chicago went offline over the weekend, halting production and pushing Midwest diesel prices toward $7.",
+      "paywalled": false
+    },
+    {
+      "title": "Gas prices rise in Chicago after power outage at Exxon Mobil Joliet refinery",
+      "url": "https://www.cbsnews.com/chicago/news/rising-gas-prices-power-outage-exxon-mobil-joliet-refinery/",
+      "source": "CBS News",
+      "publishedAt": "2026-09-15T15:30:00.000Z",
+      "category": "operations",
+      "summary": "A power outage at Exxon Mobil's Joliet refinery, which supplies about 10% of Chicago-area gas and diesel, has driven local gas prices higher.",
+      "paywalled": false
+    },
+    {
+      "title": "S&P Global: Refined product tightness deepens",
+      "url": "https://www.ogj.com/general-interest/economics-markets/news/55405149/sp-global-refined-product-tightness-deepens",
+      "source": "Oil & Gas Journal",
+      "publishedAt": "2026-09-15T16:32:48.000Z",
+      "category": "operations",
+      "summary": "S&P Global reports global gasoline stocks fell to decade lows by early September, with diesel inventories also approaching historic lows.",
+      "paywalled": false
+    },
+    {
+      "title": "Map Shows States Where Gas Prices Could Surge",
+      "url": "https://www.newsweek.com/map-shows-states-where-gas-prices-could-surge-12445760",
+      "source": "Newsweek",
+      "publishedAt": "2026-09-15T12:55:00.000Z",
+      "category": "markets",
+      "summary": "GasBuddy's head of petroleum analysis warned of potential gas price surges in Illinois, Indiana, Ohio and Wisconsin tied to the Joliet outage.",
+      "paywalled": false
+    },
+    {
+      "title": "Gas Prices Jump in Every State",
+      "url": "https://www.rigzone.com/news/gas_prices_jump_in_every_state-16-sep-2026-184629-article/?rss=true",
+      "source": "Rigzone",
+      "publishedAt": "2026-09-16T12:13:08.000Z",
+      "category": "markets",
+      "summary": "GasBuddy reported gasoline prices jumped in every U.S. state with 'no relief in sight.'",
+      "paywalled": false
+    },
+    {
+      "title": "US freezes Citgo board to protect pending $5.9-billion acquisition",
+      "url": "https://www.ogj.com/general-interest/government/news/55405154/us-freezes-citgo-board-to-protect-pending-59-billion-acquisition",
+      "source": "Oil & Gas Journal",
+      "publishedAt": "2026-09-15T20:26:37.000Z",
+      "category": "operations",
+      "summary": "The US Treasury froze Citgo's board via amended sanctions to protect a pending $5.9 billion acquisition of its parent companies.",
+      "paywalled": false
+    },
+    {
+      "title": "EU allocates €430mn ETS revenues to SAF for 2025",
+      "url": "https://www.argusmedia.com/en/news-and-insights/latest-market-news/2878579-eu-allocates-eu430mn-ets-revenues-to-saf-for-2025",
+      "source": "Argus Media",
+      "publishedAt": "2026-09-16T04:45:00.000Z",
+      "category": "policy",
+      "summary": "The EU will allocate about €430mn in ETS allowance revenues to airlines to support SAF use in 2025 operations.",
+      "paywalled": true
+    },
+    {
+      "title": "SAF maker XCF amends three-way merger terms, adds capital support",
+      "url": "https://renewablesnow.com/news/saf-maker-xcf-amends-three-way-merger-terms-adds-capital-support-1301311/",
+      "source": "Renewables Now",
+      "publishedAt": "2026-09-16T05:59:00.000Z",
+      "category": "policy",
+      "summary": "SAF maker XCF amended its three-way merger terms with DevvStream and Southern Energy Renewables, revising ownership split and adding capital support.",
+      "paywalled": false
+    },
+    {
+      "title": "Sorghum Growers Get Clearer Path to 45Z Credit",
+      "url": "https://www.newsdakota.com/2026/09/16/sorghum-growers-get-clearer-path-to-45z-credit/",
+      "source": "NewsDakota.com",
+      "publishedAt": "2026-09-16T01:44:00.000Z",
+      "category": "policy",
+      "summary": "Sorghum growers are getting a clearer path to benefit from the federal 45Z Clean Fuel Production Credit, per the National Sorghum Producers.",
+      "paywalled": false
+    }
+  ],
+  "decks": [],
+  "prices": {
+    "date": "2026-09-16",
+    "rbobSpot": 3.289,
+    "ulsdSpot": 4.85,
+    "wtiSpot": 97.26,
+    "retailGas": 4.455,
+    "retailDiesel": 6.285,
+    "gasStocksMbbl": 206938,
+    "distStocksMbbl": 106274,
+    "gasDemandKbd": 8551,
+    "distDemandKbd": 3678,
+    "gasCrack": 40.88,
+    "dieselCrack": 106.44
+  },
+  "prevPrices": {
+    "date": "2026-09-15",
+    "rbobSpot": 3.289,
+    "ulsdSpot": 4.85,
+    "wtiSpot": 97.26,
+    "retailGas": 4.455,
+    "retailDiesel": 6.285,
+    "gasStocksMbbl": 206938,
+    "distStocksMbbl": 106274,
+    "gasDemandKbd": 8551,
+    "distDemandKbd": 3678,
+    "gasCrack": 40.88,
+    "dieselCrack": 106.44
+  },
+  "generatedAt": "2026-09-16T15:30:00.759Z"
+}
