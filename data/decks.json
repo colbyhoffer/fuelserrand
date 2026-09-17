@@ -1,5 +1,14 @@
 [
   {
+    "company": "Alimentation Couche-Tard",
+    "ticker": "ATD.TO",
+    "title": "ACT+Investor+Presentation+%E2%80%93+Q1+27.pdf",
+    "url": "https://corpo.couche-tard.com/download/ACT+Investor+Presentation+%E2%80%93+Q1+27.pdf",
+    "foundAt": "2026-09-17T15:36:58.067Z",
+    "docType": "presentation",
+    "analysis": "# Couche-Tard Q1-2027 Investor Presentation: Refined Fuels Market Takeaways\n\n- **Volume softness, margin strength**: Same-store fuel volumes declined in the US (-1.6%) and Europe/Other Regions (-4.3%) in Q1-2027, while Canada grew modestly (+1.1%). Despite volume pressure, road transportation fuel (RTF) gross margins expanded: US margin hit **52.61¢/gallon** in Q1-FY27 (vs. 44.00¢ prior-year comp for FY26), Canada **16.79 CA¢/liter**, Europe **11.34¢/liter** — indicating retail fuel margin capture is offsetting volume erosion.\n\n- **Breakeven advantage widening**: ACT's US RTF breakeven margin was **20.33¢/gallon** (FY26) vs. the industry bottom-quartile breakeven trending toward ~33¢/gallon by FY2025 — management frames this gap as \"widening\" due to supply chain and procurement scale, a structural cost advantage over smaller independents.\n\n- **Guidance: fuel profit growth pegged to CPI, not volume**: FY2026-FY2030 guidance targets **Total RTF Gross Profit growth = CPI** (not unit growth), reflecting a strategy of price/margin management over volume chasing — consistent with a maturing, EV-pressured fuel retail environment. Total fuel gallons sold were 15.8 billion in FY2026 with $56.2B in fuel revenue and $7.3B RTF gross profit.\n\n- **No upstream/refining or RIN/LCFS exposure**: This is a pure downstream retailer — no owned refining, renewable diesel/SAF production, or direct RIN/LCFS credit generation disclosed. EV/e-mobility (charging) is treated as the primary \"energy transition\" lever rather than biofuel blending economics; European transaction growth from EV charging is guided at **+40% CAGR"
+  },
+  {
     "company": "PBF Energy",
     "ticker": "PBF",
     "title": "8-K exhibit d175358dex991.htm (filed 2026-09-15)",
