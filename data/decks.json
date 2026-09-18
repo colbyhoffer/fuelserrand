@@ -1,5 +1,14 @@
 [
   {
+    "company": "Valero Energy",
+    "ticker": "VLO",
+    "title": "8-K exhibit a9182026exh9901pressrelease.htm (filed 2026-09-18)",
+    "url": "https://www.sec.gov/Archives/edgar/data/1035002/000162828026062625/a9182026exh9901pressrelease.htm",
+    "foundAt": "2026-09-18T15:05:42.318Z",
+    "docType": "earnings",
+    "analysis": "## Key Takeaways\n\n- **Board appointment, not an operational update**: This filing announces Matt Audette (President & CFO of LPL Financial; former CFO of E*TRADE) joining Valero's Board and Audit Committee effective September 18, 2026. No throughput, margin, capture rate, or guidance data is disclosed in this release.\n\n- **Refining footprint (boilerplate, unchanged)**: Valero operates **14 petroleum refineries** across the U.S., Canada, and U.K. with combined throughput capacity of **~3.0 million bpd** — no change in stated capacity versus prior disclosures.\n\n- **Renewable diesel/SAF capacity (boilerplate, unchanged)**: Diamond Green Diesel JV has renewable diesel/SAF production capacity of **~1.2 billion gallons/year** in the U.S. Gulf Coast. No updated economics, feedstock costs, or blender's tax credit/45Z commentary provided.\n\n- **Ethanol segment (boilerplate, unchanged)**: 12 ethanol plants in the U.S. Mid-Continent with combined capacity of **~1.7 billion gallons/year** — capacity figure only, no production or margin data.\n\n- **No RIN/LCFS, capital allocation, or guidance signals**: The release contains no commentary on RIN prices, LCFS credit exposure, capex plans, buybacks/dividends, or forward guidance changes.\n\n- **Governance signal**: Adding a second public-company CFO with deep financial/risk/compliance background to the Audit Committee suggests continued board-level emphasis on financial discipline and risk oversight, but this is not a market-moving operational disclosure.\n\n**Market signal**: This filing is a governance/personnel announcement with no new operational, margin, or regulatory data — it carries no direct implications for refined fuels, renewable diesel, or RIN/LCFS market dynamics."
+  },
+  {
     "company": "Alimentation Couche-Tard",
     "ticker": "ATD.TO",
     "title": "ACT+Investor+Presentation+%E2%80%93+Q1+27.pdf",
