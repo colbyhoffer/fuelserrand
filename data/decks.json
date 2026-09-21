@@ -1,5 +1,14 @@
 [
   {
+    "company": "Kroger",
+    "ticker": "KR",
+    "title": "10-Q (filed 2026-09-18)",
+    "url": "https://www.sec.gov/Archives/edgar/data/56873/000110465926108926/kr-20260815x10q.htm",
+    "foundAt": "2026-09-21T17:09:16.643Z",
+    "docType": "earnings",
+    "analysis": "## Fuel-Segment Takeaways\n\n- **Fuel sales surged on price, not volume**: Supermarket fuel sales rose 25.6% in Q2 2026 ($4,105M vs. $3,269M) and 23.1% for the first two quarters ($9,367M vs. $7,609M), driven almost entirely by average retail fuel price increases of 25.3% (Q2) and 23.9% (YTD) rather than gallon growth.\n\n- **Fuel remains a drag on margin mix**: Management explicitly notes fuel sales \"have a very low FIFO gross margin rate\" and \"very low OG&A rate\" compared to non-fuel sales — increased fuel sales mechanically lowered both consolidated gross margin (22.4% vs. 22.5% Q2) and OG&A rate (17.2% vs. 17.6% Q2), a mix effect rather than a fuel-margin deterioration signal.\n\n- **Fuel contributed positively to operating profit**: Increased fuel operating profit was cited as a factor boosting operating profit as % of sales for the first two quarters of 2026 (+18 bps), and higher fuel earnings helped drive YTD adjusted EPS growth (+6%).\n\n- **Identical sales metrics exclude fuel**: All core identical-sales reporting (0.2% Q2, 0.6% YTD) strips out fuel entirely, reflecting continued volatility/distortion from fuel pricing in comparable-sales analysis.\n\n- **No station-count or fuel-center-specific disclosures**: The filing provides no data on number of fuel centers, fuel gallons sold, or membership/loyalty-linked fuel discount dynamics (e.g., fuel points redemption trends).\n\n**Signal for fuels markets**: Kroger's results reflect fuel retail price inflation (~24-25% YoY) flowing through to a major U.S. supermarket fuel retailer's topline, with fuel-related earnings functioning as a modest tailwind to profitability even as fuel's inherently thin margins dilute blended retailer profitability ratios."
+  },
+  {
     "company": "Valero Energy",
     "ticker": "VLO",
     "title": "8-K exhibit a9182026exh9901pressrelease.htm (filed 2026-09-18)",
