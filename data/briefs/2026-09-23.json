@@ -1,0 +1,164 @@
+{
+  "date": "2026-09-23",
+  "headline": "Trump backs diesel export ban as record prices, Iran risk collide",
+  "intro": "Diesel just punched through $6.50 a gallon at retail, and Washington's response — floating an export ban — has traders more spooked than the price itself. Refiners love the crack spread; policymakers are eyeing the exit door.",
+  "overview": "Diesel cracks are blowing out ($117/bbl) alongside a fresh retail record above $6.50/gal, driven by Ukrainian strikes on Russian refining capacity and the US-Iran standoff disrupting trade routes including the Strait of Hormuz. Trump's endorsement of a US diesel export ban sent gasoline rallying to four-month highs while diesel sold off, but analysts across Reuters and TACenergy warn the move would hurt rather than help fuel markets. Elsewhere, Saudi Arabia is restarting its East-West pipeline, Macron is pushing the EU to loosen diesel/kerosene rules, and SAF offtake deals keep stacking up in Europe and the US.",
+  "stories": [
+    {
+      "title": "Refinery Economics Clash With Calls For A Diesel Export Ban",
+      "url": "https://www.tacenergy.com/news-and-views/market-talk/refinery-economics-clash-with-calls-for-a-diesel-export-ban",
+      "source": "TACenergy Market Talk",
+      "publishedAt": "2026-09-23T12:00:00.000Z",
+      "category": "markets",
+      "summary": "Gasoline rallied to a 4-month high while diesel sold off after Trump voiced support for a diesel export ban and Treasury said it's studying the idea.",
+      "paywalled": false
+    },
+    {
+      "title": "Ban on US diesel exports would hurt, not help fuel markets, analysts say",
+      "url": "https://www.reuters.com/world/us/ban-us-diesel-exports-would-hurt-not-help-fuel-markets-analysts-say-2026-09-22/",
+      "source": "Reuters",
+      "publishedAt": "2026-09-22T15:55:00.000Z",
+      "category": "markets",
+      "summary": "Analysts told Reuters a US diesel export ban would hurt, not help, fuel markets even as Trump backs the concept to combat record prices.",
+      "paywalled": true
+    },
+    {
+      "title": "Explainer-Ban on US Diesel Exports Would Hurt, Not Help Fuel Markets, Analysts Say",
+      "url": "https://www.usnews.com/news/us/articles/2026-09-22/explainer-ban-on-us-diesel-exports-would-hurt-not-help-fuel-markets-analysts-say",
+      "source": "U.S. News & World Report",
+      "publishedAt": "2026-09-22T15:55:00.000Z",
+      "category": "markets",
+      "summary": "Diesel prices have surged on supply disruptions from Ukrainian strikes on Russian refineries and the US-Iran war disrupting routes including the Strait of Hormuz.",
+      "paywalled": false
+    },
+    {
+      "title": "Diesel prices just hit a new record. Would a U.S. export ban bring relief?",
+      "url": "https://www.cbsnews.com/news/diesel-export-ban-record-price-impact/",
+      "source": "CBS News",
+      "publishedAt": "2026-09-22T11:19:00.000Z",
+      "category": "markets",
+      "summary": "US diesel prices hit a new record above $6.50/gal, prompting debate over whether an export ban would actually bring relief.",
+      "paywalled": false
+    },
+    {
+      "title": "USA Diesel Price Surges Again",
+      "url": "https://www.rigzone.com/news/usa_diesel_price_surges_again-22-sep-2026-184669-article/?rss=true",
+      "source": "Rigzone",
+      "publishedAt": "2026-09-22T10:39:05.000Z",
+      "category": "markets",
+      "summary": "US diesel prices surged again over the past week, according to GasBuddy.",
+      "paywalled": false
+    },
+    {
+      "title": "Week 38 - US DOE Inventory Recap",
+      "url": "https://www.tacenergy.com/news-and-views/market-talk/week-38-2026-us-doe-inventory-recap",
+      "source": "TACenergy Market Talk",
+      "publishedAt": "2026-09-23T12:00:00.000Z",
+      "category": "markets",
+      "summary": "Weekly DOE inventory recap for week 38 covering refined product stock movements.",
+      "paywalled": false
+    },
+    {
+      "title": "Public companies produce most U.S. crude oil and natural gas",
+      "url": "https://www.eia.gov/todayinenergy/detail.php?id=68184",
+      "source": "EIA Today in Energy",
+      "publishedAt": "2026-09-22T14:00:00.000Z",
+      "category": "markets",
+      "summary": "EIA data show publicly traded companies made up just 2% of US oil and gas producers but accounted for 68% of Lower 48 crude and gas production in 2025.",
+      "paywalled": false
+    },
+    {
+      "title": "Oil Dips as Saudi Pipeline Restarts",
+      "url": "https://www.rigzone.com/news/wire/oil_dips_as_saudi_pipeline_restarts-22-sep-2026-184678-article/?rss=true",
+      "source": "Rigzone",
+      "publishedAt": "2026-09-22T20:09:57.000Z",
+      "category": "operations",
+      "summary": "Oil slipped as Saudi Arabia moved to restart its East-West pipeline while traders weighed US-Iran diplomacy.",
+      "paywalled": false
+    },
+    {
+      "title": "Saudis in Process of Starting Vital Oil Pipeline",
+      "url": "https://www.rigzone.com/news/wire/saudis_in_process_of_starting_vital_oil_pipeline-22-sep-2026-184674-article/?rss=true",
+      "source": "Rigzone",
+      "publishedAt": "2026-09-22T13:34:37.000Z",
+      "category": "operations",
+      "summary": "Saudi Arabia is in early stages of restarting a key oil pipeline, according to people familiar with the matter.",
+      "paywalled": false
+    },
+    {
+      "title": "Macron Urges EU to Relax Diesel Rules",
+      "url": "https://www.rigzone.com/news/wire/macron_urges_eu_to_relax_diesel_rules-22-sep-2026-184675-article/?rss=true",
+      "source": "Rigzone",
+      "publishedAt": "2026-09-22T20:00:00.000Z",
+      "category": "operations",
+      "summary": "Macron urged the European Commission to relax rules on oil products including diesel and kerosene amid the price surge.",
+      "paywalled": false
+    },
+    {
+      "title": "Drone attack on Russia: Kuibyshev Oil Refinery in Samara Region is on fire. VIDEO+PHOTO",
+      "url": "https://censor.net/en/news/4024588/drones-attacked-the-kuibyshev-oil-refinery-in-the-samara-region-of-the-russian-federation",
+      "source": "Censor.NET",
+      "publishedAt": "2026-09-22T15:09:00.000Z",
+      "category": "operations",
+      "summary": "A drone attack sparked a major fire at Russia's Kuibyshev Oil Refinery in Samara region.",
+      "paywalled": false
+    },
+    {
+      "title": "USA-Iran Conflict Changes Definition of Available Barrel",
+      "url": "https://www.rigzone.com/news/usairan_conflict_changes_definition_of_available_barrel-23-sep-2026-184682-article/?rss=true",
+      "source": "Rigzone",
+      "publishedAt": "2026-09-23T11:28:33.000Z",
+      "category": "operations",
+      "summary": "The US-Iran conflict has changed the definition of an available barrel, per an ABG Sundal Collier strategist speaking to Rigzone.",
+      "paywalled": false
+    },
+    {
+      "title": "SABA members back next-gen SAF production with long-term purchase commitments",
+      "url": "https://www.biobased-diesel.com/post/saba-members-back-next-gen-saf-production-with-long-term-purchase-commitments",
+      "source": "Biobased Diesel Daily",
+      "publishedAt": "2026-09-23T13:32:36.000Z",
+      "category": "policy",
+      "summary": "Google, McKinsey and others made long-term SAF purchase commitments backing Infinium's Project Atlas, a planned 100,000 tpy eSAF facility in Texas.",
+      "paywalled": false
+    },
+    {
+      "title": "Casey’s expands in Oklahoma with ASAP Energy deal",
+      "url": "https://massmarketretailers.com/caseys-expands-in-oklahoma-with-asap-energy-deal/",
+      "source": "massmarketretailers",
+      "publishedAt": "2026-09-23T03:50:00.000Z",
+      "category": "deals",
+      "summary": "Casey's General Stores agreed to acquire ASAP Energy, a family-owned convenience retail and fuel business in Western Oklahoma.",
+      "paywalled": false
+    }
+  ],
+  "decks": [],
+  "prices": {
+    "date": "2026-09-23",
+    "rbobSpot": 3.535,
+    "ulsdSpot": 5.338,
+    "wtiSpot": 107.02,
+    "retailGas": 4.61,
+    "retailDiesel": 6.529,
+    "gasStocksMbbl": 207732,
+    "distStocksMbbl": 107859,
+    "gasDemandKbd": 8798,
+    "distDemandKbd": 3501,
+    "gasCrack": 41.45,
+    "dieselCrack": 117.18
+  },
+  "prevPrices": {
+    "date": "2026-09-22",
+    "rbobSpot": 3.535,
+    "ulsdSpot": 5.338,
+    "wtiSpot": 107.02,
+    "retailGas": 4.61,
+    "retailDiesel": 6.529,
+    "gasStocksMbbl": 207732,
+    "distStocksMbbl": 107859,
+    "gasDemandKbd": 8798,
+    "distDemandKbd": 3501,
+    "gasCrack": 41.45,
+    "dieselCrack": 117.18
+  },
+  "generatedAt": "2026-09-23T15:32:06.086Z"
+}
