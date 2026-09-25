@@ -112,13 +112,6 @@
     "nextEstimate": "2026-11-09"
   },
   {
-    "ticker": "COST",
-    "name": "Costco",
-    "group": "bigbox",
-    "lastReport": "2026-05-28",
-    "nextEstimate": "2026-11-12"
-  },
-  {
     "ticker": "WMT",
     "name": "Walmart",
     "group": "bigbox",
@@ -145,5 +138,12 @@
     "group": "bigbox",
     "lastReport": "2026-09-11",
     "nextEstimate": "2026-12-11"
+  },
+  {
+    "ticker": "COST",
+    "name": "Costco",
+    "group": "bigbox",
+    "lastReport": "2026-09-24",
+    "nextEstimate": "2026-12-17"
   }
 ]
