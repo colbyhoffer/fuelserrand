@@ -1,0 +1,164 @@
+{
+  "date": "2026-09-28",
+  "headline": "Trump weighs short-term diesel export ban as distillates rally",
+  "intro": "Diesel is running the show again — crack spreads north of $113/bbl and Washington reportedly gaming out an export ban that could yank barrels off the global market just as refinery outages pile up from Illinois to Russia.",
+  "overview": "Distillates continue to lead the complex higher, with diesel cracks near $114/bbl versus gasoline's $53, as the Trump administration's economic advisers study a potential short-term diesel export ban — a move Goldman Sachs estimates could knock domestic diesel prices down roughly 4% weekly, while AFPM and 30+ industry groups are lobbying against it. On the supply side, ExxonMobil restored its Joliet, Illinois refinery after a power-outage shutdown, MOL resumed a key unit in Hungary, and Ukrainian strikes have knocked out Russia's Ilsky refinery and hit others, tightening global product balances alongside continued Hormuz tension. In policy and biofuels, IRS guidance on Section 45Z clean fuel credits advanced, Aemetis monetized $22.4M in 45Z credits, and EU SAF supply data showed the bloc clearing its first ReFuelEU target despite heavy feedstock reliance.",
+  "stories": [
+    {
+      "title": "Trump Advisers Study Impact of Diesel Export Ban",
+      "url": "https://www.rigzone.com/news/wire/trump_advisers_study_impact_of_diesel_export_ban-25-sep-2026-184707-article/?rss=true",
+      "source": "Rigzone",
+      "publishedAt": "2026-09-25T15:19:48.000Z",
+      "category": "policy",
+      "summary": "Trump's economic advisers are analyzing the ramifications of a potential short-term ban on U.S. diesel exports, signaling the administration is seriously weighing the idea.",
+      "paywalled": false
+    },
+    {
+      "title": "Energy Groups Urge Trump to Reject Fuel Export Restrictions",
+      "url": "https://www.rigzone.com/news/energy_groups_urge_trump_to_reject_fuel_export_restrictions-28-sep-2026-184714-article/?rss=true",
+      "source": "Rigzone",
+      "publishedAt": "2026-09-28T11:53:41.000Z",
+      "category": "policy",
+      "summary": "More than 30 U.S. business, energy, and manufacturing groups, organized via AFPM, sent a letter urging Trump to reject fuel export restrictions.",
+      "paywalled": false
+    },
+    {
+      "title": "Goldman Sachs: Dizel ihracat yasağı fiyatları haftalık yüzde 4 düşürebilir",
+      "url": "https://www.ekonomim.com/emtia/goldman-sachs-dizel-ihracat-yasagi-fiyatlari-haftalik-yuzde-4-dusurebilir-haberi-921137",
+      "source": "Ekonomim.com",
+      "publishedAt": "2026-09-28T02:25:00.000Z",
+      "category": "markets",
+      "summary": "Goldman Sachs projects that a U.S. diesel export ban could push domestic diesel prices down roughly 4% on a weekly basis.",
+      "paywalled": false
+    },
+    {
+      "title": "Refinery Outages And Global Conflicts Keep Distillates In The Driver&#x27;s Seat",
+      "url": "https://www.tacenergy.com/news-and-views/market-talk/refinery-outages-and-global-conflicts-keep-distillates-in-the-driver-s-seat",
+      "source": "TACenergy Market Talk",
+      "publishedAt": "2026-09-28T12:00:00.000Z",
+      "category": "markets",
+      "summary": "Diesel futures are leading a rally in the energy complex after the U.S. President rejected Iran's offer to reopen the Strait of Hormuz.",
+      "paywalled": false
+    },
+    {
+      "title": "Iran Firm on Demands for Hormuz Reopening",
+      "url": "https://www.rigzone.com/news/wire/iran_firm_on_demands_for_hormuz_reopening-28-sep-2026-184711-article/?rss=true",
+      "source": "Rigzone",
+      "publishedAt": "2026-09-28T08:14:05.000Z",
+      "category": "operations",
+      "summary": "Iran is holding firm on its seven-day proposal for reopening the Strait of Hormuz, while Trump has sent mixed signals about reaching a deal.",
+      "paywalled": false
+    },
+    {
+      "title": "ExxonMobil says Illinois refinery back in service",
+      "url": "https://www.qcintel.com/article/exxonmobil-says-illinois-refinery-back-in-service-73941.html",
+      "source": "Quantum Commodity Intelligence",
+      "publishedAt": "2026-09-27T23:37:00.000Z",
+      "category": "operations",
+      "summary": "ExxonMobil has restored service to its Joliet, Illinois refinery after a power-outage-related shutdown that began September 13.",
+      "paywalled": false
+    },
+    {
+      "title": "Refinery restart drives gas price drops, including Green Bay",
+      "url": "https://fox11online.com/news/economy/refinery-restart-drives-gas-price-drops-including-green-bay-gasbuddy-fuel-prices-gas-pump",
+      "source": "WLUK FOX 11",
+      "publishedAt": "2026-09-27T22:38:00.000Z",
+      "category": "operations",
+      "summary": "Green Bay gas prices fell 10.6 cents per gallon in a week as a regional refinery restart eased local supply, per GasBuddy.",
+      "paywalled": false
+    },
+    {
+      "title": "Refinery issue resolved nets modest drop in Columbus gas prices",
+      "url": "https://www.nbc4i.com/news/local-news/central-ohio-news/refinery-issues-resolved-nets-modest-drop-in-columbus-gas-prices/",
+      "source": "NBC4 WCMH-TV",
+      "publishedAt": "2026-09-28T06:30:00.000Z",
+      "category": "operations",
+      "summary": "Columbus-area gas prices ticked down after a regional refinery issue was resolved, pushing the local average below the national mark.",
+      "paywalled": false
+    },
+    {
+      "title": "MOL wraps repairs on major unit at Hungarian refinery",
+      "url": "https://www.ogj.com/refining-processing/news/55407912/mol-wraps-repairs-on-major-unit-at-hungarian-refinery",
+      "source": "Oil & Gas Journal",
+      "publishedAt": "2026-09-25T21:08:23.000Z",
+      "category": "operations",
+      "summary": "MOL is preparing to gradually restart the main crude processing unit at its Danube refinery in Hungary, damaged by a late-2025 fire.",
+      "paywalled": false
+    },
+    {
+      "title": "Ukraine strikes Russia's Ilsky refinery, causing fire",
+      "url": "https://www.qcintel.com/article/ukraine-strikes-russia-s-ilsky-refinery-causing-fire-73938.html",
+      "source": "Quantum Commodity Intelligence",
+      "publishedAt": "2026-09-26T22:24:00.000Z",
+      "category": "operations",
+      "summary": "Ukrainian forces struck Russia's 132,000 bpd Ilsky oil refinery in Krasnodar, causing a fire, as part of Kyiv's continued campaign against Russian energy assets.",
+      "paywalled": false
+    },
+    {
+      "title": "Ukraine Says 2 Russian Refineries Ablaze after Strikes",
+      "url": "https://www.rigzone.com/news/wire/ukraine_says_2_russian_refineries_ablaze_after_strikes-25-sep-2026-184706-article/?rss=true",
+      "source": "Rigzone",
+      "publishedAt": "2026-09-25T15:10:02.000Z",
+      "category": "operations",
+      "summary": "Ukraine said it hit two more Russian oil refineries, keeping strikes on energy infrastructure ongoing despite recent US-brokered talks.",
+      "paywalled": false
+    },
+    {
+      "title": "IRS issues 45Z biofuels guidance",
+      "url": "https://www.agrinews-pubs.com/business/2026/09/27/irs-issues-45z-biofuels-guidance/",
+      "source": "AgriNews",
+      "publishedAt": "2026-09-27T08:10:00.000Z",
+      "category": "policy",
+      "summary": "The IRS has issued guidance on Section 45Z of the Clean Fuels Production Tax Credit, clarifying how the credit supports biofuel producers.",
+      "paywalled": false
+    },
+    {
+      "title": "AEMETIS secures 22.4 million dollars through Section 45Z clean fuel production credits sale",
+      "url": "https://tradersunion.com/news/companies/show/3547507-aemetis-tax-credit-sale/",
+      "source": "tradersunion",
+      "publishedAt": "2026-09-28T10:50:00.000Z",
+      "category": "policy",
+      "summary": "Aemetis received $22.4 million from the sale of Section 45Z clean fuel production tax credits, bolstering its cash position.",
+      "paywalled": false
+    },
+    {
+      "title": "EU SAF supply exceeds first ReFuelEU target, feedstock reliance remains high: EASA",
+      "url": "https://www.fastmarkets.com/insights/eu-saf-supply-exceeds-first-refueleu-target-feedstock-reliance-remains-high-easa/",
+      "source": "Fastmarkets",
+      "publishedAt": "2026-09-28T01:39:00.000Z",
+      "category": "policy",
+      "summary": "EU SAF supply exceeded the first ReFuelEU Aviation mandate in 2025 at 1.1 million tonnes, though the market remains heavily feedstock-dependent, per EASA.",
+      "paywalled": false
+    }
+  ],
+  "decks": [],
+  "prices": {
+    "date": "2026-09-28",
+    "rbobSpot": 3.551,
+    "ulsdSpot": 5.007,
+    "wtiSpot": 96.41,
+    "retailGas": 4.61,
+    "retailDiesel": 6.529,
+    "gasStocksMbbl": 206046,
+    "distStocksMbbl": 107431,
+    "gasDemandKbd": 8847,
+    "distDemandKbd": 3975,
+    "gasCrack": 52.73,
+    "dieselCrack": 113.88
+  },
+  "prevPrices": {
+    "date": "2026-09-25",
+    "rbobSpot": 3.551,
+    "ulsdSpot": 5.007,
+    "wtiSpot": 96.41,
+    "retailGas": 4.61,
+    "retailDiesel": 6.529,
+    "gasStocksMbbl": 206046,
+    "distStocksMbbl": 107431,
+    "gasDemandKbd": 8847,
+    "distDemandKbd": 3975,
+    "gasCrack": 52.73,
+    "dieselCrack": 113.88
+  },
+  "generatedAt": "2026-09-28T18:41:19.034Z"
+}
