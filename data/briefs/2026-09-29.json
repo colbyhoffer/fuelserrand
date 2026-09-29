@@ -1,0 +1,164 @@
+{
+  "date": "2026-09-29",
+  "headline": "Trump weighs diesel export ban as refiners, states push back on $6 diesel crisis",
+  "intro": "Diesel at $5/gal wholesale and $6.38 at the pump has truckers squeezed and governors scrambling — now the White House is reportedly eyeing an export ban that refiners say would backfire spectacularly.",
+  "overview": "Diesel remains the epicenter of fuels-market stress: Trump is \"very seriously\" considering restricting U.S. diesel exports, a move AFPM and 30+ industry groups warn could spike gasoline prices even as it aims to cool diesel costs. Texas declared a diesel price emergency despite having the nation's lowest prices, while truckers nationally face margin-crushing costs that could carry political fallout. Meanwhile crude and product markets stayed choppy on Iran diplomacy headlines, and the SAF sector saw a flurry of offtake and technology deals (Uniper-Arcadia, Plug Power-Arcadia, Aether Fuels) alongside a California LCFS lawsuit over biogas incentives.",
+  "stories": [
+    {
+      "title": "Trump is eyeing an export ban on U.S. diesel. It could cause gas prices to soar, experts warn.",
+      "url": "https://www.cbsnews.com/news/trump-diesel-export-ban-gas-prices/",
+      "source": "CBS News",
+      "publishedAt": "2026-09-28T13:50:00.000Z",
+      "category": "policy",
+      "summary": "Trump said he is \"very seriously\" considering a ban on U.S. diesel exports; analysts warn the move could drive domestic gasoline prices sharply higher.",
+      "paywalled": false
+    },
+    {
+      "title": "Energy Groups Urge Trump to Reject Fuel Export Restrictions",
+      "url": "https://www.rigzone.com/news/energy_groups_urge_trump_to_reject_fuel_export_restrictions-28-sep-2026-184714-article/?rss=true",
+      "source": "Rigzone",
+      "publishedAt": "2026-09-28T11:53:41.000Z",
+      "category": "policy",
+      "summary": "More than 30 U.S. business, energy, and manufacturing groups, organized via AFPM, sent a letter urging Trump to reject fuel export restrictions.",
+      "paywalled": false
+    },
+    {
+      "title": "$6 Diesel Is Hurting Small Truckers. It Could Hurt Trump, Too.",
+      "url": "https://www.nytimes.com/2026/09/29/opinion/diesel-prices-truckers.html",
+      "source": "The New York Times",
+      "publishedAt": "2026-09-29T08:00:00.000Z",
+      "category": "markets",
+      "summary": "Diesel prices have risen more than 80% since January, squeezing small truckers financially and creating political risk.",
+      "paywalled": false
+    },
+    {
+      "title": "Texas Declares Diesel Price Emergency—Other States Are Paying More",
+      "url": "https://www.newsweek.com/texas-declares-diesel-price-emergency-other-states-paying-more-12499408",
+      "source": "Newsweek",
+      "publishedAt": "2026-09-29T02:26:00.000Z",
+      "category": "markets",
+      "summary": "Texas Governor Greg Abbott declared a state of emergency over diesel prices even though Texas has the lowest diesel prices in the nation.",
+      "paywalled": false
+    },
+    {
+      "title": "¿Por qué un freno a las exportaciones de diésel de EE.UU. podría golpear a la región?",
+      "url": "https://www.larepublica.co/globoeconomia/por-que-un-freno-al-diesel-de-estados-unidos-pondria-en-alerta-a-toda-la-region-4492110",
+      "source": "La República",
+      "publishedAt": "2026-09-28T16:59:00.000Z",
+      "category": "markets",
+      "summary": "A potential U.S. diesel export curb could hit Latin America hard, with Mexico as the top buyer and Chile and Peru highly import-dependent.",
+      "paywalled": false
+    },
+    {
+      "title": "Governors Take Action As Energy Markets Navigate Volatility",
+      "url": "https://www.tacenergy.com/news-and-views/market-talk/governors-take-action-as-energy-markets-navigate-volatility",
+      "source": "TACenergy Market Talk",
+      "publishedAt": "2026-09-29T12:00:00.000Z",
+      "category": "markets",
+      "summary": "Energy markets sold off Tuesday as optimism over Iran diplomacy resurfaced, even amid disagreement over what talks have actually offered.",
+      "paywalled": false
+    },
+    {
+      "title": "Saudi Arabia Restores Key Pipeline to Half Its Capacity",
+      "url": "https://www.rigzone.com/news/wire/saudi_arabia_restores_key_pipeline_to_half_its_capacity-28-sep-2026-184718-article/?rss=true",
+      "source": "Rigzone",
+      "publishedAt": "2026-09-28T13:48:04.000Z",
+      "category": "operations",
+      "summary": "Saudi Arabia has restored about half the flow through its cross-country pipeline that bypasses the Strait of Hormuz.",
+      "paywalled": false
+    },
+    {
+      "title": "EIA USA Demand Forecast Raised for 2026, Dropped for 2027",
+      "url": "https://www.rigzone.com/news/eia_usa_demand_forecast_raised_for_2026_dropped_for_2027-29-sep-2026-184731-article/?rss=true",
+      "source": "Rigzone",
+      "publishedAt": "2026-09-29T14:45:15.000Z",
+      "category": "operations",
+      "summary": "EIA raised its 2026 U.S. total energy consumption forecast to 95.84 quadrillion Btu while trimming its 2027 outlook.",
+      "paywalled": false
+    },
+    {
+      "title": "Insights: Prioritizing process safety management across the refining industry (Pt. II)",
+      "url": "https://www.ogj.com/home/podcast/55407988/insights-prioritizing-process-safety-management-across-the-refining-industry-pt-ii",
+      "source": "Oil & Gas Journal",
+      "publishedAt": "2026-09-29T09:00:00.000Z",
+      "category": "operations",
+      "summary": "Oil & Gas Journal's Joe Barnes outlines priorities for strengthening refinery process safety management, including audits, training, and leadership visibility.",
+      "paywalled": false
+    },
+    {
+      "title": "Kimmeridge: US shale oil reserve replacement weakens as gas remains abundant",
+      "url": "https://www.ogj.com/general-interest/economics-markets/news/55408195/kimmeridge-us-shale-oil-reserve-replacement-weakens-as-gas-remains-abundant",
+      "source": "Oil & Gas Journal",
+      "publishedAt": "2026-09-28T18:05:01.000Z",
+      "category": "operations",
+      "summary": "Kimmeridge reports U.S. shale oil producers are struggling to replace reserves even as operational efficiency improves, with implications for future crude supply.",
+      "paywalled": false
+    },
+    {
+      "title": "Uniper Agrees Major SAF Offtake with Arcadia",
+      "url": "https://www.rigzone.com/news/uniper_agrees_major_saf_offtake_with_arcadia-29-sep-2026-184726-article/?rss=true",
+      "source": "Rigzone",
+      "publishedAt": "2026-09-29T12:34:13.000Z",
+      "category": "deals",
+      "summary": "Uniper agreed to purchase 40,000 metric tons of electro-SAF from Arcadia eFuels' Project Endor in Denmark.",
+      "paywalled": false
+    },
+    {
+      "title": "Plug Power signs 280MW electrolyser supply deal for Danish e-SAF project, with a further 1GW lined up",
+      "url": "https://www.hydrogeninsight.com/electrolysers/plug-power-signs-280mw-electrolyser-supply-deal-for-danish-e-saf-project-with-a-further-1gw-lined-up/2-1-2051062",
+      "source": "Hydrogen Insight",
+      "publishedAt": "2026-09-29T05:18:00.000Z",
+      "category": "deals",
+      "summary": "Plug Power signed a deal to supply 280 MW of electrolysers to Arcadia eFuels' Danish e-SAF project, with a further 1 GW potentially to follow, though Arcadia has yet to reach final investment decision.",
+      "paywalled": false
+    },
+    {
+      "title": "Aether Fuels successfully demonstrates 2.5 bpd Aurora™ equipment in fully integrated line producing on-spec SAF",
+      "url": "https://www.hydrocarbonprocessing.com/news/2026/09/aether-fuels-successfully-demonstrates-25-bpd-aurora-equipment-in-fully-integrated-line-producing-on-spec-saf/",
+      "source": "Hydrocarbon Processing",
+      "publishedAt": "2026-09-29T08:14:00.000Z",
+      "category": "companies",
+      "summary": "Aether Fuels successfully demonstrated its 2.5 bpd Aurora integrated production line, producing on-spec sustainable aviation fuel.",
+      "paywalled": false
+    },
+    {
+      "title": "Groups File Opening Briefs in LCFS Biogas Lawsuit",
+      "url": "https://www.foodandwaterwatch.org/2026/09/29/groups-file-opening-briefs-in-lcfs-biogas-lawsuit/",
+      "source": "Food & Water Watch",
+      "publishedAt": "2026-09-29T09:01:00.000Z",
+      "category": "policy",
+      "summary": "Advocacy groups filed opening briefs in a lawsuit seeking to force California's Air Resources Board to reform LCFS rules they say incentivize factory-farm biogas.",
+      "paywalled": false
+    }
+  ],
+  "decks": [],
+  "prices": {
+    "date": "2026-09-29",
+    "rbobSpot": 3.551,
+    "ulsdSpot": 5.007,
+    "wtiSpot": 96.41,
+    "retailGas": 4.603,
+    "retailDiesel": 6.382,
+    "gasStocksMbbl": 206046,
+    "distStocksMbbl": 107431,
+    "gasDemandKbd": 8847,
+    "distDemandKbd": 3975,
+    "gasCrack": 52.73,
+    "dieselCrack": 113.88
+  },
+  "prevPrices": {
+    "date": "2026-09-28",
+    "rbobSpot": 3.551,
+    "ulsdSpot": 5.007,
+    "wtiSpot": 96.41,
+    "retailGas": 4.61,
+    "retailDiesel": 6.529,
+    "gasStocksMbbl": 206046,
+    "distStocksMbbl": 107431,
+    "gasDemandKbd": 8847,
+    "distDemandKbd": 3975,
+    "gasCrack": 52.73,
+    "dieselCrack": 113.88
+  },
+  "generatedAt": "2026-09-29T16:57:59.552Z"
+}
