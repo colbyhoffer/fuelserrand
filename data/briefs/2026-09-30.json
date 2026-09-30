@@ -1,0 +1,183 @@
+{
+  "date": "2026-09-30",
+  "headline": "Diesel surges past $5 as Russian export ban extends and US ban looms",
+  "intro": "Diesel just refuses to chill. November ULSD ripped over 21 cents higher overnight and the expiring October contract punched back above $5, while Russia's fresh export ban and Washington's own trade-restriction chatter keep squeezing an already-thin global distillate cushion.",
+  "overview": "Diesel remains the epicenter of fuels volatility: futures surged again as Russia extended its diesel export ban through October just as a potential US export ban gains attention, with Morningstar DBRS flagging a temporary refiner margin windfall that could reverse if Washington acts. Meanwhile a deadly explosion and fire at India's MRPL Mangaluru refinery — one dead, a dozen injured, a Coker Hydrotreater unit down — adds a fresh supply-side shock at a moment when Indian refiners were already running hard on tight diesel. On the policy and clean-fuels side, biodiesel groups cheered Senate movement to extend the small agri-biodiesel producer credit through 2029, and SAF developers (Aether Fuels, Uniper/Arcadia) posted incremental progress.",
+  "stories": [
+    {
+      "title": "Volatility Returns As Diesel Surges And Global Supply Chains Tighten",
+      "url": "https://www.tacenergy.com/news-and-views/market-talk/volatility-returns-as-diesel-surges-and-global-supply-chains-tighten",
+      "source": "TACenergy Market Talk",
+      "publishedAt": "2026-09-30T12:00:00.000Z",
+      "category": "markets",
+      "summary": "November ULSD futures jumped more than 21 cents and the expiring October contract surged back above $5/gal overnight, while November RBOB rose about 8 cents as oil gained roughly $1/bbl.",
+      "paywalled": false
+    },
+    {
+      "title": "Russia Extends Diesel Export Ban through October",
+      "url": "https://www.rigzone.com/news/wire/russia_extends_diesel_export_ban_through_october-30-sep-2026-184733-article/?rss=true",
+      "source": "Rigzone",
+      "publishedAt": "2026-09-30T10:01:03.000Z",
+      "category": "operations",
+      "summary": "Russia extended its ban on most diesel exports through October, tightening global supply further just as Northern Hemisphere winter demand rises and the US weighs its own export restrictions.",
+      "paywalled": false
+    },
+    {
+      "title": "Morningstar DBRS: Global diesel squeeze boosts US refiners",
+      "url": "https://www.ogj.com/general-interest/economics-markets/news/55408732/morningstar-dbrs-global-diesel-squeeze-boosts-us-refiners",
+      "source": "Oil & Gas Journal",
+      "publishedAt": "2026-09-30T15:33:05.000Z",
+      "category": "operations",
+      "summary": "Morningstar DBRS says the global diesel squeeze is giving US refiners a strong but likely temporary earnings and cash-flow tailwind; a potential US diesel export ban could cut export revenues and reshape refining margins.",
+      "paywalled": false
+    },
+    {
+      "title": "Deadly Blast Hits Major Indian Refinery as Fuel Markets Tighten",
+      "url": "https://oilprice.com/Latest-Energy-News/World-News/Deadly-Blast-Hits-Major-Indian-Refinery-as-Fuel-Markets-Tighten.html",
+      "source": "OilPrice.com",
+      "publishedAt": "2026-09-30T09:07:00.000Z",
+      "category": "operations",
+      "summary": "A fatal explosion damaged a processing unit at MRPL's Mangaluru refinery as Indian refiners run at unusually high rates amid tight diesel supplies.",
+      "paywalled": false
+    },
+    {
+      "title": "One killed, 12 injured in explosion at Mangalore Refinery and Petrochemicals Limited",
+      "url": "https://www.hindustantimes.com/india-news/at-least-9-injured-in-explosion-at-mangalore-refinery-and-petrochemicals-limited-101790762803727.html",
+      "source": "Hindustan Times",
+      "publishedAt": "2026-09-30T03:28:00.000Z",
+      "category": "operations",
+      "summary": "One person was killed and about a dozen injured in a blast at MRPL's Coker Hydro Treating Unit in Karnataka's Surathkal.",
+      "paywalled": false
+    },
+    {
+      "title": "US seeks to release another 40 million bbl from SPR despite low inventory levels",
+      "url": "https://www.ogj.com/general-interest/government/news/55408696/us-seeks-to-release-another-40-million-bbl-from-spr-despite-low-inventory-levels",
+      "source": "Oil & Gas Journal",
+      "publishedAt": "2026-09-30T14:36:56.000Z",
+      "category": "policy",
+      "summary": "The US is seeking to release another 40 million bbl from the SPR despite already-low inventory levels, though it's unclear if companies will take the full offer.",
+      "paywalled": false
+    },
+    {
+      "title": "Week 39 - US DOE Inventory Recap",
+      "url": "https://www.tacenergy.com/news-and-views/market-talk/week-39-2025-us-doe-inventory-recap",
+      "source": "TACenergy Market Talk",
+      "publishedAt": "2026-09-30T12:00:00.000Z",
+      "category": "markets",
+      "summary": "TACenergy's Week 39 recap covers the latest US DOE inventory data for gasoline, diesel and crude.",
+      "paywalled": false
+    },
+    {
+      "title": "EIA USA Demand Forecast Raised for 2026, Dropped for 2027",
+      "url": "https://www.rigzone.com/news/eia_usa_demand_forecast_raised_for_2026_dropped_for_2027-29-sep-2026-184731-article/?rss=true",
+      "source": "Rigzone",
+      "publishedAt": "2026-09-29T14:45:15.000Z",
+      "category": "markets",
+      "summary": "EIA raised its 2026 US total energy consumption forecast to 95.84 quadrillion Btu while trimming its 2027 projection to 96.77 quadrillion Btu.",
+      "paywalled": false
+    },
+    {
+      "title": "Oil Slides on Saudi Supply Relief",
+      "url": "https://www.rigzone.com/news/wire/oil_slides_on_saudi_supply_relief-29-sep-2026-184732-article/?rss=true",
+      "source": "Rigzone",
+      "publishedAt": "2026-09-29T20:05:51.000Z",
+      "category": "markets",
+      "summary": "Crude prices fell as improving Saudi supply flows eased fears of further shortages, a backdrop factor for refining margins.",
+      "paywalled": false
+    },
+    {
+      "title": "USA Guts Auto Mileage Rules",
+      "url": "https://www.rigzone.com/news/wire/usa_guts_auto_mileage_rules-29-sep-2026-184729-article/?rss=true",
+      "source": "Rigzone",
+      "publishedAt": "2026-09-29T20:00:00.000Z",
+      "category": "policy",
+      "summary": "The Trump administration finalized a significant weakening of federal fuel economy standards for automobiles, a move with long-run implications for gasoline demand.",
+      "paywalled": false
+    },
+    {
+      "title": "Clean Fuels applauds proposal to extend small agri-biodiesel producer credit by 3 years",
+      "url": "https://www.biobased-diesel.com/post/clean-fuels-applauds-proposal-to-extend-small-agri-biodiesel-producer-credit-by-3-years",
+      "source": "Biobased Diesel Daily",
+      "publishedAt": "2026-09-29T22:27:01.000Z",
+      "category": "policy",
+      "summary": "Clean Fuels Alliance applauded a proposal to extend the small agri-biodiesel producer credit (20 cpg on first 15 million gallons for producers under 60 mgy) by three years.",
+      "paywalled": false
+    },
+    {
+      "title": "IRFA thanks bipartisan Senate effort to extend small biodiesel producer credit",
+      "url": "https://www.biobased-diesel.com/post/irfa-thanks-bipartisan-senate-effort-to-extend-small-biodiesel-producer-credit",
+      "source": "Biobased Diesel Daily",
+      "publishedAt": "2026-09-30T08:45:02.000Z",
+      "category": "policy",
+      "summary": "The Iowa Renewable Fuels Association thanked a bipartisan Senate effort to extend the small biodiesel producer credit, which would provide certainty through 2029.",
+      "paywalled": false
+    },
+    {
+      "title": "Aether Fuels demonstrates Aurora™ equipment in fully integrated line producing on-spec synthetic aviation fuel",
+      "url": "https://www.biobased-diesel.com/post/aether-fuels-demonstrates-aurora-equipment-in-fully-integrated-line-producing-on-spec-synthetic-avi",
+      "source": "Biobased Diesel Daily",
+      "publishedAt": "2026-09-30T08:50:02.000Z",
+      "category": "policy",
+      "summary": "Aether Fuels demonstrated its Aurora equipment producing on-spec synthetic aviation fuel in a fully integrated line, validating its platform ahead of commercial deployment.",
+      "paywalled": false
+    },
+    {
+      "title": "Uniper Agrees Major SAF Offtake with Arcadia",
+      "url": "https://www.rigzone.com/news/uniper_agrees_major_saf_offtake_with_arcadia-29-sep-2026-184726-article/?rss=true",
+      "source": "Rigzone",
+      "publishedAt": "2026-09-29T12:34:13.000Z",
+      "category": "deals",
+      "summary": "Uniper agreed to buy 40,000 metric tons of electro-SAF from Arcadia eFuels' Project Endor in Denmark.",
+      "paywalled": false
+    }
+  ],
+  "decks": [
+    {
+      "company": "Delek US",
+      "ticker": "DK",
+      "title": "8-K exhibit d133400dex991.htm (filed 2026-09-29)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1694426/000119312526407833/d133400dex991.htm",
+      "foundAt": "2026-09-30T16:55:39.021Z",
+      "docType": "earnings",
+      "analysis": "## Takeaways\n\n- **Capital raise structure:** Delek US (NYSE: DK) intends to offer $400.0 million in convertible senior notes due November 1, 2031, with a 13-day, $60.0 million over-allotment option for initial purchasers (potential total: $460.0 million), sold via Rule 144A private placement to qualified institutional buyers.\n\n- **Use of proceeds — deleveraging signal:** A portion funds capped call transactions (dilution offset); the remainder is earmarked for general corporate purposes, explicitly including **partial repayment of the Term Loan Credit Facility** (principal, accrued interest, fees/expenses) — a balance-sheet optimization move rather than growth capex, indicating no signaled change to refining/logistics investment plans.\n\n- **No operational guidance changes:** The release contains no updates to throughput, utilization, capture rates, margins, renewable diesel/SAF economics, or RIN/LCFS exposure — this is purely a financing/liability-management transaction.\n\n- **Refining footprint reference point:** Document reaffirms combined nameplate crude throughput capacity of **302,000 bpd** across Tyler and Big Spring (TX), El Dorado (AR), and Krotz Springs (LA) refineries — unchanged from prior disclosures, no capacity additions or idling mentioned.\n\n- **Logistics ownership stake:** Delek and subsidiaries hold ~58.0% of Delek Logistics Partners, LP (NYSE: DKL) as of August 14, 2026, unchanged, with no new logistics asset drops or midstream capex commitments tied to this offering.\n\n- **Redemption/conversion mechanics:** Notes are non-callable until November 6, 2029 (absent a cleanup redemption below 10% outstanding), and conversion terms (rate, interest) remain unset pending pricing — standard convertible structure with no embedded commodity-linked or fuels-market triggers.\n\n## Market Signal\n\nThis is a balance-sheet management transaction — refinancing near-term term-loan debt into longer-dated convertible paper — with no indication of capacity changes, margin guidance, or renewable fuels strategy shifts, suggesting Delek's operational refining/logistics outlook remains steady while management prioritizes financial flexibility ahead of potential capex or macro refining-margin volatility."
+    },
+    {
+      "company": "Delek US",
+      "ticker": "DK",
+      "title": "8-K exhibit d133400dex992.htm (filed 2026-09-29)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1694426/000119312526407833/d133400dex992.htm",
+      "foundAt": "2026-09-30T16:55:39.021Z",
+      "docType": "earnings",
+      "analysis": "## Key Takeaways\n\n- **Capital raise details**: Delek US priced $400.0 million of 0.00% convertible senior notes due November 1, 2031 (with a 13-day, $60.0 million upsize option), priced September 24, 2026, closing September 29, 2026. Notes carry zero coupon and no principal accretion.\n\n- **Use of proceeds — deleveraging signal**: A portion funds capped call transactions (anti-dilution hedge); the remainder goes to \"general corporate purposes,\" explicitly including **partial repayment of the Term Loan Credit Facility** (principal, accrued interest, fees). This is a liability-management move, not new capex or growth funding.\n\n- **Conversion economics**: Initial conversion price ~$85.31/share (11.7219 shares per $1,000 note), a 27.5% premium over the September 24, 2026 close of $66.91. Capped call cap price set at ~$117.09/share (75% premium), limiting dilution up to that level.\n\n- **No operational disclosures**: The release contains **no throughput, utilization, capture rate, crack spread, renewable diesel/SAF, or RIN/LCFS data** — this is purely a financing/capital-markets exhibit, not an operating update or guidance revision.\n\n- **Refining footprint reminder**: Company reiterates combined nameplate crude throughput capacity of 302,000 bpd across Tyler, Big Spring, El Dorado, and Krotz Springs, and ~58.0% ownership (incl. GP interest) in Delek Logistics Partners (DKL) as of August 14, 2026 — unchanged from prior disclosures.\n\n## Market Signal\n\nThis is a balance-sheet/financial-flexibility transaction — using cheap convertible debt to term out and reduce term-loan borrowings — rather than any indication of refining margin strength, throughput changes, or renewable fuels strategy, so it should be read as a funding/liquidity event with no direct read-through to near-term refined product supply or crack spreads."
+    }
+  ],
+  "prices": {
+    "date": "2026-09-30",
+    "rbobSpot": 3.551,
+    "ulsdSpot": 5.007,
+    "wtiSpot": 96.41,
+    "retailGas": 4.603,
+    "retailDiesel": 6.382,
+    "gasStocksMbbl": 206046,
+    "distStocksMbbl": 107431,
+    "gasDemandKbd": 8847,
+    "distDemandKbd": 3975,
+    "gasCrack": 52.73,
+    "dieselCrack": 113.88
+  },
+  "prevPrices": {
+    "date": "2026-09-29",
+    "rbobSpot": 3.551,
+    "ulsdSpot": 5.007,
+    "wtiSpot": 96.41,
+    "retailGas": 4.603,
+    "retailDiesel": 6.382,
+    "gasStocksMbbl": 206046,
+    "distStocksMbbl": 107431,
+    "gasDemandKbd": 8847,
+    "distDemandKbd": 3975,
+    "gasCrack": 52.73,
+    "dieselCrack": 113.88
+  },
+  "generatedAt": "2026-09-30T16:55:39.021Z"
+}
