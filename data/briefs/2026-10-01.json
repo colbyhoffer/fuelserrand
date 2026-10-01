@@ -1,0 +1,164 @@
+{
+  "date": "2026-10-01",
+  "headline": "Diesel crack tops $113/bbl as Europe weighs emergency reserve releases",
+  "intro": "Diesel's having a moment nobody in Europe wanted — ULSD futures whipsawed after a Wednesday rally, and now Brussels is scrambling over whether to tap strategic reserves under US pressure. Meanwhile refiners are quietly printing money on the spread.",
+  "overview": "The diesel squeeze remains the dominant storyline: ULSD spot sits near $5/gal with a crack above $113/bbl, Europe is holding emergency talks on releasing strategic fuel stocks, and Morningstar DBRS flags a temporary earnings tailwind for US refiners that could evaporate if Washington imposes a diesel export ban. On the policy side, the Senate's bipartisan permitting deal and a fresh SPR release plan add to a crowded energy-policy agenda, while SAF and renewable-fuel activity continues apace (Gevo's 45Z credit sellout, new synthetic-fuel and eSAF partnerships). Operationally, a fatal coker-area fire at MRPL's Mangalore refinery underscores ongoing refining safety scrutiny alongside the NTSB's findings on the fatal Oregon, Ohio refinery fire.",
+  "stories": [
+    {
+      "title": "Geopolitics, Diesel Shortages, And Refinery Cuts Shape Energy Markets",
+      "url": "https://www.tacenergy.com/news-and-views/market-talk/geopolitics-diesel-shortages-and-refinery-cuts-shape-energy-markets",
+      "source": "TACenergy Market Talk",
+      "publishedAt": "2026-10-01T12:00:00.000Z",
+      "category": "markets",
+      "summary": "ULSD futures saw heavy selling after a big Wednesday rally as diesel-market politics dominate conversation, while RBOB and crude posted modest gains to start October.",
+      "paywalled": false
+    },
+    {
+      "title": "Europe Holds Emergency Diesel Talks",
+      "url": "https://www.rigzone.com/news/wire/europe_holds_emergency_diesel_talks-01-oct-2026-184749-article/?rss=true",
+      "source": "Rigzone",
+      "publishedAt": "2026-10-01T14:02:34.000Z",
+      "category": "operations",
+      "summary": "Key European nations are holding emergency talks on how to respond to US pressure to release strategic fuel reserves amid the diesel shortage.",
+      "paywalled": false
+    },
+    {
+      "title": "Morningstar DBRS: Global diesel squeeze boosts US refiners",
+      "url": "https://www.ogj.com/general-interest/economics-markets/news/55408732/morningstar-dbrs-global-diesel-squeeze-boosts-us-refiners",
+      "source": "Oil & Gas Journal",
+      "publishedAt": "2026-09-30T15:33:05.000Z",
+      "category": "operations",
+      "summary": "Morningstar DBRS says the global diesel squeeze is creating a strong but likely temporary earnings and cash-flow tailwind for US refiners; a possible US diesel export ban could cut export revenues and alter crude/product markets.",
+      "paywalled": false
+    },
+    {
+      "title": "US seeks to release another 40 million bbl from SPR despite low inventory levels",
+      "url": "https://www.ogj.com/general-interest/government/news/55408696/us-seeks-to-release-another-40-million-bbl-from-spr-despite-low-inventory-levels",
+      "source": "Oil & Gas Journal",
+      "publishedAt": "2026-09-30T14:36:56.000Z",
+      "category": "policy",
+      "summary": "The US is seeking to release another 40 million bbl from the SPR despite already-low inventory levels, though there's no guarantee companies will take the full offer.",
+      "paywalled": false
+    },
+    {
+      "title": "US Senate negotiators reach permitting bill deal, ending yearslong impasse",
+      "url": "https://www.ogj.com/general-interest/government/news/55408949/us-senate-negotiators-reach-permitting-bill-deal-ending-yearslong-impasse",
+      "source": "Oil & Gas Journal",
+      "publishedAt": "2026-10-01T14:38:48.000Z",
+      "category": "policy",
+      "summary": "US Senate negotiators reached a bipartisan permitting bill deal aimed at cutting regulatory delays and litigation uncertainty for energy projects, ending a years-long impasse.",
+      "paywalled": false
+    },
+    {
+      "title": "Rep, Dem Senators Release Bipartisan Permitting Bill",
+      "url": "https://www.rigzone.com/news/rep_dem_senators_release_bipartisan_permitting_bill-01-oct-2026-184751-article/?rss=true",
+      "source": "Rigzone",
+      "publishedAt": "2026-10-01T14:43:58.000Z",
+      "category": "policy",
+      "summary": "Senators Lee, Capito, Heinrich, and Whitehouse released the bipartisan American Affordability and Jobs Act, a permitting reform bill.",
+      "paywalled": false
+    },
+    {
+      "title": "China Fuel Exporters Cancel Some Cargoes",
+      "url": "https://www.rigzone.com/news/wire/china_fuel_exporters_cancel_some_cargoes-01-oct-2026-184744-article/?rss=true",
+      "source": "Rigzone",
+      "publishedAt": "2026-10-01T08:39:58.000Z",
+      "category": "markets",
+      "summary": "Chinese fuel exporters canceled some October product cargoes as the country prioritizes domestic supply amid global market upheaval.",
+      "paywalled": false
+    },
+    {
+      "title": "MRPL refinery fire at coker-adjacent plant kills one, injures another",
+      "url": "https://www.ogj.com/refining-processing/news/55408956/mrpl-refinery-fire-at-coker-adjacent-plant-kills-one-injures-another",
+      "source": "Oil & Gas Journal",
+      "publishedAt": "2026-10-01T14:43:00.000Z",
+      "category": "operations",
+      "summary": "A fire at MRPL's coker-adjacent delayed coker gas oil hydrotreater unit, triggered by a high-pressure cold separator rupture, killed one worker and seriously injured another.",
+      "paywalled": false
+    },
+    {
+      "title": "MRPL cuts processing rate at one CDU after fire damages refinery unit: Report; stock extends decline",
+      "url": "https://www.businesstoday.in/markets/stocks/story/mrpl-cuts-processing-rate-at-one-cdu-after-fire-damages-refinery-unit-report-558974-2026-10-01",
+      "source": "Business Today",
+      "publishedAt": "2026-09-30T23:05:00.000Z",
+      "category": "operations",
+      "summary": "MRPL cut processing rate at one crude distillation unit after the fire damaged the refinery unit; the company's stock extended its decline.",
+      "paywalled": false
+    },
+    {
+      "title": "Federal investigators detail ‘many missed opportunities’ to prevent fatal Oregon, Ohio refinery fire",
+      "url": "https://www.13abc.com/video/2026/09/30/federal-investigators-detail-many-missed-opportunities-prevent-fatal-oregon-ohio-refinery-fire/",
+      "source": "13abc",
+      "publishedAt": "2026-09-30T13:11:00.000Z",
+      "category": "operations",
+      "summary": "Federal investigators detailed 'many missed opportunities' that could have prevented a fatal refinery fire in Oregon, Ohio.",
+      "paywalled": false
+    },
+    {
+      "title": "Gevo Announces Sell Out of Substantially All its 2026 Section 45Z Tax Credits",
+      "url": "https://www.manilatimes.net/2026/10/01/tmt-newswire/globenewswire/gevo-announces-sell-out-of-substantially-all-its-2026-section-45z-tax-credits/2437098",
+      "source": "The Manila Times",
+      "publishedAt": "2026-10-01T05:24:00.000Z",
+      "category": "policy",
+      "summary": "Gevo announced it has sold out substantially all of its 2026 Section 45Z tax credits, contracting $70 million worth and forecasting over $77 million in 2027 credits.",
+      "paywalled": false
+    },
+    {
+      "title": "Getty Realty Pays $260.9M for 41 Refuel Stores, Betting Big on Texas",
+      "url": "https://hoodline.com/2026/10/getty-realty-pays-260-9m-for-41-refuel-stores-betting-big-on-texas/",
+      "source": "Hoodline",
+      "publishedAt": "2026-10-01T08:13:00.000Z",
+      "category": "deals",
+      "summary": "Getty Realty paid $260.9 million for 41 Refuel convenience stores, a deal centered on Texas that makes the chain its third-biggest tenant.",
+      "paywalled": false
+    },
+    {
+      "title": "California illegally spurred “gold rush in cow manure,” lawsuit alleges",
+      "url": "https://www.thenewlede.org/2026/10/carb-california-biogas-dairy-cafos-manure-digesters/",
+      "source": "thenewlede",
+      "publishedAt": "2026-10-01T09:11:00.000Z",
+      "category": "policy",
+      "summary": "A lawsuit alleges California regulators illegally allowed polluters to buy clean fuel credits from large manure-based dairy digesters, calling it a policy that harms poor communities.",
+      "paywalled": false
+    },
+    {
+      "title": "U.S. electricity use for electric vehicles increasing at a slower pace in 2026",
+      "url": "https://www.eia.gov/todayinenergy/detail.php?id=68224",
+      "source": "EIA Today in Energy",
+      "publishedAt": "2026-09-30T14:00:00.000Z",
+      "category": "markets",
+      "summary": "EIA data show US EV electricity consumption growth slowed to 8% in 1H26 from prior 13-24% ranges, following a sales decline after federal EV tax credits expired in September 2025.",
+      "paywalled": false
+    }
+  ],
+  "decks": [],
+  "prices": {
+    "date": "2026-10-01",
+    "rbobSpot": 3.329,
+    "ulsdSpot": 4.999,
+    "wtiSpot": 96.16,
+    "retailGas": 4.603,
+    "retailDiesel": 6.382,
+    "gasStocksMbbl": 204362,
+    "distStocksMbbl": 105180,
+    "gasDemandKbd": 8689,
+    "distDemandKbd": 3948,
+    "gasCrack": 43.66,
+    "dieselCrack": 113.8
+  },
+  "prevPrices": {
+    "date": "2026-09-30",
+    "rbobSpot": 3.551,
+    "ulsdSpot": 5.007,
+    "wtiSpot": 96.41,
+    "retailGas": 4.603,
+    "retailDiesel": 6.382,
+    "gasStocksMbbl": 206046,
+    "distStocksMbbl": 107431,
+    "gasDemandKbd": 8847,
+    "distDemandKbd": 3975,
+    "gasCrack": 52.73,
+    "dieselCrack": 113.88
+  },
+  "generatedAt": "2026-10-01T17:27:45.972Z"
+}
