@@ -1,0 +1,182 @@
+{
+  "date": "2026-10-02",
+  "headline": "Diesel crisis boils over: Europe holds crisis talks, Trump threatens export curbs",
+  "intro": "Diesel is the story the whole energy world is watching — $113.80 crack and retail at $6.38/gal have Washington talking export curbs and Brussels scrambling for reserves. Meanwhile crude keeps sliding on release chatter, which is doing exactly nothing for pump prices.",
+  "overview": "Diesel remains the epicenter of fuels markets: a $113.8/bbl crack, record retail prices, and Trump's threat to restrict US diesel exports have triggered emergency talks in Europe, which relies heavily on American barrels. Crude fell sharply on talk of coordinated strategic releases, but gasoline (crack $43.66, retail $4.603) is comparatively calm even as states move to address high pump prices on their own. On the policy side, the bipartisan Senate permitting deal and renewed RFS/biofuels-credit debates continue to shape the longer-term fuel supply picture, while SAF investment (Uniper-Syzygy, Georgia coalition) keeps building out separately.",
+  "stories": [
+    {
+      "title": "Europe Holds Emergency Diesel Talks",
+      "url": "https://www.rigzone.com/news/wire/europe_holds_emergency_diesel_talks-01-oct-2026-184749-article/?rss=true",
+      "source": "Rigzone",
+      "publishedAt": "2026-10-01T14:02:34.000Z",
+      "category": "operations",
+      "summary": "European nations are holding emergency talks on how to respond to pressure from Washington to release strategic fuel reserves.",
+      "paywalled": false
+    },
+    {
+      "title": "Why U.S. Diesel Is So Important to Major Trading Partners",
+      "url": "https://www.nytimes.com/2026/10/02/world/americas/us-diesel-ban-trump-mexico-europe-brazil.html",
+      "source": "The New York Times",
+      "publishedAt": "2026-10-02T09:39:00.000Z",
+      "category": "policy",
+      "summary": "Economies in Latin America and Europe rely heavily on American diesel; stopping exports could tip some countries into recession and hurt trade with the US.",
+      "paywalled": false
+    },
+    {
+      "title": "Oil price drops more than $3 on talks over diesel, crude stock releases",
+      "url": "https://www.reuters.com/business/energy/oil-rises-slightly-market-weighs-mixed-supply-signals-2026-10-02/",
+      "source": "Reuters",
+      "publishedAt": "2026-10-02T08:36:00.000Z",
+      "category": "markets",
+      "summary": "Oil prices dropped more than $3 on talk of coordinated diesel and crude stock releases amid the diesel supply crunch.",
+      "paywalled": true
+    },
+    {
+      "title": "Supply Disruptions Persist As Markets Focus Elsewhere",
+      "url": "https://www.tacenergy.com/news-and-views/market-talk/supply-disruptions-persist-as-markets-focus-elsewhere",
+      "source": "TACenergy Market Talk",
+      "publishedAt": "2026-10-02T12:00:00.000Z",
+      "category": "markets",
+      "summary": "A wave of selling hit energy markets Friday, erasing Thursday's gains; headlines point to strategic fuel release talk but other dynamics may be driving the move.",
+      "paywalled": false
+    },
+    {
+      "title": "States are taking matters into their own hands to fight high gas and diesel prices",
+      "url": "https://www.cnn.com/2026/10/02/business/gas-diesel-prices-states",
+      "source": "CNN",
+      "publishedAt": "2026-10-02T03:31:00.000Z",
+      "category": "markets",
+      "summary": "As the Trump administration weighs how to fight historically high gas and diesel prices, a growing number of states are acting on their own.",
+      "paywalled": false
+    },
+    {
+      "title": "Ціна нафти змінилася після сигналу про можливий рішучий крок Європи",
+      "url": "https://financy.24tv.ua/tsina-nafti-sogodni-2-zhovtnya-2026-yevropa-mozhe-navazhitisya_n3153418",
+      "source": "financy.24tv",
+      "publishedAt": "2026-10-01T20:51:00.000Z",
+      "category": "markets",
+      "summary": "Trump threatened to restrict US diesel exports unless the EU helps ease the market deficit, moving prices as Europe discusses releasing additional reserves.",
+      "paywalled": false
+    },
+    {
+      "title": "Futuros gasoil Londres - Oct 2026 (LGOV6)",
+      "url": "https://es.investing.com/commodities/london-gas-oil",
+      "source": "Investing",
+      "publishedAt": "2026-10-02T05:28:00.000Z",
+      "category": "markets",
+      "summary": "London gasoil futures fell 4.9% on diplomatic signals regarding Iran, closing near session lows.",
+      "paywalled": false
+    },
+    {
+      "title": "Kristen Walker: RFS mandates inflate diesel prices",
+      "url": "https://www.herald-dispatch.com/opinion/kristen-walker-rfs-mandates-inflate-diesel-prices/article_4dd0c523-bbf4-4fac-ad7f-f08152180340.html",
+      "source": "The Herald-Dispatch",
+      "publishedAt": "2026-10-01T16:59:00.000Z",
+      "category": "policy",
+      "summary": "An opinion piece argues RFS mandates are inflating diesel prices as supply shocks spread into gasoline markets.",
+      "paywalled": false
+    },
+    {
+      "title": "US Senate negotiators reach permitting bill deal, ending yearslong impasse",
+      "url": "https://www.ogj.com/general-interest/government/news/55408949/us-senate-negotiators-reach-permitting-bill-deal-ending-yearslong-impasse",
+      "source": "Oil & Gas Journal",
+      "publishedAt": "2026-10-01T14:38:48.000Z",
+      "category": "policy",
+      "summary": "Senate negotiators reached a bipartisan permitting bill deal aimed at reducing regulatory delays and litigation uncertainty for energy projects, ending a yearslong impasse.",
+      "paywalled": false
+    },
+    {
+      "title": "Rep, Dem Senators Release Bipartisan Permitting Bill",
+      "url": "https://www.rigzone.com/news/rep_dem_senators_release_bipartisan_permitting_bill-01-oct-2026-184751-article/?rss=true",
+      "source": "Rigzone",
+      "publishedAt": "2026-10-01T14:43:58.000Z",
+      "category": "policy",
+      "summary": "Senators Lee, Capito, Heinrich, and Whitehouse released the Bipartisan American Affordability and Jobs Act, a permitting reform bill.",
+      "paywalled": false
+    },
+    {
+      "title": "Uniper reserves SAF poduction capacity from Syzygy's project pipeline",
+      "url": "https://renewablesnow.com/news/uniper-reserves-saf-poduction-capacity-from-syzygys-project-pipeline-1302297/",
+      "source": "Renewables Now",
+      "publishedAt": "2026-10-02T05:39:00.000Z",
+      "category": "policy",
+      "summary": "Uniper signed a capacity reservation agreement with Syzygy Plasmonics for future SAF supply from its Houston-based production pipeline.",
+      "paywalled": false
+    },
+    {
+      "title": "Delta, Georgia leaders unite to accelerate SAF growth",
+      "url": "https://www.biobased-diesel.com/post/delta-georgia-leaders-unite-to-accelerate-saf-growth",
+      "source": "Biobased Diesel Daily",
+      "publishedAt": "2026-10-02T10:58:11.000Z",
+      "category": "policy",
+      "summary": "Delta and Georgia leaders launched the Georgia SAF Coalition to leverage the state's aviation, agriculture, and logistics strengths for SAF development.",
+      "paywalled": false
+    },
+    {
+      "title": "Missouri Soybean Association thanks Gov. Kehoe for dyed-diesel relief",
+      "url": "https://www.biobased-diesel.com/post/missouri-soybean-association-thanks-gov-kehoe-for-dyed-diesel-relief",
+      "source": "Biobased Diesel Daily",
+      "publishedAt": "2026-10-01T11:36:12.000Z",
+      "category": "policy",
+      "summary": "Missouri's governor enacted a temporary halt on the state's dyed-diesel-on-highways prohibition for licensed farm vehicles, drawing thanks from the state soybean association.",
+      "paywalled": false
+    },
+    {
+      "title": "New IRS rule rewards farms for turning manure to gas",
+      "url": "https://www.sctimes.com/story/news/2026/10/02/new-irs-rule-supports-manure-to-gas-energy-projects/91886005007/",
+      "source": "St. Cloud Times",
+      "publishedAt": "2026-10-02T03:31:00.000Z",
+      "category": "policy",
+      "summary": "New IRS guidance confirms that gas from livestock manure via anaerobic digestion qualifies for a clean fuel tax credit.",
+      "paywalled": false
+    }
+  ],
+  "decks": [],
+  "prices": {
+    "date": "2026-10-02",
+    "rbobSpot": 3.329,
+    "ulsdSpot": 4.999,
+    "wtiSpot": 96.16,
+    "retailGas": 4.603,
+    "retailDiesel": 6.382,
+    "gasStocksMbbl": 204362,
+    "distStocksMbbl": 105180,
+    "gasDemandKbd": 8689,
+    "distDemandKbd": 3948,
+    "gasCrack": 43.66,
+    "dieselCrack": 113.8
+  },
+  "prevPrices": {
+    "date": "2026-10-01",
+    "rbobSpot": 3.329,
+    "ulsdSpot": 4.999,
+    "wtiSpot": 96.16,
+    "retailGas": 4.603,
+    "retailDiesel": 6.382,
+    "gasStocksMbbl": 204362,
+    "distStocksMbbl": 105180,
+    "gasDemandKbd": 8689,
+    "distDemandKbd": 3948,
+    "gasCrack": 43.66,
+    "dieselCrack": 113.8
+  },
+  "weekAhead": [
+    {
+      "date": "Wed, Oct 7",
+      "label": "EIA Weekly Petroleum Status Report (10:30am ET) — inventories, demand, refinery runs"
+    },
+    {
+      "date": "Wed, Oct 7",
+      "label": "EIA This Week in Petroleum analysis"
+    },
+    {
+      "date": "Tue, Oct 6",
+      "label": "EPA weekly RIN transaction data update"
+    },
+    {
+      "date": "Mon, Oct 5",
+      "label": "EIA weekly retail gasoline & diesel prices (Mon PM)"
+    }
+  ],
+  "generatedAt": "2026-10-02T16:46:26.262Z"
+}
