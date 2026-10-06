@@ -1,0 +1,164 @@
+{
+  "date": "2026-10-06",
+  "headline": "Trump EO permits dyed diesel on highways as prices hit record $6+/gal",
+  "intro": "Diesel finally cooled off Tuesday even as the White House took the extraordinary step of letting truckers burn tax-exempt off-road fuel on public highways — a sign of just how stretched supply has gotten. Crude's slide on Hormuz optimism and a Saudi price cut is giving the complex some breathing room, but refining margins remain eye-watering.",
+  "overview": "Diesel cracks remain near $114/bbl even as futures retreated Tuesday on signs of improving Middle East supply, a hefty Saudi price cut, and increased Hormuz tanker transits. The Trump administration's executive order allowing dyed (off-road, tax-exempt) diesel onto highways underscores the severity of the diesel shortage that pushed the national retail average above $6/gal in September for the first time ever, squeezing trucking fleets from Kansas City to the Midwest. Meanwhile EIA data show both crude prices and refinery margins broadly rose through Q3, and the SPR has been drawn down to its lowest level since 1982 as Washington continues emergency releases to stabilize markets.",
+  "stories": [
+    {
+      "title": "Trump allows cheaper, dyed diesel on highways to blunt historic fuel cost spike ahead of midterms",
+      "url": "https://www.cnbc.com/2026/10/06/us-diesel-fuel-prices-iran-ukraine-energy-crisis-.html",
+      "source": "CNBC",
+      "publishedAt": "2026-10-05T23:09:00.000Z",
+      "category": "markets",
+      "summary": "Trump's executive order lets cheaper, tax-exempt dyed diesel be used on highways after the national retail diesel average topped $6/gal for the first time in September.",
+      "paywalled": false
+    },
+    {
+      "title": "Trump Allows Dyed Diesel on the Road: How Could It Affect Gas Prices",
+      "url": "https://www.newsweek.com/trump-allows-dyed-diesel-on-the-road-how-could-it-affect-gas-prices-12527945",
+      "source": "Newsweek",
+      "publishedAt": "2026-10-06T08:36:00.000Z",
+      "category": "markets",
+      "summary": "The EO waives the 24.4 cents/gal federal highway tax on dyed diesel, saving roughly $60 on a 250-gallon fill as the administration tries to blunt the fuel cost spike ahead of midterms.",
+      "paywalled": false
+    },
+    {
+      "title": "What is red-dye diesel, can my car use it? What to know about off-road fuel",
+      "url": "https://www.usatoday.com/story/news/2026/10/06/what-is-red-dyed-diesel-can-you-legally-use-off-road-diesel-trump-executive-order-explained/92115896007/",
+      "source": "USA TODAY",
+      "publishedAt": "2026-10-06T07:02:00.000Z",
+      "category": "policy",
+      "summary": "Explainer on what red-dye diesel is, who's normally allowed to use it, and how Trump's executive order changes the rules for on-road use.",
+      "paywalled": false
+    },
+    {
+      "title": "Moving goods is one of KC’s biggest industries. Record diesel prices make it hard to keep trucking",
+      "url": "https://thebeaconnews.org/stories/2026/10/06/diesel-price-spike-hits-kansas-city-trucking/",
+      "source": "The Beacon",
+      "publishedAt": "2026-10-06T04:00:00.000Z",
+      "category": "markets",
+      "summary": "Midwest diesel hit a record $6.53/gal, squeezing Kansas City trucking companies and owner-operators alike.",
+      "paywalled": false
+    },
+    {
+      "title": "Diesel Leads Energy Markets Lower Despite Mounting Geopolitical Risks",
+      "url": "https://www.tacenergy.com/news-and-views/market-talk/diesel-leads-energy-markets-lower-despite-mounting-geopolitical-risks",
+      "source": "TACenergy Market Talk",
+      "publishedAt": "2026-10-06T12:00:00.000Z",
+      "category": "markets",
+      "summary": "Diesel futures led broader energy market selling Tuesday on signs of improving supply and easing geopolitical tension.",
+      "paywalled": false
+    },
+    {
+      "title": "Oil Prices Retreat on Easing Middle East Supply Concerns",
+      "url": "https://www.dtnpf.com/agriculture/web/AG/news/world-policy/article/2026/10/06/oil-prices-retreat-easing-middle",
+      "source": "DTN/Progressive Farmer",
+      "publishedAt": "2026-10-06T06:38:00.000Z",
+      "category": "markets",
+      "summary": "Oil prices slid on rebounding Middle East flows, a sizable planned emergency stock release, and a hefty Saudi price cut.",
+      "paywalled": false
+    },
+    {
+      "title": "Nymex Overview : Crude, Diesel Drop on Mideast Supply Optimism -- OPIS",
+      "url": "https://www.marketscreener.com/news/nymex-overview-crude-diesel-drop-on-mideast-supply-optimism-opis-ce785dd9da8cff20",
+      "source": "MarketScreener",
+      "publishedAt": "2026-10-05T21:54:00.000Z",
+      "category": "markets",
+      "summary": "Crude and diesel futures dropped as increased tanker transits through the Strait of Hormuz and higher pipeline bypass volumes signaled easing supply risk.",
+      "paywalled": false
+    },
+    {
+      "title": "Crude oil prices and refinery margins generally increased throughout the third quarter",
+      "url": "https://www.eia.gov/todayinenergy/detail.php?id=68245",
+      "source": "EIA Today in Energy",
+      "publishedAt": "2026-10-05T14:00:00.000Z",
+      "category": "markets",
+      "summary": "EIA reports crude oil prices and refinery margins generally rose through Q3 2026 amid persistent Middle East conflict.",
+      "paywalled": false
+    },
+    {
+      "title": "Mortgage Rates Today, October 6, 2026: Rates Resume Relentless Rise",
+      "url": "https://www.mortgageresearch.com/current-rates/mortgage-rates-today-oct-06-2026/",
+      "source": "Mortgage Research Center",
+      "publishedAt": "2026-10-06T01:30:00.000Z",
+      "category": "markets",
+      "summary": "EIA data cited show Strategic Petroleum Reserve crude inventories fell to 283.8 million barrels for the week ending Sept. 25, the lowest since 1982.",
+      "paywalled": false
+    },
+    {
+      "title": "USA Continues Strategic Petroleum Reserve Release",
+      "url": "https://www.rigzone.com/news/usa_continues_strategic_petroleum_reserve_release-05-oct-2026-184770-article/?rss=true",
+      "source": "Rigzone",
+      "publishedAt": "2026-10-05T12:19:52.000Z",
+      "category": "policy",
+      "summary": "Energy Secretary Chris Wright says the U.S. continues coordinated SPR releases to stabilize oil markets.",
+      "paywalled": false
+    },
+    {
+      "title": "Oil Slides on Saudi Price Cut",
+      "url": "https://www.rigzone.com/news/wire/oil_slides_on_saudi_price_cut-05-oct-2026-184777-article/?rss=true",
+      "source": "Rigzone",
+      "publishedAt": "2026-10-05T20:07:58.000Z",
+      "category": "markets",
+      "summary": "Crude prices declined as Saudi Arabia cut Asian prices and Hormuz oil flows improved.",
+      "paywalled": false
+    },
+    {
+      "title": "Aramco CEO Says Oil Supply Buffer Is 'Scarily Thin'",
+      "url": "https://www.rigzone.com/news/wire/aramco_ceo_says_oil_supply_buffer_is_scarily_thin-05-oct-2026-184773-article/?rss=true",
+      "source": "Rigzone",
+      "publishedAt": "2026-10-05T14:13:45.000Z",
+      "category": "operations",
+      "summary": "Aramco's CEO called the global oil supply buffer 'scarily thin,' warning of pressure on both crude and product markets until Hormuz fully reopens.",
+      "paywalled": false
+    },
+    {
+      "title": "TotalEnergies fuel stations and French refinery strike set for Thursday despite €1,000 bonus",
+      "url": "https://www.connexionfrance.com/news/totalenergies-fuel-stations-and-french-refinery-strike-set-for-thursday-despite-1000-bonus/819305",
+      "source": "The Connexion",
+      "publishedAt": "2026-10-06T08:17:00.000Z",
+      "category": "operations",
+      "summary": "TotalEnergies refinery and service-station workers in France plan to strike Thursday despite a €1,000 bonus offer, as the CGT union continues its walkout.",
+      "paywalled": false
+    },
+    {
+      "title": "Uniper Places SAF Order with Syzygy Plasmonics",
+      "url": "https://www.rigzone.com/news/uniper_places_saf_order_with_syzygy_plasmonics-06-oct-2026-184785-article/?rss=true",
+      "source": "Rigzone",
+      "publishedAt": "2026-10-06T14:42:53.000Z",
+      "category": "operations",
+      "summary": "Uniper placed a SAF order with Syzygy Plasmonics, calling it a step toward building its position in the growing SAF market.",
+      "paywalled": false
+    }
+  ],
+  "decks": [],
+  "prices": {
+    "date": "2026-10-06",
+    "rbobSpot": 3.329,
+    "ulsdSpot": 4.999,
+    "wtiSpot": 96.16,
+    "retailGas": 4.496,
+    "retailDiesel": 6.199,
+    "gasStocksMbbl": 204362,
+    "distStocksMbbl": 105180,
+    "gasDemandKbd": 8689,
+    "distDemandKbd": 3948,
+    "gasCrack": 43.66,
+    "dieselCrack": 113.8
+  },
+  "prevPrices": {
+    "date": "2026-10-05",
+    "rbobSpot": 3.329,
+    "ulsdSpot": 4.999,
+    "wtiSpot": 96.16,
+    "retailGas": 4.603,
+    "retailDiesel": 6.382,
+    "gasStocksMbbl": 204362,
+    "distStocksMbbl": 105180,
+    "gasDemandKbd": 8689,
+    "distDemandKbd": 3948,
+    "gasCrack": 43.66,
+    "dieselCrack": 113.8
+  },
+  "generatedAt": "2026-10-06T17:21:30.424Z"
+}
