@@ -1,0 +1,157 @@
+{
+  "date": "2026-10-15",
+  "headline": "Diesel tops $6/gal as DPA invoked for Delek refinery expansion",
+  "intro": "Refined products are the story again: diesel's north of $6 at the pump, Ukraine just torched a Russian refinery, and the White House is dusting off Korean War-era powers to grow a Texas plant. Crack spreads are doing the talking while crude just sits there.",
+  "overview": "Diesel cracks remain extraordinarily wide ($101.71/bbl) with ULSD spot at $4.713 and retail diesel at $6.179, as the IEA flags persistent global diesel tightness and historically low inventories tied to Middle East export disruptions. Geopolitics is compounding the squeeze: Ukraine resumed drone strikes on Russian refineries (hitting Ryazan overnight) after ending a US-brokered pause, while a container ship sank in the Strait of Hormuz, both renewing supply-risk premiums. On the policy side, the Trump administration is using the Defense Production Act to expand Delek's Tyler, Texas refinery, and DOE issued its 45Z emissions-value request process for clean fuel producers alongside fresh SAF/renewable diesel capacity news from LanzaJet, XCF Global, and Continental Refining.",
+  "stories": [
+    {
+      "title": "Energy Markets Juggle Supply Risks, Inflation Pressures, And Geopolitical Conflict",
+      "url": "https://www.tacenergy.com/news-and-views/market-talk/energy-markets-juggle-supply-risks-inflation-pressures-and-geopolitical-conflict",
+      "source": "TACenergy Market Talk",
+      "publishedAt": "2026-10-15T12:00:00.000Z",
+      "category": "markets",
+      "summary": "Refined products sold off Thursday with RBOB down 8 cents on the day (13 for the week) even as WTI logged a sixth straight daily gain; ULSD futures remain up more than 6 cents for the week.",
+      "paywalled": false
+    },
+    {
+      "title": "IEA: Oil supply rebound remains fragile; diesel tightness persists",
+      "url": "https://www.ogj.com/general-interest/economics-markets/news/55411809/iea-oil-supply-rebound-remains-fragile-diesel-tightness-persists",
+      "source": "Oil & Gas Journal",
+      "publishedAt": "2026-10-14T16:00:44.000Z",
+      "category": "operations",
+      "summary": "IEA warns global diesel and refined product markets face prolonged tightness, with inventories at historic lows driven by Middle East export disruptions and geopolitical tensions.",
+      "paywalled": false
+    },
+    {
+      "title": "Diesel Above $6 Is a Refining Shortage, Not an Oil Problem - and Refiners Are the Ones Cashing In",
+      "url": "https://www.ainvest.com/news/diesel-6-refining-shortage-oil-problem-refiners-cashing-2610/",
+      "source": "ainvest",
+      "publishedAt": "2026-10-14T19:24:00.000Z",
+      "category": "markets",
+      "summary": "US diesel above $6/gallon reflects a refining capacity shortage rather than a crude price problem, as global exports fell roughly 1 million bpd amid Iran-Russia conflicts.",
+      "paywalled": false
+    },
+    {
+      "title": "As Soaring Energy Prices Boost Inflation, Refiners Have Become Money Machines",
+      "url": "https://www.thedailyupside.com/industries/energy/as-soaring-energy-prices-boost-inflation-refiners-have-become-money-machines/",
+      "source": "The Daily Upside",
+      "publishedAt": "2026-10-14T21:01:00.000Z",
+      "category": "markets",
+      "summary": "A 9.1% monthly jump in gasoline prices drove more than half of August's 0.6% rise in consumer prices, and refiners are posting outsized profits amid the price surge.",
+      "paywalled": false
+    },
+    {
+      "title": "White House Turns to Korean War-Era Law as Diesel Prices Stay Above $6",
+      "url": "https://oilprice.com/Energy/Crude-Oil/White-House-Turns-to-Korean-War-Era-Law-as-Diesel-Prices-Stay-Above-6.html",
+      "source": "OilPrice.com",
+      "publishedAt": "2026-10-14T15:01:00.000Z",
+      "category": "operations",
+      "summary": "The White House is invoking the Defense Production Act to expand Delek's 74,000-bpd Delek Tyler, Texas refinery as diesel prices hold above $6/gallon.",
+      "paywalled": false
+    },
+    {
+      "title": "USA to Use Cold War Era Law to Expand Texas Refinery",
+      "url": "https://www.rigzone.com/news/wire/usa_to_use_cold_war_era_law_to_expand_texas_refinery-15-oct-2026-184857-article/?rss=true",
+      "source": "Rigzone",
+      "publishedAt": "2026-10-15T11:27:31.000Z",
+      "category": "operations",
+      "summary": "VP JD Vance announced the administration will use the Cold War-era Defense Production Act to work with Delek U.S. Holdings to expand its Texas refinery.",
+      "paywalled": false
+    },
+    {
+      "title": "What the Defense Production Act Push at Delek’s Tyler Refinery Means for Your Fuel Bill",
+      "url": "https://energynewsbeat.co/diesel/what-the-defense-production-act-push-at-deleks-tyler-refinery-means-for-your-fuel-bill/",
+      "source": "energynewsbeat.co",
+      "publishedAt": "2026-10-15T05:39:00.000Z",
+      "category": "operations",
+      "summary": "Analysis questions what the DPA push at Delek's Tyler refinery will actually do for fuel prices, noting diesel is at $6.32 with no published cost breakdown.",
+      "paywalled": false
+    },
+    {
+      "title": "Ukraine resumes refinery strikes in Russia as Zelenskiy criticises US intelligence withdrawal",
+      "url": "https://www.kiprinform.com/en/news/ukraine-resumes-refinery-strikes-in-russia-as-zelenskiy-criticises-us-intelligence-withdrawal/",
+      "source": "kiprinform",
+      "publishedAt": "2026-10-15T07:06:00.000Z",
+      "category": "operations",
+      "summary": "Ukraine resumed refinery strikes inside Russia, with a drone attack sparking a fire at a refinery in Ryazan, as Zelensky criticized the US over intelligence withdrawal.",
+      "paywalled": false
+    },
+    {
+      "title": "Container Ship Sinks in Strait of Hormuz",
+      "url": "https://www.rigzone.com/news/wire/container_ship_sinks_in_strait_of_hormuz-15-oct-2026-184853-article/?rss=true",
+      "source": "Rigzone",
+      "publishedAt": "2026-10-15T08:34:54.000Z",
+      "category": "operations",
+      "summary": "A Singapore-flagged container ship sank in the Strait of Hormuz after all 21 crew were evacuated safely, raising fresh shipping-risk concerns in a key chokepoint.",
+      "paywalled": false
+    },
+    {
+      "title": "First tanker leaves Russia under Trump’s diesel deal",
+      "url": "https://www.tradewindsnews.com/tankers/first-tanker-leaves-russia-under-trump-s-diesel-deal/2-1-2059569",
+      "source": "TradeWinds",
+      "publishedAt": "2026-10-15T06:34:00.000Z",
+      "category": "markets",
+      "summary": "The first tanker has left Russia under the Trump administration's new diesel-related deal, per TradeWinds.",
+      "paywalled": false
+    },
+    {
+      "title": "US DOE releases emissions-value request process for 45Z clean fuel production credit",
+      "url": "https://www.biobased-diesel.com/post/us-doe-releases-emissions-value-request-process-for-45z-clean-fuel-production-credit",
+      "source": "Biobased Diesel Daily",
+      "publishedAt": "2026-10-15T12:40:55.000Z",
+      "category": "policy",
+      "summary": "US DOE released its emissions-value request (EVR) process, the route for clean fuel producers to obtain provisional emission rates from DOE and petition Treasury for 45Z tax credits.",
+      "paywalled": false
+    },
+    {
+      "title": "What Net-Zero Policies Add to Your Fuel and Power Bill, State by State",
+      "url": "https://energynewsbeat.co/net-zero/what-net-zero-policies-add-to-your-fuel-and-power-bill-state-by-state/",
+      "source": "energynewsbeat.co",
+      "publishedAt": "2026-10-14T10:26:00.000Z",
+      "category": "policy",
+      "summary": "State-level net-zero and clean-fuel policies are adding meaningfully to fuel costs: California's Cap-and-Invest/LCFS added about 47 cents/gallon in July, Washington's carbon rules add 36-74 cents.",
+      "paywalled": false
+    },
+    {
+      "title": "LanzaJet Secures $20 Million in New Financing to Advance Freedom Pines Fuels Operations and Growth",
+      "url": "https://www.quiverquant.com/news/LanzaJet+Secures+%2420+Million+in+New+Financing+to+Advance+Freedom+Pines+Fuels+Operations+and+Growth",
+      "source": "quiverquant",
+      "publishedAt": "2026-10-15T05:13:00.000Z",
+      "category": "policy",
+      "summary": "LanzaJet secured $20 million in new financing to advance operations and growth at its Freedom Pines Fuels SAF facility.",
+      "paywalled": false
+    },
+    {
+      "title": "Ashley Hinson Touts Win for Iowa Farmers as GOP Senate Seat Under Threat",
+      "url": "https://www.newsweek.com/ashley-hinson-touts-win-for-iowa-farmers-senate-seat-under-threat-12567773",
+      "source": "Newsweek",
+      "publishedAt": "2026-10-14T15:04:00.000Z",
+      "category": "policy",
+      "summary": "Rep. Ashley Hinson touted a proposed EPA revision to renewable fuel standard rules she says will expand target markets for American farmers.",
+      "paywalled": false
+    }
+  ],
+  "decks": [],
+  "prices": {
+    "date": "2026-10-15",
+    "rbobSpot": 3.396,
+    "ulsdSpot": 4.713,
+    "wtiSpot": 96.24,
+    "retailGas": 4.471,
+    "retailDiesel": 6.179,
+    "gasStocksMbbl": 204744,
+    "distStocksMbbl": 105138,
+    "distDemandKbd": 3650,
+    "gasCrack": 46.39,
+    "dieselCrack": 101.71
+  },
+  "prevPrices": {
+    "date": "2026-10-14",
+    "ulsdSpot": 4.713,
+    "wtiSpot": 96.24,
+    "gasStocksMbbl": 204744,
+    "distStocksMbbl": 105138,
+    "dieselCrack": 101.71
+  },
+  "generatedAt": "2026-10-15T15:41:44.520Z"
+}
