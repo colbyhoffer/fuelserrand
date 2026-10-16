@@ -1,0 +1,181 @@
+{
+  "date": "2026-10-16",
+  "headline": "Diesel crunch deepens: IEA accelerates reserves as Ukraine resumes refinery strikes",
+  "intro": "Diesel cracks north of $110/bbl tell you everything: this market is broken in one direction only. Add Ukraine's refinery strikes back on the menu and an IEA release that barely covers five days of demand, and \"tight\" starts feeling like an understatement.",
+  "overview": "Diesel fundamentals remain severely bullish — ULSD at $5.07/gal and a diesel crack over $110/bbl versus gasoline's $23.54 — while crude inventories drew nearly 9 million barrels on the week. Geopolitics is compounding the refining-capacity story: Zelensky says Ukraine will resume Russian refinery strikes despite Trump's objections, Rubio is touring Reliance's Jamnagar refinery as U.S. diesel prices surge, and the IEA's accelerated 20-million-barrel diesel release is being read as more symbolic than market-moving. Domestically, Vance/Trump are invoking Cold War authority to expand Delek's Texas refinery, and SAF policy developments (DOE's 45Z emissions-value process, LanzaJet financing, Topsoe/Bharat Petroleum deal) continue to move clean-fuels markets forward.",
+  "stories": [
+    {
+      "title": "EIA: US crude oil inventories down 8.6 million bbl",
+      "url": "https://www.ogj.com/general-interest/economics-markets/news/55412235/eia-us-crude-oil-inventories-down-86-million-bbl",
+      "source": "Oil & Gas Journal",
+      "publishedAt": "2026-10-15T18:18:17.000Z",
+      "category": "operations",
+      "summary": "EIA data show US crude oil inventories down 8.6 million bbl, now 3% below the 5-year average.",
+      "paywalled": false
+    },
+    {
+      "title": "Bullish Diesel Fundamentals Overshadow Weakness In Gasoline Markets",
+      "url": "https://www.tacenergy.com/news-and-views/market-talk/bullish-diesel-fundamentals-overshadow-weakness-in-gasoline-markets",
+      "source": "TACenergy Market Talk",
+      "publishedAt": "2026-10-16T12:00:00.000Z",
+      "category": "markets",
+      "summary": "TACenergy notes bullish diesel fundamentals overshadowing gasoline weakness as energy futures post small Friday losses after a volatile week with no new attacks on ships or refineries.",
+      "paywalled": false
+    },
+    {
+      "title": "Week 41 - US DOE Inventory Recap",
+      "url": "https://www.tacenergy.com/news-and-views/market-talk/week-41-2026-us-doe-inventory-recap",
+      "source": "TACenergy Market Talk",
+      "publishedAt": "2026-10-15T12:00:00.000Z",
+      "category": "markets",
+      "summary": "TACenergy's Week 41 US DOE inventory recap.",
+      "paywalled": false
+    },
+    {
+      "title": "The Diesel Crunch Will Persist Well into 2027",
+      "url": "https://oilprice.com/Energy/Crude-Oil/The-Diesel-Crunch-Will-Persist-Well-into-2027.html",
+      "source": "OilPrice.com",
+      "publishedAt": "2026-10-15T16:00:00.000Z",
+      "category": "markets",
+      "summary": "OilPrice.com reports the IEA warns diesel markets could stay tight until mid-2027 given depleted inventories and refinery bottlenecks.",
+      "paywalled": false
+    },
+    {
+      "title": "The IEA Speeds Up 20 Million Barrels of Diesel. That Is About Five Days of U.S. Use, Not Cheap Diesel by the Midterms",
+      "url": "https://energynewsbeat.co/diesel/the-iea-speeds-up-20-million-barrels-of-diesel-that-is-about-five-days-of-u-s-use-not-cheap-diesel-by-the-midterms/",
+      "source": "energynewsbeat.co",
+      "publishedAt": "2026-10-15T23:46:00.000Z",
+      "category": "markets",
+      "summary": "Analysis argues the IEA's accelerated 20-million-barrel diesel release amounts to roughly five days of U.S. use or 17 hours of world demand, with no firm timeline.",
+      "paywalled": false
+    },
+    {
+      "title": "America's diesel crunch is a refinery problem, not an oil problem",
+      "url": "https://www.ainvest.com/news/america-diesel-crunch-refinery-problem-oil-problem-2610/",
+      "source": "ainvest",
+      "publishedAt": "2026-10-16T00:33:00.000Z",
+      "category": "markets",
+      "summary": "Commentary frames America's diesel crunch as a refinery capacity problem rather than a crude supply problem, citing record $6.32/gallon prices.",
+      "paywalled": false
+    },
+    {
+      "title": "Marco Rubio to visit Indian billionaire Ambani's refinery in Gujarat as U.S. diesel prices surge",
+      "url": "https://www.cnbc.com/2026/10/16/marco-rubio-reliance-jamnagar-refinery.html",
+      "source": "CNBC",
+      "publishedAt": "2026-10-15T23:45:00.000Z",
+      "category": "operations",
+      "summary": "Marco Rubio is set to visit Reliance's Jamnagar refinery in India as U.S. diesel prices surge, highlighting Reliance's role supplying diesel and investing in a U.S. refinery.",
+      "paywalled": false
+    },
+    {
+      "title": "Volodymyr Zelensky openly defies Donald Trump’s ban on Russian oil refinery strikes, Ukraine will resume attacks: ‘We’re done’",
+      "url": "https://www.news24.com.au/world/europe/volodymyr-zelensky-openly-defies-donald-trumps-ban-on-russian-oil-refinery-strikes-ukraine-will-resume-attacks-were-done/news-story/e0250234736bdadad6de046a9ea19ef6",
+      "source": "news24.com.au",
+      "publishedAt": "2026-10-16T04:07:00.000Z",
+      "category": "operations",
+      "summary": "Zelensky says Ukraine will defy Trump and resume strikes on Russian oil refineries after accusing the White House of restricting such attacks.",
+      "paywalled": false
+    },
+    {
+      "title": "Russia talks up refinery attack as Trump blames Ukraine for expensive fuel",
+      "url": "https://www.reuters.com/business/energy/russia-talks-up-refinery-attack-trump-blames-ukraine-expensive-fuel-2026-10-16/",
+      "source": "Reuters",
+      "publishedAt": "2026-10-16T03:06:00.000Z",
+      "category": "operations",
+      "summary": "Reuters reports Russia publicly acknowledged a Ukrainian drone strike on a major refinery, breaking from usual practice to highlight the attack.",
+      "paywalled": true
+    },
+    {
+      "title": "USA to Use Cold War Era Law to Expand Texas Refinery",
+      "url": "https://www.rigzone.com/news/wire/usa_to_use_cold_war_era_law_to_expand_texas_refinery-15-oct-2026-184857-article/?rss=true",
+      "source": "Rigzone",
+      "publishedAt": "2026-10-15T11:27:31.000Z",
+      "category": "operations",
+      "summary": "Rigzone reports the Trump administration will invoke a Cold War-era law to work with Delek U.S. Holdings on expanding a Texas refinery.",
+      "paywalled": false
+    },
+    {
+      "title": "IEA Agrees to Release of Outstanding 100MM Oil Barrels",
+      "url": "https://www.rigzone.com/news/wire/iea_agrees_to_release_of_outstanding_100mm_oil_barrels-16-oct-2026-184865-article/?rss=true",
+      "source": "Rigzone",
+      "publishedAt": "2026-10-16T11:23:15.000Z",
+      "category": "operations",
+      "summary": "IEA member countries agreed to complete release of 100 million barrels of oil still outstanding from a March intervention.",
+      "paywalled": false
+    },
+    {
+      "title": "LanzaJet secures financing to scale SAF production, supply global customers",
+      "url": "https://www.biobased-diesel.com/post/lanzajet-secures-financing-to-scale-saf-production-supply-global-customers",
+      "source": "Biobased Diesel Daily",
+      "publishedAt": "2026-10-16T13:43:09.000Z",
+      "category": "policy",
+      "summary": "LanzaJet secured financing backed by LanzaTech, Vinod Khosla and its board to scale SAF production, with first close Oct. 14 and full close expected by December.",
+      "paywalled": false
+    },
+    {
+      "title": "Topsoe secures technology contract for Bharat Petroleum’s SAF project in India",
+      "url": "https://www.biobased-diesel.com/post/topsoe-secures-technology-contract-for-bharat-petroleum-s-saf-project-in-india",
+      "source": "Biobased Diesel Daily",
+      "publishedAt": "2026-10-15T12:42:32.000Z",
+      "category": "policy",
+      "summary": "Topsoe secured a technology contract for Bharat Petroleum's SAF project in India, with the Mumbai facility set to coprocess 5% renewable feedstock by year-end.",
+      "paywalled": false
+    },
+    {
+      "title": "US DOE releases emissions-value request process for 45Z clean fuel production credit",
+      "url": "https://www.biobased-diesel.com/post/us-doe-releases-emissions-value-request-process-for-45z-clean-fuel-production-credit",
+      "source": "Biobased Diesel Daily",
+      "publishedAt": "2026-10-15T12:40:55.000Z",
+      "category": "policy",
+      "summary": "US DOE released its emissions-value request process for the 45Z clean fuel production credit, giving producers a route to obtain provisional emission rates.",
+      "paywalled": false
+    }
+  ],
+  "decks": [],
+  "prices": {
+    "date": "2026-10-16",
+    "rbobSpot": 2.987,
+    "ulsdSpot": 5.066,
+    "wtiSpot": 101.91,
+    "retailGas": 4.471,
+    "retailDiesel": 6.179,
+    "gasStocksMbbl": 208262,
+    "distStocksMbbl": 102611,
+    "gasDemandKbd": 8408,
+    "distDemandKbd": 4323,
+    "gasCrack": 23.54,
+    "dieselCrack": 110.86
+  },
+  "prevPrices": {
+    "date": "2026-10-15",
+    "rbobSpot": 3.396,
+    "ulsdSpot": 4.713,
+    "wtiSpot": 96.24,
+    "retailGas": 4.471,
+    "retailDiesel": 6.179,
+    "gasStocksMbbl": 204744,
+    "distStocksMbbl": 105138,
+    "distDemandKbd": 3650,
+    "gasCrack": 46.39,
+    "dieselCrack": 101.71
+  },
+  "weekAhead": [
+    {
+      "date": "Wed, Oct 21",
+      "label": "EIA Weekly Petroleum Status Report (10:30am ET) — inventories, demand, refinery runs"
+    },
+    {
+      "date": "Wed, Oct 21",
+      "label": "EIA This Week in Petroleum analysis"
+    },
+    {
+      "date": "Tue, Oct 20",
+      "label": "EPA weekly RIN transaction data update"
+    },
+    {
+      "date": "Mon, Oct 19",
+      "label": "EIA weekly retail gasoline & diesel prices (Mon PM)"
+    }
+  ],
+  "generatedAt": "2026-10-16T15:27:26.070Z"
+}
