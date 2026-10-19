@@ -12248,5 +12248,12 @@
     "distDemandKbd": 4323,
     "gasCrack": 23.54,
     "dieselCrack": 110.86
+  },
+  {
+    "date": "2026-10-19",
+    "wtiSpot": 101.91,
+    "retailGas": 4.471,
+    "retailDiesel": 6.179,
+    "gasStocksMbbl": 208262
   }
 ]
