@@ -1,0 +1,164 @@
+{
+  "date": "2026-10-20",
+  "headline": "Hormuz tensions push diesel cracks to extremes, NJ refinery labor dispute erupts",
+  "intro": "Diesel is doing its best impression of a rocket again, and this time it's dragging crude, cracks, and your heating bill along for the ride. Meanwhile, a labor standoff just hit a key East Coast refinery — because apparently fuel markets needed one more variable.",
+  "overview": "Crude and diesel both surged to five-month highs as Iranian attacks on shipping in the Strait of Hormuz and Houthi threats to Saudi infrastructure rattled markets, with diesel cracks near $111/bbl reflecting acute distillate tightness. On the policy front, Trump confirmed a diesel-focused deal with Russia tied to sanctions relief, while the administration also unveiled an $8B biofuel relief program for the 2026 crop year. Operationally, Phillips 66's Bayway refinery and Linden terminal saw union workers locked out after contract expiration, adding a domestic supply-chain risk just as refiners like Citgo report surging margins.",
+  "stories": [
+    {
+      "title": "Brent Hits a Five-Month High on Gulf Attacks, and Diesel Drivers Feel It First",
+      "url": "https://energynewsbeat.co/crude-oil/brent-hits-a-five-month-high-on-gulf-attacks-and-diesel-drivers-feel-it-first/",
+      "source": "energynewsbeat.co",
+      "publishedAt": "2026-10-20T02:10:00.000Z",
+      "category": "markets",
+      "summary": "Brent hit $111.05/bbl, the highest since May, as Reuters reported continued Gulf shipping attacks; WTI traded near $104.80.",
+      "paywalled": false
+    },
+    {
+      "title": "Oil Soars to 5-Month Highs on Mounting Supply Risks",
+      "url": "https://www.dtnpf.com/agriculture/web/ag/news/world-policy/article/2026/10/20/oil-soars-5-month-highs-mounting",
+      "source": "DTN/Progressive Farmer",
+      "publishedAt": "2026-10-20T05:15:00.000Z",
+      "category": "markets",
+      "summary": "Oil futures rose to five-month highs as Iranian attacks on commercial ships in the Strait of Hormuz intensified alongside lingering Houthi threats to Saudi infrastructure.",
+      "paywalled": false
+    },
+    {
+      "title": "Diesel&#x27;s Breakout Signals Renewed Pressure Across Energy Markets",
+      "url": "https://www.tacenergy.com/news-and-views/market-talk/diesel-s-breakout-signals-renewed-pressure-across-energy-markets",
+      "source": "TACenergy Market Talk",
+      "publishedAt": "2026-10-20T12:00:00.000Z",
+      "category": "markets",
+      "summary": "Diesel futures led the energy complex higher, reversing more than 23 cents/gallon off Monday's lows, while RBOB and crude also gained amid broader strength.",
+      "paywalled": false
+    },
+    {
+      "title": "Prolonged Hormuz Blockade Triggers Cost Shock, Eroding Profits Across Asian Refining, Aviation and Shipping",
+      "url": "https://economy.ac/news/2026/10/202610295913",
+      "source": "economy",
+      "publishedAt": "2026-10-20T01:02:00.000Z",
+      "category": "markets",
+      "summary": "Prolonged Hormuz blockade is eroding profits across Asian refining, aviation, and shipping even as widening petroleum product cracks offer some offset.",
+      "paywalled": false
+    },
+    {
+      "title": "Oil Prices Mixed on U.S. Sanctions Waivers, Hormuz Threats",
+      "url": "https://www.dtnpf.com/agriculture/web/ag/news/world-policy/article/2026/10/19/oil-prices-mixed-u-s-sanctions",
+      "source": "DTN/Progressive Farmer",
+      "publishedAt": "2026-10-19T12:48:00.000Z",
+      "category": "markets",
+      "summary": "Oil futures ended mixed Monday as WTI rallied over 2% on a U.S. sanctions waiver for Russian goods while Brent edged lower.",
+      "paywalled": false
+    },
+    {
+      "title": "Trump Says Diesel Deal Aims to Keep Russia Talks Going",
+      "url": "https://www.rigzone.com/news/wire/trump_says_diesel_deal_aims_to_keep_russia_talks_going-19-oct-2026-184873-article/?rss=true",
+      "source": "Rigzone",
+      "publishedAt": "2026-10-19T10:07:54.000Z",
+      "category": "policy",
+      "summary": "Trump said he struck a diesel export deal with Russia and delayed further sanctions to keep Putin engaged in peace talks.",
+      "paywalled": false
+    },
+    {
+      "title": "US waives Russia sanctions as Gulf oil shipments face renewed disruption",
+      "url": "https://www.ogj.com/general-interest/economics-markets/news/55412764/us-waives-russia-sanctions-as-gulf-oil-shipments-face-renewed-disruption",
+      "source": "Oil & Gas Journal",
+      "publishedAt": "2026-10-19T17:44:58.000Z",
+      "category": "policy",
+      "summary": "Trump signed an executive order waiving key sanctions and tariffs on Russian oil and gas for 60 days amid renewed Gulf shipment disruptions.",
+      "paywalled": false
+    },
+    {
+      "title": "Union employees locked out of New Jersey oil refineries after contracts expire",
+      "url": "https://www.cbsnews.com/newyork/news/phillips-66-bayway-refinery-linden-terminal-nj-employees-locked-out/",
+      "source": "CBS News",
+      "publishedAt": "2026-10-20T08:24:00.000Z",
+      "category": "operations",
+      "summary": "Union-represented workers were locked out of Phillips 66's Bayway Refinery and Linden Terminal in New Jersey after labor contracts expired.",
+      "paywalled": false
+    },
+    {
+      "title": "Citgo Raises Profit Outlook by $2B",
+      "url": "https://www.rigzone.com/news/wire/citgo_raises_profit_outlook_by_2b-20-oct-2026-184884-article/?rss=true",
+      "source": "Rigzone",
+      "publishedAt": "2026-10-20T13:18:51.000Z",
+      "category": "companies",
+      "summary": "Citgo Petroleum raised its 2026 operating profit outlook by $2 billion, citing surging fuel margins, according to a document seen by Bloomberg.",
+      "paywalled": false
+    },
+    {
+      "title": "How Much Additional Diesel Could Reach the Market?",
+      "url": "https://www.rigzone.com/news/how_much_additional_diesel_could_reach_the_market-20-oct-2026-184887-article/?rss=true",
+      "source": "Rigzone",
+      "publishedAt": "2026-10-20T14:11:30.000Z",
+      "category": "operations",
+      "summary": "Rigzone examines how much additional diesel supply could reach the market and what that would mean for prices amid the current squeeze.",
+      "paywalled": false
+    },
+    {
+      "title": "Trump administration announces $8 billion Harvest Fuel Relief program",
+      "url": "https://www.biobased-diesel.com/post/trump-administration-announces-8-billion-harvest-fuel-relief-program",
+      "source": "Biobased Diesel Daily",
+      "publishedAt": "2026-10-20T12:15:09.000Z",
+      "category": "policy",
+      "summary": "The Trump administration announced an $8 billion Harvest Fuel Relief program providing proportional support to biofuel producers for modeled 2026 crop-year losses.",
+      "paywalled": false
+    },
+    {
+      "title": "September RIN generation eases, but 2026 biofuel volumes stay ahead of last year",
+      "url": "https://chemicals.economictimes.indiatimes.com/news/industry-and-market/september-rin-generation-eases-but-2026-biofuel-volumes-stay-ahead-of-last-year/135042548",
+      "source": "chemicals.economictimes.indiatimes",
+      "publishedAt": "2026-10-19T12:34:00.000Z",
+      "category": "policy",
+      "summary": "EPA data show September RIN generation eased slightly year-on-year, but 2026 biofuel volumes remain ahead of last year across most fuel categories.",
+      "paywalled": false
+    },
+    {
+      "title": "Fuel prices push heat costs in Mid Atlantic, New England much higher",
+      "url": "https://www.usatoday.com/story/money/2026/10/19/these-regions-are-seeing-the-highest-price-jumps-for-propane-oil/92331772007/",
+      "source": "USA TODAY",
+      "publishedAt": "2026-10-19T12:26:00.000Z",
+      "category": "markets",
+      "summary": "Heating oil costs in the Mid-Atlantic and New England have jumped sharply year-over-year, per EIA data, as fuel prices squeeze residential heating budgets.",
+      "paywalled": false
+    },
+    {
+      "title": "Hybrid sales rise while battery electric sales remain lower after tax credit expiration",
+      "url": "https://www.eia.gov/todayinenergy/detail.php?id=68325",
+      "source": "EIA Today in Energy",
+      "publishedAt": "2026-10-19T14:00:00.000Z",
+      "category": "markets",
+      "summary": "EIA reports hybrid vehicle sales grew to 16% of light-duty sales in 3Q26 even as overall electrified-vehicle share slipped slightly amid rising new-vehicle prices.",
+      "paywalled": false
+    }
+  ],
+  "decks": [],
+  "prices": {
+    "date": "2026-10-20",
+    "rbobSpot": 2.987,
+    "ulsdSpot": 5.066,
+    "wtiSpot": 101.91,
+    "retailGas": 4.424,
+    "retailDiesel": 6.276,
+    "gasStocksMbbl": 208262,
+    "distStocksMbbl": 102611,
+    "gasDemandKbd": 8408,
+    "distDemandKbd": 4323,
+    "gasCrack": 23.54,
+    "dieselCrack": 110.86
+  },
+  "prevPrices": {
+    "date": "2026-10-19",
+    "wtiSpot": 101.91,
+    "retailGas": 4.471,
+    "retailDiesel": 6.179,
+    "gasStocksMbbl": 208262
+  },
+  "upcomingEarnings": [
+    {
+      "ticker": "DINO",
+      "name": "HF Sinclair",
+      "nextEstimate": "2026-10-27"
+    }
+  ],
+  "generatedAt": "2026-10-20T15:47:06.301Z"
+}
