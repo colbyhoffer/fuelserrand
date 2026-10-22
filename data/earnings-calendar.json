@@ -14,23 +14,9 @@
     "nextEstimate": "2026-10-28"
   },
   {
-    "ticker": "VLO",
-    "name": "Valero Energy",
-    "group": "refiner",
-    "lastReport": "2026-07-30",
-    "nextEstimate": "2026-10-29"
-  },
-  {
     "ticker": "PBF",
     "name": "PBF Energy",
     "group": "refiner",
-    "lastReport": "2026-07-30",
-    "nextEstimate": "2026-10-29"
-  },
-  {
-    "ticker": "DAR",
-    "name": "Darling Ingredients",
-    "group": "renewables",
     "lastReport": "2026-07-30",
     "nextEstimate": "2026-10-29"
   },
@@ -145,5 +131,19 @@
     "group": "bigbox",
     "lastReport": "2026-09-24",
     "nextEstimate": "2026-12-17"
+  },
+  {
+    "ticker": "VLO",
+    "name": "Valero Energy",
+    "group": "refiner",
+    "lastReport": "2026-10-22",
+    "nextEstimate": "2027-01-21"
+  },
+  {
+    "ticker": "DAR",
+    "name": "Darling Ingredients",
+    "group": "renewables",
+    "lastReport": "2026-10-22",
+    "nextEstimate": "2027-01-21"
   }
 ]

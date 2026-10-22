@@ -1,0 +1,200 @@
+{
+  "date": "2026-10-22",
+  "headline": "Mideast escalation and record refining margins send fuel prices surging",
+  "intro": "Houthi strikes on Saudi Arabia and tanker incidents in the Strait of Hormuz are doing what geopolitics does best — scrambling energy markets — while refiners quietly pocket the biggest crack spreads in years. Valero just posted its best quarter ever, and diesel is now scarce enough that Washington is dipping into the Northeast's heating oil reserve.",
+  "overview": "Crude and refined product prices jumped Thursday as Houthi attacks on Saudi Arabia and reports of damaged tankers in the Strait of Hormuz revived Gulf supply fears, pushing Brent to its highest since May. Refiners are capitalizing on historically tight product markets — US refinery utilization has averaged over 95% since May, the highest since 1998, and Valero reported a record quarterly profit as crack spreads (diesel at $113.24/bbl) soar. Diesel scarcity is also forcing policy responses: the administration is tapping the Northeast heating oil reserve and offering a loan from it, while farmers are getting $8 billion in harvest fuel relief amid elevated diesel costs, and EPA has proposed reallocating waived 2025 RFS obligations.",
+  "stories": [
+    {
+      "title": "Global Supply Risks And Strong Refining Margins Drive Energy Market Rally",
+      "url": "https://www.tacenergy.com/news-and-views/market-talk/global-supply-risks-and-strong-refining-margins-drive-energy-market-rally",
+      "source": "TACenergy Market Talk",
+      "publishedAt": "2026-10-22T12:00:00.000Z",
+      "category": "markets",
+      "summary": "Energy markets rallied sharply Thursday as the likelihood of broader Middle East war grows, reversing Wednesday's selloff, with strong refining margins adding fuel to the rally.",
+      "paywalled": false
+    },
+    {
+      "title": "Oil Prices Surge on Houthi Attacks, Escalation Signs",
+      "url": "https://www.dtnpf.com/agriculture/web/ag/news/world-policy/article/2026/10/22/oil-prices-surge-houthi-attacks",
+      "source": "DTN/Progressive Farmer",
+      "publishedAt": "2026-10-22T06:04:00.000Z",
+      "category": "markets",
+      "summary": "Brent futures jumped to their highest level since May after a fresh wave of Houthi attacks on Saudi Arabia.",
+      "paywalled": false
+    },
+    {
+      "title": "Iran says 7 tankers damaged in Strait of Hormuz, and other Mideast news",
+      "url": "https://www.wpri.com/business-news/ap-business/ap-iran-says-7-tankers-on-fire-or-damaged-overnight-in-the-strait-of-hormuz-and-other-mideast-news/",
+      "source": "WPRI 12 News",
+      "publishedAt": "2026-10-22T07:59:00.000Z",
+      "category": "markets",
+      "summary": "Iran's state television reported seven oil tankers were struck or hit mines in the Strait of Hormuz overnight, potentially the largest single-day total on record.",
+      "paywalled": false
+    },
+    {
+      "title": "U.S. refineries have been running at very high rates in 2026",
+      "url": "https://www.eia.gov/todayinenergy/detail.php?id=68344",
+      "source": "EIA Today in Energy",
+      "publishedAt": "2026-10-22T14:00:00.000Z",
+      "category": "markets",
+      "summary": "US refinery utilization averaged over 95% of capacity from May to September, the highest for those months since 1998, as tight global product supplies boosted margins, especially for diesel.",
+      "paywalled": false
+    },
+    {
+      "title": "Valero sets strong tone for US refiners with record quarterly profit as margins surge",
+      "url": "https://www.reuters.com/business/energy/valero-kicks-off-refiner-results-with-record-quarterly-profit-higher-margins-2026-10-22/",
+      "source": "Reuters",
+      "publishedAt": "2026-10-22T03:33:00.000Z",
+      "category": "markets",
+      "summary": "Valero posted its highest-ever quarterly profit, beating Wall Street estimates, as Middle East-driven disruptions sent refining margins soaring.",
+      "paywalled": true
+    },
+    {
+      "title": "Valero Energy presents its results for the third quarter of 2026",
+      "url": "https://inspenet.com/en/news/valero-energy-third-quarter-2026/",
+      "source": "inspenet",
+      "publishedAt": "2026-10-22T08:33:00.000Z",
+      "category": "markets",
+      "summary": "Valero reported $6.828 billion in Q3 net profit with improvements across refining, renewable diesel and ethanol segments.",
+      "paywalled": false
+    },
+    {
+      "title": "USA to Tap National Diesel Reserve",
+      "url": "https://www.rigzone.com/news/wire/usa_to_tap_national_diesel_reserve-21-oct-2026-184897-article/?rss=true",
+      "source": "Rigzone",
+      "publishedAt": "2026-10-21T14:28:46.000Z",
+      "category": "operations",
+      "summary": "The Trump administration is tapping the emergency Northeast Home Heating Oil Reserve as diesel costs remain elevated.",
+      "paywalled": false
+    },
+    {
+      "title": "Washington Offers to Lend Up to a Third of the Northeast’s Heating Oil Reserve. Here’s What It Means for Your Tank",
+      "url": "https://energynewsbeat.co/crude-oil/washington-offers-to-lend-up-to-a-third-of-the-northeasts-heating-oil-reserve-heres-what-it-means-for-your-tank/",
+      "source": "energynewsbeat.co",
+      "publishedAt": "2026-10-22T06:07:00.000Z",
+      "category": "markets",
+      "summary": "Washington is offering to lend up to a third of the Northeast's heating oil reserve — about 315,000 barrels — the first such use of the reserve to fight prices, with heating oil at $6.11/gal in New England, up 77% in a year.",
+      "paywalled": false
+    },
+    {
+      "title": "Farmers Welcome $8 Billion in Fuel Relief, Push for Lasting Solutions",
+      "url": "https://www.agriculture.com/farmers-welcome-usd8-billion-in-fuel-relief-push-for-lasting-solutions-12187931",
+      "source": "Successful Farming",
+      "publishedAt": "2026-10-22T07:46:00.000Z",
+      "category": "policy",
+      "summary": "The Trump administration announced an $8 billion 'harvest fuel relief program' for farmers responding to elevated diesel costs during harvest season.",
+      "paywalled": false
+    },
+    {
+      "title": "Midterms Could Swing on Diesel",
+      "url": "https://www.rigzone.com/news/midterms_could_swing_on_diesel-21-oct-2026-184894-article/?rss=true",
+      "source": "Rigzone",
+      "publishedAt": "2026-10-21T11:56:48.000Z",
+      "category": "policy",
+      "summary": "Macquarie strategists warn the midterms could swing on diesel prices rather than gasoline.",
+      "paywalled": false
+    },
+    {
+      "title": "EPA proposes two options for reallocating waived 2025 Renewable Fuel Standard (RFS) blending obligations",
+      "url": "https://www.ofimagazine.com/news/epa-proposes-two-options-for-reallocating-waived-2025-renewable-fuel-standard-rfs-blending-obligations",
+      "source": "Oils & Fats International",
+      "publishedAt": "2026-10-22T00:30:00.000Z",
+      "category": "policy",
+      "summary": "EPA has proposed two options for reallocating waived 2025 RFS blending obligations.",
+      "paywalled": false
+    },
+    {
+      "title": "Renewable Fuel Standards 2026: where US D4 supply stands against the biomass-based diesel requirement",
+      "url": "https://www.fastmarkets.com/insights/renewable-fuel-standards-2026-where-us-d4-supply-stands-against-the-biomass-based-diesel-requirement/",
+      "source": "Fastmarkets",
+      "publishedAt": "2026-10-22T03:55:00.000Z",
+      "category": "policy",
+      "summary": "Fastmarkets analysis tracks how US biodiesel/renewable diesel production stands against the 2026 RFS biomass-based diesel requirement and potential small refinery exemption reallocation.",
+      "paywalled": false
+    },
+    {
+      "title": "Linden mayor demands safety assurances from Phillips 66 amid refinery lockout",
+      "url": "https://newjersey.news12.com/2026/10/21/linden-mayor-demands-safety-assurances-from-phillips-66-amid-refinery-lockout/4WKXrlPDnC1m4N9XgxbezV",
+      "source": "News 12 New Jersey",
+      "publishedAt": "2026-10-21T10:47:00.000Z",
+      "category": "operations",
+      "summary": "Linden's mayor is demanding safety assurances from Phillips 66 amid a lockout at the Bayway Refinery, which the company says remains fully staffed and operating safely.",
+      "paywalled": false
+    },
+    {
+      "title": "EIA: US crude oil inventories down 3.1 million bbl",
+      "url": "https://www.ogj.com/general-interest/economics-markets/news/55413538/eia-us-crude-oil-inventories-down-31-million-bbl",
+      "source": "Oil & Gas Journal",
+      "publishedAt": "2026-10-21T19:05:57.000Z",
+      "category": "operations",
+      "summary": "EIA data show US crude oil inventories fell 3.1 million barrels, now 3% below the five-year seasonal average.",
+      "paywalled": false
+    }
+  ],
+  "decks": [
+    {
+      "company": "Valero Energy",
+      "ticker": "VLO",
+      "title": "8-K exhibit a9302026exh9901earningsrel.htm (filed 2026-10-22)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1035002/000162828026066795/a9302026exh9901earningsrel.htm",
+      "foundAt": "2026-10-22T15:59:08.631Z",
+      "docType": "earnings",
+      "analysis": "# Valero Energy Q3 2026 Earnings – Refined Fuels Market Takeaways\n\n- **Margins surged dramatically**: Refining margin hit $39.24/bbl vs. $13.14/bbl a year ago (nearly 3x), with adjusted Refining operating income of $32.09/bbl vs. $5.86/bbl. USGC ULS diesel-less-Brent cracks exploded to $72.27/bbl (vs. $21.05) and CBOB gasoline-less-Brent to $24.08/bbl (vs. $7.78), reflecting a very tight product market environment, not just crude cost effects.\n\n- **Throughput/utilization near-record despite capacity loss**: Total throughput was 2,972 Mbpd (down modestly from 3,087 Mbpd YoY) even as the Benicia Refinery was fully idled by end of April 2026, cutting West Coast throughput to just 119 Mbpd (from 259 Mbpd). Remaining system ran at \"near-record utilization,\" with St. Charles FCC optimization completed on-schedule/budget, adding alkylate/gasoline yield capacity going forward.\n\n- **Renewable diesel economics inflected sharply positive**: RD segment swung to $353M operating income (from a $28M loss), margin per gallon of $1.62 (vs. $0.50), on higher RIN values ($2.23/RIN vs. $1.13) and LCFS credits ($80.60/MT vs. $53.36/MT). RVO compliance cost also rose to $14.34/bbl (vs. $6.38/bbl), indicating richer blending economics supporting DGD profitability. Sales volumes grew to 3,423 Mgal/d (vs. 2,717).\n\n- **Heavy RIN/LCFS/feedstock exposure embedded in results**: Feedstock costs for RD rose too (USGC used cooking oil $0.76/lb vs. $0.62; distillers corn oil $0.77/lb vs. $0.64), but margin expansion outpaced cost inflation, suggesting policy-driven credit value (RIN/LCFS) is the dominant swing factor for RD profitability.\n\n- **Capital discipline amid a windfall quarter**: Capex was modest at $432M ($371M sustaining), debt reduced via retirement of $100M 7.65% debentures and $426M 3.400% senior notes, net debt/cap at just 4%, and shareholder payout ratio of 52% of adjusted operating cash flow ($7.3B) — signaling a conservative, cash-return-focused posture rather than aggressive capacity expansion.\n\n- **No explicit forward guidance given**, but the West Coast capac"
+    },
+    {
+      "company": "Darling Ingredients",
+      "ticker": "DAR",
+      "title": "8-K exhibit exh991-pressrelease102226.htm (filed 2026-10-22)",
+      "url": "https://www.sec.gov/Archives/edgar/data/916540/000091654026000025/exh991-pressrelease102226.htm",
+      "foundAt": "2026-10-22T15:59:08.631Z",
+      "docType": "earnings",
+      "analysis": "## Darling Ingredients (DAR) / Diamond Green Diesel — Q3 2026 Preliminary Results\n\n- **DGD operating income swung sharply positive YoY**: Q3 2026 ~$350M vs. a $(70.0)M operating loss in Q3 2025; 9-month 2026 ~$1.3B vs. a $(95.6)M loss in 9M 2025 — reflects materially improved renewable diesel economics year-over-year, likely tied to policy/credit tailwinds (e.g., CFPC) rather than just volume.\n- **Volumes**: Q3 2026 sold/shipped 314.9M gallons; 9M 2026 936.1M gallons — tracking toward DGD's >1.2B gallon/year nameplate capacity, implying ~95%+ annualized utilization if Q4 holds pace.\n- **Margin capture (Adjusted EBITDA/gal)**: $1.30/gal in Q3 2026, down from the $1.59/gal 9-month average — signals some sequential margin compression or timing noise within the quarter despite the strong YoY swing.\n- **Management flagged timing distortions**: CEO Stuewe attributed part of the Q3 softness (vs. 9-month run rate) to \"timing of renewable diesel sales and certain commercial activities,\" expecting those to reverse and benefit Q4 — a potential pull-forward of margin recognition rather than a structural change.\n- **Revenue scale jumped**: DGD operating revenues roughly doubled YoY (Q3 2026 $2.39B vs. $1.20B in Q3 2025; 9M $6.49B vs. $3.20B), consistent with higher RD/SAF pricing and/or credit monetization, not just volume growth (volumes likely up but not 2x).\n- **Guidance raised/reaffirmed**: Darling issued FY2026 Combined Adjusted EBITDA guidance of $2.2–$2.3B, with management citing \"favorable run rate entering Q4\" and expected momentum carrying into 2027 — a constructive signal for near-term RD/SAF spread sustainability.\n\n**Signal for fuels markets**: The sharp YoY swing from losses to strong profitability at one of the largest RD/SAF producers, combined with near-full capacity utilization and raised full-year guidance, points to a meaningfully improved renewable diesel margin environment (likely credit/policy-driven) heading into Q4 2026 and 2027, though the sequential dip in EBITDA/gallon warrants watching for margin durability."
+    }
+  ],
+  "prices": {
+    "date": "2026-10-22",
+    "rbobSpot": 2.897,
+    "ulsdSpot": 5.265,
+    "wtiSpot": 107.89,
+    "retailGas": 4.424,
+    "retailDiesel": 6.276,
+    "gasStocksMbbl": 205310,
+    "distStocksMbbl": 104286,
+    "gasDemandKbd": 8982,
+    "distDemandKbd": 3732,
+    "gasCrack": 13.78,
+    "dieselCrack": 113.24
+  },
+  "prevPrices": {
+    "date": "2026-10-21",
+    "rbobSpot": 2.987,
+    "ulsdSpot": 5.066,
+    "wtiSpot": 101.91,
+    "retailGas": 4.424,
+    "retailDiesel": 6.276,
+    "gasStocksMbbl": 208262,
+    "distStocksMbbl": 102611,
+    "gasDemandKbd": 8408,
+    "distDemandKbd": 4323,
+    "gasCrack": 23.54,
+    "dieselCrack": 110.86
+  },
+  "upcomingEarnings": [
+    {
+      "ticker": "DINO",
+      "name": "HF Sinclair",
+      "nextEstimate": "2026-10-27"
+    },
+    {
+      "ticker": "CVI",
+      "name": "CVR Energy",
+      "nextEstimate": "2026-10-28"
+    },
+    {
+      "ticker": "PBF",
+      "name": "PBF Energy",
+      "nextEstimate": "2026-10-29"
+    }
+  ],
+  "generatedAt": "2026-10-22T15:59:08.631Z"
+}
