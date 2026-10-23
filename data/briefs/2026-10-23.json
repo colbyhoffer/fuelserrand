@@ -1,0 +1,209 @@
+{
+  "date": "2026-10-23",
+  "headline": "Diesel squeeze deepens as refiners run flat-out and Russian cargo can't fill the gap",
+  "intro": "Diesel at $6.30 a gallon and refiners running the hardest they have since 1998 — the fuels market is basically screaming that something has to give. Spoiler: it's not giving yet.",
+  "overview": "Crude's surge toward $114 on Middle East supply fears is rippling straight into cracks, with diesel margins near $113/bbl and retail diesel above $6.27. US refinery utilization hit its highest summer level since 1998 per EIA, yet total output remains capped by lost capacity, and a token 300,000-bbl Russian diesel cargo bound for New York won't move the needle on tight product supply. Meanwhile an Exxon Joliet refinery issue is pushing up Chicago gas prices, DOE has floated $150M for refinery expansion without naming recipients, and SAF/renewable diesel policy and infrastructure stories continue to build in the background.",
+  "stories": [
+    {
+      "title": "U.S. refineries have been running at very high rates in 2026",
+      "url": "https://www.eia.gov/todayinenergy/detail.php?id=68344",
+      "source": "EIA Today in Energy",
+      "publishedAt": "2026-10-22T14:00:00.000Z",
+      "category": "markets",
+      "summary": "US refinery utilization averaged more than 95% of capacity between May and September 2026, the highest for those months since 1998, as tight global product supplies boosted margins—especially for diesel—incentivizing higher run rates.",
+      "paywalled": false
+    },
+    {
+      "title": "Tight product supplies lift US summer refinery utilization to highest level since 1998",
+      "url": "https://www.ogj.com/general-interest/economics-markets/news/55413722/tight-product-supplies-lift-us-summer-refinery-utilization-to-highest-since-1998",
+      "source": "Oil & Gas Journal",
+      "publishedAt": "2026-10-22T15:43:31.000Z",
+      "category": "operations",
+      "summary": "Tight product supplies pushed US summer refinery utilization to its highest level since 1998, though total output only reached its highest since 2019 since US refining capacity has declined 4% since then.",
+      "paywalled": false
+    },
+    {
+      "title": "U.S. Diesel at $6.30 a Gallon as First Russian Cargo Sets Sail for New York",
+      "url": "https://oilprice.com/Latest-Energy-News/World-News/US-Diesel-at-630-a-Gallon-as-First-Russian-Cargo-Sets-Sail-for-New-York.html",
+      "source": "OilPrice.com",
+      "publishedAt": "2026-10-23T06:30:00.000Z",
+      "category": "markets",
+      "summary": "US diesel hit $6.30/gallon as the first Russian diesel cargo set sail for New York, but at just 300,000 barrels, analysts say it can't ease the tight market.",
+      "paywalled": false
+    },
+    {
+      "title": "With Diesel Margins Stretched, Production Is Underway at Nevada’s Only Crude Oil Refinery",
+      "url": "https://www.manilatimes.net/2026/10/23/tmt-newswire/globenewswire/with-diesel-margins-stretched-production-is-underway-at-nevadas-only-crude-oil-refinery/2452849",
+      "source": "The Manila Times",
+      "publishedAt": "2026-10-23T06:20:00.000Z",
+      "category": "operations",
+      "summary": "With diesel margins stretched globally, production is underway at Nevada's only crude oil refinery; the IEA's October report noted diesel prices have eased from all-time highs above $200/barrel but remain elevated.",
+      "paywalled": false
+    },
+    {
+      "title": "Crude Strength, Refinery Disruptions, And Export Bottlenecks Support Fuel Prices",
+      "url": "https://www.tacenergy.com/news-and-views/market-talk/crude-strength-refinery-disruptions-and-export-bottlenecks-support-fuel-prices",
+      "source": "TACenergy Market Talk",
+      "publishedAt": "2026-10-23T12:00:00.000Z",
+      "category": "markets",
+      "summary": "Crude strength, refinery disruptions and export bottlenecks are supporting fuel prices, with WTI above $101 and Brent near $115; diesel futures saw a modest pullback but the pattern suggests volatility continues.",
+      "paywalled": false
+    },
+    {
+      "title": "Issue at Exxon Mobil Joliet Refinery contributing to high Chicago area gas prices",
+      "url": "https://www.cbsnews.com/chicago/news/exxon-mobil-joliet-refinery-chicago-area-gas-prices/",
+      "source": "CBS News",
+      "publishedAt": "2026-10-23T04:58:00.000Z",
+      "category": "operations",
+      "summary": "An issue at the ExxonMobil Joliet Refinery is contributing to sharply higher gas prices in the Chicago area.",
+      "paywalled": false
+    },
+    {
+      "title": "DOE Earmarks $150M for Refinery Expansion, but Names No Recipients",
+      "url": "https://discoveryalert.com/news/refinery-expansion-funding-doe-october-2026/",
+      "source": "discoveryalert.com",
+      "publishedAt": "2026-10-22T17:00:00.000Z",
+      "category": "markets",
+      "summary": "DOE has earmarked $150M for refinery expansion but named no recipients; refiners already running at 95% utilization have limited ability to add output quickly.",
+      "paywalled": false
+    },
+    {
+      "title": "EU Diesel, Jet Supplies Remain Tight",
+      "url": "https://www.rigzone.com/news/eu_diesel_jet_supplies_remain_tight-23-oct-2026-184915-article/?rss=true",
+      "source": "Rigzone",
+      "publishedAt": "2026-10-23T11:08:49.000Z",
+      "category": "operations",
+      "summary": "EU diesel and jet fuel supplies remain tight, though the European Commission says there is currently no physical shortage of these products in Europe.",
+      "paywalled": false
+    },
+    {
+      "title": "Valero wraps St. Charles FCC project, reports record earnings",
+      "url": "https://www.ogj.com/refining-processing/news/55413762/valero-wraps-st-charles-fcc-project-reports-record-earnings",
+      "source": "Oil & Gas Journal",
+      "publishedAt": "2026-10-22T16:23:55.000Z",
+      "category": "operations",
+      "summary": "Valero completed its $230 million FCC unit upgrade at its St. Charles refinery, alongside reporting record third-quarter 2026 earnings.",
+      "paywalled": false
+    },
+    {
+      "title": "Will gas prices go down? Analysts predict they won't drop below $4 before the 2026 midterms",
+      "url": "https://www.clarin.com/us-news/will-gas-prices-go-down-analysts-predict-they-wont-drop-below-4-before-the-2026-midterms_0_MDddMS0dSg.html",
+      "source": "Clarín",
+      "publishedAt": "2026-10-23T05:03:00.000Z",
+      "category": "markets",
+      "summary": "With fewer than two weeks until the November 3 midterm elections, energy analysts warn drivers not to expect gas prices to drop below $4 before the vote.",
+      "paywalled": false
+    },
+    {
+      "title": "Tiffany floats expansion of Wisconsin’s oil refinery to reduce reliance on Middle East",
+      "url": "https://www.wpr.org/news/tiffany-floats-expansion-wisconsins-oil-refinery-reduce-reliance-middle-east",
+      "source": "Wisconsin Public Radio",
+      "publishedAt": "2026-10-23T08:02:00.000Z",
+      "category": "policy",
+      "summary": "Rep. Tom Tiffany is encouraging expansion of Wisconsin's only oil refinery to reduce reliance on the Middle East, though energy experts say it would have little effect on bringing down prices.",
+      "paywalled": false
+    },
+    {
+      "title": "Oil Surges 4% After Deadly Saudi Attacks",
+      "url": "https://www.rigzone.com/news/wire/oil_surges_4_after_deadly_saudi_attacks-22-oct-2026-184912-article/?rss=true",
+      "source": "Rigzone",
+      "publishedAt": "2026-10-22T19:55:03.000Z",
+      "category": "markets",
+      "summary": "Brent climbed above $113 amid deadly Saudi attacks and renewed Iran tensions, while global diesel supplies remained tight.",
+      "paywalled": false
+    },
+    {
+      "title": "INTERVIEW - SAF infrastructure has to keep pace with production growth, FlyORO says",
+      "url": "https://renewablesnow.com/news/interview-saf-infrastructure-has-to-keep-pace-with-production-growth-flyoro-says-1303564/",
+      "source": "Renewables Now",
+      "publishedAt": "2026-10-23T05:42:00.000Z",
+      "category": "policy",
+      "summary": "SAF infrastructure must keep pace with production growth, including blending, storage and distribution capacity at airports not connected to major fuel terminals, according to FlyORO.",
+      "paywalled": false
+    },
+    {
+      "title": "American Airlines Reports Record Revenue Amid $1.9bn Rise in Fuel Costs",
+      "url": "https://airportindustry-news.com/american-airlines-reports-record-revenue-amid-1-9bn-rise-in-fuel-costs/",
+      "source": "airportindustry-news",
+      "publishedAt": "2026-10-23T05:29:00.000Z",
+      "category": "policy",
+      "summary": "American Airlines reported record Q3 2026 revenue alongside a $1.9 billion rise in fuel costs.",
+      "paywalled": false
+    }
+  ],
+  "decks": [],
+  "prices": {
+    "date": "2026-10-23",
+    "rbobSpot": 2.897,
+    "ulsdSpot": 5.265,
+    "wtiSpot": 107.89,
+    "retailGas": 4.424,
+    "retailDiesel": 6.276,
+    "gasStocksMbbl": 205310,
+    "distStocksMbbl": 104286,
+    "gasDemandKbd": 8982,
+    "distDemandKbd": 3732,
+    "gasCrack": 13.78,
+    "dieselCrack": 113.24
+  },
+  "prevPrices": {
+    "date": "2026-10-22",
+    "rbobSpot": 2.897,
+    "ulsdSpot": 5.265,
+    "wtiSpot": 107.89,
+    "retailGas": 4.424,
+    "retailDiesel": 6.276,
+    "gasStocksMbbl": 205310,
+    "distStocksMbbl": 104286,
+    "gasDemandKbd": 8982,
+    "distDemandKbd": 3732,
+    "gasCrack": 13.78,
+    "dieselCrack": 113.24
+  },
+  "weekAhead": [
+    {
+      "date": "Wed, Oct 28",
+      "label": "EIA Weekly Petroleum Status Report (10:30am ET) — inventories, demand, refinery runs"
+    },
+    {
+      "date": "Wed, Oct 28",
+      "label": "EIA This Week in Petroleum analysis"
+    },
+    {
+      "date": "Tue, Oct 27",
+      "label": "EPA weekly RIN transaction data update"
+    },
+    {
+      "date": "Mon, Oct 26",
+      "label": "EIA weekly retail gasoline & diesel prices (Mon PM)"
+    }
+  ],
+  "upcomingEarnings": [
+    {
+      "ticker": "DINO",
+      "name": "HF Sinclair",
+      "nextEstimate": "2026-10-27"
+    },
+    {
+      "ticker": "CVI",
+      "name": "CVR Energy",
+      "nextEstimate": "2026-10-28"
+    },
+    {
+      "ticker": "PBF",
+      "name": "PBF Energy",
+      "nextEstimate": "2026-10-29"
+    },
+    {
+      "ticker": "CVX",
+      "name": "Chevron",
+      "nextEstimate": "2026-10-30"
+    },
+    {
+      "ticker": "DK",
+      "name": "Delek US",
+      "nextEstimate": "2026-10-30"
+    }
+  ],
+  "generatedAt": "2026-10-23T15:50:46.881Z"
+}
