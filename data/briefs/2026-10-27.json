@@ -1,0 +1,201 @@
+{
+  "date": "2026-10-27",
+  "headline": "Houthis claim missile strike on Ras Tanura refinery as oil market whipsaws",
+  "intro": "Markets just can't decide whether the Middle East is calming down or blowing up, and a claimed strike on Saudi Arabia's biggest refinery landed right in the middle of diplomatic talks in Tehran. Crude pulled back on peace hopes even as ULSD cracks stay eye-watering above $113/bbl.",
+  "overview": "Crude eased from six-month highs as Saudi, Iranian and other officials met in Tehran, offsetting Houthi claims of a missile strike on the Ras Tanura refinery and Saudi Defence Ministry that reportedly sparked a contained fire. Diesel cracks remain extremely elevated near $113/bbl with retail diesel at $6.35/gal, while gasoline cracks sit far lower near $13.78/bbl, reflecting continued diesel-market tightness even as India's refining expansion threatens to add export supply next year. On the biofuels side, Moeve and Galp called off downstream merger talks, Chinese UCO exports jumped 55%, and ethanol-mandate cost criticism resurfaced in US policy debate.",
+  "stories": [
+    {
+      "title": "Yemen's Houthis say they launched an attack on Saudi Ras Tanura oil refinery",
+      "url": "https://www.miamiherald.com/news/nation-world/world/article317795208.html",
+      "source": "Miami Herald",
+      "publishedAt": "2026-10-27T00:57:00.000Z",
+      "category": "operations",
+      "summary": "Yemen's Houthis said they launched a missile attack on Saudi Arabia's Ras Tanura refinery, the kingdom's biggest, located near the Strait of Hormuz.",
+      "paywalled": false
+    },
+    {
+      "title": "Houthis claim strikes on Saudi Defence Ministry, Ras Tanura refinery as regional tensions escalate",
+      "url": "https://www.firstpost.com/world/houthis-claim-strikes-on-saudi-defence-ministry-ras-tanura-refinery-as-regional-tensions-escalate-14055810.html",
+      "source": "Firstpost",
+      "publishedAt": "2026-10-27T08:56:00.000Z",
+      "category": "operations",
+      "summary": "Houthis also claimed strikes on Saudi Arabia's Defence Ministry in Riyadh alongside the Ras Tanura refinery attack, escalating regional tensions.",
+      "paywalled": false
+    },
+    {
+      "title": "Aramco Contains Fire Near Ras Tanura Oil Hub",
+      "url": "https://www.rigzone.com/news/wire/aramco_contains_fire_near_ras_tanura_oil_hub-27-oct-2026-184944-article/?rss=true",
+      "source": "Rigzone",
+      "publishedAt": "2026-10-27T15:28:27.000Z",
+      "category": "operations",
+      "summary": "Saudi Arabia contained a fire near its biggest oil export terminal at Ras Tanura following the reported attack.",
+      "paywalled": false
+    },
+    {
+      "title": "Oil Dips from 6 Month High as Officials Meet in Tehran",
+      "url": "https://www.rigzone.com/news/wire/oil_dips_from_6_month_high_as_officials_meet_in_tehran-26-oct-2026-184936-article/?rss=true",
+      "source": "Rigzone",
+      "publishedAt": "2026-10-26T21:02:54.000Z",
+      "category": "markets",
+      "summary": "Oil retreated from a six-month high as senior officials from several countries flew to Tehran for diplomatic talks.",
+      "paywalled": false
+    },
+    {
+      "title": "Mixed Signals on Middle East Conflict Weigh Oil Prices",
+      "url": "https://www.dtnpf.com/agriculture/web/ag/news/world-policy/article/2026/10/26/mixed-signals-middle-east-conflict",
+      "source": "DTN/Progressive Farmer",
+      "publishedAt": "2026-10-26T13:27:00.000Z",
+      "category": "markets",
+      "summary": "Crude futures dropped as markets weighed mixed signals on Middle East diplomacy, including reported Saudi-led efforts.",
+      "paywalled": false
+    },
+    {
+      "title": "Energy Markets Retreat On Diplomatic Optimism As Supply Risks Evolve",
+      "url": "https://www.tacenergy.com/news-and-views/market-talk/energy-markets-retreat-on-diplomatic-optimism-as-supply-risks-evolve",
+      "source": "TACenergy Market Talk",
+      "publishedAt": "2026-10-27T12:00:00.000Z",
+      "category": "markets",
+      "summary": "Energy markets saw modest selling as Tehran talks between Saudi Arabia and Iran fueled hope that an Iran war escalation could be avoided.",
+      "paywalled": false
+    },
+    {
+      "title": "Oil eases on diplomacy hopes; European gas rises on winter supply concerns",
+      "url": "https://www.ogj.com/general-interest/economics-markets/news/55414324/oil-eases-on-diplomacy-hopes-european-gas-rises-on-winter-supply-concerns",
+      "source": "Oil & Gas Journal",
+      "publishedAt": "2026-10-26T15:29:24.000Z",
+      "category": "operations",
+      "summary": "Oil prices eased on diplomacy hopes while European gas rose to its highest level since December 2022 on winter supply concerns.",
+      "paywalled": false
+    },
+    {
+      "title": "India Diesel Export Boom Set to Ease Global Crunch",
+      "url": "https://www.rigzone.com/news/wire/india_diesel_export_boom_set_to_ease_global_crunch-27-oct-2026-184943-article/?rss=true",
+      "source": "Rigzone",
+      "publishedAt": "2026-10-27T15:22:17.000Z",
+      "category": "operations",
+      "summary": "A surge in Indian diesel exports is set to hit global markets next year as new refining capacity comes online, potentially easing the global diesel crunch.",
+      "paywalled": false
+    },
+    {
+      "title": "Gulf Oil Bargains Lure India Away from Russia",
+      "url": "https://www.rigzone.com/news/wire/gulf_oil_bargains_lure_india_away_from_russia-26-oct-2026-184931-article/?rss=true",
+      "source": "Rigzone",
+      "publishedAt": "2026-10-26T14:22:58.000Z",
+      "category": "operations",
+      "summary": "Indian refiners are increasingly turning to Persian Gulf crude, pulling back from Russian supply.",
+      "paywalled": false
+    },
+    {
+      "title": "Aramco Closes In on $10B Loan",
+      "url": "https://www.rigzone.com/news/wire/aramco_closes_in_on_10b_loan-27-oct-2026-184938-article/?rss=true",
+      "source": "Rigzone",
+      "publishedAt": "2026-10-27T07:00:00.000Z",
+      "category": "operations",
+      "summary": "Aramco is nearing a $10 billion loan agreement with international banks to bolster finances amid Middle East conflict risks to crude exports.",
+      "paywalled": false
+    },
+    {
+      "title": "Moeve, Galp end negotiations on potential downstream combination",
+      "url": "https://www.biobased-diesel.com/post/moeve-galp-end-negotiations-on-potential-downstream-combination",
+      "source": "Biobased Diesel Daily",
+      "publishedAt": "2026-10-26T12:17:33.000Z",
+      "category": "policy",
+      "summary": "Moeve and Galp ended negotiations on a potential downstream combination, failing to reach terms meeting their strategic and financial criteria.",
+      "paywalled": false
+    },
+    {
+      "title": "Chinese UCO exports rise by 55%",
+      "url": "https://www.ofimagazine.com/news/chinese-uco-exports-rise-by-55",
+      "source": "Oils & Fats International",
+      "publishedAt": "2026-10-27T00:30:00.000Z",
+      "category": "policy",
+      "summary": "Chinese exports of used cooking oil rose 55% in January-August 2026 versus the prior year, per Fastmarkets.",
+      "paywalled": false
+    },
+    {
+      "title": "It's Time for the EPA and Congress to Put Affordability Ahead of the Failed Ethanol Mandate",
+      "url": "https://redstate.com/redstate-guest-editorial/2026/10/27/its-time-for-the-epa-and-congress-to-put-affordability-ahead-of-the-failed-ethanol-mandate-n2208639",
+      "source": "RedState",
+      "publishedAt": "2026-10-26T23:15:00.000Z",
+      "category": "policy",
+      "summary": "An op-ed argues EPA and Congress should prioritize affordability over the ethanol mandate, citing consumer cost estimates ranging from $20 billion to $70 billion.",
+      "paywalled": false
+    },
+    {
+      "title": "Gas Prices Up After More Refinery Issues",
+      "url": "https://www.decaturradio.com/2026/10/27/gas-prices-up-after-more-refinery-issues/",
+      "source": "decaturradio",
+      "publishedAt": "2026-10-27T00:20:00.000Z",
+      "category": "operations",
+      "summary": "Illinois drivers are seeing higher pump prices as AAA reports the statewide average for regular gasoline rising after more refinery issues.",
+      "paywalled": false
+    }
+  ],
+  "decks": [],
+  "prices": {
+    "date": "2026-10-27",
+    "rbobSpot": 2.897,
+    "ulsdSpot": 5.265,
+    "wtiSpot": 107.89,
+    "retailGas": 4.405,
+    "retailDiesel": 6.352,
+    "gasStocksMbbl": 205310,
+    "distStocksMbbl": 104286,
+    "gasDemandKbd": 8982,
+    "distDemandKbd": 3732,
+    "gasCrack": 13.78,
+    "dieselCrack": 113.24
+  },
+  "prevPrices": {
+    "date": "2026-10-26",
+    "rbobSpot": 2.897,
+    "ulsdSpot": 5.265,
+    "wtiSpot": 107.89,
+    "retailGas": 4.424,
+    "retailDiesel": 6.276,
+    "gasStocksMbbl": 205310,
+    "distStocksMbbl": 104286,
+    "gasDemandKbd": 8982,
+    "distDemandKbd": 3732,
+    "gasCrack": 13.78,
+    "dieselCrack": 113.24
+  },
+  "upcomingEarnings": [
+    {
+      "ticker": "DINO",
+      "name": "HF Sinclair",
+      "nextEstimate": "2026-10-27"
+    },
+    {
+      "ticker": "CVI",
+      "name": "CVR Energy",
+      "nextEstimate": "2026-10-28"
+    },
+    {
+      "ticker": "PBF",
+      "name": "PBF Energy",
+      "nextEstimate": "2026-10-29"
+    },
+    {
+      "ticker": "CVX",
+      "name": "Chevron",
+      "nextEstimate": "2026-10-30"
+    },
+    {
+      "ticker": "DK",
+      "name": "Delek US",
+      "nextEstimate": "2026-10-30"
+    },
+    {
+      "ticker": "MPC",
+      "name": "Marathon Petroleum",
+      "nextEstimate": "2026-11-03"
+    },
+    {
+      "ticker": "SUN",
+      "name": "Sunoco LP",
+      "nextEstimate": "2026-11-03"
+    }
+  ],
+  "generatedAt": "2026-10-27T16:48:26.357Z"
+}

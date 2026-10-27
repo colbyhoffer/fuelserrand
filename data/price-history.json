@@ -12325,5 +12325,19 @@
     "distDemandKbd": 3732,
     "gasCrack": 13.78,
     "dieselCrack": 113.24
+  },
+  {
+    "date": "2026-10-27",
+    "rbobSpot": 2.897,
+    "ulsdSpot": 5.265,
+    "wtiSpot": 107.89,
+    "retailGas": 4.405,
+    "retailDiesel": 6.352,
+    "gasStocksMbbl": 205310,
+    "distStocksMbbl": 104286,
+    "gasDemandKbd": 8982,
+    "distDemandKbd": 3732,
+    "gasCrack": 13.78,
+    "dieselCrack": 113.24
   }
 ]
