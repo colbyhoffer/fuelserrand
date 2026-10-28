@@ -1,12 +1,5 @@
 [
   {
-    "ticker": "DINO",
-    "name": "HF Sinclair",
-    "group": "refiner",
-    "lastReport": "2026-07-28",
-    "nextEstimate": "2026-10-27"
-  },
-  {
     "ticker": "CVI",
     "name": "CVR Energy",
     "group": "refiner",
@@ -91,13 +84,6 @@
     "nextEstimate": "2026-11-06"
   },
   {
-    "ticker": "PSX",
-    "name": "Phillips 66",
-    "group": "refiner",
-    "lastReport": "2026-08-05",
-    "nextEstimate": "2026-11-09"
-  },
-  {
     "ticker": "WMT",
     "name": "Walmart",
     "group": "bigbox",
@@ -145,5 +131,19 @@
     "group": "renewables",
     "lastReport": "2026-10-22",
     "nextEstimate": "2027-01-21"
+  },
+  {
+    "ticker": "DINO",
+    "name": "HF Sinclair",
+    "group": "refiner",
+    "lastReport": "2026-10-28",
+    "nextEstimate": "2027-01-27"
+  },
+  {
+    "ticker": "PSX",
+    "name": "Phillips 66",
+    "group": "refiner",
+    "lastReport": "2026-10-28",
+    "nextEstimate": "2027-02-01"
   }
 ]
