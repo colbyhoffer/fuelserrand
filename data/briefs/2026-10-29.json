@@ -1,0 +1,242 @@
+{
+  "date": "2026-10-29",
+  "headline": "Fuel markets retreat as Middle East diplomacy offsets tight supply",
+  "intro": "Crude and diesel pulled back as traders bet on a US-brokered Iran de-escalation, but with ULSD still near $4.69 and refining margins near record highs, nobody's calling this a trend yet.",
+  "overview": "Oil and diesel futures eased on hopes for Middle East diplomacy even as crude inventories fell to a three-month low and Saudi export disruption headlines kept a floor under prices. Refiners posted blockbuster Q3 results on record refining margins — Shell, Phillips 66, Valero, and TotalEnergies all beat expectations — while PBF pushed efficiency gains to capture more of the current margin environment. On policy, Canada's proposed Clean Fuel Regulations changes and US RFS/E15 reform efforts continue to shape the biofuels and SAF landscape, alongside a fresh SAF offtake deal for Singapore Airlines.",
+  "stories": [
+    {
+      "title": "Markets Weigh Middle East Diplomacy Against Persistent Fuel Tightness",
+      "url": "https://www.tacenergy.com/news-and-views/market-talk/markets-weigh-middle-east-diplomacy-against-persistent-fuel-tightness",
+      "source": "TACenergy Market Talk",
+      "publishedAt": "2026-10-29T12:00:00.000Z",
+      "category": "markets",
+      "summary": "Energy markets saw broad selling as hopes for a new Middle East peace agreement pushed prices lower to start the day.",
+      "paywalled": false
+    },
+    {
+      "title": "Nymex Overview: Oil, Diesel Retreat as U.S. Steps Up Diplomacy -- OPIS",
+      "url": "https://www.marketwatch.com/story/nymex-overview-oil-diesel-retreat-as-u-s-steps-up-diplomacy-opis-0ca2b976",
+      "source": "MarketWatch",
+      "publishedAt": "2026-10-29T09:15:00.000Z",
+      "category": "markets",
+      "summary": "Crude and diesel contracts fell sharply as US diplomatic efforts to engage Iranian hard-liners eased fears of war escalation, per OPIS.",
+      "paywalled": false
+    },
+    {
+      "title": "Oil Eases as Europe Readies First Emergency Diesel Batch",
+      "url": "https://www.dtnpf.com/agriculture/web/ag/news/world-policy/article/2026/10/29/oil-eases-europe-readies-first-batch",
+      "source": "DTN/Progressive Farmer",
+      "publishedAt": "2026-10-29T06:09:00.000Z",
+      "category": "markets",
+      "summary": "Oil prices eased as traders assessed a diplomatic push for a temporary US-Iran peace deal, with Europe readying its first emergency diesel batch.",
+      "paywalled": false
+    },
+    {
+      "title": "WTI Back Above $100 on Saudi Attack, U.S. Inventory Draws",
+      "url": "https://www.dtnpf.com/agriculture/web/ag/news/world-policy/article/2026/10/28/wti-back-100-saudi-attack-u-s-draws",
+      "source": "DTN/Progressive Farmer",
+      "publishedAt": "2026-10-28T12:25:00.000Z",
+      "category": "markets",
+      "summary": "WTI climbed back above $100 after EIA reported commercial crude inventories fell 1.9 million bbl to 410.6 million bbl, the lowest since July 31.",
+      "paywalled": false
+    },
+    {
+      "title": "EIA: US crude oil inventories down 1.9 million bbl",
+      "url": "https://www.ogj.com/general-interest/economics-markets/news/55415055/eia-us-crude-oil-inventories-down-19-million-bbl",
+      "source": "Oil & Gas Journal",
+      "publishedAt": "2026-10-28T16:30:59.000Z",
+      "category": "operations",
+      "summary": "US crude oil inventories fell 1.9 million bbl to 410.6 million bbl, now 4% below the five-year average, per EIA.",
+      "paywalled": false
+    },
+    {
+      "title": "Saudi Refinery Claim Lifts Oil Near US$115",
+      "url": "https://www.riotimesonline.com/saudi-refinery-claim-oil-prices-2026/",
+      "source": "The Rio Times",
+      "publishedAt": "2026-10-28T13:44:00.000Z",
+      "category": "markets",
+      "summary": "Houthi claims of a strike on a Saudi refinery lifted Brent near $115 on Oct. 28, with US gasoline averaging $4.27/gal.",
+      "paywalled": false
+    },
+    {
+      "title": "Oil Rises with Iran Attack Report, Israeli Election in Focus",
+      "url": "https://www.rigzone.com/news/wire/oil_rises_with_iran_attack_report_israeli_election_in_focus-28-oct-2026-184958-article/?rss=true",
+      "source": "Rigzone",
+      "publishedAt": "2026-10-28T20:50:38.000Z",
+      "category": "operations",
+      "summary": "Oil rose as traders weighed the possibility of renewed US/Israel strikes on Iran following an attack report.",
+      "paywalled": false
+    },
+    {
+      "title": "Shell's third-quarter earnings rise on record refining margins, stronger gas results",
+      "url": "https://www.ogj.com/general-interest/companies/news/55415305/shells-third-quarter-earnings-rise-on-record-refining-margins-stronger-gas-results",
+      "source": "Oil & Gas Journal",
+      "publishedAt": "2026-10-29T16:27:08.000Z",
+      "category": "operations",
+      "summary": "Shell's Q3 earnings rose on record refining margins and stronger gas results despite continued Middle East supply disruptions.",
+      "paywalled": false
+    },
+    {
+      "title": "Shell Approves $5B Buyback as Refining Boosts Profit",
+      "url": "https://www.rigzone.com/news/wire/shell_approves_5b_buyback_as_refining_boosts_profit-29-oct-2026-184959-article/?rss=true",
+      "source": "Rigzone",
+      "publishedAt": "2026-10-29T09:10:46.000Z",
+      "category": "operations",
+      "summary": "Shell approved a $5B buyback as record refining margins, driven by the Iran war and Russia-Ukraine conflict, boosted profits.",
+      "paywalled": false
+    },
+    {
+      "title": "Phillips 66 Delivers Profit above Expectations",
+      "url": "https://www.rigzone.com/news/phillips_66_delivers_profit_above_expectations-29-oct-2026-184966-article/?rss=true",
+      "source": "Rigzone",
+      "publishedAt": "2026-10-29T14:59:25.000Z",
+      "category": "operations",
+      "summary": "Phillips 66 reported $5.62 billion in Q3 net profit, up from $3.85 billion the prior quarter, on higher refining margins.",
+      "paywalled": false
+    },
+    {
+      "title": "Valero Energy stock: Buyback capacity expands after strong quarter",
+      "url": "https://www.ad-hoc-news.de/boerse/news/corporate-news/valero-energy-stock-buyback-capacity-expands-after-strong-quarter/70429557",
+      "source": "Ad Hoc News",
+      "publishedAt": "2026-10-28T20:54:00.000Z",
+      "category": "policy",
+      "summary": "Valero reported $46.1 billion in Q3 revenue and $6.83 billion net income, expanding buyback capacity after a strong quarter.",
+      "paywalled": false
+    },
+    {
+      "title": "PBF Energy boosts refinery improvement efforts, targets > $350 MM in savings",
+      "url": "https://www.hydrocarbonprocessing.com/news/2026/10/pbf-energy-boosts-refinery-improvement-efforts-targets-350-mm-in-savings/",
+      "source": "Hydrocarbon Processing",
+      "publishedAt": "2026-10-29T08:10:00.000Z",
+      "category": "operations",
+      "summary": "PBF Energy identified small- to mid-scale projects targeting over $350 million in savings by improving refinery utilization and yields.",
+      "paywalled": false
+    },
+    {
+      "title": "Texas House Members Push RFS Reforms as Senate Farm Bill Would Advance Year-Round E15",
+      "url": "https://www.dtnpf.com/agriculture/web/ag/news/article/2026/10/28/texas-house-members-push-rfs-reforms",
+      "source": "DTN/Progressive Farmer",
+      "publishedAt": "2026-10-28T13:18:00.000Z",
+      "category": "policy",
+      "summary": "22 House Republicans led by Texas lawmakers urged pairing year-round E15 approval with RFS reforms in the farm bill.",
+      "paywalled": false
+    },
+    {
+      "title": "Singapore Ailines to offtake next-generation Sustainable Aviation Fuel from Aether Fuels",
+      "url": "https://payloadasia.com/2026/10/singapore-ailines-offtake-next-generation-sustainable-aviation-fuel-aether-fuels/",
+      "source": "Payload Asia",
+      "publishedAt": "2026-10-29T02:47:00.000Z",
+      "category": "policy",
+      "summary": "Singapore Airlines signed an agreement to purchase up to 4,800 tonnes of next-generation SAF from Aether Fuels over three years.",
+      "paywalled": false
+    }
+  ],
+  "decks": [
+    {
+      "company": "Phillips 66",
+      "ticker": "PSX",
+      "title": "10-Q (filed 2026-10-28)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1534701/000153470126000037/psx-20260930.htm",
+      "foundAt": "2026-10-29T17:30:05.342Z",
+      "docType": "earnings",
+      "analysis": "- **Refining margin inflection**: Refining segment swung to $6,031MM pretax income in Q3’26 (vs. a $(518)MM loss in Q3’25) and $9,301MM for 9M’26 (vs. $(1,096)MM loss 9M’25); management attributes the quarter's cash-flow jump ($7.3B operating cash) explicitly to \"an increase in realized refining margins.\"\n- **Capacity rationalization**: LA Refinery fuel production ceased in Q4’25; in Q1’26 PSX moved $2,965MM gross PP&E / $2,699MM accumulated D&A for the idled site from Refining to Corporate & Other, confirming it's permanently offline pending redevelopment review — a structural reduction in US West Coast refining capacity.\n- **Portfolio reshaping via M&A**: Completed WRB Refining LP full buy-in (Oct 1, 2025, $1.3B cash) integrating Central Corridor refining/midstream, and acquired Lindsey Oil Refinery assets (UK, April 28, 2026, $115MM; $171MM allocated to Refining, $31MM to Midstream) — incremental downstream footprint additions in Europe.\n- **Renewable fuels swung sharply positive**: Renewable Fuels segment posted $191MM pretax income in Q3’26 (vs. $(43)MM loss) and $694MM for 9M’26 (vs. $(361)MM loss 9M’25), suggesting improved RD/SAF economics at Rodeo Complex and Humber Refinery, though specific RIN/LCFS price/volume detail isn't broken out in this filing.\n- **Capex discipline, capital returns to shareholders**: Refining capex rose to $296MM (Q3) / $761MM (9M) vs. $145MM/$469MM prior year, while Renewable Fuels capex stayed modest ($8MM Q3, $24MM 9M) — consistent with the \"low-capital, higher-return\" refining reliability focus and continued >86% clean product yield / above-industry-average utilization targets; meanwhile $2.3B of buybacks"
+    },
+    {
+      "company": "PBF Energy",
+      "ticker": "PBF",
+      "title": "8-K exhibit a991pressreleaseq3-26.htm (filed 2026-10-29)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1534504/000153450426000039/a991pressreleaseq3-26.htm",
+      "foundAt": "2026-10-29T17:30:05.342Z",
+      "docType": "earnings",
+      "analysis": "## PBF Energy Q3 2026 — Refined Fuels Markets Takeaways\n\n- **Throughput & margin capture surged on stronger crack spreads**: Total crude/feedstock throughput was 923.8 Mbpd (vs. 871.0 Mbpd Q3 2025), with consolidated gross margin of $25.54/bbl (vs. $0.49/bbl) and gross refining margin ex-special items of $34.56/bbl (vs. $9.00/bbl). Benchmark cracks nearly tripled y/y: Dated Brent (NYH) 2-1-1 at $64.77 (vs. $25.82), LLS (Gulf Coast) 2-1-1 at $69.06 (vs. $24.41), ANS (West Coast-SF) 3-2-1 at $73.33 (vs. $30.59) — indicating PBF captured a larger share of a much wider crack environment, especially on the West Coast where Martinez's return to full ops (May 2026) drove margin per barrel to $25.55 (vs. -$7.78 loss in Q3 2025).\n\n- **Martinez fully back online, insurance claim nearing close**: Refinery returned to full operations in May 2026; cumulative insurance proceeds received to date total $1.25 billion, with the claim process expected to finalize before year-end 2026. Residual exposure capped by a $30 million deductible/retention.\n\n- **Turnaround schedule shifted, supporting Q4 supply**: Torrance turnaround completed Q1; Martinez hydrocracker turnaround moved from Q2 to late Q3 (completed with Paulsboro in October); Chalmette and Toledo Q4 turnarounds pushed to 2027 — reducing near-term unplanned downtime risk and supporting Q4 2026 total throughput guidance of 925,000–985,000 bpd (East Coast 300–320K, Mid-Con 155–165K, Gulf Coast 180–190K, West Coast 290–310K). 2026 capex guidance held at $825–875 million (ex-Martinez rebuild).\n\n- **RIN/LCFS exposure rising with RIN prices**: Effective RIN basket price averaged $14.36/bbl in Q3 2026 vs. $6.38/bbl in Q3 2025 — more than doubling, a meaningful cost/benefit swing depending on RVO compliance position; SBR renewable diesel averaged 19,156 bpd in Q3, with Q4 guidance of 18,000–20,000 bpd.\n\n- **Capital allocation favors balance sheet over aggressive capex/buybacks**: Net debt swung to a net cash position (-$425.9 million net debt) after redeeming $500M of 7.875% 2030 notes (via $550M 0% Exchangeable Notes due 2032) and, post-quarter, fully repaying $800M of 9.875% 2030 notes using cash on hand — net debt reduced ~150% vs. Q2 2026. Dividend raised 18% to $0.325/share, signaling confidence in sustained margin capture rather than pivoting to growth capex.\n\n- **RBI cost program scaling**: Run-rate cost improvements from the Refinery Business Improvement initiative expected to grow from over $230 million (2025) to more than $350 million by year-end 2026, a structural tailwind to refining operating expense per barrel ($7.80/bbl in Q3 2026, still up slightly y/y from $7.35/bbl despite higher throughput).\n\n**Signal for fuels markets**: PBF's results reflect a refining margin environment that has structurally re-rated wider across all U.S. coasts (particularly West Coast post-Martinez restart and Gulf/East Coast crack strength), combined with sharply higher RIN costs — a combination that rewards complex, coastal refiners with strong capture rates while reinforcing capital discipline (debt paydown, dividend growth) over capacity expansion."
+    },
+    {
+      "company": "HF Sinclair",
+      "ticker": "DINO",
+      "title": "10-Q (filed 2026-10-28)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1915657/000191565726000074/dino-20260930.htm",
+      "foundAt": "2026-10-29T17:30:05.342Z",
+      "docType": "earnings",
+      "analysis": "# HF Sinclair (DINO) Q3 2026 10-Q — Refined Fuels Markets Takeaways\n\n- **Margins surged on tight supply/SRE waivers**: Consolidated adjusted refinery gross margin jumped to **$54.22/bbl** (Q3 2026) from $19.16/bbl (Q3 2025), +183%; 9-month figure rose to $30.12/bbl from $15.07/bbl. Management attributes this to tight transportation-fuel supply, elevated crack spreads, and **small refinery exemption (SRE) RIN waivers**.\n- **Utilization dipped on planned turnaround**: Consolidated refinery utilization was **90.6%** (Q3 2026) vs. 94.3% a year ago; crude charge fell to 614,060 BPD from 639,050 BPD, driven by the El Dorado (Mid-Continent) turnaround (Mid-Continent utilization dropped to 96.3% from 107.8%). **Q4 2026 guidance: 560,000–600,000 BPD** crude throughput, reflecting turnaround completion.\n- **Renewables economics inflected positive**: Renewables gross margin swung to **$1.97/gal** from $(0.94)/gal, and adjusted renewables margin rose to $2.11/gal from $0.18/gal, on better RIN prices, fuller Producer's Tax Credit (PTC) recognition (vs. only partial PTC benefit in Q3 2025), and higher volumes (63.2M gal vs. 57.2M g"
+    },
+    {
+      "company": "Darling Ingredients",
+      "ticker": "DAR",
+      "title": "8-K exhibit dar3q2026earnings.htm (filed 2026-10-28)",
+      "url": "https://www.sec.gov/Archives/edgar/data/916540/000091654026000027/dar3q2026earnings.htm",
+      "foundAt": "2026-10-29T17:30:05.342Z",
+      "docType": "earnings",
+      "analysis": "## Darling Ingredients (DAR) Q3 2026 – Refined Fuels Takeaways\n\n- **DGD throughput & economics inflected sharply**: Q3 2026 production ~315M gallons (vs. 231.5M in Q3-25; Q4 guided to ~325M gallons). DGD Adjusted EBITDA per gallon sold/shipped jumped to **$1.30** from **-$0.02** YoY (YTD: $1.59 vs. $0.13), driven by \"robust RVO\" and improved margins — though management flags the $0.92/gal 2021–2025 average as the more normalized \"mid-cycle\" reference (vs. $1.50 up-cycle / $0.33 down-cycle scenarios).\n\n- **Fuel segment EBITDA inflected to +$227.9M** (combined, incl. Darling's 50% DGD share) from $21.6M in Q3-25 (+955%); DGD Adjusted EBITDA (Darling's share) alone was $204.2M vs. -$2.9M prior year, reflecting equity income swing of $165.6M vs. a $45.8M loss a year ago.\n\n- **One-time drags flagged as reversing in Q4**: SAF shipment timing, a short-term hydrogen outage, feedstock lag, and heating-oil price volatility weighed on Q3 Fuel results; management expects these to reverse, supporting a \"favorable Q4 outlook\" and margins staying strong into 2027.\n\n- **Cash monetization of credits is material**: DAR received $171.0M in cash from DGD in Q3 — $33.4M in dividends plus $137.6M from Production Tax Credit (PTC) sales, underscoring reliance on PTC/blenders' credit monetization alongside RIN economics.\n\n- **RVO/RIN stance**: Management believes the 2026–2027 RVO is \"working as intended,\" with September RIN generation showing the industry can ramp output under improved margins; they expect rising imports as supply chains lag and view the RVO as \"appropriately sized\" given production growth, imports, SREs, and carryforward deficits — though RINs \"need to remain supportive\" to sustain production incentives.\n\n- **Capital allocation/balance sheet improved alongside fuels recovery**: Net debt fell by"
+    }
+  ],
+  "prices": {
+    "date": "2026-10-29",
+    "rbobSpot": 2.819,
+    "ulsdSpot": 4.687,
+    "wtiSpot": 103.37,
+    "retailGas": 4.405,
+    "retailDiesel": 6.352,
+    "gasStocksMbbl": 209180,
+    "distStocksMbbl": 102824,
+    "gasDemandKbd": 8358,
+    "distDemandKbd": 4207,
+    "gasCrack": 15.03,
+    "dieselCrack": 93.48
+  },
+  "prevPrices": {
+    "date": "2026-10-28",
+    "rbobSpot": 2.897,
+    "ulsdSpot": 5.265,
+    "wtiSpot": 107.89,
+    "retailGas": 4.405,
+    "retailDiesel": 6.352,
+    "gasStocksMbbl": 205310,
+    "distStocksMbbl": 104286,
+    "gasDemandKbd": 8982,
+    "gasCrack": 13.78,
+    "dieselCrack": 113.24
+  },
+  "upcomingEarnings": [
+    {
+      "ticker": "CVI",
+      "name": "CVR Energy",
+      "nextEstimate": "2026-10-28"
+    },
+    {
+      "ticker": "CVX",
+      "name": "Chevron",
+      "nextEstimate": "2026-10-30"
+    },
+    {
+      "ticker": "DK",
+      "name": "Delek US",
+      "nextEstimate": "2026-10-30"
+    },
+    {
+      "ticker": "MPC",
+      "name": "Marathon Petroleum",
+      "nextEstimate": "2026-11-03"
+    },
+    {
+      "ticker": "SUN",
+      "name": "Sunoco LP",
+      "nextEstimate": "2026-11-03"
+    },
+    {
+      "ticker": "PARR",
+      "name": "Par Pacific",
+      "nextEstimate": "2026-11-04"
+    },
+    {
+      "ticker": "GEVO",
+      "name": "Gevo",
+      "nextEstimate": "2026-11-05"
+    },
+    {
+      "ticker": "AMTX",
+      "name": "Aemetis",
+      "nextEstimate": "2026-11-05"
+    }
+  ],
+  "generatedAt": "2026-10-29T17:30:05.342Z"
+}

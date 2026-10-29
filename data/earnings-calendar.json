@@ -7,13 +7,6 @@
     "nextEstimate": "2026-10-28"
   },
   {
-    "ticker": "PBF",
-    "name": "PBF Energy",
-    "group": "refiner",
-    "lastReport": "2026-07-30",
-    "nextEstimate": "2026-10-29"
-  },
-  {
     "ticker": "CVX",
     "name": "Chevron",
     "group": "refiner",
@@ -45,13 +38,6 @@
     "ticker": "PARR",
     "name": "Par Pacific",
     "group": "refiner",
-    "lastReport": "2026-08-05",
-    "nextEstimate": "2026-11-04"
-  },
-  {
-    "ticker": "MUSA",
-    "name": "Murphy USA",
-    "group": "retail",
     "lastReport": "2026-08-05",
     "nextEstimate": "2026-11-04"
   },
@@ -126,18 +112,32 @@
     "nextEstimate": "2027-01-21"
   },
   {
-    "ticker": "DAR",
-    "name": "Darling Ingredients",
-    "group": "renewables",
-    "lastReport": "2026-10-22",
-    "nextEstimate": "2027-01-21"
-  },
-  {
     "ticker": "DINO",
     "name": "HF Sinclair",
     "group": "refiner",
     "lastReport": "2026-10-28",
     "nextEstimate": "2027-01-27"
+  },
+  {
+    "ticker": "DAR",
+    "name": "Darling Ingredients",
+    "group": "renewables",
+    "lastReport": "2026-10-28",
+    "nextEstimate": "2027-01-27"
+  },
+  {
+    "ticker": "MUSA",
+    "name": "Murphy USA",
+    "group": "retail",
+    "lastReport": "2026-10-28",
+    "nextEstimate": "2027-01-27"
+  },
+  {
+    "ticker": "PBF",
+    "name": "PBF Energy",
+    "group": "refiner",
+    "lastReport": "2026-10-29",
+    "nextEstimate": "2027-01-28"
   },
   {
     "ticker": "PSX",
