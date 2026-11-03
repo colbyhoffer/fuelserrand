@@ -1,19 +1,5 @@
 [
   {
-    "ticker": "MPC",
-    "name": "Marathon Petroleum",
-    "group": "refiner",
-    "lastReport": "2026-08-04",
-    "nextEstimate": "2026-11-03"
-  },
-  {
-    "ticker": "SUN",
-    "name": "Sunoco LP",
-    "group": "retail",
-    "lastReport": "2026-08-04",
-    "nextEstimate": "2026-11-03"
-  },
-  {
     "ticker": "PARR",
     "name": "Par Pacific",
     "group": "refiner",
@@ -98,13 +84,6 @@
     "nextEstimate": "2027-01-27"
   },
   {
-    "ticker": "CVI",
-    "name": "CVR Energy",
-    "group": "refiner",
-    "lastReport": "2026-07-29",
-    "nextEstimate": "2027-01-27"
-  },
-  {
     "ticker": "DAR",
     "name": "Darling Ingredients",
     "group": "renewables",
@@ -152,5 +131,26 @@
     "group": "refiner",
     "lastReport": "2026-10-28",
     "nextEstimate": "2027-02-01"
+  },
+  {
+    "ticker": "MPC",
+    "name": "Marathon Petroleum",
+    "group": "refiner",
+    "lastReport": "2026-11-03",
+    "nextEstimate": "2027-02-02"
+  },
+  {
+    "ticker": "CVI",
+    "name": "CVR Energy",
+    "group": "refiner",
+    "lastReport": "2026-11-03",
+    "nextEstimate": "2027-02-02"
+  },
+  {
+    "ticker": "SUN",
+    "name": "Sunoco LP",
+    "group": "retail",
+    "lastReport": "2026-11-03",
+    "nextEstimate": "2027-02-02"
   }
 ]

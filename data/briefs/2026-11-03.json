@@ -1,0 +1,228 @@
+{
+  "date": "2026-11-03",
+  "headline": "CVR Energy to buy Marathon's Midcontinent refineries for $4.2B",
+  "intro": "Oil's whipsawing on Iran headlines again, but the real refined-fuels story is consolidation — CVR just bought its way to 384,000 b/d of Midcontinent throughput while New Jersey tells Washington it can keep its Russian diesel loophole to itself.",
+  "overview": "Crude sold off sharply as Iran signaled openness to talks, dragging crack spreads and product prices along for the ride, while EIA data showed global refinery throughput still recovering from a 4.8 million b/d hit tied to the Middle East conflict. On the deals front, CVR Energy's $4.2B acquisition of Marathon's Midcontinent refineries is the biggest refining-sector move, and policy friction is building as New Jersey moves to block Russian diesel cargoes the Trump administration has authorized. Clean-fuels activity continued apace with new SAF and renewable diesel supply deals from Phillips 66, Shell, and a data-center backup-power pilot.",
+  "stories": [
+    {
+      "title": "CVR Energy to acquire Midcontinent refineries from Marathon Petroleum in $4.2-billion deal",
+      "url": "https://www.ogj.com/general-interest/companies/news/55416182/cvr-energy-to-acquire-midcontinent-refineries-from-marathon-petroleum-in-42-billion-deal",
+      "source": "Oil & Gas Journal",
+      "publishedAt": "2026-11-03T13:20:06.000Z",
+      "category": "deals",
+      "summary": "CVR Energy will acquire Marathon Petroleum's Midcontinent refineries in a $4.2 billion deal, boosting CVR's crude throughput capacity to about 384,000 b/d and generating an estimated $70 million in annual run-rate synergies.",
+      "paywalled": false
+    },
+    {
+      "title": "NJ Governor Bars Entry of Russian Diesel Allowed by Trump",
+      "url": "https://www.rigzone.com/news/wire/nj_governor_bars_entry_of_russian_diesel_allowed_by_trump-03-nov-2026-185000-article/?rss=true",
+      "source": "Rigzone",
+      "publishedAt": "2026-11-03T15:50:25.000Z",
+      "category": "policy",
+      "summary": "New Jersey Governor Mikie Sherrill warned state port and terminal operators against accepting Russian diesel shipments that the Trump administration has authorized.",
+      "paywalled": false
+    },
+    {
+      "title": "Global refinery inputs fell sharply in the second quarter of 2026 before modest recovery",
+      "url": "https://www.eia.gov/todayinenergy/detail.php?id=68404",
+      "source": "EIA Today in Energy",
+      "publishedAt": "2026-11-03T14:00:00.000Z",
+      "category": "markets",
+      "summary": "Global crude refinery inputs fell 4.8 million b/d (6%) in Q2 2026 after Middle East conflict began in late February, per EIA/Kpler data, before rebounding 1.8 million b/d in Q3 as refiners adjusted trade flows.",
+      "paywalled": false
+    },
+    {
+      "title": "Refinery Trouble And Global Conflict Keep Energy Markets Guessing",
+      "url": "https://www.tacenergy.com/news-and-views/market-talk/refinery-trouble-and-global-conflict-keep-energy-markets-guessing",
+      "source": "TACenergy Market Talk",
+      "publishedAt": "2026-11-03T12:00:00.000Z",
+      "category": "markets",
+      "summary": "Energy markets swung from overnight gains to losses amid refinery trouble and ongoing global conflict headlines, per TACenergy's morning market talk.",
+      "paywalled": false
+    },
+    {
+      "title": "Oil Prices Sink as Iran Signals Talks",
+      "url": "https://www.rigzone.com/news/wire/oil_prices_sink_as_iran_signals_talks-02-nov-2026-184993-article/?rss=true",
+      "source": "Rigzone",
+      "publishedAt": "2026-11-02T20:39:48.000Z",
+      "category": "markets",
+      "summary": "Oil prices plunged more than 7% as Washington and Tehran signaled openness to renewed peace negotiations.",
+      "paywalled": false
+    },
+    {
+      "title": "Oil Plunges as Iran Opens Door to Talks",
+      "url": "https://www.rigzone.com/news/wire/oil_plunges_as_iran_opens_door_to_talks-02-nov-2026-184990-article/?rss=true",
+      "source": "Rigzone",
+      "publishedAt": "2026-11-02T15:16:24.000Z",
+      "category": "markets",
+      "summary": "Brent crude reacted sharply lower in Monday trading as Iran signaled openness to renewed talks with the U.S.",
+      "paywalled": false
+    },
+    {
+      "title": "US, Iran Restore Diplomacy amid Limited Strikes",
+      "url": "https://www.rigzone.com/news/wire/us_iran_restore_diplomacy_amid_limited_strikes-03-nov-2026-184996-article/?rss=true",
+      "source": "Rigzone",
+      "publishedAt": "2026-11-03T15:57:55.000Z",
+      "category": "operations",
+      "summary": "Iran and the U.S. are reviewing fresh mediator proposals aimed at avoiding a return to all-out war, according to a briefed diplomat.",
+      "paywalled": false
+    },
+    {
+      "title": "Aramco Logs 9 Pct Higher Profit",
+      "url": "https://www.rigzone.com/news/wire/aramco_logs_9_pct_higher_profit-03-nov-2026-184994-article/?rss=true",
+      "source": "Rigzone",
+      "publishedAt": "2026-11-03T08:14:59.000Z",
+      "category": "companies",
+      "summary": "Aramco posted a 9% rise in Q3 profit, helped by a jump in refining earnings as the Iran conflict pushed oil prices higher.",
+      "paywalled": false
+    },
+    {
+      "title": "RTI supplies Phillips 66 with ISCC-certified used cooking oil for SAF production",
+      "url": "https://www.biobased-diesel.com/post/rti-supplies-phillips-66-with-iscc-certified-used-cooking-oil-for-saf-production",
+      "source": "Biobased Diesel Daily",
+      "publishedAt": "2026-11-03T13:22:11.000Z",
+      "category": "policy",
+      "summary": "Restaurant Technologies will supply Phillips 66 with ISCC-certified used cooking oil for SAF production, part of broader value-chain efforts to scale lower-carbon fuels.",
+      "paywalled": false
+    },
+    {
+      "title": "Shell signs long-term SAF offtake agreement with Green Sky Manara",
+      "url": "https://www.biobased-diesel.com/post/shell-signs-long-term-saf-offtake-agreement-with-green-sky-manara",
+      "source": "Biobased Diesel Daily",
+      "publishedAt": "2026-11-02T14:46:02.000Z",
+      "category": "deals",
+      "summary": "Shell signed a long-term SAF offtake agreement with Green Sky Manara's Port Nador, Morocco facility, expected to start up in October 2028 with 150,000 tpy capacity.",
+      "paywalled": false
+    },
+    {
+      "title": "Sabey Data Centers pilots renewable diesel for backup power at Austin, Texas, site",
+      "url": "https://www.biobased-diesel.com/post/sabey-data-centers-pilots-renewable-diesel-for-backup-power-at-austin-texas-site",
+      "source": "Biobased Diesel Daily",
+      "publishedAt": "2026-11-03T13:22:42.000Z",
+      "category": "policy",
+      "summary": "Sabey Data Centers is piloting renewable diesel for backup power at its Austin, Texas site, targeting a hard-to-reduce source of scope 1 emissions.",
+      "paywalled": false
+    },
+    {
+      "title": "Canada’s wood waste could supply 5 times its jet-fuel demand, new white paper finds",
+      "url": "https://www.biobased-diesel.com/post/canada-s-wood-waste-could-supply-5-times-its-jet-fuel-demand-new-white-paper-finds",
+      "source": "Biobased Diesel Daily",
+      "publishedAt": "2026-11-03T13:21:33.000Z",
+      "category": "policy",
+      "summary": "A Sustaero white paper presented at AFCC finds Canada's wood waste could supply five times the country's jet-fuel demand, with hydrogen-enhanced conversion key to unlocking low-cost forest residues.",
+      "paywalled": false
+    },
+    {
+      "title": "Tidewater to combine midstream, renewables into 1 company",
+      "url": "https://www.biobased-diesel.com/post/tidewater-to-combine-midstream-renewables-into-1-company",
+      "source": "Biobased Diesel Daily",
+      "publishedAt": "2026-11-02T14:45:29.000Z",
+      "category": "companies",
+      "summary": "Tidewater is combining its midstream and renewables businesses into one company, operating as Tidewater Midstream and Infrastructure Ltd. on the TSX under symbol TWM.",
+      "paywalled": false
+    },
+    {
+      "title": "Envision marks its 1st international application of SAFc at Western Australia event",
+      "url": "https://www.biobased-diesel.com/post/envision-marks-its-1st-international-application-of-safc-at-western-australia-event",
+      "source": "Biobased Diesel Daily",
+      "publishedAt": "2026-11-02T14:44:07.000Z",
+      "category": "policy",
+      "summary": "Envision marked its first international application of SAFc at a Western Australia event, providing environmental attributes for 10 tons of CO2-emissions reductions.",
+      "paywalled": false
+    }
+  ],
+  "decks": [
+    {
+      "company": "Marathon Petroleum",
+      "ticker": "MPC",
+      "title": "10-Q (filed 2026-11-03)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1510295/000151029526000071/mpc-20260930.htm",
+      "foundAt": "2026-11-03T18:35:40.805Z",
+      "docType": "earnings",
+      "analysis": "## MPC 10-Q (Q3 2026) — Refined Fuels Market Takeaways\n\n- **Refining margins surged on supply disruption**: R&M segment adjusted EBITDA exploded to $9,895M in Q3'26 vs. $1,762M in Q3'25 (9mo: $17,927M vs. $4,141M), driven by \"higher realized refining margins supported by stable demand and higher product prices driven by global crude oil supply disruptions\" (Middle East, Russia). Refined product revenue rose to $50,298M from $30,525M YoY. Management discloses a blended crack spread sensitivity of **$1,125M EBITDA per $1.00/bbl**, with sour/sweet differential sensitivities of $520M each and natural gas sensitivity of $360M per $1.00/MMBtu.\n\n- **Renewable Diesel swung to profitability**: Segment EBITDA improved to $254M in Q3'26 (vs. -$56M Q3'25) and $550M for 9mo'26 (vs. -$117M). A $32M clean fuel production tax credit (45Z) was recognized in 2026 following Feb-2026 regulatory"
+    },
+    {
+      "company": "Marathon Petroleum",
+      "ticker": "MPC",
+      "title": "8-K exhibit mpcq32026earningsrelease.htm (filed 2026-11-03)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1510295/000151029526000069/mpcq32026earningsrelease.htm",
+      "foundAt": "2026-11-03T18:35:40.805Z",
+      "docType": "earnings",
+      "analysis": "## Marathon Petroleum Q3 2026 — Refined Fuels Market Takeaways\n\n- **Record capture economics**: R&M margin hit $45.70/bbl (vs. $17.60/bbl Q3'25) and segment adjusted EBITDA reached $34.15/bbl (vs. $6.37/bbl), with refining operating costs essentially flat at $5.60/bbl — indicating the gain was almost entirely crack-spread/market-driven rather than cost efficiency, and was broad-based across regions (Gulf Coast $43.46/bbl, Mid-Con $47.33/bbl, West Coast $47.46/bbl margins, all roughly tripling YoY).\n- **Utilization at max**: Crude capacity utilization was 100% (vs. 95% Q3'25), with total throughput of 3.2 MMbpd — system running flat-out to capture the margin environment; Q4'26 guidance implies a step-down to 3,080 mbpd total throughput (2,830 mbpd crude).\n- **Renewable diesel swung decisively positive**: Segment adjusted EBITDA $254M vs. $(56)M a year ago, driven by stronger margins, improved regulatory credit values (LCFS/RIN-type), and higher throughput; RD margin rose to $304M from just $8M.\n- **Portfolio reshaping toward Gulf Coast**: Announced divestiture of St. Paul Park and Mandan (Mid-Con) refineries plus midstream assets for $4.2B ($3.45B to MPC, $750M to MPLX at 9x 2027 EBITDA); MPC intends to reinvest proceeds primarily in Gulf Coast, reinforcing high-return projects already underway (Galveston Bay 90 mbpd ULSD hydrotreater by YE27, Garyville +30 mbpd crude throughput/+10 mbpd export gas"
+    },
+    {
+      "company": "CVR Energy",
+      "ticker": "CVI",
+      "title": "8-K exhibit d399885dex991.htm (filed 2026-11-03)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1376139/000119312526444445/d399885dex991.htm",
+      "foundAt": "2026-11-03T18:35:40.805Z",
+      "docType": "earnings",
+      "analysis": "# CVR Energy 8-K Exhibit — Mandan/SPP Refining Business (MPC Carve-Out) Analysis\n\n- **Acquisition target profile**: This is a carve-out financial statement for MPC's Mandan (72,000 bpcd, ND sweet crude) and St. Paul Park (105,000 bpcd, sweet/heavy sour) refineries — combined 177,000 bpcd — filed as an exhibit in a CVR Energy 8-K, signaling CVR is evaluating or executing an acquisition of these assets from Marathon.\n\n- **Margin swing driven by RIN/SRE exposure, not volume**: Total revenue was roughly flat ($7,738M vs $7,779M), but the business swung from a $(35)M pretax loss in 2024 to $390M pretax income in 2025. This was heavily influenced by a **$114M Mandan small refinery exemption (SRE) credit** recognized in Cost of revenues in 2025 (EPA approved it in August 2"
+    },
+    {
+      "company": "CVR Energy",
+      "ticker": "CVI",
+      "title": "8-K exhibit d399885dex992.htm (filed 2026-11-03)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1376139/000119312526444445/d399885dex992.htm",
+      "foundAt": "2026-11-03T18:35:40.805Z",
+      "docType": "earnings",
+      "analysis": "# Refined Fuels Market Analysis: Mandan/SPP Carve-Out (MPC → CVR Energy)\n\n- **Capacity & footprint**: Combined 177,000 bpcd crude refining capacity — SPP (MN) at 105,000 bpcd processing sweet/heavy sour crude, and Mandan (ND) at 72,000 bpcd running North Dakota sweet crude. No throughput/utilization rates disclosed, only nameplate capacity.\n\n- **Margin strength**: 9-month 2026 net income nearly tripled to $697M (vs. $267M in 2025) on revenue growth of only ~30% ($7,605M vs. $5,850M), implying significant crack-spread/capture improvement rather than volume-driven gains. Gasoline revenue rose to $3,826M (from $2,921M) and distillates to $2,939M (from $2,016M), the two largest product lines.\n\n- **RIN/RFS exposure is material but partially hedged by SRE credits**: Environmental obligations more than doubled to $108M (from $46M), driven by $230M of incremental RFS compliance accruals for the 2026 period, offset by a $46M settlement of the 2025 RFS obligation and Mandan small-refinery-exemption (SRE) credits that reduced obligations by $122M (2026) and $114M (2025) — underscoring continued reliance on SRE relief to manage RIN cost burden.\n\n- **No renewable diesel/SAF disclosure**: The filing shows no renewable diesel or SA"
+    }
+  ],
+  "prices": {
+    "date": "2026-11-03",
+    "rbobSpot": 2.819,
+    "ulsdSpot": 4.687,
+    "wtiSpot": 103.37,
+    "retailGas": 4.29,
+    "retailDiesel": 6.292,
+    "gasStocksMbbl": 209180,
+    "distStocksMbbl": 102824,
+    "gasDemandKbd": 8358,
+    "distDemandKbd": 4207,
+    "gasCrack": 15.03,
+    "dieselCrack": 93.48
+  },
+  "prevPrices": {
+    "date": "2026-11-02",
+    "rbobSpot": 2.819,
+    "ulsdSpot": 4.687,
+    "wtiSpot": 103.37,
+    "retailGas": 4.405,
+    "retailDiesel": 6.352,
+    "gasStocksMbbl": 209180,
+    "distStocksMbbl": 102824,
+    "gasDemandKbd": 8358,
+    "distDemandKbd": 4207,
+    "gasCrack": 15.03,
+    "dieselCrack": 93.48
+  },
+  "upcomingEarnings": [
+    {
+      "ticker": "PARR",
+      "name": "Par Pacific",
+      "nextEstimate": "2026-11-04"
+    },
+    {
+      "ticker": "GEVO",
+      "name": "Gevo",
+      "nextEstimate": "2026-11-05"
+    },
+    {
+      "ticker": "AMTX",
+      "name": "Aemetis",
+      "nextEstimate": "2026-11-05"
+    },
+    {
+      "ticker": "CLMT",
+      "name": "Calumet (Montana Renewables)",
+      "nextEstimate": "2026-11-06"
+    },
+    {
+      "ticker": "GLP",
+      "name": "Global Partners",
+      "nextEstimate": "2026-11-06"
+    }
+  ],
+  "generatedAt": "2026-11-03T18:35:40.805Z"
+}
