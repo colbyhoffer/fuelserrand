@@ -1,5 +1,14 @@
 [
   {
+    "company": "Par Pacific",
+    "ticker": "PARR",
+    "title": "8-K exhibit a20260930991earningsreleas.htm (filed 2026-11-04)",
+    "url": "https://www.sec.gov/Archives/edgar/data/821483/000162828026069724/a20260930991earningsreleas.htm",
+    "foundAt": "2026-11-04T18:46:36.947Z",
+    "docType": "earnings",
+    "analysis": "## Par Pacific (PARR) Q3 2026 — Refined Fuels Market Takeaways\n\n- **Throughput down on planned maintenance, margins way up on crack spreads:** Total refining throughput fell to 174.2 Mbpd (vs. 197.7 Mbpd Q3'25) as Hawaii ran only 56.6 Mbpd (vs. 81.7 Mbpd) during a turnaround. Despite lower volumes, Adjusted Gross Margin/bbl more than doubled to $46.95 (vs. $24.76), and even excluding the SRE benefit, margin/bbl nearly tripled to $33.10 (vs. $13.62), reflecting a much stronger crack environment (Combined Index $38.45 vs. $14.72 y/y).\n\n- **Capture rates diverged sharply by region:** Montana and Wyoming captured well above their regional index margins ex-SRE ($44.80 vs. $40.30 index; $51.91 vs. $49.83 index), while Hawaii's capture lagged materially ($20.69 AGM/bbl vs. $38.31 index) due to a $(10.03)/bbl negative price-lag impact from rising September product prices against prior-month/week contract pricing.\n\n- **RIN/SRE exposure is large and one-time-ish:** EPA's August 2026 grant of full (100%) and partial (50%) small refinery exemptions for the 2025 compliance year added $187.2M to Adjusted Net Income and $222.0M to Adjusted EBITDA this quarter — concentrated in Montana ($167.2M benefit, $31.12/bbl) and smaller amounts in Washington ($32.2M, $8.66/bbl) and Wyoming ($22.6M, $13.07/bbl). Management expects to monetize the excess RIN position by year-end 2026, suggesting this tailwind normalizes going forward.\n\n- **Renewables turned its first profitable quarter:** New Ren"
+  },
+  {
     "company": "Marathon Petroleum",
     "ticker": "MPC",
     "title": "10-Q (filed 2026-11-03)",

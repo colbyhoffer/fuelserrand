@@ -1,12 +1,5 @@
 [
   {
-    "ticker": "PARR",
-    "name": "Par Pacific",
-    "group": "refiner",
-    "lastReport": "2026-08-05",
-    "nextEstimate": "2026-11-04"
-  },
-  {
     "ticker": "GEVO",
     "name": "Gevo",
     "group": "renewables",
@@ -152,5 +145,12 @@
     "group": "retail",
     "lastReport": "2026-11-03",
     "nextEstimate": "2027-02-02"
+  },
+  {
+    "ticker": "PARR",
+    "name": "Par Pacific",
+    "group": "refiner",
+    "lastReport": "2026-11-04",
+    "nextEstimate": "2027-02-03"
   }
 ]
