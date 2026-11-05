@@ -1,5 +1,41 @@
 [
   {
+    "company": "Chevron",
+    "ticker": "CVX",
+    "title": "10-Q (filed 2026-11-05)",
+    "url": "https://www.sec.gov/Archives/edgar/data/93410/000009341026000200/cvx-20260930.htm",
+    "foundAt": "2026-11-05T18:54:23.793Z",
+    "docType": "earnings",
+    "analysis": "# Chevron (CVX) 10-Q Q3 2026 — Refined Fuels Market Read\n\n- **Refining margins surged on geopolitical supply disruption**: Total Downstream earnings jumped to $4.93B in Q3 2026 vs. $1.14B in Q3 2025 (+$3.8B), driven almost entirely by higher margins on refined product sales ($2.9B US + $1.1B international) tied to global refined-product supply disruptions from the escalating Middle East conflict. Management explicitly flags these elevated margins as potentially non-recurring (\"current margin levels may not be indicative of future results\").\n\n- **US refining running near capacity, record reliability**: US refinery crude unit inputs rose to 1,093 MBD (+29 MBD, +3% YoY) in Q3, described as operating \"reliably at record levels near capacity.\" US refined product sales were flat (1,304 vs 1,303 MBD), suggesting utilization gains are feeding exports/inventory rather than domestic demand growth.\n\n- **International volumes contracting from conflict disruption, not demand**: International refined product sales fell sharply — down 129 MBD (-9%) in Q3 and 75 MBD (-5%) over 9M — attributed to Middle East-driven supply disruption, while international crude unit inputs were roughly flat in Q3 but down 22 MBD (-3%)"
+  },
+  {
+    "company": "Par Pacific",
+    "ticker": "PARR",
+    "title": "10-Q (filed 2026-11-04)",
+    "url": "https://www.sec.gov/Archives/edgar/data/821483/000082148326000022/parr-20260930.htm",
+    "foundAt": "2026-11-05T18:54:23.793Z",
+    "docType": "earnings",
+    "analysis": "# Par Pacific (PARR) 10-Q — Refined Fuels Markets Takeaways\n\n- **Refining marg"
+  },
+  {
+    "company": "Aemetis",
+    "ticker": "AMTX",
+    "title": "10-Q (filed 2026-11-05)",
+    "url": "https://www.sec.gov/Archives/edgar/data/738214/000143774926035093/amtx20260930_10q.htm",
+    "foundAt": "2026-11-05T18:54:23.793Z",
+    "docType": "earnings",
+    "analysis": "# Aemetis (AMTX) 10-Q Analysis — Q3 2026 (Period Ended Sept 30, 2026)\n\n## Key Takeaways\n\n- **Ethanol throughput & margins improving but credit-dependent:** Keyes Plant sold 15.6M gallons ethanol at $2.34/gal (Q3) vs. 14.7M gallons at $2.13/gal (Q3 2025); 9-month volumes rose to 44.9M gallons at $2.18/gal. California Ethanol swung to $7.4M gross profit (Q3) from a $(1.4)M loss a year ago, but $4.6M of that quarter's profit was Section 45Z PTC income — absent the credit, margins remain thin given corn costs rose to $6.29/bushel (Q3) from $5.95/bushel.\n\n- **RNG segment driven almost entirely by tax credits, with a one-time true-up:** California Dairy RNG revenue surged to $25.9M (Q3) from $4.0M a year ago, but $20.1M was Section 45Z PTC income, including an $11.0M cumulative true-up from a September 2026 45ZCF-GREET model revision that retroactively lowered the segment's emissions rate (covering Jan–Jun 2026). Core RNG/RIN/LCFS sales (ex-PTC) were only $5.9M for the quarter — the PTC regime, not physical volumes, is the primary earnings driver, and the true-up signals volatility/non-recurring risk in future PTC recognition.\n\n- **RIN/LCFS exposure is modest and price-sensitive:** Sold 1.4M D3 RINs at $2.45 (Q3 2026) vs. 1.0M at $2.37 (Q3 2025); LCFS credits sold at $73/credit (Q3 2026) vs. $54 (Q3 2025) — a ~35% YoY price increase, attributed partly to CARB's July 2025 LCFS amendments tightening oversupply. Company still has 5 of 12 operating digesters on lower \"temporary\" LCFS pathways pending CARB provisional approval, representing unrealized credit upside.\n\n- **No active SAF/RD production — project remains in development:** The Riverbank SAF/RD plant (90M gal/yr combined SAF/RD capacity) has permits (CEQA, Use Permit, Authority to Construct) but is still in financing/engineering phase with no stated construction completion timeline or capex disclosed as committed; it sits in the non-reportable \"All Other\" segment with no revenue contribution.\n\n- **Capital structure signals severe liquidity strain, limiting growth capacity:** Total debt is $435.4M (77% current/due-on-demand), short-term construction funding jumped to $35.6M from $17.4M, and the company reiterated a **going concern** doubt. Capex of $35.3M (9-month) went primarily to RNG digesters ($17.4M) and Keyes MVR energy-efficiency project ($17.1M) — not new refined-fuels capacity — reflecting a defensive capital posture focused on existing asset optimization over expansion.\n\n- **India Biodiesel in structural decline:** Revenue fell 26% YoY (9-month) to $21.5M on lower OMC tender volumes (17.2K MT at $1,065/MT vs. 21.0K MT at $1,117/MT) and delayed contract timing — a smaller, non-U.S. credit-exposed business showing margin recovery (lower feedstock costs) but shrinking volume.\n\n## Market Signal\n\nAemetis's results underscore that near-term refined-fuels/biofuels profitability is now almost entirely a function of federal Section 45Z PTC monetization and LCFS credit pricing rather than physical production economics, while heavy reliance on on-demand senior debt and a going-concern qualification signal that smaller renewable fuel producers face capital constraints that could slow RNG/SAF capacity additions even as credit values rise."
+  },
+  {
+    "company": "Sunoco LP",
+    "ticker": "SUN",
+    "title": "10-Q (filed 2026-11-05)",
+    "url": "https://www.sec.gov/Archives/edgar/data/1552275/000155227526000096/sun-20260930.htm",
+    "foundAt": "2026-11-05T18:54:23.793Z",
+    "docType": "earnings",
+    "analysis": "## Sunoco LP 10-Q (Q3 2026) — Refined Fuels Markets Takeaways\n\n- **Refinery utilization strong but mixed vs. YTD**: Burnaby Refinery (55,000 bpd capacity, acquired via Parkland) ran at 99% crude utilization / 105% composite in Q3 2026, but only 78%/83% for the 9-month period, with crude throughput of 54 Mbpd (Q3) vs 43 Mbpd (9mo) — signaling a ramp-up through the year post-acquisition. Bio-feedstock throughput was modest (3 Mbpd Q3, 2 Mbpd 9mo), suggesting limited renewable co-processing rather than dedicated SAF/renewable diesel capacity; no RIN/LCFS-specific disclosures or credit monetization detail provided.\n\n- **Fuel distribution capture rates widened materially**: Motor fuel profit margin rose to 16.8¢/gal in Q3 2026 (vs 10.7¢/gal Q3 2025) and 16.9¢/gal for 9mo (vs 10.9¢/gal), even as volumes nearly doubled (4,197M gallons Q3 vs 2,295M) — mostly Parkland-driven scale, indicating improved wholesale/retail capture rather than just volume growth.\n\n- **Midstream throughput growth**: Pipeline"
+  },
+  {
     "company": "Par Pacific",
     "ticker": "PARR",
     "title": "8-K exhibit a20260930991earningsreleas.htm (filed 2026-11-04)",

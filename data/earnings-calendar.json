@@ -7,13 +7,6 @@
     "nextEstimate": "2026-11-05"
   },
   {
-    "ticker": "AMTX",
-    "name": "Aemetis",
-    "group": "renewables",
-    "lastReport": "2026-08-06",
-    "nextEstimate": "2026-11-05"
-  },
-  {
     "ticker": "CLMT",
     "name": "Calumet (Montana Renewables)",
     "group": "renewables",
@@ -152,5 +145,12 @@
     "group": "refiner",
     "lastReport": "2026-11-04",
     "nextEstimate": "2027-02-03"
+  },
+  {
+    "ticker": "AMTX",
+    "name": "Aemetis",
+    "group": "renewables",
+    "lastReport": "2026-11-05",
+    "nextEstimate": "2027-02-04"
   }
 ]
